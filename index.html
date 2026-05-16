@@ -7,238 +7,152 @@
   <link rel="manifest" href="manifest.json" />
   <meta name="theme-color" content="#152035" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Prev &amp; Saúde" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
   <meta name="description" content="Atualização jurídica diária em Direito Previdenciário e Direito da Saúde." />
   <style>
-    /* ─── RESET & VARIÁVEIS ─── */
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg:       #0d1b2a;
-      --surface:  #152035;
-      --surface2: #1c2d44;
-      --border:   #243650;
-      --gold:     #d4a94a;
-      --gold-dim: #b8893a;
-      --text:     #e8ddd0;
-      --muted:    #7a8fa6;
-      --green:    #4caf89;
-      --green-bg: #1a3d2e;
-      --green-bd: #2d7a5f;
-      --blue:     #4a9edd;
-      --blue-bg:  #1a2a3d;
-      --blue-bd:  #2d5a7a;
-      --red:      #e05d5d;
-      --ff-serif: Georgia, 'Times New Roman', serif;
-      --ff-sans:  'Segoe UI', system-ui, sans-serif;
+      --bg:#0d1b2a; --surface:#152035; --surface2:#1c2d44; --border:#243650;
+      --gold:#d4a94a; --gold-dim:#b8893a; --text:#e8ddd0; --muted:#7a8fa6;
+      --green:#4caf89; --green-bg:#1a3d2e; --green-bd:#2d7a5f;
+      --blue:#4a9edd;  --blue-bg:#1a2a3d;  --blue-bd:#2d5a7a;
+      --red:#e05d5d;
+      --serif:Georgia,'Times New Roman',serif;
+      --sans:'Segoe UI',system-ui,sans-serif;
     }
-    html, body { height: 100%; }
-    body { font-family: var(--ff-sans); background: var(--bg); color: var(--text); min-height: 100vh; display: flex; flex-direction: column; font-size: 15px; }
-    a { color: inherit; text-decoration: none; }
-    button { font-family: inherit; cursor: pointer; }
-    input, select { font-family: inherit; }
+    html,body{height:100%;}
+    body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;font-size:15px;}
+    a{color:inherit;text-decoration:none;}
+    button{font-family:inherit;cursor:pointer;}
+    input,select{font-family:inherit;}
+    #app{display:flex;flex-direction:column;min-height:100vh;}
 
-    /* ─── APP WRAPPER ─── */
-    #app { display: flex; flex-direction: column; min-height: 100vh; }
+    /* CABEÇALHO */
+    #header{background:var(--surface);border-bottom:2px solid var(--gold);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+    .logo-nome{font-family:var(--serif);font-size:1.45rem;font-weight:700;color:var(--gold);}
+    .logo-amp{color:var(--text);margin:0 3px;}
+    .logo-sub{font-size:.66rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+    .header-dir{display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
+    .data-badge{font-size:.74rem;color:var(--gold);text-transform:capitalize;}
+    .abas{display:flex;gap:6px;flex-wrap:wrap;}
+    .btn-aba{background:transparent;border:1px solid var(--border);color:var(--muted);padding:6px 13px;border-radius:5px;font-size:.77rem;transition:all .15s;}
+    .btn-aba:hover{border-color:var(--gold);color:var(--gold);}
+    .btn-aba.ativo{background:var(--gold);border-color:var(--gold);color:var(--bg);font-weight:700;}
 
-    /* ─── CABEÇALHO ─── */
-    #header {
-      background: var(--surface);
-      border-bottom: 2px solid var(--gold);
-      padding: 14px 20px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-wrap: wrap;
-      gap: 12px;
-    }
-    .logo-nome { font-family: var(--ff-serif); font-size: 1.45rem; font-weight: 700; color: var(--gold); }
-    .logo-amp  { color: var(--text); margin: 0 3px; }
-    .logo-sub  { font-size: 0.66rem; letter-spacing: 2.5px; text-transform: uppercase; color: var(--muted); margin-top: 3px; }
-    .header-dir { display: flex; flex-direction: column; align-items: flex-end; gap: 8px; }
-    .data-badge { font-size: 0.74rem; color: var(--gold); text-transform: capitalize; }
-    .abas { display: flex; gap: 6px; flex-wrap: wrap; }
-    .btn-aba {
-      background: transparent; border: 1px solid var(--border);
-      color: var(--muted); padding: 6px 13px; border-radius: 5px;
-      font-size: 0.77rem; transition: all .15s;
-    }
-    .btn-aba:hover { border-color: var(--gold); color: var(--gold); }
-    .btn-aba.ativo { background: var(--gold); border-color: var(--gold); color: var(--bg); font-weight: 700; }
+    /* BARRA DE FILTROS */
+    #filtro-bar{background:var(--surface);border-bottom:1px solid var(--surface2);padding:9px 20px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
+    .filtro-label{font-size:.69rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+    .btn-filtro{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 11px;border-radius:20px;font-size:.73rem;transition:all .15s;}
+    .btn-filtro:hover{border-color:var(--gold);color:var(--gold);}
+    .btn-filtro.ativo{background:var(--surface2);border-color:var(--gold);color:var(--gold);font-weight:600;}
+    .att-wrap{margin-left:auto;display:flex;align-items:center;gap:10px;}
+    .ultima-att{font-size:.69rem;color:var(--muted);}
+    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:4px 13px;border-radius:5px;font-size:.73rem;transition:all .15s;}
+    .btn-att:hover{border-color:var(--gold);background:rgba(212,169,74,.08);}
+    .btn-att:disabled{opacity:.5;cursor:default;}
+    #busca-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 12px;color:var(--text);font-size:.77rem;outline:none;width:220px;}
 
-    /* ─── BARRA DE FILTROS ─── */
-    #filtro-bar {
-      background: var(--surface);
-      border-bottom: 1px solid var(--surface2);
-      padding: 9px 20px;
-      display: flex;
-      align-items: center;
-      gap: 7px;
-      flex-wrap: wrap;
-    }
-    .filtro-label { font-size: 0.69rem; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; }
-    .btn-filtro {
-      background: transparent; border: 1px solid var(--border);
-      color: var(--muted); padding: 4px 11px; border-radius: 20px;
-      font-size: 0.73rem; transition: all .15s;
-    }
-    .btn-filtro:hover { border-color: var(--gold); color: var(--gold); }
-    .btn-filtro.ativo { background: var(--surface2); border-color: var(--gold); color: var(--gold); font-weight: 600; }
-    .att-wrap { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-    .ultima-att { font-size: 0.69rem; color: var(--muted); }
-    .btn-att {
-      background: transparent; border: 1px solid var(--border);
-      color: var(--gold); padding: 4px 13px; border-radius: 5px;
-      font-size: 0.73rem; transition: all .15s;
-    }
-    .btn-att:hover { border-color: var(--gold); background: rgba(212,169,74,.08); }
-    .btn-att:disabled { opacity: .5; cursor: default; }
-    #busca-input {
-      margin-left: auto; background: var(--surface2); border: 1px solid var(--border);
-      border-radius: 6px; padding: 5px 12px; color: var(--text);
-      font-size: 0.77rem; outline: none; width: 220px;
-    }
+    /* BANNER INSTALAR APP */
+    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:11px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+    .banner-txt{font-size:.78rem;color:var(--text);}
+    .banner-txt strong{color:var(--gold);}
+    .banner-btns{display:flex;gap:8px;}
+    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:6px 16px;border-radius:5px;font-size:.75rem;font-weight:700;}
+    .btn-instalar:hover{background:var(--gold-dim);}
+    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:6px 12px;border-radius:5px;font-size:.75rem;}
 
-    /* ─── CONTEÚDO PRINCIPAL ─── */
-    #main { flex: 1; overflow-y: auto; }
+    /* CONTEÚDO */
+    #main{flex:1;overflow-y:auto;}
 
-    /* ─── LOADING ─── */
-    #loading {
-      display: flex; flex-direction: column;
-      align-items: center; justify-content: center;
-      padding: 70px 20px; gap: 18px;
-    }
-    .spinner {
-      width: 34px; height: 34px;
-      border: 3px solid var(--border);
-      border-top-color: var(--gold);
-      border-radius: 50%;
-      animation: spin .9s linear infinite;
-    }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .loading-txt  { color: var(--text); font-family: var(--ff-serif); font-size: .92rem; }
-    .loading-sub  { color: var(--muted); font-size: .75rem; }
+    /* LOADING */
+    #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:70px 20px;gap:18px;}
+    .spinner{width:34px;height:34px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite;}
+    @keyframes spin{to{transform:rotate(360deg);}}
+    .loading-txt{color:var(--text);font-family:var(--serif);font-size:.92rem;}
+    .loading-sub{color:var(--muted);font-size:.75rem;}
 
-    /* ─── ERRO ─── */
-    #erro-box {
-      margin: 40px auto; max-width: 460px;
-      background: var(--surface2); border: 1px solid var(--red);
-      border-radius: 8px; padding: 28px; text-align: center;
-    }
-    .erro-titulo { color: var(--red); font-family: var(--ff-serif); font-size: .96rem; margin-bottom: 8px; }
-    .erro-txt    { color: var(--muted); font-size: .80rem; margin-bottom: 18px; line-height: 1.55; }
+    /* ERRO */
+    #erro-box{margin:40px auto;max-width:460px;background:var(--surface2);border:1px solid var(--red);border-radius:8px;padding:28px;text-align:center;}
+    .erro-titulo{color:var(--red);font-family:var(--serif);font-size:.96rem;margin-bottom:8px;}
+    .erro-txt{color:var(--muted);font-size:.80rem;margin-bottom:18px;line-height:1.55;}
 
-    /* ─── GRID DE CARDS ─── */
-    #grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-      gap: 16px;
-      padding: 20px;
-    }
-    .vazio { grid-column: 1/-1; color: var(--muted); font-size: .83rem; text-align: center; padding: 40px 20px; }
+    /* GRID */
+    #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;padding:20px;}
+    .vazio{grid-column:1/-1;color:var(--muted);font-size:.83rem;text-align:center;padding:40px 20px;}
 
-    /* ─── CARD ─── */
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 17px;
-      display: flex;
-      flex-direction: column;
-      gap: 9px;
-    }
-    .card.destaque { border-left: 3px solid var(--gold); }
-    .card-topo  { display: flex; justify-content: space-between; align-items: center; gap: 6px; }
-    .tag-prev   { background: var(--green-bg); border: 1px solid var(--green-bd); color: var(--green); font-size: .68rem; padding: 2px 8px; border-radius: 20px; font-weight: 700; white-space: nowrap; }
-    .tag-saude  { background: var(--blue-bg);  border: 1px solid var(--blue-bd);  color: var(--blue);  font-size: .68rem; padding: 2px 8px; border-radius: 20px; font-weight: 700; white-space: nowrap; }
-    .card-data-hora { display: flex; align-items: center; font-size: .70rem; color: var(--muted); white-space: nowrap; gap: 2px; }
-    .card-data  { color: var(--gold); font-weight: 700; }
-    .sep        { color: var(--border); margin: 0 2px; }
-    .card-titulo  { font-family: var(--ff-serif); font-size: .92rem; font-weight: 700; color: var(--text); line-height: 1.4; }
-    .card-fonte   { font-size: .71rem; color: var(--gold); }
-    .card-resumo  { font-size: .80rem; color: var(--muted); line-height: 1.65; flex: 1; }
-    .card-acoes   { display: flex; gap: 7px; flex-wrap: wrap; padding-top: 8px; border-top: 1px solid var(--surface2); }
-    .btn-fav      { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 4px 9px; border-radius: 5px; font-size: .70rem; transition: all .15s; }
-    .btn-fav.ativo{ background: #2a2010; border-color: var(--gold); color: var(--gold); font-weight: 700; }
-    .btn-fav:hover:not(.ativo) { border-color: var(--gold); color: var(--gold); }
-    .btn-link     { background: transparent; border: 1px solid var(--border); color: var(--blue); padding: 4px 9px; border-radius: 5px; font-size: .70rem; transition: border-color .15s; }
-    .btn-link:hover { border-color: var(--blue); }
-    .btn-pdf      { background: transparent; border: 1px solid var(--border); color: var(--green); padding: 4px 9px; border-radius: 5px; font-size: .70rem; transition: border-color .15s; }
-    .btn-pdf:hover { border-color: var(--green); }
+    /* CARD */
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:17px;display:flex;flex-direction:column;gap:9px;}
+    .card.destaque{border-left:3px solid var(--gold);}
+    .card-topo{display:flex;justify-content:space-between;align-items:center;gap:6px;}
+    .tag-prev{background:var(--green-bg);border:1px solid var(--green-bd);color:var(--green);font-size:.68rem;padding:2px 8px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .tag-saude{background:var(--blue-bg);border:1px solid var(--blue-bd);color:var(--blue);font-size:.68rem;padding:2px 8px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .card-data-hora{display:flex;align-items:center;font-size:.70rem;color:var(--muted);white-space:nowrap;gap:2px;}
+    .card-data{color:var(--gold);font-weight:700;}
+    .sep{color:var(--border);margin:0 2px;}
+    .card-titulo{font-family:var(--serif);font-size:.92rem;font-weight:700;color:var(--text);line-height:1.4;}
+    .card-fonte{font-size:.71rem;color:var(--gold);}
+    .card-resumo{font-size:.80rem;color:var(--muted);line-height:1.65;flex:1;}
+    .card-acoes{display:flex;gap:7px;flex-wrap:wrap;padding-top:8px;border-top:1px solid var(--surface2);}
+    .btn-fav{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 9px;border-radius:5px;font-size:.70rem;transition:all .15s;}
+    .btn-fav.ativo{background:#2a2010;border-color:var(--gold);color:var(--gold);font-weight:700;}
+    .btn-fav:hover:not(.ativo){border-color:var(--gold);color:var(--gold);}
+    .btn-link{background:transparent;border:1px solid var(--border);color:var(--blue);padding:4px 9px;border-radius:5px;font-size:.70rem;}
+    .btn-link:hover{border-color:var(--blue);}
+    .btn-pdf{background:transparent;border:1px solid var(--border);color:var(--green);padding:4px 9px;border-radius:5px;font-size:.70rem;}
+    .btn-pdf:hover{border-color:var(--green);}
 
-    /* ─── ABA LEGISLAÇÃO ─── */
-    #secao-leg { padding: 20px; }
-    .leg-cab   { display: flex; justify-content: space-between; align-items: center; margin-bottom: 16px; }
-    .leg-titulo{ font-family: var(--ff-serif); font-size: 1rem; color: var(--gold); font-weight: 700; }
-    .btn-add   { background: var(--gold); border: none; color: var(--bg); padding: 7px 15px; border-radius: 5px; font-size: .76rem; font-weight: 700; transition: background .15s; }
-    .btn-add:hover { background: var(--gold-dim); }
-    #form-lei  { background: var(--surface2); border: 1px solid var(--border); border-radius: 8px; padding: 16px; margin-bottom: 16px; display: flex; flex-direction: column; gap: 10px; }
-    .form-row  { display: flex; gap: 10px; }
-    .leg-input { flex: 1; background: var(--surface); border: 1px solid var(--border); border-radius: 5px; padding: 8px 12px; color: var(--text); font-size: .80rem; outline: none; transition: border-color .15s; }
-    .leg-input:focus { border-color: var(--gold); }
-    .tabela    { width: 100%; border-collapse: collapse; }
-    .th        { text-align: left; padding: 9px 13px; font-size: .69rem; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--border); background: var(--surface2); }
-    .td        { padding: 10px 13px; font-size: .80rem; color: var(--text); border-bottom: 1px solid var(--surface2); }
-    .tr-par    { background: var(--surface); }
-    .tr-impar  { background: #1a2535; }
-    .num-lei   { color: var(--gold); font-weight: 600; font-size: .76rem; }
-    .link-acesso{ color: var(--blue); font-size: .76rem; font-weight: 600; }
-    .link-acesso:hover { text-decoration: underline; }
+    /* LEGISLAÇÃO */
+    #secao-leg{padding:20px;}
+    .leg-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;}
+    .leg-titulo{font-family:var(--serif);font-size:1rem;color:var(--gold);font-weight:700;}
+    .btn-add{background:var(--gold);border:none;color:var(--bg);padding:7px 15px;border-radius:5px;font-size:.76rem;font-weight:700;}
+    .btn-add:hover{background:var(--gold-dim);}
+    #form-lei{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:16px;display:flex;flex-direction:column;gap:10px;}
+    .form-row{display:flex;gap:10px;}
+    .leg-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:8px 12px;color:var(--text);font-size:.80rem;outline:none;}
+    .leg-input:focus{border-color:var(--gold);}
+    .tabela{width:100%;border-collapse:collapse;}
+    .th{text-align:left;padding:9px 13px;font-size:.69rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface2);}
+    .td{padding:10px 13px;font-size:.80rem;color:var(--text);border-bottom:1px solid var(--surface2);}
+    .tr-par{background:var(--surface);}
+    .tr-impar{background:#1a2535;}
+    .num-lei{color:var(--gold);font-weight:600;font-size:.76rem;}
+    .link-acesso{color:var(--blue);font-size:.76rem;font-weight:600;}
+    .link-acesso:hover{text-decoration:underline;}
 
-    /* ─── BOTÕES GENÉRICOS ─── */
-    .btn-salvar   { background: var(--gold); border: none; color: var(--bg); padding: 8px 20px; border-radius: 5px; font-size: .79rem; font-weight: 700; transition: background .15s; }
-    .btn-salvar:hover { background: var(--gold-dim); }
-    .btn-cancelar { background: transparent; border: 1px solid var(--border); color: var(--muted); padding: 8px 20px; border-radius: 5px; font-size: .79rem; transition: all .15s; }
-    .btn-cancelar:hover { border-color: var(--muted); }
+    /* BOTÕES GENÉRICOS */
+    .btn-salvar{background:var(--gold);border:none;color:var(--bg);padding:8px 20px;border-radius:5px;font-size:.79rem;font-weight:700;}
+    .btn-salvar:hover{background:var(--gold-dim);}
+    .btn-cancelar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:8px 20px;border-radius:5px;font-size:.79rem;}
 
-    /* ─── MODAL PDF ─── */
-    #modal-overlay {
-      position: fixed; inset: 0;
-      background: rgba(0,0,0,.75);
-      display: flex; align-items: center; justify-content: center;
-      z-index: 200;
-    }
-    #modal-overlay.oculto { display: none; }
-    #modal-box {
-      background: var(--surface);
-      border: 1px solid var(--gold);
-      border-radius: 10px;
-      padding: 28px;
-      max-width: 480px;
-      width: 90%;
-      box-shadow: 0 20px 60px rgba(0,0,0,.5);
-    }
-    .modal-titulo { font-family: var(--ff-serif); font-size: .97rem; color: var(--gold); font-weight: 700; margin-bottom: 14px; }
-    .modal-corpo  { font-size: .83rem; color: var(--text); line-height: 1.65; }
-    .modal-meta   { color: var(--muted); font-size: .76rem; margin-top: 4px; }
-    .modal-btns   { display: flex; gap: 10px; margin-top: 20px; }
+    /* MODAL */
+    #modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:200;}
+    #modal-overlay.oculto{display:none;}
+    #modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:28px;max-width:480px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.5);}
+    .modal-titulo{font-family:var(--serif);font-size:.97rem;color:var(--gold);font-weight:700;margin-bottom:14px;}
+    .modal-corpo{font-size:.83rem;color:var(--text);line-height:1.65;}
+    .modal-meta{color:var(--muted);font-size:.76rem;margin-top:4px;}
+    .modal-btns{display:flex;gap:10px;margin-top:20px;}
 
-    /* ─── RODAPÉ ─── */
-    #footer {
-      background: var(--surface);
-      border-top: 1px solid var(--surface2);
-      padding: 11px 20px;
-      display: flex; gap: 10px; align-items: center;
-      font-size: .70rem; color: var(--text); flex-wrap: wrap;
-    }
-    .footer-sep { color: var(--border); }
-    .footer-fontes { color: var(--muted); }
+    /* RODAPÉ */
+    #footer{background:var(--surface);border-top:1px solid var(--surface2);padding:11px 20px;display:flex;gap:10px;align-items:center;font-size:.70rem;color:var(--text);flex-wrap:wrap;}
+    .footer-sep{color:var(--border);}
+    .footer-fontes{color:var(--muted);}
 
-    /* ─── UTILITÁRIOS ─── */
-    .oculto { display: none !important; }
+    .oculto{display:none!important;}
 
-    /* ─── RESPONSIVO ─── */
-    @media (max-width: 600px) {
-      #grid { grid-template-columns: 1fr; }
-      .header-dir { align-items: flex-start; }
-      .tabela { font-size: .72rem; }
-      .th, .td { padding: 7px 9px; }
+    @media(max-width:600px){
+      #grid{grid-template-columns:1fr;}
+      .tabela{font-size:.72rem;}
+      .th,.td{padding:7px 9px;}
+      .header-dir{align-items:flex-start;}
     }
   </style>
 </head>
 <body>
 <div id="app">
-
-  <!-- CABEÇALHO -->
   <header id="header">
     <div>
       <div class="logo-nome">Prev<span class="logo-amp">&amp;</span>Saúde</div>
@@ -254,7 +168,15 @@
     </div>
   </header>
 
-  <!-- BARRA DE FILTROS -->
+  <!-- BANNER INSTALAR APP (aparece quando disponível) -->
+  <div id="banner-instalar" class="oculto">
+    <div class="banner-txt"><strong>Instalar como aplicativo</strong> — abra sem navegador, direto da tela inicial</div>
+    <div class="banner-btns">
+      <button class="btn-instalar" id="btn-instalar">&#8615; Instalar</button>
+      <button class="btn-dispensar" id="btn-dispensar">Agora não</button>
+    </div>
+  </div>
+
   <div id="filtro-bar">
     <span class="filtro-label">Filtrar:</span>
     <button class="btn-filtro ativo" data-filtro="todos">Todos</button>
@@ -267,27 +189,18 @@
     <input id="busca-input" class="oculto" type="text" placeholder="Buscar norma..." />
   </div>
 
-  <!-- CONTEÚDO -->
   <main id="main">
-
-    <!-- LOADING -->
     <div id="loading">
       <div class="spinner"></div>
       <div class="loading-txt">Buscando notícias jurídicas de hoje...</div>
       <div class="loading-sub">STF &middot; Conjur &middot; Migalhas</div>
     </div>
-
-    <!-- ERRO -->
     <div id="erro-box" class="oculto">
       <div class="erro-titulo">Não foi possível carregar as notícias</div>
       <div class="erro-txt" id="erro-txt"></div>
       <button class="btn-salvar" id="btn-retry">Tentar novamente</button>
     </div>
-
-    <!-- GRID NOTÍCIAS / FAVORITOS -->
     <div id="grid" class="oculto"></div>
-
-    <!-- SEÇÃO LEGISLAÇÃO -->
     <div id="secao-leg" class="oculto">
       <div class="leg-cab">
         <div class="leg-titulo">Banco de Legislação</div>
@@ -309,31 +222,23 @@
         </div>
       </div>
       <table class="tabela" id="tabela-leg">
-        <thead>
-          <tr>
-            <th class="th">Número</th>
-            <th class="th">Nome</th>
-            <th class="th">Área</th>
-            <th class="th">Publicação</th>
-            <th class="th">Acesso</th>
-          </tr>
-        </thead>
+        <thead><tr>
+          <th class="th">Número</th><th class="th">Nome</th>
+          <th class="th">Área</th><th class="th">Publicação</th><th class="th">Acesso</th>
+        </tr></thead>
         <tbody id="tbody-leg"></tbody>
       </table>
       <div id="leg-vazio" class="vazio oculto">Nenhuma norma encontrada.</div>
     </div>
-
   </main>
 
-  <!-- RODAPÉ -->
   <footer id="footer">
     <span>Izabela Gonçalves Advocacia</span>
     <span class="footer-sep">&middot;</span>
-    <span class="footer-fontes">STF &middot; Conjur &middot; Migalhas</span>
+    <span class="footer-fontes">Fontes: STF &middot; Conjur &middot; Migalhas</span>
   </footer>
 </div>
 
-<!-- MODAL PDF -->
 <div id="modal-overlay" class="oculto">
   <div id="modal-box">
     <div class="modal-titulo">Baixar notícia em PDF</div>
@@ -350,519 +255,400 @@
 </div>
 
 <script>
-/* ═══════════════════════════════════════════════
-   CONFIGURAÇÃO
-═══════════════════════════════════════════════ */
-const CORS = 'https://api.allorigins.win/get?url=';
-const CORS2 = 'https://corsproxy.io/?'; // fallback
+/* ═══ CONFIG ═══ */
+// rss2json.com converte RSS em JSON sem necessidade de chave para uso básico
+const RSS2JSON = 'https://api.rss2json.com/v1/api.json?count=30&rss_url=';
 
 const FEEDS = [
-  { url: 'https://portal.stf.jus.br/noticias/rss.asp',       fonte: 'STF',      defaultTag: 'STF'      },
-  { url: 'https://www.conjur.com.br/rss.xml',                 fonte: 'Conjur',   defaultTag: 'Conjur'   },
-  { url: 'https://www.migalhas.com.br/rss/quentes',           fonte: 'Migalhas', defaultTag: 'Migalhas' },
+  { url:'https://portal.stf.jus.br/noticias/rss.asp',     fonte:'STF',      tag:'STF'      },
+  { url:'https://www.conjur.com.br/rss.xml',               fonte:'Conjur',   tag:'Conjur'   },
+  { url:'https://www.migalhas.com.br/rss/quentes',         fonte:'Migalhas', tag:'Migalhas' },
 ];
 
 const PALAVRAS_PREV = [
   'previdência','previdenciário','previdenciária','previdenciario','previdenciaria',
   'inss','rgps','rpps','regime próprio','regime geral',
-  'aposentadoria','aposentado','aposentados',
-  'benefício por incapacidade','auxílio-doença','auxilio-doenca','auxílio doença',
+  'aposentadoria','aposentado','auxílio-doença','auxilio-doença','auxílio doença',
   'auxílio-acidente','pensão por morte','pensao por morte',
   'salário de benefício','salario de beneficio','salário-benefício',
-  'tempo de contribuição','carência previdenciária','carencia previdenciaria',
-  'reforma da previdência','ec 103','emenda constitucional 103',
-  'segurado','segurados','contribuinte individual',
-  'revisão da vida toda','revisao da vida toda',
-  'superendividamento','lei 14.181','lei 8.213','lei 8213',
-  'benefício assistencial','bpc','loas',
+  'tempo de contribuição','carência previdenciária','reforma da previdência',
+  'ec 103','emenda constitucional 103','segurado','contribuinte individual',
+  'revisão da vida toda','superendividamento','lei 14.181','lei 8.213','lei 8213',
+  'benefício assistencial','bpc','loas','incapacidade laborativa',
 ];
 
 const PALAVRAS_SAUDE = [
   'plano de saúde','plano de saude','planos de saúde','planos de saude',
   'ans','agência nacional de saúde','agencia nacional de saude',
-  'sus','sistema único de saúde','sistema unico de saude',
-  'saúde suplementar','saude suplementar',
+  'sus','sistema único de saúde','saúde suplementar','saude suplementar',
   'cobertura médica','cobertura hospitalar','cobertura obrigatória',
   'internação','internacao','cirurgia','tratamento médico','tratamento de saúde',
-  'rol de procedimentos','reajuste de plano',
-  'portabilidade de carência','lei 9.656','lei 9656',
-  'unimed','amil','bradesco saúde',
-  'medicamento','remédio','oncologia','quimioterapia',
+  'rol de procedimentos','reajuste de plano','portabilidade de carência',
+  'lei 9.656','lei 9656','medicamento','oncologia','quimioterapia',
+  'plano hospitalar','operadora de saúde',
 ];
 
 const LEGISLACOES_BASE = [
-  { id:1, numero:'Lei nº 8.213/1991',  nome:'Planos de Benefícios da Previdência Social',   area:'previdenciario', link:'https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm',                          data:'24/07/1991' },
-  { id:2, numero:'EC nº 103/2019',     nome:'Reforma da Previdência',                         area:'previdenciario', link:'https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm',         data:'12/11/2019' },
-  { id:3, numero:'Lei nº 9.656/1998',  nome:'Planos e Seguros Privados de Saúde',             area:'saude',          link:'https://www.planalto.gov.br/ccivil_03/leis/l9656.htm',                              data:'03/06/1998' },
-  { id:4, numero:'RN ANS nº 465/2021', nome:'Rol de Procedimentos e Eventos em Saúde',        area:'saude',          link:'https://www.ans.gov.br',                                                             data:'24/02/2021' },
-  { id:5, numero:'Lei nº 14.181/2021', nome:'Superendividamento e Proteção do Consumidor',    area:'previdenciario', link:'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14181.htm',          data:'01/07/2021' },
+  {id:1,numero:'Lei nº 8.213/1991',nome:'Planos de Benefícios da Previdência Social',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm',data:'24/07/1991'},
+  {id:2,numero:'EC nº 103/2019',nome:'Reforma da Previdência',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm',data:'12/11/2019'},
+  {id:3,numero:'Lei nº 9.656/1998',nome:'Planos e Seguros Privados de Saúde',area:'saude',link:'https://www.planalto.gov.br/ccivil_03/leis/l9656.htm',data:'03/06/1998'},
+  {id:4,numero:'RN ANS nº 465/2021',nome:'Rol de Procedimentos e Eventos em Saúde',area:'saude',link:'https://www.ans.gov.br',data:'24/02/2021'},
+  {id:5,numero:'Lei nº 14.181/2021',nome:'Superendividamento e Proteção do Consumidor',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14181.htm',data:'01/07/2021'},
 ];
 
-/* ═══════════════════════════════════════════════
-   ESTADO
-═══════════════════════════════════════════════ */
+/* ═══ ESTADO ═══ */
 let state = {
-  aba: 'noticias',
-  filtro: 'todos',
-  carregando: false,
-  noticias: [],
-  favoritos: carregarLS('prev_favoritos', []),
-  legislacoes: carregarLS('prev_legislacoes', LEGISLACOES_BASE),
+  aba:'noticias', filtro:'todos', carregando:false, busca:'',
+  noticias: ls('prev_cache',[]),
+  favoritos: ls('prev_favs',[]),
+  legislacoes: ls('prev_legs', LEGISLACOES_BASE),
   noticiaModal: null,
-  busca: '',
-  ultimaAtt: localStorage.getItem('prev_ultima_att') || '',
-  cacheNoticias: carregarLS('prev_cache', []),
-  cacheTs: Number(localStorage.getItem('prev_cache_ts') || 0),
+  ultimaAtt: localStorage.getItem('prev_att') || '',
+  cacheTs: Number(localStorage.getItem('prev_ts') || 0),
 };
-state.noticias = state.cacheNoticias;
 
-/* ═══════════════════════════════════════════════
-   UTILITÁRIOS
-═══════════════════════════════════════════════ */
-function carregarLS(chave, padrao) {
-  try { return JSON.parse(localStorage.getItem(chave)) || padrao; } catch { return padrao; }
-}
-function salvarLS(chave, valor) {
-  try { localStorage.setItem(chave, JSON.stringify(valor)); } catch {}
-}
+/* ═══ UTILITÁRIOS ═══ */
+function ls(k,d){try{return JSON.parse(localStorage.getItem(k))||d;}catch{return d;}}
+function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}
 
-function dataHoje() {
-  return new Date().toLocaleDateString('pt-BR', { weekday:'long', day:'2-digit', month:'long', year:'numeric' });
-}
-function dataFormatada(d) {
-  return d.toLocaleDateString('pt-BR', { day:'2-digit', month:'2-digit', year:'numeric' });
-}
-function horaFormatada(d) {
-  return d.toLocaleTimeString('pt-BR', { hour:'2-digit', minute:'2-digit' });
-}
-function hojeFormatado() {
-  const d = new Date();
-  return { data: dataFormatada(d), hora: horaFormatada(d) };
-}
+function dataHoje(){return new Date().toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});}
+function fmtData(d){return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});}
+function fmtHora(d){return d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}
 
-function limparHtml(str) {
-  if (!str) return '';
-  return str.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
-            .replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"')
-            .replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
+function limpar(s){
+  if(!s)return'';
+  return s.replace(/<[^>]*>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&')
+          .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')
+          .replace(/&#39;/g,"'").replace(/\s+/g,' ').trim();
 }
+function trunc(s,n){if(!s||s.length<=n)return s||'';return s.slice(0,n).trim()+'…';}
 
-function truncar(str, n) {
-  if (!str || str.length <= n) return str || '';
-  return str.slice(0, n).trim() + '…';
-}
-
-/* ═══════════════════════════════════════════════
-   CLASSIFICAÇÃO POR PALAVRAS-CHAVE
-═══════════════════════════════════════════════ */
-function classificar(titulo, descricao) {
-  const texto = (titulo + ' ' + descricao).toLowerCase();
-  const ePrev  = PALAVRAS_PREV.some(p => texto.includes(p));
-  const eSaude = PALAVRAS_SAUDE.some(p => texto.includes(p));
-  if (ePrev && eSaude) return 'previdenciario';
-  if (ePrev)  return 'previdenciario';
-  if (eSaude) return 'saude';
+function classificar(titulo,desc){
+  const t=(titulo+' '+desc).toLowerCase();
+  const p=PALAVRAS_PREV.some(w=>t.includes(w));
+  const s=PALAVRAS_SAUDE.some(w=>t.includes(w));
+  if(p)return'previdenciario';
+  if(s)return'saude';
   return null;
 }
-
-function detectarTag(titulo, fonte) {
-  const t = titulo.toLowerCase();
-  if (t.includes('stf') || fonte === 'STF')           return 'STF';
-  if (t.includes('stj'))                               return 'STJ';
-  if (t.includes('inss'))                              return 'INSS';
-  if (t.includes(' ans ') || t.includes('agência nacional de saúde')) return 'ANS';
-  if (t.includes('trf') || t.includes('tribunal regional')) return 'TRF';
-  if (t.includes('portaria') || t.includes('instrução normativa') || t.includes('resolução normativa')) return 'Normativa';
-  if (t.includes('lei ') || t.includes('decreto'))    return 'Legislação';
-  if (t.includes('súmula') || t.includes('acórdão'))  return 'Jurisprudência';
+function detectarTag(titulo,fonte){
+  const t=titulo.toLowerCase();
+  if(t.includes('stf')||fonte==='STF') return'STF';
+  if(t.includes('stj'))                return'STJ';
+  if(t.includes('inss'))               return'INSS';
+  if(t.includes(' ans ')||t.includes('agência nacional de saúde')) return'ANS';
+  if(t.includes('trf')||t.includes('tribunal regional')) return'TRF';
+  if(t.includes('portaria')||t.includes('instrução normativa')||t.includes('resolução normativa')) return'Normativa';
+  if(t.includes('lei ')||t.includes('decreto')) return'Legislação';
+  if(t.includes('súmula')||t.includes('acórdão')) return'Jurisprudência';
   return fonte;
 }
 
-/* ═══════════════════════════════════════════════
-   BUSCA DE RSS
-═══════════════════════════════════════════════ */
-async function fetchXml(feedUrl) {
-  let texto = null;
-
-  // Tenta allorigins primeiro
-  try {
-    const r = await fetch(CORS + encodeURIComponent(feedUrl), { signal: AbortSignal.timeout(10000) });
-    if (r.ok) {
-      const j = await r.json();
-      texto = j.contents;
-    }
-  } catch {}
-
-  // Fallback: corsproxy.io
-  if (!texto) {
-    try {
-      const r = await fetch(CORS2 + encodeURIComponent(feedUrl), { signal: AbortSignal.timeout(10000) });
-      if (r.ok) texto = await r.text();
-    } catch {}
-  }
-
-  if (!texto) throw new Error('Feed indisponível: ' + feedUrl);
-  return texto;
-}
-
-async function parseFeed(feedConfig) {
-  const xml = await fetchXml(feedConfig.url);
-  const parser = new DOMParser();
-  const doc = parser.parseFromString(xml, 'text/xml');
-  const items = Array.from(doc.querySelectorAll('item'));
-  const hoje = new Date(); hoje.setHours(0,0,0,0);
+/* ═══ BUSCA DE FEEDS ═══ */
+async function parseFeed(feedCfg){
+  const url = RSS2JSON + encodeURIComponent(feedCfg.url);
+  const resp = await fetch(url, {signal: AbortSignal.timeout(12000)});
+  if(!resp.ok) throw new Error('Erro HTTP '+resp.status);
+  const data = await resp.json();
+  if(data.status !== 'ok') throw new Error('Feed retornou erro: '+feedCfg.url);
 
   const resultado = [];
-  for (const item of items) {
-    const titulo    = limparHtml(item.querySelector('title')?.textContent);
-    const link      = item.querySelector('link')?.textContent?.trim() ||
-                      item.querySelector('guid')?.textContent?.trim() || '';
-    const descricao = limparHtml(item.querySelector('description')?.textContent);
-    const pubDateRaw= item.querySelector('pubDate')?.textContent || '';
+  for(const item of (data.items||[])){
+    const titulo = limpar(item.title || '');
+    const desc   = limpar(item.description || item.content || '');
+    const link   = (item.link || item.guid || '').trim();
+    if(!titulo) continue;
 
-    if (!titulo) continue;
+    const area = classificar(titulo, desc);
+    if(!area) continue;
 
-    const area = classificar(titulo, descricao);
-    if (!area) continue; // não é previdenciário nem saúde
-
-    let dataObj = new Date(pubDateRaw);
-    if (isNaN(dataObj)) dataObj = new Date();
+    const pub = new Date(item.pubDate);
+    const dataObj = isNaN(pub) ? new Date() : pub;
 
     resultado.push({
-      id:      `${feedConfig.fonte}_${link || titulo}`,
+      id: feedCfg.fonte + '_' + (link || titulo).slice(0,80),
       area,
-      tag:     detectarTag(titulo, feedConfig.fonte),
-      titulo:  truncar(titulo, 120),
-      fonte:   feedConfig.fonte,
-      resumo:  truncar(descricao, 220),
+      tag:    detectarTag(titulo, feedCfg.fonte),
+      titulo: trunc(titulo, 120),
+      fonte:  feedCfg.fonte,
+      resumo: trunc(desc, 240),
       link,
-      data:    dataFormatada(dataObj),
-      hora:    horaFormatada(dataObj),
-      ts:      dataObj.getTime(),
-      favorito:false,
+      data:   fmtData(dataObj),
+      hora:   fmtHora(dataObj),
+      ts:     dataObj.getTime(),
+      favorito: false,
     });
   }
   return resultado;
 }
 
-async function buscarTodos() {
-  const CACHE_TTL = 60 * 60 * 1000; // 1 hora
+async function buscarTodos(){
+  const CACHE_TTL = 60*60*1000; // 1 hora
   const agora = Date.now();
 
-  // Usa cache se ainda válido
-  if (state.cacheNoticias.length && agora - state.cacheTs < CACHE_TTL) {
-    state.noticias = state.cacheNoticias;
-    state.ultimaAtt = localStorage.getItem('prev_ultima_att') || '';
+  if(state.noticias.length && agora - state.cacheTs < CACHE_TTL){
+    state.ultimaAtt = localStorage.getItem('prev_att') || '';
     render(); return;
   }
 
-  state.carregando = true;
-  render();
+  state.carregando = true; render();
 
-  const resultados = await Promise.allSettled(FEEDS.map(f => parseFeed(f)));
+  const res = await Promise.allSettled(FEEDS.map(f => parseFeed(f)));
   let todas = [];
-  resultados.forEach(r => { if (r.status === 'fulfilled') todas = todas.concat(r.value); });
+  res.forEach(r => { if(r.status==='fulfilled') todas = todas.concat(r.value); });
 
   // Remove duplicatas por link
   const vistos = new Set();
   todas = todas.filter(n => {
-    if (vistos.has(n.link)) return false;
-    vistos.add(n.link); return true;
+    const k = n.link||n.titulo;
+    if(vistos.has(k)) return false;
+    vistos.add(k); return true;
   });
 
-  // Ordena por data mais recente
-  todas.sort((a, b) => b.ts - a.ts);
+  // Ordena por mais recente
+  todas.sort((a,b) => b.ts - a.ts);
 
-  // Preserva favoritos já existentes
-  const favIds = new Set(state.favoritos.map(f => f.id));
-  todas = todas.map(n => ({ ...n, favorito: favIds.has(n.id) }));
+  // Preserva favoritos existentes
+  const favIds = new Set(state.favoritos.map(f=>f.id));
+  todas = todas.map(n => ({...n, favorito: favIds.has(n.id)}));
 
-  if (!todas.length) {
+  if(!todas.length){
     state.carregando = false;
-    const err = document.getElementById('erro-txt');
-    if (err) err.textContent = 'Nenhuma notícia encontrada nos feeds. Verifique sua conexão ou tente novamente em instantes.';
+    document.getElementById('erro-txt').textContent =
+      'Nenhuma notícia encontrada nos feeds. Verifique sua conexão ou tente novamente em alguns minutos.';
     mostrar('erro-box'); ocultar('loading'); ocultar('grid');
     return;
   }
 
-  const h = hojeFormatado();
-  state.ultimaAtt = h.hora;
-  state.noticias = todas;
-  state.cacheNoticias = todas;
-  state.cacheTs = agora;
-  salvarLS('prev_cache', todas);
-  localStorage.setItem('prev_cache_ts', String(agora));
-  localStorage.setItem('prev_ultima_att', h.hora);
+  state.noticias  = todas;
+  state.cacheTs   = agora;
+  state.ultimaAtt = fmtHora(new Date());
+  sv('prev_cache', todas);
+  localStorage.setItem('prev_ts',  String(agora));
+  localStorage.setItem('prev_att', state.ultimaAtt);
   state.carregando = false;
   render();
 }
 
-/* ═══════════════════════════════════════════════
-   RENDERIZAÇÃO
-═══════════════════════════════════════════════ */
-function mostrar(id) { document.getElementById(id)?.classList.remove('oculto'); }
-function ocultar(id) { document.getElementById(id)?.classList.add('oculto'); }
+/* ═══ RENDERIZAÇÃO ═══ */
+function mostrar(id){document.getElementById(id)?.classList.remove('oculto');}
+function ocultar(id){document.getElementById(id)?.classList.add('oculto');}
 
-function render() {
-  // Data no cabeçalho
-  const dh = document.getElementById('data-hoje');
-  if (dh) dh.textContent = dataHoje();
+function render(){
+  document.getElementById('data-hoje').textContent = dataHoje();
+  document.querySelectorAll('.btn-aba').forEach(b => b.classList.toggle('ativo', b.dataset.aba===state.aba));
+  document.querySelectorAll('.btn-filtro').forEach(b => b.classList.toggle('ativo', b.dataset.filtro===state.filtro));
 
-  // Abas
-  document.querySelectorAll('.btn-aba').forEach(b => {
-    b.classList.toggle('ativo', b.dataset.aba === state.aba);
-  });
+  const isLeg = state.aba === 'legislacao';
+  document.getElementById('att-wrap')?.classList.toggle('oculto', isLeg);
+  document.getElementById('busca-input')?.classList.toggle('oculto', !isLeg);
 
-  // Filtros e controles
-  document.querySelectorAll('.btn-filtro').forEach(b => {
-    b.classList.toggle('ativo', b.dataset.filtro === state.filtro);
-  });
-  const attWrap = document.getElementById('att-wrap');
-  const buscaInput = document.getElementById('busca-input');
-  if (attWrap && buscaInput) {
-    if (state.aba === 'legislacao') {
-      attWrap.classList.add('oculto');
-      buscaInput.classList.remove('oculto');
-    } else {
-      attWrap.classList.remove('oculto');
-      buscaInput.classList.add('oculto');
-    }
-  }
-
-  // Última atualização
   const ua = document.getElementById('ultima-att');
-  if (ua) ua.textContent = state.ultimaAtt ? 'Atualizado às ' + state.ultimaAtt : '';
-
-  // Botão atualizar
+  if(ua) ua.textContent = state.ultimaAtt ? 'Atualizado às '+state.ultimaAtt : '';
   const btnAtt = document.getElementById('btn-att');
-  if (btnAtt) btnAtt.disabled = state.carregando;
+  if(btnAtt) btnAtt.disabled = state.carregando;
 
-  // Oculta todos os painéis
   ocultar('loading'); ocultar('erro-box'); ocultar('grid'); ocultar('secao-leg');
 
-  if (state.aba === 'legislacao') {
-    renderLegislacao();
-    mostrar('secao-leg');
-    return;
-  }
+  if(state.aba === 'legislacao'){ renderLeg(); mostrar('secao-leg'); return; }
+  if(state.carregando){ mostrar('loading'); return; }
 
-  if (state.carregando) { mostrar('loading'); return; }
-
-  // Notícias ou favoritos
-  const pool = state.aba === 'favoritos'
-    ? state.noticias.filter(n => state.favoritos.some(f => f.id === n.id))
+  const pool = state.aba==='favoritos'
+    ? state.noticias.filter(n => state.favoritos.some(f=>f.id===n.id))
     : state.noticias;
 
-  const filtradas = pool.filter(n => {
-    if (state.filtro === 'todos') return true;
-    return n.area === state.filtro;
-  });
-
+  const filtradas = pool.filter(n => state.filtro==='todos' || n.area===state.filtro);
   const grid = document.getElementById('grid');
-  if (!grid) return;
-  grid.innerHTML = '';
-  mostrar('grid');
+  grid.innerHTML = ''; mostrar('grid');
 
-  if (!filtradas.length) {
-    const div = document.createElement('div');
-    div.className = 'vazio';
-    div.textContent = state.aba === 'favoritos'
+  if(!filtradas.length){
+    const d=document.createElement('div'); d.className='vazio';
+    d.textContent = state.aba==='favoritos'
       ? 'Você ainda não favoritou nenhuma notícia. Use o botão "☆ Favoritar" nos cards.'
       : 'Nenhuma notícia encontrada para este filtro.';
-    grid.appendChild(div);
-    return;
+    grid.appendChild(d); return;
   }
-
-  filtradas.forEach(n => grid.appendChild(criarCard(n, state.aba === 'favoritos')));
+  filtradas.forEach(n => grid.appendChild(criarCard(n, state.aba==='favoritos')));
 }
 
-function criarCard(n, destaque) {
-  const isFav = state.favoritos.some(f => f.id === n.id);
+function criarCard(n, destaque){
+  const isFav = state.favoritos.some(f=>f.id===n.id);
   const div = document.createElement('div');
-  div.className = 'card' + (destaque ? ' destaque' : '');
+  div.className = 'card'+(destaque?' destaque':'');
   div.innerHTML = `
     <div class="card-topo">
-      <span class="${n.area === 'previdenciario' ? 'tag-prev' : 'tag-saude'}">${n.tag}</span>
+      <span class="${n.area==='previdenciario'?'tag-prev':'tag-saude'}">${n.tag}</span>
       <span class="card-data-hora">
-        ${n.data ? `<span class="card-data">${n.data}</span><span class="sep"> &middot; </span>` : ''}
+        ${n.data?`<span class="card-data">${n.data}</span><span class="sep"> &middot; </span>`:''}
         <span>${n.hora}</span>
       </span>
     </div>
     <div class="card-titulo">${n.titulo}</div>
     <div class="card-fonte">${n.fonte}</div>
-    <div class="card-resumo">${n.resumo || 'Sem descrição disponível.'}</div>
+    <div class="card-resumo">${n.resumo||'Sem descrição disponível.'}</div>
     <div class="card-acoes">
-      <button class="btn-fav ${isFav ? 'ativo' : ''}" data-id="${n.id}">${isFav ? '★ Favoritado' : '☆ Favoritar'}</button>
-      ${n.link ? `<a class="btn-link" href="${n.link}" target="_blank" rel="noreferrer">Acessar fonte ↗</a>` : ''}
+      <button class="btn-fav ${isFav?'ativo':''}" data-id="${n.id}">${isFav?'★ Favoritado':'☆ Favoritar'}</button>
+      ${n.link?`<a class="btn-link" href="${n.link}" target="_blank" rel="noreferrer">Acessar fonte ↗</a>`:''}
       <button class="btn-pdf" data-id="${n.id}">&#8595; PDF</button>
     </div>`;
-
-  div.querySelector('.btn-fav').addEventListener('click', () => toggleFav(n.id));
-  div.querySelector('.btn-pdf').addEventListener('click', () => abrirModal(n));
+  div.querySelector('.btn-fav').addEventListener('click',()=>toggleFav(n.id));
+  div.querySelector('.btn-pdf').addEventListener('click',()=>abrirModal(n));
   return div;
 }
 
-/* ─── LEGISLAÇÃO ─── */
-function renderLegislacao() {
-  const tbody = document.getElementById('tbody-leg');
-  const vazio = document.getElementById('leg-vazio');
-  if (!tbody) return;
-
+function renderLeg(){
   const q = state.busca.toLowerCase();
-  const lista = state.legislacoes.filter(l => {
-    const match = l.numero.toLowerCase().includes(q) || l.nome.toLowerCase().includes(q);
-    const areaOk = state.filtro === 'todos' || l.area === state.filtro;
-    return match && areaOk;
+  const lista = state.legislacoes.filter(l=>{
+    const m = l.numero.toLowerCase().includes(q)||l.nome.toLowerCase().includes(q);
+    const a = state.filtro==='todos'||l.area===state.filtro;
+    return m && a;
   });
-
+  const tbody = document.getElementById('tbody-leg');
+  const vazio  = document.getElementById('leg-vazio');
   tbody.innerHTML = '';
-  if (!lista.length) { vazio && mostrar('leg-vazio'); return; }
-  vazio && ocultar('leg-vazio');
-
-  lista.forEach((l, i) => {
+  if(!lista.length){ mostrar('leg-vazio'); return; }
+  ocultar('leg-vazio');
+  lista.forEach((l,i)=>{
     const tr = document.createElement('tr');
-    tr.className = i % 2 === 0 ? 'tr-par' : 'tr-impar';
+    tr.className = i%2===0?'tr-par':'tr-impar';
     tr.innerHTML = `
       <td class="td"><span class="num-lei">${l.numero}</span></td>
       <td class="td">${l.nome}</td>
-      <td class="td"><span class="${l.area === 'previdenciario' ? 'tag-prev' : 'tag-saude'}">${l.area === 'previdenciario' ? 'Previdenciário' : 'Saúde'}</span></td>
+      <td class="td"><span class="${l.area==='previdenciario'?'tag-prev':'tag-saude'}">${l.area==='previdenciario'?'Previdenciário':'Saúde'}</span></td>
       <td class="td" style="color:var(--muted);font-size:.77rem">${l.data}</td>
-      <td class="td">${l.link ? `<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a>` : '<span style="color:var(--muted);font-size:.74rem">Não informado</span>'}</td>`;
+      <td class="td">${l.link?`<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a>`:'<span style="color:var(--muted);font-size:.74rem">Não informado</span>'}</td>`;
     tbody.appendChild(tr);
   });
 }
 
-/* ═══════════════════════════════════════════════
-   AÇÕES
-═══════════════════════════════════════════════ */
-function toggleFav(id) {
-  const noticia = state.noticias.find(n => n.id === id);
-  if (!noticia) return;
-  const idx = state.favoritos.findIndex(f => f.id === id);
-  if (idx >= 0) state.favoritos.splice(idx, 1);
-  else state.favoritos.push({ ...noticia, favorito: true });
-  salvarLS('prev_favoritos', state.favoritos);
+/* ═══ AÇÕES ═══ */
+function toggleFav(id){
+  const n = state.noticias.find(x=>x.id===id);
+  if(!n) return;
+  const idx = state.favoritos.findIndex(f=>f.id===id);
+  if(idx>=0) state.favoritos.splice(idx,1);
+  else state.favoritos.push({...n, favorito:true});
+  sv('prev_favs', state.favoritos);
   render();
 }
 
-function abrirModal(n) {
+function abrirModal(n){
   state.noticiaModal = n;
   document.getElementById('modal-titulo-txt').textContent = n.titulo;
   document.getElementById('modal-meta-txt').textContent   = `${n.fonte} · ${n.data} às ${n.hora}`;
   document.getElementById('modal-resumo-txt').textContent = n.resumo;
   document.getElementById('modal-overlay').classList.remove('oculto');
 }
-
-function fecharModal() {
+function fecharModal(){
   document.getElementById('modal-overlay').classList.add('oculto');
   state.noticiaModal = null;
 }
 
-function gerarPdf() {
-  const n = state.noticiaModal;
-  if (!n) return;
-  const w = window.open('', '_blank');
-  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8">
-<title>${n.titulo}</title>
-<style>
-  body { font-family: Georgia, serif; padding: 50px; max-width: 720px; margin: auto; color: #1a1a1a; }
-  h2 { font-size: 1.2rem; margin-bottom: 8px; }
-  .meta { color: #555; font-size: 13px; margin-bottom: 3px; }
-  hr { border: 1px solid #ccc; margin: 20px 0; }
-  p { line-height: 1.8; font-size: 15px; }
-  .rodape { margin-top: 30px; font-size: 11px; color: #888; }
-</style></head><body>
+function gerarPdf(){
+  const n = state.noticiaModal; if(!n) return;
+  const w = window.open('','_blank');
+  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>${n.titulo}</title>
+<style>body{font-family:Georgia,serif;padding:50px;max-width:720px;margin:auto;color:#1a1a1a}
+h2{font-size:1.2rem;margin-bottom:8px}.meta{color:#555;font-size:13px;margin-bottom:3px}
+hr{border:1px solid #ccc;margin:20px 0}p{line-height:1.8;font-size:15px}
+.rodape{margin-top:30px;font-size:11px;color:#888}</style></head><body>
 <h2>${n.titulo}</h2>
 <div class="meta">${n.fonte}</div>
 <div class="meta">${n.data} às ${n.hora}</div>
-<hr>
-<p>${n.resumo}</p>
-${n.link ? `<div class="rodape">Fonte: <a href="${n.link}">${n.link}</a></div>` : ''}
+<hr><p>${n.resumo}</p>
+${n.link?`<div class="rodape">Fonte: <a href="${n.link}">${n.link}</a></div>`:''}
 <div class="rodape">Gerado por Prev&amp;Saúde Diário — Izabela Gonçalves Advocacia</div>
 </body></html>`);
-  w.document.close();
-  w.print();
-  fecharModal();
+  w.document.close(); w.print(); fecharModal();
 }
 
-function adicionarLei() {
+function adicionarLei(){
   const numero = document.getElementById('lei-numero').value.trim();
   const nome   = document.getElementById('lei-nome').value.trim();
   const area   = document.getElementById('lei-area').value;
   const link   = document.getElementById('lei-link').value.trim();
-  if (!numero || !nome) return;
-  const h = hojeFormatado();
-  state.legislacoes.push({ id: Date.now(), numero, nome, area, link, data: h.data });
-  salvarLS('prev_legislacoes', state.legislacoes);
-  document.getElementById('lei-numero').value = '';
-  document.getElementById('lei-nome').value   = '';
-  document.getElementById('lei-link').value   = '';
+  if(!numero||!nome) return;
+  state.legislacoes.push({id:Date.now(),numero,nome,area,link,data:fmtData(new Date())});
+  sv('prev_legs', state.legislacoes);
+  document.getElementById('lei-numero').value='';
+  document.getElementById('lei-nome').value='';
+  document.getElementById('lei-link').value='';
   document.getElementById('form-lei').classList.add('oculto');
-  document.getElementById('btn-toggle-form').textContent = '+ Adicionar norma';
-  renderLegislacao();
+  document.getElementById('btn-toggle-form').textContent='+ Adicionar norma';
+  renderLeg();
 }
 
-/* ═══════════════════════════════════════════════
-   EVENTOS
-═══════════════════════════════════════════════ */
-document.querySelectorAll('.btn-aba').forEach(b => b.addEventListener('click', () => {
-  state.aba = b.dataset.aba;
-  state.filtro = 'todos';
-  state.busca = '';
-  const bi = document.getElementById('busca-input');
-  if (bi) bi.value = '';
+/* ═══ PWA — INSTALAR APP ═══ */
+let deferredPrompt = null;
+
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredPrompt = e;
+  // Só mostra o banner se ainda não foi dispensado
+  if(!localStorage.getItem('prev_dispensou_instalar')){
+    mostrar('banner-instalar');
+  }
+});
+
+document.getElementById('btn-instalar')?.addEventListener('click', async () => {
+  if(!deferredPrompt) return;
+  deferredPrompt.prompt();
+  const {outcome} = await deferredPrompt.userChoice;
+  deferredPrompt = null;
+  ocultar('banner-instalar');
+});
+
+document.getElementById('btn-dispensar')?.addEventListener('click', () => {
+  localStorage.setItem('prev_dispensou_instalar','1');
+  ocultar('banner-instalar');
+});
+
+window.addEventListener('appinstalled', () => { ocultar('banner-instalar'); });
+
+/* ═══ EVENTOS ═══ */
+document.querySelectorAll('.btn-aba').forEach(b => b.addEventListener('click',()=>{
+  state.aba=b.dataset.aba; state.filtro='todos'; state.busca='';
+  const bi=document.getElementById('busca-input'); if(bi) bi.value='';
   render();
 }));
-
-document.querySelectorAll('.btn-filtro').forEach(b => b.addEventListener('click', () => {
-  state.filtro = b.dataset.filtro;
-  render();
+document.querySelectorAll('.btn-filtro').forEach(b => b.addEventListener('click',()=>{
+  state.filtro=b.dataset.filtro; render();
 }));
-
-document.getElementById('btn-att')?.addEventListener('click', () => {
-  state.cacheTs = 0; // força nova busca
-  buscarTodos();
+document.getElementById('btn-att')?.addEventListener('click',()=>{
+  state.cacheTs=0; buscarTodos();
 });
-
-document.getElementById('btn-retry')?.addEventListener('click', () => {
-  ocultar('erro-box');
-  buscarTodos();
+document.getElementById('btn-retry')?.addEventListener('click',()=>{
+  ocultar('erro-box'); buscarTodos();
 });
-
-document.getElementById('busca-input')?.addEventListener('input', e => {
-  state.busca = e.target.value;
-  renderLegislacao();
+document.getElementById('busca-input')?.addEventListener('input',e=>{
+  state.busca=e.target.value; renderLeg();
 });
-
-document.getElementById('btn-toggle-form')?.addEventListener('click', () => {
-  const form = document.getElementById('form-lei');
-  const btn  = document.getElementById('btn-toggle-form');
-  const aberto = !form.classList.contains('oculto');
-  form.classList.toggle('oculto', aberto);
-  btn.textContent = aberto ? '+ Adicionar norma' : '✕ Cancelar';
+document.getElementById('btn-toggle-form')?.addEventListener('click',()=>{
+  const f=document.getElementById('form-lei');
+  const btn=document.getElementById('btn-toggle-form');
+  const aberto=!f.classList.contains('oculto');
+  f.classList.toggle('oculto',aberto);
+  btn.textContent=aberto?'+ Adicionar norma':'✕ Cancelar';
 });
-
 document.getElementById('btn-salvar-lei')?.addEventListener('click', adicionarLei);
-document.getElementById('btn-cancelar-lei')?.addEventListener('click', () => {
+document.getElementById('btn-cancelar-lei')?.addEventListener('click',()=>{
   document.getElementById('form-lei').classList.add('oculto');
-  document.getElementById('btn-toggle-form').textContent = '+ Adicionar norma';
+  document.getElementById('btn-toggle-form').textContent='+ Adicionar norma';
 });
-
 document.getElementById('btn-gerar-pdf')?.addEventListener('click', gerarPdf);
 document.getElementById('btn-fechar-modal')?.addEventListener('click', fecharModal);
-document.getElementById('modal-overlay')?.addEventListener('click', e => {
-  if (e.target === document.getElementById('modal-overlay')) fecharModal();
+document.getElementById('modal-overlay')?.addEventListener('click',e=>{
+  if(e.target===document.getElementById('modal-overlay')) fecharModal();
 });
 
-/* ═══════════════════════════════════════════════
-   INICIALIZAÇÃO
-═══════════════════════════════════════════════ */
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js').catch(() => {});
+/* ═══ SERVICE WORKER ═══ */
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
 }
 
-render(); // exibe o que está em cache imediatamente
-buscarTodos(); // busca atualização em background
+/* ═══ INIT ═══ */
+render();       // exibe cache imediatamente
+buscarTodos();  // atualiza em background
 </script>
 </body>
 </html>
