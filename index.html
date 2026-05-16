@@ -16,7 +16,7 @@
       --bg:#0d1b2a; --surface:#152035; --surface2:#1c2d44; --border:#243650;
       --gold:#d4a94a; --gold-dim:#b8893a; --text:#e8ddd0; --muted:#7a8fa6;
       --green:#4caf89; --green-bg:#1a3d2e; --green-bd:#2d7a5f;
-      --blue:#4a9edd;  --blue-bg:#1a2a3d;  --blue-bd:#2d5a7a;
+      --blue:#4a9edd; --blue-bg:#1a2a3d; --blue-bd:#2d5a7a;
       --red:#e05d5d;
       --serif:Georgia,'Times New Roman',serif;
       --sans:'Segoe UI',system-ui,sans-serif;
@@ -25,101 +25,139 @@
     body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;}
     a{color:inherit;text-decoration:none;}
     button{font-family:inherit;cursor:pointer;}
-    input,select{font-family:inherit;}
+    input,select,textarea{font-family:inherit;}
     #app{display:flex;flex-direction:column;min-height:100vh;}
 
-    #header{background:var(--surface);border-bottom:2px solid var(--gold);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
-    .logo-nome{font-family:var(--serif);font-size:1.45rem;font-weight:700;color:var(--gold);}
+    /* CABEÇALHO */
+    #header{background:var(--surface);border-bottom:2px solid var(--gold);padding:12px 16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;}
+    .logo-nome{font-family:var(--serif);font-size:1.35rem;font-weight:700;color:var(--gold);}
     .logo-amp{color:var(--text);margin:0 3px;}
-    .logo-sub{font-size:.66rem;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);margin-top:3px;}
-    .header-dir{display:flex;flex-direction:column;align-items:flex-end;gap:8px;}
-    .data-badge{font-size:.74rem;color:var(--gold);text-transform:capitalize;}
-    .abas{display:flex;gap:6px;flex-wrap:wrap;}
-    .btn-aba{background:transparent;border:1px solid var(--border);color:var(--muted);padding:6px 13px;border-radius:5px;font-size:.77rem;transition:all .15s;}
+    .logo-sub{font-size:.62rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:2px;}
+    .header-dir{display:flex;flex-direction:column;align-items:flex-end;gap:7px;}
+    .data-badge{font-size:.72rem;color:var(--gold);text-transform:capitalize;}
+    .abas{display:flex;gap:5px;flex-wrap:wrap;}
+    .btn-aba{background:transparent;border:1px solid var(--border);color:var(--muted);padding:5px 10px;border-radius:5px;font-size:.72rem;transition:all .15s;}
     .btn-aba:hover{border-color:var(--gold);color:var(--gold);}
     .btn-aba.ativo{background:var(--gold);border-color:var(--gold);color:var(--bg);font-weight:700;}
 
-    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:11px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
-    .banner-txt{font-size:.78rem;color:var(--text);}
+    /* BANNER INSTALAR */
+    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;}
+    .banner-txt{font-size:.75rem;color:var(--text);}
     .banner-txt strong{color:var(--gold);}
-    .banner-btns{display:flex;gap:8px;}
-    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:6px 16px;border-radius:5px;font-size:.75rem;font-weight:700;}
-    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:6px 12px;border-radius:5px;font-size:.75rem;}
+    .banner-btns{display:flex;gap:7px;}
+    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:5px 13px;border-radius:5px;font-size:.72rem;font-weight:700;}
+    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:5px 10px;border-radius:5px;font-size:.72rem;}
 
-    #filtro-bar{background:var(--surface);border-bottom:1px solid var(--surface2);padding:9px 20px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
-    .filtro-label{font-size:.69rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
-    .btn-filtro{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 11px;border-radius:20px;font-size:.73rem;transition:all .15s;}
+    /* BARRA DE FILTROS */
+    #filtro-bar{background:var(--surface);border-bottom:1px solid var(--surface2);padding:8px 16px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
+    .filtro-label{font-size:.67rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+    .btn-filtro{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 10px;border-radius:20px;font-size:.70rem;transition:all .15s;}
     .btn-filtro:hover{border-color:var(--gold);color:var(--gold);}
     .btn-filtro.ativo{background:var(--surface2);border-color:var(--gold);color:var(--gold);font-weight:600;}
-    .att-wrap{margin-left:auto;display:flex;align-items:center;gap:10px;}
-    .ultima-att{font-size:.69rem;color:var(--muted);}
-    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:4px 13px;border-radius:5px;font-size:.73rem;}
+    .att-wrap{margin-left:auto;display:flex;align-items:center;gap:8px;}
+    .ultima-att{font-size:.67rem;color:var(--muted);}
+    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:3px 11px;border-radius:5px;font-size:.70rem;}
     .btn-att:disabled{opacity:.5;cursor:default;}
-    #busca-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 12px;color:var(--text);font-size:.77rem;outline:none;width:220px;}
+    #busca-leg-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 11px;color:var(--text);font-size:.74rem;outline:none;width:190px;}
 
+    /* CONTEÚDO */
     #main{flex:1;overflow-y:auto;}
-
-    #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:70px 20px;gap:18px;}
-    .spinner{width:34px;height:34px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite;}
+    #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:16px;}
+    .spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite;}
     @keyframes spin{to{transform:rotate(360deg);}}
-    .loading-txt{color:var(--text);font-family:var(--serif);font-size:.92rem;}
-    .loading-sub{color:var(--muted);font-size:.75rem;}
+    .loading-txt{color:var(--text);font-family:var(--serif);font-size:.88rem;}
+    .loading-sub{color:var(--muted);font-size:.72rem;}
+    #erro-box{margin:36px auto;max-width:440px;background:var(--surface2);border:1px solid var(--red);border-radius:8px;padding:24px;text-align:center;}
+    .erro-titulo{color:var(--red);font-family:var(--serif);font-size:.92rem;margin-bottom:7px;}
+    .erro-txt{color:var(--muted);font-size:.77rem;margin-bottom:14px;line-height:1.55;}
+    #aviso-box{margin:0 16px 12px;background:var(--surface2);border:1px solid var(--gold);border-radius:6px;padding:9px 13px;font-size:.73rem;color:var(--muted);display:flex;align-items:center;gap:8px;}
+    .aviso-icone{color:var(--gold);flex-shrink:0;}
 
-    #erro-box{margin:40px auto;max-width:460px;background:var(--surface2);border:1px solid var(--red);border-radius:8px;padding:28px;text-align:center;}
-    .erro-titulo{color:var(--red);font-family:var(--serif);font-size:.96rem;margin-bottom:8px;}
-    .erro-txt{color:var(--muted);font-size:.80rem;margin-bottom:18px;line-height:1.55;}
-
-    #aviso-box{margin:0 20px 16px;background:var(--surface2);border:1px solid var(--gold);border-radius:6px;padding:10px 14px;font-size:.76rem;color:var(--muted);display:flex;align-items:center;gap:8px;}
-    .aviso-icone{color:var(--gold);font-size:1rem;flex-shrink:0;}
-
-    #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;padding:20px;}
-    .vazio{grid-column:1/-1;color:var(--muted);font-size:.83rem;text-align:center;padding:40px 20px;}
-    .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:17px;display:flex;flex-direction:column;gap:9px;}
+    /* GRID NOTÍCIAS */
+    #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px;padding:16px;}
+    .vazio{grid-column:1/-1;color:var(--muted);font-size:.80rem;text-align:center;padding:36px 20px;}
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:15px;display:flex;flex-direction:column;gap:8px;}
     .card.destaque{border-left:3px solid var(--gold);}
-    .card-topo{display:flex;justify-content:space-between;align-items:center;gap:6px;}
-    .tag-prev{background:var(--green-bg);border:1px solid var(--green-bd);color:var(--green);font-size:.68rem;padding:2px 8px;border-radius:20px;font-weight:700;white-space:nowrap;}
-    .tag-saude{background:var(--blue-bg);border:1px solid var(--blue-bd);color:var(--blue);font-size:.68rem;padding:2px 8px;border-radius:20px;font-weight:700;white-space:nowrap;}
-    .card-data-hora{display:flex;align-items:center;font-size:.70rem;color:var(--muted);white-space:nowrap;gap:2px;}
+    .card-topo{display:flex;justify-content:space-between;align-items:center;gap:5px;}
+    .tag-prev{background:var(--green-bg);border:1px solid var(--green-bd);color:var(--green);font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .tag-saude{background:var(--blue-bg);border:1px solid var(--blue-bd);color:var(--blue);font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .tag-geral{background:#1a1a2e;border:1px solid #3a3a5e;color:#9a9ac8;font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .card-data-hora{display:flex;align-items:center;font-size:.67rem;color:var(--muted);white-space:nowrap;gap:2px;}
     .card-data{color:var(--gold);font-weight:700;}
     .sep{color:var(--border);margin:0 2px;}
-    .card-titulo{font-family:var(--serif);font-size:.92rem;font-weight:700;color:var(--text);line-height:1.4;}
-    .card-fonte{font-size:.71rem;color:var(--gold);}
-    .card-resumo{font-size:.80rem;color:var(--muted);line-height:1.65;flex:1;}
-    .card-acoes{display:flex;gap:7px;flex-wrap:wrap;padding-top:8px;border-top:1px solid var(--surface2);}
-    .btn-fav{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 9px;border-radius:5px;font-size:.70rem;transition:all .15s;}
+    .card-titulo{font-family:var(--serif);font-size:.89rem;font-weight:700;color:var(--text);line-height:1.4;}
+    .card-fonte{font-size:.68rem;color:var(--gold);}
+    .card-resumo{font-size:.77rem;color:var(--muted);line-height:1.65;flex:1;}
+    .card-acoes{display:flex;gap:6px;flex-wrap:wrap;padding-top:7px;border-top:1px solid var(--surface2);}
+    .btn-fav{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 8px;border-radius:5px;font-size:.67rem;transition:all .15s;}
     .btn-fav.ativo{background:#2a2010;border-color:var(--gold);color:var(--gold);font-weight:700;}
-    .btn-link{background:transparent;border:1px solid var(--border);color:var(--blue);padding:4px 9px;border-radius:5px;font-size:.70rem;}
-    .btn-pdf{background:transparent;border:1px solid var(--border);color:var(--green);padding:4px 9px;border-radius:5px;font-size:.70rem;}
+    .btn-link{background:transparent;border:1px solid var(--border);color:var(--blue);padding:3px 8px;border-radius:5px;font-size:.67rem;}
+    .btn-pdf{background:transparent;border:1px solid var(--border);color:var(--green);padding:3px 8px;border-radius:5px;font-size:.67rem;}
 
-    #secao-leg{padding:20px;}
-    .leg-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;}
-    .leg-titulo{font-family:var(--serif);font-size:1rem;color:var(--gold);font-weight:700;}
-    .btn-add{background:var(--gold);border:none;color:var(--bg);padding:7px 15px;border-radius:5px;font-size:.76rem;font-weight:700;}
-    #form-lei{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:16px;display:flex;flex-direction:column;gap:10px;}
-    .form-row{display:flex;gap:10px;}
-    .leg-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:8px 12px;color:var(--text);font-size:.80rem;outline:none;}
+    /* LEGISLAÇÃO */
+    #secao-leg{padding:16px;}
+    .leg-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px;}
+    .leg-titulo{font-family:var(--serif);font-size:.95rem;color:var(--gold);font-weight:700;}
+    .btn-add{background:var(--gold);border:none;color:var(--bg);padding:6px 13px;border-radius:5px;font-size:.73rem;font-weight:700;}
+    #form-lei{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:13px;margin-bottom:13px;display:flex;flex-direction:column;gap:8px;}
+    .form-row{display:flex;gap:8px;}
+    .leg-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:7px 10px;color:var(--text);font-size:.77rem;outline:none;}
     .leg-input:focus{border-color:var(--gold);}
     .tabela{width:100%;border-collapse:collapse;}
-    .th{text-align:left;padding:9px 13px;font-size:.69rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface2);}
-    .td{padding:10px 13px;font-size:.80rem;color:var(--text);border-bottom:1px solid var(--surface2);}
+    .th{text-align:left;padding:8px 11px;font-size:.66rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface2);}
+    .td{padding:9px 11px;font-size:.77rem;color:var(--text);border-bottom:1px solid var(--surface2);}
     .tr-par{background:var(--surface);}
     .tr-impar{background:#1a2535;}
-    .num-lei{color:var(--gold);font-weight:600;font-size:.76rem;}
-    .link-acesso{color:var(--blue);font-size:.76rem;font-weight:600;}
+    .num-lei{color:var(--gold);font-weight:600;font-size:.73rem;}
+    .link-acesso{color:var(--blue);font-size:.73rem;font-weight:600;}
     .link-acesso:hover{text-decoration:underline;}
 
-    .btn-salvar{background:var(--gold);border:none;color:var(--bg);padding:8px 20px;border-radius:5px;font-size:.79rem;font-weight:700;}
-    .btn-cancelar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:8px 20px;border-radius:5px;font-size:.79rem;}
+    /* PESQUISAR NORMAS */
+    #secao-pesquisa{padding:16px;}
+    .pesq-cabecalho{margin-bottom:16px;}
+    .pesq-titulo{font-family:var(--serif);font-size:.97rem;color:var(--gold);font-weight:700;margin-bottom:4px;}
+    .pesq-sub{font-size:.73rem;color:var(--muted);line-height:1.5;}
+    .pesq-form{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:10px;margin-bottom:14px;}
+    .pesq-campo-label{font-size:.67rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;margin-bottom:3px;}
+    .pesq-input{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:9px 12px;color:var(--text);font-size:.82rem;outline:none;}
+    .pesq-input:focus{border-color:var(--gold);}
+    .pesq-row{display:flex;gap:8px;}
+    .pesq-select{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:8px 10px;color:var(--text);font-size:.76rem;outline:none;}
+    .pesq-select:focus{border-color:var(--gold);}
+    .btn-buscar-dou{background:var(--gold);border:none;color:var(--bg);padding:11px 18px;border-radius:6px;font-size:.82rem;font-weight:700;width:100%;margin-top:2px;}
+    .btn-buscar-dou:hover{background:var(--gold-dim);}
 
+    .dou-resultado-info{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:13px;margin-bottom:14px;font-size:.77rem;color:var(--muted);line-height:1.6;}
+    .dou-resultado-info strong{color:var(--text);}
+
+    .atalhos-titulo{font-size:.70rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;}
+    .atalhos-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px;}
+    .btn-atalho{background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:11px 10px;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;text-decoration:none;transition:border-color .15s;}
+    .btn-atalho:hover{border-color:var(--gold);}
+    .atalho-icone{font-size:1.1rem;}
+    .atalho-nome{font-size:.76rem;color:var(--text);font-weight:600;}
+    .atalho-desc{font-size:.66rem;color:var(--muted);}
+
+    .salvar-manual{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;}
+    .salvar-manual-titulo{font-size:.76rem;color:var(--gold);font-weight:600;margin-bottom:10px;}
+    .salvar-manual-form{display:flex;flex-direction:column;gap:8px;}
+
+    /* BOTÕES GENÉRICOS */
+    .btn-salvar{background:var(--gold);border:none;color:var(--bg);padding:7px 16px;border-radius:5px;font-size:.76rem;font-weight:700;}
+    .btn-salvar:hover{background:var(--gold-dim);}
+    .btn-cancelar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:7px 16px;border-radius:5px;font-size:.76rem;}
+
+    /* MODAL */
     #modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:200;}
     #modal-overlay.oculto{display:none;}
-    #modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:28px;max-width:480px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.5);}
-    .modal-titulo{font-family:var(--serif);font-size:.97rem;color:var(--gold);font-weight:700;margin-bottom:14px;}
-    .modal-corpo{font-size:.83rem;color:var(--text);line-height:1.65;}
-    .modal-meta{color:var(--muted);font-size:.76rem;margin-top:4px;}
-    .modal-btns{display:flex;gap:10px;margin-top:20px;}
+    #modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:24px;max-width:460px;width:92%;box-shadow:0 20px 60px rgba(0,0,0,.5);}
+    .modal-titulo{font-family:var(--serif);font-size:.94rem;color:var(--gold);font-weight:700;margin-bottom:12px;}
+    .modal-corpo{font-size:.80rem;color:var(--text);line-height:1.65;}
+    .modal-meta{color:var(--muted);font-size:.73rem;margin-top:4px;}
+    .modal-btns{display:flex;gap:8px;margin-top:16px;}
 
-    #footer{background:var(--surface);border-top:1px solid var(--surface2);padding:11px 20px;display:flex;gap:10px;align-items:center;font-size:.70rem;color:var(--text);flex-wrap:wrap;}
+    /* RODAPÉ */
+    #footer{background:var(--surface);border-top:1px solid var(--surface2);padding:10px 16px;display:flex;gap:8px;align-items:center;font-size:.67rem;color:var(--text);flex-wrap:wrap;}
     .footer-sep{color:var(--border);}
     .footer-fontes{color:var(--muted);}
 
@@ -127,14 +165,16 @@
 
     @media(max-width:600px){
       #grid{grid-template-columns:1fr;}
-      .tabela{font-size:.72rem;}
-      .th,.td{padding:7px 9px;}
-      .header-dir{align-items:flex-start;}
+      .tabela{font-size:.70rem;}
+      .th,.td{padding:6px 8px;}
+      .pesq-row{flex-direction:column;}
+      .atalhos-grid{grid-template-columns:1fr;}
     }
   </style>
 </head>
 <body>
 <div id="app">
+
   <header id="header">
     <div>
       <div class="logo-nome">Prev<span class="logo-amp">&amp;</span>Saúde</div>
@@ -145,13 +185,14 @@
       <div class="abas">
         <button class="btn-aba ativo" data-aba="noticias">Notícias</button>
         <button class="btn-aba"       data-aba="legislacao">Legislação</button>
+        <button class="btn-aba"       data-aba="pesquisa">&#128269; Normas</button>
         <button class="btn-aba"       data-aba="favoritos">&#9733; Favoritos</button>
       </div>
     </div>
   </header>
 
   <div id="banner-instalar" class="oculto">
-    <div class="banner-txt"><strong>Instalar como aplicativo</strong> — acesse direto da tela inicial, sem abrir o navegador</div>
+    <div class="banner-txt"><strong>Instalar como aplicativo</strong> — acesse direto da tela inicial</div>
     <div class="banner-btns">
       <button class="btn-instalar" id="btn-instalar">&#8615; Instalar</button>
       <button class="btn-dispensar" id="btn-dispensar">Agora não</button>
@@ -167,14 +208,14 @@
       <span class="ultima-att" id="ultima-att"></span>
       <button class="btn-att" id="btn-att">&#8635; Atualizar</button>
     </div>
-    <input id="busca-input" class="oculto" type="text" placeholder="Buscar norma..." />
+    <input id="busca-leg-input" class="oculto" type="text" placeholder="Buscar norma salva..." />
   </div>
 
   <main id="main">
     <div id="loading">
       <div class="spinner"></div>
       <div class="loading-txt">Carregando notícias...</div>
-      <div class="loading-sub">STF &middot; Conjur &middot; Migalhas</div>
+      <div class="loading-sub">STF &middot; Agência Brasil &middot; TRF-1</div>
     </div>
     <div id="erro-box" class="oculto">
       <div class="erro-titulo">Não foi possível carregar as notícias</div>
@@ -186,38 +227,145 @@
       <span id="aviso-txt"></span>
     </div>
     <div id="grid" class="oculto"></div>
+
+    <!-- LEGISLAÇÃO -->
     <div id="secao-leg" class="oculto">
       <div class="leg-cab">
         <div class="leg-titulo">Banco de Legislação</div>
-        <button class="btn-add" id="btn-toggle-form">+ Adicionar norma</button>
+        <button class="btn-add" id="btn-toggle-form">+ Adicionar</button>
       </div>
       <div id="form-lei" class="oculto">
         <div class="form-row">
           <input class="leg-input" id="lei-numero" placeholder="Número (ex: Lei nº 8.213/1991)" />
-          <select class="leg-input" id="lei-area" style="flex:0 0 150px">
+          <select class="leg-input" id="lei-area" style="flex:0 0 140px">
             <option value="previdenciario">Previdenciário</option>
             <option value="saude">Saúde</option>
           </select>
         </div>
-        <input class="leg-input" id="lei-nome" placeholder="Nome da norma" />
+        <input class="leg-input" id="lei-nome" placeholder="Nome ou ementa da norma" />
         <input class="leg-input" id="lei-link" placeholder="Link de acesso (https://...)" />
-        <div style="display:flex;gap:10px">
-          <button class="btn-salvar" id="btn-salvar-lei">Salvar norma</button>
+        <div style="display:flex;gap:8px">
+          <button class="btn-salvar" id="btn-salvar-lei">Salvar</button>
           <button class="btn-cancelar" id="btn-cancelar-lei">Cancelar</button>
         </div>
       </div>
       <table class="tabela"><thead><tr>
         <th class="th">Número</th><th class="th">Nome</th>
-        <th class="th">Área</th><th class="th">Publicação</th><th class="th">Acesso</th>
+        <th class="th">Área</th><th class="th">Data</th><th class="th">Acesso</th>
       </tr></thead><tbody id="tbody-leg"></tbody></table>
       <div id="leg-vazio" class="vazio oculto">Nenhuma norma encontrada.</div>
     </div>
+
+    <!-- PESQUISAR NORMAS -->
+    <div id="secao-pesquisa" class="oculto">
+      <div class="pesq-cabecalho">
+        <div class="pesq-titulo">Pesquisar Normas</div>
+        <div class="pesq-sub">Busca no Diário Oficial da União. O resultado abre no DOU em uma nova aba, e você pode salvar a norma encontrada no seu banco.</div>
+      </div>
+
+      <div class="pesq-form">
+        <div>
+          <div class="pesq-campo-label">Termo de busca</div>
+          <input class="pesq-input" id="pesq-termo" placeholder="Ex: aposentadoria por incapacidade, plano de saúde, INSS..." />
+        </div>
+        <div class="pesq-row">
+          <div style="flex:1">
+            <div class="pesq-campo-label">Tipo de ato</div>
+            <select class="pesq-select" id="pesq-tipo">
+              <option value="">Todos os tipos</option>
+              <option value="PORTARIA">Portaria</option>
+              <option value="INSTRUCAO_NORMATIVA">Instrução Normativa</option>
+              <option value="RESOLUCAO">Resolução</option>
+              <option value="LEI">Lei</option>
+              <option value="DECRETO">Decreto</option>
+              <option value="MEDIDA_PROVISORIA">Medida Provisória</option>
+              <option value="EMENDA_CONSTITUCIONAL">Emenda Constitucional</option>
+              <option value="DESPACHO">Despacho</option>
+              <option value="EDITAL">Edital</option>
+            </select>
+          </div>
+          <div style="flex:1">
+            <div class="pesq-campo-label">Seção do DOU</div>
+            <select class="pesq-select" id="pesq-secao">
+              <option value="dou">Todas as seções</option>
+              <option value="do1" selected>Seção 1 — Atos normativos</option>
+              <option value="do2">Seção 2 — Servidores</option>
+              <option value="do3">Seção 3 — Contratos e editais</option>
+              <option value="doe">Edição Extra</option>
+            </select>
+          </div>
+        </div>
+        <div>
+          <div class="pesq-campo-label">Período</div>
+          <select class="pesq-select" id="pesq-data" style="width:100%">
+            <option value="todos">Qualquer data</option>
+            <option value="hoje">Hoje</option>
+            <option value="semana">Últimos 7 dias</option>
+            <option value="mes">Último mês</option>
+            <option value="ano">Último ano</option>
+          </select>
+        </div>
+        <button class="btn-buscar-dou" id="btn-buscar-dou">Buscar no Diário Oficial &#8599;</button>
+      </div>
+
+      <div class="atalhos-titulo">Acesso direto por órgão</div>
+      <div class="atalhos-grid">
+        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=INSS&secao=do1&sortType=0" target="_blank" rel="noreferrer">
+          <span class="atalho-icone">&#127970;</span>
+          <span class="atalho-nome">INSS</span>
+          <span class="atalho-desc">Portarias e instruções normativas</span>
+        </a>
+        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=ANS&secao=do1&sortType=0" target="_blank" rel="noreferrer">
+          <span class="atalho-icone">&#127973;</span>
+          <span class="atalho-nome">ANS</span>
+          <span class="atalho-desc">Resoluções normativas de saúde</span>
+        </a>
+        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=previdencia&secao=do1&sortType=0" target="_blank" rel="noreferrer">
+          <span class="atalho-icone">&#128196;</span>
+          <span class="atalho-nome">Previdência</span>
+          <span class="atalho-desc">Normas previdenciárias em geral</span>
+        </a>
+        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=saude+suplementar&secao=do1&sortType=0" target="_blank" rel="noreferrer">
+          <span class="atalho-icone">&#128138;</span>
+          <span class="atalho-nome">Saúde Suplementar</span>
+          <span class="atalho-desc">Planos e cobertura obrigatória</span>
+        </a>
+        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=aposentadoria&secao=do1&sortType=0" target="_blank" rel="noreferrer">
+          <span class="atalho-icone">&#128100;</span>
+          <span class="atalho-nome">Aposentadoria</span>
+          <span class="atalho-desc">Normas sobre benefícios</span>
+        </a>
+        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=plano+de+saude&secao=do1&sortType=0" target="_blank" rel="noreferrer">
+          <span class="atalho-icone">&#128203;</span>
+          <span class="atalho-nome">Planos de Saúde</span>
+          <span class="atalho-desc">Regulamentação e coberturas</span>
+        </a>
+      </div>
+
+      <!-- SALVAR NORMA ENCONTRADA -->
+      <div class="salvar-manual">
+        <div class="salvar-manual-titulo">&#10010; Salvar norma encontrada no banco</div>
+        <div class="salvar-manual-form">
+          <input class="leg-input" id="mn-numero" placeholder="Número (ex: Portaria MPS nº 1.432/2026)" />
+          <input class="leg-input" id="mn-nome" placeholder="Ementa ou nome da norma" />
+          <input class="leg-input" id="mn-link" placeholder="Link do DOU (cole aqui após abrir a norma)" />
+          <div class="form-row">
+            <select class="leg-input" id="mn-area">
+              <option value="previdenciario">Previdenciário</option>
+              <option value="saude">Saúde</option>
+            </select>
+            <button class="btn-salvar" id="btn-salvar-manual" style="flex:0 0 auto">Salvar no banco</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
   </main>
 
   <footer id="footer">
     <span>Izabela Gonçalves Advocacia</span>
     <span class="footer-sep">&middot;</span>
-    <span class="footer-fontes">Fontes: STF &middot; Conjur &middot; Migalhas</span>
+    <span class="footer-fontes">Fontes: DOU &middot; STF &middot; Agência Brasil &middot; TRF-1</span>
   </footer>
 </div>
 
@@ -227,7 +375,7 @@
     <div class="modal-corpo">
       <strong id="modal-titulo-txt"></strong>
       <div class="modal-meta" id="modal-meta-txt"></div>
-      <p style="margin-top:12px;font-size:.82rem" id="modal-resumo-txt"></p>
+      <p style="margin-top:11px;font-size:.79rem" id="modal-resumo-txt"></p>
     </div>
     <div class="modal-btns">
       <button class="btn-salvar" id="btn-gerar-pdf">Gerar PDF</button>
@@ -248,7 +396,7 @@ const LEGISLACOES_BASE = [
 let state = {
   aba:'noticias', filtro:'todos', busca:'', carregando:false,
   noticias:[], favoritos:ls('prev_favs',[]),
-  legislacoes:ls('prev_legs',LEGISLACOES_BASE),
+  legislacoes:ls('prev_legs', LEGISLACOES_BASE),
   noticiaModal:null, ultimaAtt:'', aviso:'',
 };
 
@@ -260,26 +408,23 @@ function fmtHora(d){return d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'
 function mostrar(id){document.getElementById(id)?.classList.remove('oculto');}
 function ocultar(id){document.getElementById(id)?.classList.add('oculto');}
 
-/* ═══ CARREGA news.json ═══ */
+/* ═══ BUSCA news.json ═══ */
 async function buscarNoticias(){
-  state.carregando = true; render();
-  try {
-    // news.json fica no mesmo servidor — sem CORS, sem proxy
-    const resp = await fetch('news.json?t=' + Date.now());
+  state.carregando=true; render();
+  try{
+    const resp = await fetch('news.json?t='+Date.now());
     if(!resp.ok) throw new Error('news.json não encontrado (HTTP '+resp.status+')');
     const dados = await resp.json();
     const favIds = new Set(state.favoritos.map(f=>f.id));
-    state.noticias = (dados.noticias||[]).map(n=>({...n, favorito:favIds.has(n.id)}));
-    state.ultimaAtt = dados.atualizado || '';
-    state.aviso = dados.aviso || '';
-  } catch(e){
-    state.carregando = false;
-    document.getElementById('erro-txt').textContent = e.message +
-      '. Certifique-se de que o arquivo news.json está no repositório e que o GitHub Actions já rodou.';
+    state.noticias = (dados.noticias||[]).map(n=>({...n,favorito:favIds.has(n.id)}));
+    state.ultimaAtt = dados.atualizado||'';
+    state.aviso = dados.aviso||'';
+  }catch(e){
+    state.carregando=false;
+    document.getElementById('erro-txt').textContent = e.message;
     ocultar('loading'); mostrar('erro-box'); return;
   }
-  state.carregando = false;
-  render();
+  state.carregando=false; render();
 }
 
 /* ═══ RENDER ═══ */
@@ -287,22 +432,27 @@ function render(){
   document.getElementById('data-hoje').textContent = dataHoje();
   document.querySelectorAll('.btn-aba').forEach(b=>b.classList.toggle('ativo',b.dataset.aba===state.aba));
   document.querySelectorAll('.btn-filtro').forEach(b=>b.classList.toggle('ativo',b.dataset.filtro===state.filtro));
-  const isLeg = state.aba==='legislacao';
-  document.getElementById('att-wrap')?.classList.toggle('oculto',isLeg);
-  document.getElementById('busca-input')?.classList.toggle('oculto',!isLeg);
+
+  const isLeg   = state.aba==='legislacao';
+  const isPesq  = state.aba==='pesquisa';
+  const isFiltro= !isLeg && !isPesq;
+  document.getElementById('filtro-bar').style.display = isPesq ? 'none' : '';
+  document.getElementById('att-wrap')?.classList.toggle('oculto', isLeg||isPesq);
+  document.getElementById('busca-leg-input')?.classList.toggle('oculto', !isLeg);
+
   const ua=document.getElementById('ultima-att');
   if(ua) ua.textContent = state.ultimaAtt ? 'Atualizado: '+state.ultimaAtt : '';
-  document.getElementById('btn-att').disabled = state.carregando;
+  const btnAtt=document.getElementById('btn-att');
+  if(btnAtt) btnAtt.disabled=state.carregando;
 
-  ocultar('loading'); ocultar('erro-box'); ocultar('grid'); ocultar('secao-leg'); ocultar('aviso-box');
+  ocultar('loading'); ocultar('erro-box'); ocultar('grid');
+  ocultar('secao-leg'); ocultar('secao-pesquisa'); ocultar('aviso-box');
 
-  if(state.aba==='legislacao'){ renderLeg(); mostrar('secao-leg'); return; }
+  if(isPesq)    { mostrar('secao-pesquisa'); return; }
+  if(isLeg)     { renderLeg(); mostrar('secao-leg'); return; }
   if(state.carregando){ mostrar('loading'); return; }
 
-  if(state.aviso){
-    document.getElementById('aviso-txt').textContent = state.aviso;
-    mostrar('aviso-box');
-  }
+  if(state.aviso){ document.getElementById('aviso-txt').textContent=state.aviso; mostrar('aviso-box'); }
 
   const pool = state.aba==='favoritos'
     ? state.noticias.filter(n=>state.favoritos.some(f=>f.id===n.id))
@@ -320,13 +470,19 @@ function render(){
   filtradas.forEach(n=>grid.appendChild(criarCard(n,state.aba==='favoritos')));
 }
 
+function tagClass(area){
+  if(area==='previdenciario') return 'tag-prev';
+  if(area==='saude')          return 'tag-saude';
+  return 'tag-geral';
+}
+
 function criarCard(n,destaque){
   const isFav=state.favoritos.some(f=>f.id===n.id);
   const div=document.createElement('div');
   div.className='card'+(destaque?' destaque':'');
   div.innerHTML=`
     <div class="card-topo">
-      <span class="${n.area==='previdenciario'?'tag-prev':'tag-saude'}">${n.tag}</span>
+      <span class="${tagClass(n.area)}">${n.tag}</span>
       <span class="card-data-hora">
         ${n.data?`<span class="card-data">${n.data}</span><span class="sep"> &middot; </span>`:''}
         <span>${n.hora||''}</span>
@@ -338,7 +494,7 @@ function criarCard(n,destaque){
     <div class="card-acoes">
       <button class="btn-fav${isFav?' ativo':''}" data-id="${n.id}">${isFav?'★ Favoritado':'☆ Favoritar'}</button>
       ${n.link?`<a class="btn-link" href="${n.link}" target="_blank" rel="noreferrer">Acessar fonte ↗</a>`:''}
-      <button class="btn-pdf" data-id="${n.id}">&#8595; PDF</button>
+      <button class="btn-pdf" data-id="${n.id}">↓ PDF</button>
     </div>`;
   div.querySelector('.btn-fav').addEventListener('click',()=>toggleFav(n.id));
   div.querySelector('.btn-pdf').addEventListener('click',()=>abrirModal(n));
@@ -358,13 +514,49 @@ function renderLeg(){
     const tr=document.createElement('tr'); tr.className=i%2===0?'tr-par':'tr-impar';
     tr.innerHTML=`<td class="td"><span class="num-lei">${l.numero}</span></td>
       <td class="td">${l.nome}</td>
-      <td class="td"><span class="${l.area==='previdenciario'?'tag-prev':'tag-saude'}">${l.area==='previdenciario'?'Previdenciário':'Saúde'}</span></td>
-      <td class="td" style="color:var(--muted);font-size:.77rem">${l.data}</td>
+      <td class="td"><span class="${tagClass(l.area)}">${l.area==='previdenciario'?'Prev.':'Saúde'}</span></td>
+      <td class="td" style="color:var(--muted);font-size:.72rem">${l.data}</td>
       <td class="td">${l.link?`<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a>`:'<span style="color:var(--muted)">—</span>'}</td>`;
     tbody.appendChild(tr);
   });
 }
 
+/* ═══ PESQUISA NO DOU ═══ */
+function buildDouUrl(){
+  const termo  = document.getElementById('pesq-termo').value.trim();
+  const tipo   = document.getElementById('pesq-tipo').value;
+  const secao  = document.getElementById('pesq-secao').value;
+  const periodo= document.getElementById('pesq-data').value;
+
+  if(!termo){ document.getElementById('pesq-termo').focus(); return null; }
+
+  const base = 'https://www.in.gov.br/consulta/-/buscar/dou';
+  const p = new URLSearchParams({ s: termo, numberPage:'1', sortType:'0', delta:'20' });
+
+  if(tipo)       p.set('artType', tipo);
+  if(secao!=='dou') p.set('secao', secao);
+
+  if(periodo==='hoje'){
+    const hoje = new Date();
+    const dd = String(hoje.getDate()).padStart(2,'0');
+    const mm = String(hoje.getMonth()+1).padStart(2,'0');
+    const aa = hoje.getFullYear();
+    p.set('exactDate', `${dd}-${mm}-${aa}`);
+  } else if(periodo==='semana'){
+    const d = new Date(); d.setDate(d.getDate()-7);
+    p.set('dataInicio', `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+  } else if(periodo==='mes'){
+    const d = new Date(); d.setMonth(d.getMonth()-1);
+    p.set('dataInicio', `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+  } else if(periodo==='ano'){
+    const d = new Date(); d.setFullYear(d.getFullYear()-1);
+    p.set('dataInicio', `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+  }
+
+  return `${base}?${p.toString()}`;
+}
+
+/* ═══ AÇÕES ═══ */
 function toggleFav(id){
   const n=state.noticias.find(x=>x.id===id); if(!n) return;
   const idx=state.favoritos.findIndex(f=>f.id===id);
@@ -397,17 +589,37 @@ ${n.link?`<div class="rod">Fonte: <a href="${n.link}">${n.link}</a></div>`:''}
   w.document.close(); w.print(); fecharModal();
 }
 
-function adicionarLei(){
-  const numero=document.getElementById('lei-numero').value.trim();
-  const nome=document.getElementById('lei-nome').value.trim();
-  if(!numero||!nome) return;
-  state.legislacoes.push({id:Date.now(),numero,nome,area:document.getElementById('lei-area').value,
-    link:document.getElementById('lei-link').value.trim(),data:fmtData(new Date())});
+function salvarNorma(numero, nome, link, area){
+  if(!numero||!nome) return false;
+  state.legislacoes.push({id:Date.now(),numero,nome,area,link,data:fmtData(new Date())});
   sv('prev_legs',state.legislacoes);
+  return true;
+}
+
+function adicionarLei(){
+  const ok = salvarNorma(
+    document.getElementById('lei-numero').value.trim(),
+    document.getElementById('lei-nome').value.trim(),
+    document.getElementById('lei-link').value.trim(),
+    document.getElementById('lei-area').value
+  );
+  if(!ok) return;
   ['lei-numero','lei-nome','lei-link'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('form-lei').classList.add('oculto');
-  document.getElementById('btn-toggle-form').textContent='+ Adicionar norma';
+  document.getElementById('btn-toggle-form').textContent='+ Adicionar';
   renderLeg();
+}
+
+function salvarManual(){
+  const ok = salvarNorma(
+    document.getElementById('mn-numero').value.trim(),
+    document.getElementById('mn-nome').value.trim(),
+    document.getElementById('mn-link').value.trim(),
+    document.getElementById('mn-area').value
+  );
+  if(!ok){ alert('Preencha ao menos o número e o nome da norma.'); return; }
+  ['mn-numero','mn-nome','mn-link'].forEach(id=>document.getElementById(id).value='');
+  alert('Norma salva no banco de legislação!');
 }
 
 /* ═══ PWA ═══ */
@@ -418,8 +630,7 @@ window.addEventListener('beforeinstallprompt',e=>{
 });
 document.getElementById('btn-instalar')?.addEventListener('click',async()=>{
   if(!deferredPrompt) return;
-  deferredPrompt.prompt();
-  await deferredPrompt.userChoice;
+  deferredPrompt.prompt(); await deferredPrompt.userChoice;
   deferredPrompt=null; ocultar('banner-instalar');
 });
 document.getElementById('btn-dispensar')?.addEventListener('click',()=>{
@@ -430,24 +641,35 @@ window.addEventListener('appinstalled',()=>ocultar('banner-instalar'));
 /* ═══ EVENTOS ═══ */
 document.querySelectorAll('.btn-aba').forEach(b=>b.addEventListener('click',()=>{
   state.aba=b.dataset.aba; state.filtro='todos'; state.busca='';
-  const bi=document.getElementById('busca-input'); if(bi) bi.value='';
+  const bi=document.getElementById('busca-leg-input'); if(bi) bi.value='';
   render();
 }));
 document.querySelectorAll('.btn-filtro').forEach(b=>b.addEventListener('click',()=>{state.filtro=b.dataset.filtro;render();}));
 document.getElementById('btn-att')?.addEventListener('click',()=>buscarNoticias());
 document.getElementById('btn-retry')?.addEventListener('click',()=>{ocultar('erro-box');buscarNoticias();});
-document.getElementById('busca-input')?.addEventListener('input',e=>{state.busca=e.target.value;renderLeg();});
+document.getElementById('busca-leg-input')?.addEventListener('input',e=>{state.busca=e.target.value;renderLeg();});
+
 document.getElementById('btn-toggle-form')?.addEventListener('click',()=>{
   const f=document.getElementById('form-lei'),btn=document.getElementById('btn-toggle-form');
   const aberto=!f.classList.contains('oculto');
   f.classList.toggle('oculto',aberto);
-  btn.textContent=aberto?'+ Adicionar norma':'✕ Cancelar';
+  btn.textContent=aberto?'+ Adicionar':'✕ Cancelar';
 });
 document.getElementById('btn-salvar-lei')?.addEventListener('click',adicionarLei);
 document.getElementById('btn-cancelar-lei')?.addEventListener('click',()=>{
   document.getElementById('form-lei').classList.add('oculto');
-  document.getElementById('btn-toggle-form').textContent='+ Adicionar norma';
+  document.getElementById('btn-toggle-form').textContent='+ Adicionar';
 });
+
+document.getElementById('btn-buscar-dou')?.addEventListener('click',()=>{
+  const url=buildDouUrl(); if(!url) return;
+  window.open(url,'_blank','noreferrer');
+});
+document.getElementById('pesq-termo')?.addEventListener('keydown',e=>{
+  if(e.key==='Enter'){ const url=buildDouUrl(); if(url) window.open(url,'_blank','noreferrer'); }
+});
+document.getElementById('btn-salvar-manual')?.addEventListener('click', salvarManual);
+
 document.getElementById('btn-gerar-pdf')?.addEventListener('click',gerarPdf);
 document.getElementById('btn-fechar-modal')?.addEventListener('click',fecharModal);
 document.getElementById('modal-overlay')?.addEventListener('click',e=>{
