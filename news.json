@@ -1,6 +1,85 @@
 {
-  "noticias": [],
-  "atualizado": "16/05/2026 às 17:46",
-  "total": 0,
-  "aviso": "Feeds temporariamente indisponiveis. Exibindo ultima atualizacao bem-sucedida."
+  "noticias": [
+    {
+      "id": "STF_1",
+      "area": "previdenciario",
+      "tag": "STF",
+      "titulo": "STF retoma julgamento sobre revisao do beneficio previdenciario para trabalhadores rurais",
+      "fonte": "STF",
+      "resumo": "O Plenario do STF pautou para esta semana o julgamento sobre o direito de trabalhadores rurais a revisao do salario de beneficio considerando contribuicoes anteriores a Lei 9.876/1999.",
+      "link": "https://portal.stf.jus.br/noticias",
+      "data": "16/05/2026",
+      "hora": "09:15",
+      "ts": 1778955404804,
+      "favorito": false
+    },
+    {
+      "id": "STF_2",
+      "area": "saude",
+      "tag": "STF",
+      "titulo": "STF decide sobre obrigacao de plano de saude custear tratamento experimental",
+      "fonte": "STF",
+      "resumo": "O Supremo Tribunal Federal fixou entendimento sobre os limites da obrigacao das operadoras de planos de saude de custear procedimentos nao incluidos no rol da ANS.",
+      "link": "https://portal.stf.jus.br/noticias",
+      "data": "16/05/2026",
+      "hora": "10:30",
+      "ts": 1778955403804,
+      "favorito": false
+    },
+    {
+      "id": "STJ_1",
+      "area": "previdenciario",
+      "tag": "STJ",
+      "titulo": "STJ afasta prescricao em acao de revisao de beneficio previdenciario urbano",
+      "fonte": "STJ",
+      "resumo": "A Primeira Secao do STJ definiu que o prazo prescricional nas acoes revisionais de beneficios previdenciarios e decenal, contado da concessao do beneficio.",
+      "link": "https://www.stj.jus.br",
+      "data": "16/05/2026",
+      "hora": "11:00",
+      "ts": 1778955402804,
+      "favorito": false
+    },
+    {
+      "id": "ANS_1",
+      "area": "saude",
+      "tag": "ANS",
+      "titulo": "ANS publica resolucao ampliando cobertura obrigatoria de saude mental nos planos",
+      "fonte": "ANS",
+      "resumo": "A Agencia Nacional de Saude Suplementar publicou resolucao normativa que amplia a cobertura obrigatoria de sessoes de psicoterapia e tratamento psiquiatrico nos planos de saude.",
+      "link": "https://www.ans.gov.br",
+      "data": "16/05/2026",
+      "hora": "08:45",
+      "ts": 1778955401804,
+      "favorito": false
+    },
+    {
+      "id": "INSS_1",
+      "area": "previdenciario",
+      "tag": "INSS",
+      "titulo": "INSS regulamenta pericia medica por videoconferencia para segurados de municipios remotos",
+      "fonte": "INSS",
+      "resumo": "Instrucao Normativa do INSS disciplina os criterios para realizacao de pericia medica remota, ampliando o acesso de segurados residentes em municipios sem agencia ou medico perito credenciado.",
+      "link": "https://www.gov.br/inss",
+      "data": "16/05/2026",
+      "hora": "14:20",
+      "ts": 1778955400804,
+      "favorito": false
+    },
+    {
+      "id": "TRF1_1",
+      "area": "previdenciario",
+      "tag": "TRF-1",
+      "titulo": "TRF-1 condena INSS a conceder aposentadoria por incapacidade permanente a segurado do Para",
+      "fonte": "TRF-1",
+      "resumo": "A Primeira Turma do TRF-1 manteve sentenca que determinou ao INSS a concessao de aposentadoria por incapacidade permanente a segurado residente no Para, reconhecendo laudo pericial que atestou incapacidade total para o trabalho.",
+      "link": "https://www.trf1.jus.br",
+      "data": "16/05/2026",
+      "hora": "15:00",
+      "ts": 1778955399804,
+      "favorito": false
+    }
+  ],
+  "atualizado": "16/05/2026 as 09:00",
+  "total": 6,
+  "aviso": "Noticias de exemplo. O GitHub Actions atualizara automaticamente nos dias uteis."
 }
