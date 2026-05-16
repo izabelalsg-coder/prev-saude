@@ -10,7 +10,6 @@
   <meta name="apple-mobile-web-app-title" content="Prev &amp; Saúde" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <link rel="apple-touch-icon" href="icon-192.png" />
-  <meta name="description" content="Atualização jurídica diária em Direito Previdenciário e Direito da Saúde." />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -23,13 +22,12 @@
       --sans:'Segoe UI',system-ui,sans-serif;
     }
     html,body{height:100%;}
-    body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;font-size:15px;}
+    body{font-family:var(--sans);background:var(--bg);color:var(--text);min-height:100vh;display:flex;flex-direction:column;}
     a{color:inherit;text-decoration:none;}
     button{font-family:inherit;cursor:pointer;}
     input,select{font-family:inherit;}
     #app{display:flex;flex-direction:column;min-height:100vh;}
 
-    /* CABEÇALHO */
     #header{background:var(--surface);border-bottom:2px solid var(--gold);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;}
     .logo-nome{font-family:var(--serif);font-size:1.45rem;font-weight:700;color:var(--gold);}
     .logo-amp{color:var(--text);margin:0 3px;}
@@ -41,7 +39,13 @@
     .btn-aba:hover{border-color:var(--gold);color:var(--gold);}
     .btn-aba.ativo{background:var(--gold);border-color:var(--gold);color:var(--bg);font-weight:700;}
 
-    /* BARRA DE FILTROS */
+    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:11px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
+    .banner-txt{font-size:.78rem;color:var(--text);}
+    .banner-txt strong{color:var(--gold);}
+    .banner-btns{display:flex;gap:8px;}
+    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:6px 16px;border-radius:5px;font-size:.75rem;font-weight:700;}
+    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:6px 12px;border-radius:5px;font-size:.75rem;}
+
     #filtro-bar{background:var(--surface);border-bottom:1px solid var(--surface2);padding:9px 20px;display:flex;align-items:center;gap:7px;flex-wrap:wrap;}
     .filtro-label{font-size:.69rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
     .btn-filtro{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 11px;border-radius:20px;font-size:.73rem;transition:all .15s;}
@@ -49,40 +53,27 @@
     .btn-filtro.ativo{background:var(--surface2);border-color:var(--gold);color:var(--gold);font-weight:600;}
     .att-wrap{margin-left:auto;display:flex;align-items:center;gap:10px;}
     .ultima-att{font-size:.69rem;color:var(--muted);}
-    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:4px 13px;border-radius:5px;font-size:.73rem;transition:all .15s;}
-    .btn-att:hover{border-color:var(--gold);background:rgba(212,169,74,.08);}
+    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:4px 13px;border-radius:5px;font-size:.73rem;}
     .btn-att:disabled{opacity:.5;cursor:default;}
     #busca-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 12px;color:var(--text);font-size:.77rem;outline:none;width:220px;}
 
-    /* BANNER INSTALAR APP */
-    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:11px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;}
-    .banner-txt{font-size:.78rem;color:var(--text);}
-    .banner-txt strong{color:var(--gold);}
-    .banner-btns{display:flex;gap:8px;}
-    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:6px 16px;border-radius:5px;font-size:.75rem;font-weight:700;}
-    .btn-instalar:hover{background:var(--gold-dim);}
-    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:6px 12px;border-radius:5px;font-size:.75rem;}
-
-    /* CONTEÚDO */
     #main{flex:1;overflow-y:auto;}
 
-    /* LOADING */
     #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:70px 20px;gap:18px;}
     .spinner{width:34px;height:34px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite;}
     @keyframes spin{to{transform:rotate(360deg);}}
     .loading-txt{color:var(--text);font-family:var(--serif);font-size:.92rem;}
     .loading-sub{color:var(--muted);font-size:.75rem;}
 
-    /* ERRO */
     #erro-box{margin:40px auto;max-width:460px;background:var(--surface2);border:1px solid var(--red);border-radius:8px;padding:28px;text-align:center;}
     .erro-titulo{color:var(--red);font-family:var(--serif);font-size:.96rem;margin-bottom:8px;}
     .erro-txt{color:var(--muted);font-size:.80rem;margin-bottom:18px;line-height:1.55;}
 
-    /* GRID */
+    #aviso-box{margin:0 20px 16px;background:var(--surface2);border:1px solid var(--gold);border-radius:6px;padding:10px 14px;font-size:.76rem;color:var(--muted);display:flex;align-items:center;gap:8px;}
+    .aviso-icone{color:var(--gold);font-size:1rem;flex-shrink:0;}
+
     #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(310px,1fr));gap:16px;padding:20px;}
     .vazio{grid-column:1/-1;color:var(--muted);font-size:.83rem;text-align:center;padding:40px 20px;}
-
-    /* CARD */
     .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:17px;display:flex;flex-direction:column;gap:9px;}
     .card.destaque{border-left:3px solid var(--gold);}
     .card-topo{display:flex;justify-content:space-between;align-items:center;gap:6px;}
@@ -97,18 +88,13 @@
     .card-acoes{display:flex;gap:7px;flex-wrap:wrap;padding-top:8px;border-top:1px solid var(--surface2);}
     .btn-fav{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 9px;border-radius:5px;font-size:.70rem;transition:all .15s;}
     .btn-fav.ativo{background:#2a2010;border-color:var(--gold);color:var(--gold);font-weight:700;}
-    .btn-fav:hover:not(.ativo){border-color:var(--gold);color:var(--gold);}
     .btn-link{background:transparent;border:1px solid var(--border);color:var(--blue);padding:4px 9px;border-radius:5px;font-size:.70rem;}
-    .btn-link:hover{border-color:var(--blue);}
     .btn-pdf{background:transparent;border:1px solid var(--border);color:var(--green);padding:4px 9px;border-radius:5px;font-size:.70rem;}
-    .btn-pdf:hover{border-color:var(--green);}
 
-    /* LEGISLAÇÃO */
     #secao-leg{padding:20px;}
     .leg-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;}
     .leg-titulo{font-family:var(--serif);font-size:1rem;color:var(--gold);font-weight:700;}
     .btn-add{background:var(--gold);border:none;color:var(--bg);padding:7px 15px;border-radius:5px;font-size:.76rem;font-weight:700;}
-    .btn-add:hover{background:var(--gold-dim);}
     #form-lei{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:16px;margin-bottom:16px;display:flex;flex-direction:column;gap:10px;}
     .form-row{display:flex;gap:10px;}
     .leg-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:8px 12px;color:var(--text);font-size:.80rem;outline:none;}
@@ -122,12 +108,9 @@
     .link-acesso{color:var(--blue);font-size:.76rem;font-weight:600;}
     .link-acesso:hover{text-decoration:underline;}
 
-    /* BOTÕES GENÉRICOS */
     .btn-salvar{background:var(--gold);border:none;color:var(--bg);padding:8px 20px;border-radius:5px;font-size:.79rem;font-weight:700;}
-    .btn-salvar:hover{background:var(--gold-dim);}
     .btn-cancelar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:8px 20px;border-radius:5px;font-size:.79rem;}
 
-    /* MODAL */
     #modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:200;}
     #modal-overlay.oculto{display:none;}
     #modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:28px;max-width:480px;width:90%;box-shadow:0 20px 60px rgba(0,0,0,.5);}
@@ -136,7 +119,6 @@
     .modal-meta{color:var(--muted);font-size:.76rem;margin-top:4px;}
     .modal-btns{display:flex;gap:10px;margin-top:20px;}
 
-    /* RODAPÉ */
     #footer{background:var(--surface);border-top:1px solid var(--surface2);padding:11px 20px;display:flex;gap:10px;align-items:center;font-size:.70rem;color:var(--text);flex-wrap:wrap;}
     .footer-sep{color:var(--border);}
     .footer-fontes{color:var(--muted);}
@@ -168,9 +150,8 @@
     </div>
   </header>
 
-  <!-- BANNER INSTALAR APP (aparece quando disponível) -->
   <div id="banner-instalar" class="oculto">
-    <div class="banner-txt"><strong>Instalar como aplicativo</strong> — abra sem navegador, direto da tela inicial</div>
+    <div class="banner-txt"><strong>Instalar como aplicativo</strong> — acesse direto da tela inicial, sem abrir o navegador</div>
     <div class="banner-btns">
       <button class="btn-instalar" id="btn-instalar">&#8615; Instalar</button>
       <button class="btn-dispensar" id="btn-dispensar">Agora não</button>
@@ -192,13 +173,17 @@
   <main id="main">
     <div id="loading">
       <div class="spinner"></div>
-      <div class="loading-txt">Buscando notícias jurídicas de hoje...</div>
+      <div class="loading-txt">Carregando notícias...</div>
       <div class="loading-sub">STF &middot; Conjur &middot; Migalhas</div>
     </div>
     <div id="erro-box" class="oculto">
       <div class="erro-titulo">Não foi possível carregar as notícias</div>
       <div class="erro-txt" id="erro-txt"></div>
       <button class="btn-salvar" id="btn-retry">Tentar novamente</button>
+    </div>
+    <div id="aviso-box" class="oculto">
+      <span class="aviso-icone">&#9432;</span>
+      <span id="aviso-txt"></span>
     </div>
     <div id="grid" class="oculto"></div>
     <div id="secao-leg" class="oculto">
@@ -221,13 +206,10 @@
           <button class="btn-cancelar" id="btn-cancelar-lei">Cancelar</button>
         </div>
       </div>
-      <table class="tabela" id="tabela-leg">
-        <thead><tr>
-          <th class="th">Número</th><th class="th">Nome</th>
-          <th class="th">Área</th><th class="th">Publicação</th><th class="th">Acesso</th>
-        </tr></thead>
-        <tbody id="tbody-leg"></tbody>
-      </table>
+      <table class="tabela"><thead><tr>
+        <th class="th">Número</th><th class="th">Nome</th>
+        <th class="th">Área</th><th class="th">Publicação</th><th class="th">Acesso</th>
+      </tr></thead><tbody id="tbody-leg"></tbody></table>
       <div id="leg-vazio" class="vazio oculto">Nenhuma norma encontrada.</div>
     </div>
   </main>
@@ -255,39 +237,6 @@
 </div>
 
 <script>
-/* ═══ CONFIG ═══ */
-// rss2json.com converte RSS em JSON sem necessidade de chave para uso básico
-const RSS2JSON = 'https://api.rss2json.com/v1/api.json?count=30&rss_url=';
-
-const FEEDS = [
-  { url:'https://portal.stf.jus.br/noticias/rss.asp',     fonte:'STF',      tag:'STF'      },
-  { url:'https://www.conjur.com.br/rss.xml',               fonte:'Conjur',   tag:'Conjur'   },
-  { url:'https://www.migalhas.com.br/rss/quentes',         fonte:'Migalhas', tag:'Migalhas' },
-];
-
-const PALAVRAS_PREV = [
-  'previdência','previdenciário','previdenciária','previdenciario','previdenciaria',
-  'inss','rgps','rpps','regime próprio','regime geral',
-  'aposentadoria','aposentado','auxílio-doença','auxilio-doença','auxílio doença',
-  'auxílio-acidente','pensão por morte','pensao por morte',
-  'salário de benefício','salario de beneficio','salário-benefício',
-  'tempo de contribuição','carência previdenciária','reforma da previdência',
-  'ec 103','emenda constitucional 103','segurado','contribuinte individual',
-  'revisão da vida toda','superendividamento','lei 14.181','lei 8.213','lei 8213',
-  'benefício assistencial','bpc','loas','incapacidade laborativa',
-];
-
-const PALAVRAS_SAUDE = [
-  'plano de saúde','plano de saude','planos de saúde','planos de saude',
-  'ans','agência nacional de saúde','agencia nacional de saude',
-  'sus','sistema único de saúde','saúde suplementar','saude suplementar',
-  'cobertura médica','cobertura hospitalar','cobertura obrigatória',
-  'internação','internacao','cirurgia','tratamento médico','tratamento de saúde',
-  'rol de procedimentos','reajuste de plano','portabilidade de carência',
-  'lei 9.656','lei 9656','medicamento','oncologia','quimioterapia',
-  'plano hospitalar','operadora de saúde',
-];
-
 const LEGISLACOES_BASE = [
   {id:1,numero:'Lei nº 8.213/1991',nome:'Planos de Benefícios da Previdência Social',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm',data:'24/07/1991'},
   {id:2,numero:'EC nº 103/2019',nome:'Reforma da Previdência',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm',data:'12/11/2019'},
@@ -296,198 +245,98 @@ const LEGISLACOES_BASE = [
   {id:5,numero:'Lei nº 14.181/2021',nome:'Superendividamento e Proteção do Consumidor',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14181.htm',data:'01/07/2021'},
 ];
 
-/* ═══ ESTADO ═══ */
 let state = {
-  aba:'noticias', filtro:'todos', carregando:false, busca:'',
-  noticias: ls('prev_cache',[]),
-  favoritos: ls('prev_favs',[]),
-  legislacoes: ls('prev_legs', LEGISLACOES_BASE),
-  noticiaModal: null,
-  ultimaAtt: localStorage.getItem('prev_att') || '',
-  cacheTs: Number(localStorage.getItem('prev_ts') || 0),
+  aba:'noticias', filtro:'todos', busca:'', carregando:false,
+  noticias:[], favoritos:ls('prev_favs',[]),
+  legislacoes:ls('prev_legs',LEGISLACOES_BASE),
+  noticiaModal:null, ultimaAtt:'', aviso:'',
 };
 
-/* ═══ UTILITÁRIOS ═══ */
 function ls(k,d){try{return JSON.parse(localStorage.getItem(k))||d;}catch{return d;}}
 function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}
-
 function dataHoje(){return new Date().toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});}
 function fmtData(d){return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});}
 function fmtHora(d){return d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}
+function mostrar(id){document.getElementById(id)?.classList.remove('oculto');}
+function ocultar(id){document.getElementById(id)?.classList.add('oculto');}
 
-function limpar(s){
-  if(!s)return'';
-  return s.replace(/<[^>]*>/g,'').replace(/&nbsp;/g,' ').replace(/&amp;/g,'&')
-          .replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"')
-          .replace(/&#39;/g,"'").replace(/\s+/g,' ').trim();
-}
-function trunc(s,n){if(!s||s.length<=n)return s||'';return s.slice(0,n).trim()+'…';}
-
-function classificar(titulo,desc){
-  const t=(titulo+' '+desc).toLowerCase();
-  const p=PALAVRAS_PREV.some(w=>t.includes(w));
-  const s=PALAVRAS_SAUDE.some(w=>t.includes(w));
-  if(p)return'previdenciario';
-  if(s)return'saude';
-  return null;
-}
-function detectarTag(titulo,fonte){
-  const t=titulo.toLowerCase();
-  if(t.includes('stf')||fonte==='STF') return'STF';
-  if(t.includes('stj'))                return'STJ';
-  if(t.includes('inss'))               return'INSS';
-  if(t.includes(' ans ')||t.includes('agência nacional de saúde')) return'ANS';
-  if(t.includes('trf')||t.includes('tribunal regional')) return'TRF';
-  if(t.includes('portaria')||t.includes('instrução normativa')||t.includes('resolução normativa')) return'Normativa';
-  if(t.includes('lei ')||t.includes('decreto')) return'Legislação';
-  if(t.includes('súmula')||t.includes('acórdão')) return'Jurisprudência';
-  return fonte;
-}
-
-/* ═══ BUSCA DE FEEDS ═══ */
-async function parseFeed(feedCfg){
-  const url = RSS2JSON + encodeURIComponent(feedCfg.url);
-  const resp = await fetch(url, {signal: AbortSignal.timeout(12000)});
-  if(!resp.ok) throw new Error('Erro HTTP '+resp.status);
-  const data = await resp.json();
-  if(data.status !== 'ok') throw new Error('Feed retornou erro: '+feedCfg.url);
-
-  const resultado = [];
-  for(const item of (data.items||[])){
-    const titulo = limpar(item.title || '');
-    const desc   = limpar(item.description || item.content || '');
-    const link   = (item.link || item.guid || '').trim();
-    if(!titulo) continue;
-
-    const area = classificar(titulo, desc);
-    if(!area) continue;
-
-    const pub = new Date(item.pubDate);
-    const dataObj = isNaN(pub) ? new Date() : pub;
-
-    resultado.push({
-      id: feedCfg.fonte + '_' + (link || titulo).slice(0,80),
-      area,
-      tag:    detectarTag(titulo, feedCfg.fonte),
-      titulo: trunc(titulo, 120),
-      fonte:  feedCfg.fonte,
-      resumo: trunc(desc, 240),
-      link,
-      data:   fmtData(dataObj),
-      hora:   fmtHora(dataObj),
-      ts:     dataObj.getTime(),
-      favorito: false,
-    });
-  }
-  return resultado;
-}
-
-async function buscarTodos(){
-  const CACHE_TTL = 60*60*1000; // 1 hora
-  const agora = Date.now();
-
-  if(state.noticias.length && agora - state.cacheTs < CACHE_TTL){
-    state.ultimaAtt = localStorage.getItem('prev_att') || '';
-    render(); return;
-  }
-
+/* ═══ CARREGA news.json ═══ */
+async function buscarNoticias(){
   state.carregando = true; render();
-
-  const res = await Promise.allSettled(FEEDS.map(f => parseFeed(f)));
-  let todas = [];
-  res.forEach(r => { if(r.status==='fulfilled') todas = todas.concat(r.value); });
-
-  // Remove duplicatas por link
-  const vistos = new Set();
-  todas = todas.filter(n => {
-    const k = n.link||n.titulo;
-    if(vistos.has(k)) return false;
-    vistos.add(k); return true;
-  });
-
-  // Ordena por mais recente
-  todas.sort((a,b) => b.ts - a.ts);
-
-  // Preserva favoritos existentes
-  const favIds = new Set(state.favoritos.map(f=>f.id));
-  todas = todas.map(n => ({...n, favorito: favIds.has(n.id)}));
-
-  if(!todas.length){
+  try {
+    // news.json fica no mesmo servidor — sem CORS, sem proxy
+    const resp = await fetch('news.json?t=' + Date.now());
+    if(!resp.ok) throw new Error('news.json não encontrado (HTTP '+resp.status+')');
+    const dados = await resp.json();
+    const favIds = new Set(state.favoritos.map(f=>f.id));
+    state.noticias = (dados.noticias||[]).map(n=>({...n, favorito:favIds.has(n.id)}));
+    state.ultimaAtt = dados.atualizado || '';
+    state.aviso = dados.aviso || '';
+  } catch(e){
     state.carregando = false;
-    document.getElementById('erro-txt').textContent =
-      'Nenhuma notícia encontrada nos feeds. Verifique sua conexão ou tente novamente em alguns minutos.';
-    mostrar('erro-box'); ocultar('loading'); ocultar('grid');
-    return;
+    document.getElementById('erro-txt').textContent = e.message +
+      '. Certifique-se de que o arquivo news.json está no repositório e que o GitHub Actions já rodou.';
+    ocultar('loading'); mostrar('erro-box'); return;
   }
-
-  state.noticias  = todas;
-  state.cacheTs   = agora;
-  state.ultimaAtt = fmtHora(new Date());
-  sv('prev_cache', todas);
-  localStorage.setItem('prev_ts',  String(agora));
-  localStorage.setItem('prev_att', state.ultimaAtt);
   state.carregando = false;
   render();
 }
 
-/* ═══ RENDERIZAÇÃO ═══ */
-function mostrar(id){document.getElementById(id)?.classList.remove('oculto');}
-function ocultar(id){document.getElementById(id)?.classList.add('oculto');}
-
+/* ═══ RENDER ═══ */
 function render(){
   document.getElementById('data-hoje').textContent = dataHoje();
-  document.querySelectorAll('.btn-aba').forEach(b => b.classList.toggle('ativo', b.dataset.aba===state.aba));
-  document.querySelectorAll('.btn-filtro').forEach(b => b.classList.toggle('ativo', b.dataset.filtro===state.filtro));
+  document.querySelectorAll('.btn-aba').forEach(b=>b.classList.toggle('ativo',b.dataset.aba===state.aba));
+  document.querySelectorAll('.btn-filtro').forEach(b=>b.classList.toggle('ativo',b.dataset.filtro===state.filtro));
+  const isLeg = state.aba==='legislacao';
+  document.getElementById('att-wrap')?.classList.toggle('oculto',isLeg);
+  document.getElementById('busca-input')?.classList.toggle('oculto',!isLeg);
+  const ua=document.getElementById('ultima-att');
+  if(ua) ua.textContent = state.ultimaAtt ? 'Atualizado: '+state.ultimaAtt : '';
+  document.getElementById('btn-att').disabled = state.carregando;
 
-  const isLeg = state.aba === 'legislacao';
-  document.getElementById('att-wrap')?.classList.toggle('oculto', isLeg);
-  document.getElementById('busca-input')?.classList.toggle('oculto', !isLeg);
+  ocultar('loading'); ocultar('erro-box'); ocultar('grid'); ocultar('secao-leg'); ocultar('aviso-box');
 
-  const ua = document.getElementById('ultima-att');
-  if(ua) ua.textContent = state.ultimaAtt ? 'Atualizado às '+state.ultimaAtt : '';
-  const btnAtt = document.getElementById('btn-att');
-  if(btnAtt) btnAtt.disabled = state.carregando;
-
-  ocultar('loading'); ocultar('erro-box'); ocultar('grid'); ocultar('secao-leg');
-
-  if(state.aba === 'legislacao'){ renderLeg(); mostrar('secao-leg'); return; }
+  if(state.aba==='legislacao'){ renderLeg(); mostrar('secao-leg'); return; }
   if(state.carregando){ mostrar('loading'); return; }
 
-  const pool = state.aba==='favoritos'
-    ? state.noticias.filter(n => state.favoritos.some(f=>f.id===n.id))
-    : state.noticias;
+  if(state.aviso){
+    document.getElementById('aviso-txt').textContent = state.aviso;
+    mostrar('aviso-box');
+  }
 
-  const filtradas = pool.filter(n => state.filtro==='todos' || n.area===state.filtro);
-  const grid = document.getElementById('grid');
-  grid.innerHTML = ''; mostrar('grid');
+  const pool = state.aba==='favoritos'
+    ? state.noticias.filter(n=>state.favoritos.some(f=>f.id===n.id))
+    : state.noticias;
+  const filtradas = pool.filter(n=>state.filtro==='todos'||n.area===state.filtro);
+  const grid=document.getElementById('grid'); grid.innerHTML=''; mostrar('grid');
 
   if(!filtradas.length){
     const d=document.createElement('div'); d.className='vazio';
-    d.textContent = state.aba==='favoritos'
-      ? 'Você ainda não favoritou nenhuma notícia. Use o botão "☆ Favoritar" nos cards.'
-      : 'Nenhuma notícia encontrada para este filtro.';
+    d.textContent=state.aba==='favoritos'
+      ?'Você ainda não favoritou nenhuma notícia.'
+      :'Nenhuma notícia encontrada para este filtro.';
     grid.appendChild(d); return;
   }
-  filtradas.forEach(n => grid.appendChild(criarCard(n, state.aba==='favoritos')));
+  filtradas.forEach(n=>grid.appendChild(criarCard(n,state.aba==='favoritos')));
 }
 
-function criarCard(n, destaque){
-  const isFav = state.favoritos.some(f=>f.id===n.id);
-  const div = document.createElement('div');
-  div.className = 'card'+(destaque?' destaque':'');
-  div.innerHTML = `
+function criarCard(n,destaque){
+  const isFav=state.favoritos.some(f=>f.id===n.id);
+  const div=document.createElement('div');
+  div.className='card'+(destaque?' destaque':'');
+  div.innerHTML=`
     <div class="card-topo">
       <span class="${n.area==='previdenciario'?'tag-prev':'tag-saude'}">${n.tag}</span>
       <span class="card-data-hora">
         ${n.data?`<span class="card-data">${n.data}</span><span class="sep"> &middot; </span>`:''}
-        <span>${n.hora}</span>
+        <span>${n.hora||''}</span>
       </span>
     </div>
     <div class="card-titulo">${n.titulo}</div>
     <div class="card-fonte">${n.fonte}</div>
     <div class="card-resumo">${n.resumo||'Sem descrição disponível.'}</div>
     <div class="card-acoes">
-      <button class="btn-fav ${isFav?'ativo':''}" data-id="${n.id}">${isFav?'★ Favoritado':'☆ Favoritar'}</button>
+      <button class="btn-fav${isFav?' ativo':''}" data-id="${n.id}">${isFav?'★ Favoritado':'☆ Favoritar'}</button>
       ${n.link?`<a class="btn-link" href="${n.link}" target="_blank" rel="noreferrer">Acessar fonte ↗</a>`:''}
       <button class="btn-pdf" data-id="${n.id}">&#8595; PDF</button>
     </div>`;
@@ -497,158 +346,119 @@ function criarCard(n, destaque){
 }
 
 function renderLeg(){
-  const q = state.busca.toLowerCase();
-  const lista = state.legislacoes.filter(l=>{
-    const m = l.numero.toLowerCase().includes(q)||l.nome.toLowerCase().includes(q);
-    const a = state.filtro==='todos'||l.area===state.filtro;
-    return m && a;
+  const q=state.busca.toLowerCase();
+  const lista=state.legislacoes.filter(l=>{
+    const m=l.numero.toLowerCase().includes(q)||l.nome.toLowerCase().includes(q);
+    const a=state.filtro==='todos'||l.area===state.filtro;
+    return m&&a;
   });
-  const tbody = document.getElementById('tbody-leg');
-  const vazio  = document.getElementById('leg-vazio');
-  tbody.innerHTML = '';
-  if(!lista.length){ mostrar('leg-vazio'); return; }
-  ocultar('leg-vazio');
+  const tbody=document.getElementById('tbody-leg'); tbody.innerHTML='';
+  if(!lista.length){mostrar('leg-vazio');return;} ocultar('leg-vazio');
   lista.forEach((l,i)=>{
-    const tr = document.createElement('tr');
-    tr.className = i%2===0?'tr-par':'tr-impar';
-    tr.innerHTML = `
-      <td class="td"><span class="num-lei">${l.numero}</span></td>
+    const tr=document.createElement('tr'); tr.className=i%2===0?'tr-par':'tr-impar';
+    tr.innerHTML=`<td class="td"><span class="num-lei">${l.numero}</span></td>
       <td class="td">${l.nome}</td>
       <td class="td"><span class="${l.area==='previdenciario'?'tag-prev':'tag-saude'}">${l.area==='previdenciario'?'Previdenciário':'Saúde'}</span></td>
       <td class="td" style="color:var(--muted);font-size:.77rem">${l.data}</td>
-      <td class="td">${l.link?`<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a>`:'<span style="color:var(--muted);font-size:.74rem">Não informado</span>'}</td>`;
+      <td class="td">${l.link?`<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a>`:'<span style="color:var(--muted)">—</span>'}</td>`;
     tbody.appendChild(tr);
   });
 }
 
-/* ═══ AÇÕES ═══ */
 function toggleFav(id){
-  const n = state.noticias.find(x=>x.id===id);
-  if(!n) return;
-  const idx = state.favoritos.findIndex(f=>f.id===id);
-  if(idx>=0) state.favoritos.splice(idx,1);
-  else state.favoritos.push({...n, favorito:true});
-  sv('prev_favs', state.favoritos);
-  render();
+  const n=state.noticias.find(x=>x.id===id); if(!n) return;
+  const idx=state.favoritos.findIndex(f=>f.id===id);
+  if(idx>=0) state.favoritos.splice(idx,1); else state.favoritos.push({...n,favorito:true});
+  sv('prev_favs',state.favoritos); render();
 }
 
 function abrirModal(n){
-  state.noticiaModal = n;
-  document.getElementById('modal-titulo-txt').textContent = n.titulo;
-  document.getElementById('modal-meta-txt').textContent   = `${n.fonte} · ${n.data} às ${n.hora}`;
-  document.getElementById('modal-resumo-txt').textContent = n.resumo;
+  state.noticiaModal=n;
+  document.getElementById('modal-titulo-txt').textContent=n.titulo;
+  document.getElementById('modal-meta-txt').textContent=`${n.fonte} · ${n.data||''} às ${n.hora||''}`;
+  document.getElementById('modal-resumo-txt').textContent=n.resumo;
   document.getElementById('modal-overlay').classList.remove('oculto');
 }
-function fecharModal(){
-  document.getElementById('modal-overlay').classList.add('oculto');
-  state.noticiaModal = null;
-}
+function fecharModal(){document.getElementById('modal-overlay').classList.add('oculto');state.noticiaModal=null;}
 
 function gerarPdf(){
-  const n = state.noticiaModal; if(!n) return;
-  const w = window.open('','_blank');
+  const n=state.noticiaModal; if(!n) return;
+  const w=window.open('','_blank');
   w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>${n.titulo}</title>
 <style>body{font-family:Georgia,serif;padding:50px;max-width:720px;margin:auto;color:#1a1a1a}
 h2{font-size:1.2rem;margin-bottom:8px}.meta{color:#555;font-size:13px;margin-bottom:3px}
 hr{border:1px solid #ccc;margin:20px 0}p{line-height:1.8;font-size:15px}
-.rodape{margin-top:30px;font-size:11px;color:#888}</style></head><body>
-<h2>${n.titulo}</h2>
-<div class="meta">${n.fonte}</div>
-<div class="meta">${n.data} às ${n.hora}</div>
+.rod{margin-top:30px;font-size:11px;color:#888}</style></head><body>
+<h2>${n.titulo}</h2><div class="meta">${n.fonte}</div><div class="meta">${n.data||''} às ${n.hora||''}</div>
 <hr><p>${n.resumo}</p>
-${n.link?`<div class="rodape">Fonte: <a href="${n.link}">${n.link}</a></div>`:''}
-<div class="rodape">Gerado por Prev&amp;Saúde Diário — Izabela Gonçalves Advocacia</div>
+${n.link?`<div class="rod">Fonte: <a href="${n.link}">${n.link}</a></div>`:''}
+<div class="rod">Gerado por Prev&amp;Saúde Diário — Izabela Gonçalves Advocacia</div>
 </body></html>`);
   w.document.close(); w.print(); fecharModal();
 }
 
 function adicionarLei(){
-  const numero = document.getElementById('lei-numero').value.trim();
-  const nome   = document.getElementById('lei-nome').value.trim();
-  const area   = document.getElementById('lei-area').value;
-  const link   = document.getElementById('lei-link').value.trim();
+  const numero=document.getElementById('lei-numero').value.trim();
+  const nome=document.getElementById('lei-nome').value.trim();
   if(!numero||!nome) return;
-  state.legislacoes.push({id:Date.now(),numero,nome,area,link,data:fmtData(new Date())});
-  sv('prev_legs', state.legislacoes);
-  document.getElementById('lei-numero').value='';
-  document.getElementById('lei-nome').value='';
-  document.getElementById('lei-link').value='';
+  state.legislacoes.push({id:Date.now(),numero,nome,area:document.getElementById('lei-area').value,
+    link:document.getElementById('lei-link').value.trim(),data:fmtData(new Date())});
+  sv('prev_legs',state.legislacoes);
+  ['lei-numero','lei-nome','lei-link'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('form-lei').classList.add('oculto');
   document.getElementById('btn-toggle-form').textContent='+ Adicionar norma';
   renderLeg();
 }
 
-/* ═══ PWA — INSTALAR APP ═══ */
-let deferredPrompt = null;
-
-window.addEventListener('beforeinstallprompt', e => {
-  e.preventDefault();
-  deferredPrompt = e;
-  // Só mostra o banner se ainda não foi dispensado
-  if(!localStorage.getItem('prev_dispensou_instalar')){
-    mostrar('banner-instalar');
-  }
+/* ═══ PWA ═══ */
+let deferredPrompt=null;
+window.addEventListener('beforeinstallprompt',e=>{
+  e.preventDefault(); deferredPrompt=e;
+  if(!localStorage.getItem('prev_dispensou')) mostrar('banner-instalar');
 });
-
-document.getElementById('btn-instalar')?.addEventListener('click', async () => {
+document.getElementById('btn-instalar')?.addEventListener('click',async()=>{
   if(!deferredPrompt) return;
   deferredPrompt.prompt();
-  const {outcome} = await deferredPrompt.userChoice;
-  deferredPrompt = null;
-  ocultar('banner-instalar');
+  await deferredPrompt.userChoice;
+  deferredPrompt=null; ocultar('banner-instalar');
 });
-
-document.getElementById('btn-dispensar')?.addEventListener('click', () => {
-  localStorage.setItem('prev_dispensou_instalar','1');
-  ocultar('banner-instalar');
+document.getElementById('btn-dispensar')?.addEventListener('click',()=>{
+  localStorage.setItem('prev_dispensou','1'); ocultar('banner-instalar');
 });
-
-window.addEventListener('appinstalled', () => { ocultar('banner-instalar'); });
+window.addEventListener('appinstalled',()=>ocultar('banner-instalar'));
 
 /* ═══ EVENTOS ═══ */
-document.querySelectorAll('.btn-aba').forEach(b => b.addEventListener('click',()=>{
+document.querySelectorAll('.btn-aba').forEach(b=>b.addEventListener('click',()=>{
   state.aba=b.dataset.aba; state.filtro='todos'; state.busca='';
   const bi=document.getElementById('busca-input'); if(bi) bi.value='';
   render();
 }));
-document.querySelectorAll('.btn-filtro').forEach(b => b.addEventListener('click',()=>{
-  state.filtro=b.dataset.filtro; render();
-}));
-document.getElementById('btn-att')?.addEventListener('click',()=>{
-  state.cacheTs=0; buscarTodos();
-});
-document.getElementById('btn-retry')?.addEventListener('click',()=>{
-  ocultar('erro-box'); buscarTodos();
-});
-document.getElementById('busca-input')?.addEventListener('input',e=>{
-  state.busca=e.target.value; renderLeg();
-});
+document.querySelectorAll('.btn-filtro').forEach(b=>b.addEventListener('click',()=>{state.filtro=b.dataset.filtro;render();}));
+document.getElementById('btn-att')?.addEventListener('click',()=>buscarNoticias());
+document.getElementById('btn-retry')?.addEventListener('click',()=>{ocultar('erro-box');buscarNoticias();});
+document.getElementById('busca-input')?.addEventListener('input',e=>{state.busca=e.target.value;renderLeg();});
 document.getElementById('btn-toggle-form')?.addEventListener('click',()=>{
-  const f=document.getElementById('form-lei');
-  const btn=document.getElementById('btn-toggle-form');
+  const f=document.getElementById('form-lei'),btn=document.getElementById('btn-toggle-form');
   const aberto=!f.classList.contains('oculto');
   f.classList.toggle('oculto',aberto);
   btn.textContent=aberto?'+ Adicionar norma':'✕ Cancelar';
 });
-document.getElementById('btn-salvar-lei')?.addEventListener('click', adicionarLei);
+document.getElementById('btn-salvar-lei')?.addEventListener('click',adicionarLei);
 document.getElementById('btn-cancelar-lei')?.addEventListener('click',()=>{
   document.getElementById('form-lei').classList.add('oculto');
   document.getElementById('btn-toggle-form').textContent='+ Adicionar norma';
 });
-document.getElementById('btn-gerar-pdf')?.addEventListener('click', gerarPdf);
-document.getElementById('btn-fechar-modal')?.addEventListener('click', fecharModal);
+document.getElementById('btn-gerar-pdf')?.addEventListener('click',gerarPdf);
+document.getElementById('btn-fechar-modal')?.addEventListener('click',fecharModal);
 document.getElementById('modal-overlay')?.addEventListener('click',e=>{
   if(e.target===document.getElementById('modal-overlay')) fecharModal();
 });
 
 /* ═══ SERVICE WORKER ═══ */
-if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('sw.js').catch(()=>{});
-}
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 
 /* ═══ INIT ═══ */
-render();       // exibe cache imediatamente
-buscarTodos();  // atualiza em background
+buscarNoticias();
 </script>
 </body>
 </html>
