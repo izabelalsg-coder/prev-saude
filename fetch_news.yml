@@ -15,21 +15,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Instalar dependências
-        run: pip install requests feedparser
-
-      - name: Buscar noticias
+      - name: Rodar script
         run: python3 fetch_news.py
 
-      - name: Commit e push
+      - name: Salvar news.json
         run: |
-          git config user.name "Prev Saude Bot"
-          git config user.email "actions@github.com"
+          git config user.name "bot"
+          git config user.email "bot@github.com"
           git add news.json
-          git diff --staged --quiet || git commit -m "Noticias $(date +'%d/%m/%Y %H:%M')"
+          git diff --staged --quiet || git commit -m "noticias $(date +'%d/%m/%Y')"
           git push
