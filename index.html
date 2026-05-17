@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
   <title>Prev &amp; Saúde — Atualização Jurídica Diária</title>
-  <link rel="manifest" href="manifest.json" />
-  <meta name="theme-color" content="#152035" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-title" content="Prev &amp; Saúde" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <link rel="apple-touch-icon" href="icon-192.png" />
+  <link rel="manifest" href="manifest.json"/>
+  <meta name="theme-color" content="#152035"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-title" content="Prev &amp; Saúde"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <link rel="apple-touch-icon" href="icon-192.png"/>
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    :root {
-      --bg:#0d1b2a; --surface:#152035; --surface2:#1c2d44; --border:#243650;
-      --gold:#d4a94a; --gold-dim:#b8893a; --text:#e8ddd0; --muted:#7a8fa6;
-      --green:#4caf89; --green-bg:#1a3d2e; --green-bd:#2d7a5f;
-      --blue:#4a9edd; --blue-bg:#1a2a3d; --blue-bd:#2d5a7a;
-      --red:#e05d5d;
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    :root{
+      --bg:#0d1b2a;--surface:#152035;--surface2:#1c2d44;--border:#243650;
+      --gold:#d4a94a;--gold-dim:#b8893a;--text:#e8ddd0;--muted:#7a8fa6;
+      --green:#4caf89;--green-bg:#1a3d2e;--green-bd:#2d7a5f;
+      --blue:#4a9edd;--blue-bg:#1a2a3d;--blue-bd:#2d5a7a;
+      --red:#e05d5d;--red-bg:#2d1a1a;--red-bd:#7a2d2d;
+      --amber:#e0a03d;--amber-bg:#2d2010;--amber-bd:#7a5a1a;
       --serif:Georgia,'Times New Roman',serif;
       --sans:'Segoe UI',system-ui,sans-serif;
     }
@@ -29,143 +30,198 @@
     #app{display:flex;flex-direction:column;min-height:100vh;}
 
     /* CABEÇALHO */
-    #header{background:var(--surface);border-bottom:2px solid var(--gold);padding:12px 16px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px;}
-    .logo-nome{font-family:var(--serif);font-size:1.35rem;font-weight:700;color:var(--gold);}
-    .logo-amp{color:var(--text);margin:0 3px;}
-    .logo-sub{font-size:.62rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:2px;}
-    .header-dir{display:flex;flex-direction:column;align-items:flex-end;gap:7px;}
-    .data-badge{font-size:.72rem;color:var(--gold);text-transform:capitalize;}
-    .abas{display:flex;gap:5px;flex-wrap:wrap;}
-    .btn-aba{background:transparent;border:1px solid var(--border);color:var(--muted);padding:5px 10px;border-radius:5px;font-size:.72rem;transition:all .15s;}
+    #header{background:var(--surface);border-bottom:2px solid var(--gold);padding:11px 14px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+    .logo-nome{font-family:var(--serif);font-size:1.3rem;font-weight:700;color:var(--gold);}
+    .logo-amp{color:var(--text);margin:0 2px;}
+    .logo-sub{font-size:.60rem;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:2px;}
+    .header-dir{display:flex;flex-direction:column;align-items:flex-end;gap:6px;}
+    .data-badge{font-size:.70rem;color:var(--gold);text-transform:capitalize;}
+    .header-status{display:flex;align-items:center;gap:6px;}
+    .offline-badge{font-size:.65rem;background:var(--amber-bg);border:1px solid var(--amber-bd);color:var(--amber);padding:2px 7px;border-radius:20px;display:none;}
+    .abas{display:flex;gap:4px;flex-wrap:wrap;}
+    .btn-aba{background:transparent;border:1px solid var(--border);color:var(--muted);padding:4px 9px;border-radius:5px;font-size:.70rem;transition:all .15s;}
     .btn-aba:hover{border-color:var(--gold);color:var(--gold);}
     .btn-aba.ativo{background:var(--gold);border-color:var(--gold);color:var(--bg);font-weight:700;}
 
-    /* BANNER INSTALAR */
-    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:10px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;}
-    .banner-txt{font-size:.75rem;color:var(--text);}
+    /* BANNER */
+    #banner-instalar{background:linear-gradient(135deg,var(--surface2),#1a2d3e);border-bottom:1px solid var(--gold);padding:9px 14px;display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;}
+    .banner-txt{font-size:.74rem;color:var(--text);}
     .banner-txt strong{color:var(--gold);}
-    .banner-btns{display:flex;gap:7px;}
-    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:5px 13px;border-radius:5px;font-size:.72rem;font-weight:700;}
-    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:5px 10px;border-radius:5px;font-size:.72rem;}
+    .banner-btns{display:flex;gap:6px;}
+    .btn-instalar{background:var(--gold);border:none;color:var(--bg);padding:5px 12px;border-radius:5px;font-size:.71rem;font-weight:700;}
+    .btn-dispensar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:5px 9px;border-radius:5px;font-size:.71rem;}
 
-    /* BARRA DE FILTROS */
-    #filtro-bar{background:var(--surface);border-bottom:1px solid var(--surface2);padding:8px 16px;display:flex;align-items:center;gap:6px;flex-wrap:wrap;}
-    .filtro-label{font-size:.67rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
-    .btn-filtro{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 10px;border-radius:20px;font-size:.70rem;transition:all .15s;}
+    /* FILTROS */
+    #filtro-bar{background:var(--surface);border-bottom:1px solid var(--surface2);padding:7px 14px;display:flex;align-items:center;gap:5px;flex-wrap:wrap;}
+    .filtro-label{font-size:.65rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;}
+    .btn-filtro{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 9px;border-radius:20px;font-size:.69rem;transition:all .15s;}
     .btn-filtro:hover{border-color:var(--gold);color:var(--gold);}
     .btn-filtro.ativo{background:var(--surface2);border-color:var(--gold);color:var(--gold);font-weight:600;}
-    .att-wrap{margin-left:auto;display:flex;align-items:center;gap:8px;}
-    .ultima-att{font-size:.67rem;color:var(--muted);}
-    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:3px 11px;border-radius:5px;font-size:.70rem;}
+    .att-wrap{margin-left:auto;display:flex;align-items:center;gap:7px;}
+    .ultima-att{font-size:.65rem;color:var(--muted);}
+    .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:3px 10px;border-radius:5px;font-size:.69rem;}
     .btn-att:disabled{opacity:.5;cursor:default;}
-    #busca-leg-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 11px;color:var(--text);font-size:.74rem;outline:none;width:190px;}
+    #busca-leg-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;color:var(--text);font-size:.73rem;outline:none;width:180px;}
 
-    /* CONTEÚDO */
+    /* MAIN */
     #main{flex:1;overflow-y:auto;}
-    #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:16px;}
-    .spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite;}
+    #loading{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:14px;}
+    .spinner{width:30px;height:30px;border:3px solid var(--border);border-top-color:var(--gold);border-radius:50%;animation:spin .9s linear infinite;}
     @keyframes spin{to{transform:rotate(360deg);}}
-    .loading-txt{color:var(--text);font-family:var(--serif);font-size:.88rem;}
-    .loading-sub{color:var(--muted);font-size:.72rem;}
-    #erro-box{margin:36px auto;max-width:440px;background:var(--surface2);border:1px solid var(--red);border-radius:8px;padding:24px;text-align:center;}
-    .erro-titulo{color:var(--red);font-family:var(--serif);font-size:.92rem;margin-bottom:7px;}
-    .erro-txt{color:var(--muted);font-size:.77rem;margin-bottom:14px;line-height:1.55;}
-    #aviso-box{margin:0 16px 12px;background:var(--surface2);border:1px solid var(--gold);border-radius:6px;padding:9px 13px;font-size:.73rem;color:var(--muted);display:flex;align-items:center;gap:8px;}
-    .aviso-icone{color:var(--gold);flex-shrink:0;}
+    .loading-txt{color:var(--text);font-family:var(--serif);font-size:.87rem;}
+    .loading-sub{color:var(--muted);font-size:.71rem;}
+    #erro-box{margin:32px auto;max-width:420px;background:var(--surface2);border:1px solid var(--red);border-radius:8px;padding:22px;text-align:center;}
+    .erro-titulo{color:var(--red);font-family:var(--serif);font-size:.90rem;margin-bottom:6px;}
+    .erro-txt{color:var(--muted);font-size:.75rem;margin-bottom:13px;line-height:1.55;}
+    #aviso-box{margin:0 14px 11px;background:var(--surface2);border:1px solid var(--gold);border-radius:6px;padding:8px 12px;font-size:.71rem;color:var(--muted);display:flex;align-items:center;gap:7px;}
+
+    /* ALERTA VINCULANTE */
+    #alerta-vinculante{margin:0 14px 11px;background:#1a1000;border:1px solid var(--gold);border-radius:8px;overflow:hidden;}
+    .alerta-header{background:var(--gold);padding:7px 12px;display:flex;align-items:center;gap:8px;}
+    .alerta-header-txt{font-size:.72rem;color:var(--bg);font-weight:700;letter-spacing:.5px;text-transform:uppercase;}
+    .alerta-lista{padding:10px 12px;display:flex;flex-direction:column;gap:8px;}
+    .alerta-item{display:flex;flex-direction:column;gap:3px;}
+    .alerta-titulo{font-size:.78rem;color:var(--text);font-weight:600;}
+    .alerta-fonte{font-size:.67rem;color:var(--gold);}
+    .alerta-link{font-size:.67rem;color:var(--blue);}
+
+    /* BOLETIM */
+    #btn-boletim-wrap{padding:0 14px 11px;display:flex;gap:8px;}
+    .btn-boletim{background:var(--surface2);border:1px solid var(--border);color:var(--text);padding:7px 14px;border-radius:6px;font-size:.73rem;display:flex;align-items:center;gap:6px;}
+    .btn-boletim:hover{border-color:var(--gold);}
 
     /* GRID NOTÍCIAS */
-    #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:13px;padding:16px;}
-    .vazio{grid-column:1/-1;color:var(--muted);font-size:.80rem;text-align:center;padding:36px 20px;}
-    .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:15px;display:flex;flex-direction:column;gap:8px;}
+    #grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(295px,1fr));gap:12px;padding:14px;}
+    .vazio{grid-column:1/-1;color:var(--muted);font-size:.79rem;text-align:center;padding:34px 20px;}
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:13px;display:flex;flex-direction:column;gap:7px;}
     .card.destaque{border-left:3px solid var(--gold);}
-    .card-topo{display:flex;justify-content:space-between;align-items:center;gap:5px;}
-    .tag-prev{background:var(--green-bg);border:1px solid var(--green-bd);color:var(--green);font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap;}
-    .tag-saude{background:var(--blue-bg);border:1px solid var(--blue-bd);color:var(--blue);font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap;}
-    .tag-geral{background:#1a1a2e;border:1px solid #3a3a5e;color:#9a9ac8;font-size:.65rem;padding:2px 7px;border-radius:20px;font-weight:700;white-space:nowrap;}
-    .card-data-hora{display:flex;align-items:center;font-size:.67rem;color:var(--muted);white-space:nowrap;gap:2px;}
+    .card.vinculante{border-color:var(--gold);background:#14200e;}
+    .card-topo{display:flex;justify-content:space-between;align-items:center;gap:4px;flex-wrap:wrap;}
+    .tag-prev{background:var(--green-bg);border:1px solid var(--green-bd);color:var(--green);font-size:.63rem;padding:2px 6px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .tag-saude{background:var(--blue-bg);border:1px solid var(--blue-bd);color:var(--blue);font-size:.63rem;padding:2px 6px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .tag-geral{background:#1a1a2e;border:1px solid #3a3a5e;color:#9a9ac8;font-size:.63rem;padding:2px 6px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .tag-vinculante{background:#1a1400;border:1px solid var(--gold);color:var(--gold);font-size:.63rem;padding:2px 6px;border-radius:20px;font-weight:700;white-space:nowrap;}
+    .card-data-hora{display:flex;align-items:center;font-size:.65rem;color:var(--muted);white-space:nowrap;gap:2px;}
     .card-data{color:var(--gold);font-weight:700;}
-    .sep{color:var(--border);margin:0 2px;}
-    .card-titulo{font-family:var(--serif);font-size:.89rem;font-weight:700;color:var(--text);line-height:1.4;}
-    .card-fonte{font-size:.68rem;color:var(--gold);}
-    .card-resumo{font-size:.77rem;color:var(--muted);line-height:1.65;flex:1;}
-    .card-acoes{display:flex;gap:6px;flex-wrap:wrap;padding-top:7px;border-top:1px solid var(--surface2);}
-    .btn-fav{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 8px;border-radius:5px;font-size:.67rem;transition:all .15s;}
+    .sep{color:var(--border);margin:0 1px;}
+    .card-titulo{font-family:var(--serif);font-size:.87rem;font-weight:700;color:var(--text);line-height:1.4;}
+    .card-fonte{font-size:.66rem;color:var(--gold);}
+    .card-resumo{font-size:.76rem;color:var(--muted);line-height:1.65;flex:1;}
+    .card-nota{background:var(--surface2);border:1px solid var(--border);border-radius:5px;padding:6px 9px;font-size:.73rem;color:var(--text);width:100%;resize:vertical;min-height:48px;outline:none;margin-top:2px;}
+    .card-nota:focus{border-color:var(--gold);}
+    .nota-label{font-size:.63rem;color:var(--muted);margin-bottom:2px;}
+    .card-acoes{display:flex;gap:5px;flex-wrap:wrap;padding-top:6px;border-top:1px solid var(--surface2);}
+    .btn-fav{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 7px;border-radius:5px;font-size:.65rem;transition:all .15s;}
     .btn-fav.ativo{background:#2a2010;border-color:var(--gold);color:var(--gold);font-weight:700;}
-    .btn-link{background:transparent;border:1px solid var(--border);color:var(--blue);padding:3px 8px;border-radius:5px;font-size:.67rem;}
-    .btn-pdf{background:transparent;border:1px solid var(--border);color:var(--green);padding:3px 8px;border-radius:5px;font-size:.67rem;}
+    .btn-link{background:transparent;border:1px solid var(--border);color:var(--blue);padding:3px 7px;border-radius:5px;font-size:.65rem;}
+    .btn-pdf{background:transparent;border:1px solid var(--border);color:var(--green);padding:3px 7px;border-radius:5px;font-size:.65rem;}
+    .btn-nota-toggle{background:transparent;border:1px solid var(--border);color:var(--muted);padding:3px 7px;border-radius:5px;font-size:.65rem;}
+    .btn-nota-toggle.tem-nota{border-color:var(--amber-bd);color:var(--amber);}
 
     /* LEGISLAÇÃO */
-    #secao-leg{padding:16px;}
-    .leg-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:13px;}
-    .leg-titulo{font-family:var(--serif);font-size:.95rem;color:var(--gold);font-weight:700;}
-    .btn-add{background:var(--gold);border:none;color:var(--bg);padding:6px 13px;border-radius:5px;font-size:.73rem;font-weight:700;}
-    #form-lei{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:13px;margin-bottom:13px;display:flex;flex-direction:column;gap:8px;}
-    .form-row{display:flex;gap:8px;}
-    .leg-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:7px 10px;color:var(--text);font-size:.77rem;outline:none;}
+    #secao-leg{padding:14px;}
+    .leg-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;}
+    .leg-titulo{font-family:var(--serif);font-size:.93rem;color:var(--gold);font-weight:700;}
+    .btn-add{background:var(--gold);border:none;color:var(--bg);padding:5px 12px;border-radius:5px;font-size:.71rem;font-weight:700;}
+    #form-lei{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:12px;display:flex;flex-direction:column;gap:7px;}
+    .form-row{display:flex;gap:7px;}
+    .leg-input{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:5px;padding:7px 10px;color:var(--text);font-size:.76rem;outline:none;}
     .leg-input:focus{border-color:var(--gold);}
     .tabela{width:100%;border-collapse:collapse;}
-    .th{text-align:left;padding:8px 11px;font-size:.66rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface2);}
-    .td{padding:9px 11px;font-size:.77rem;color:var(--text);border-bottom:1px solid var(--surface2);}
+    .th{text-align:left;padding:7px 10px;font-size:.64rem;letter-spacing:1px;text-transform:uppercase;color:var(--muted);border-bottom:1px solid var(--border);background:var(--surface2);}
+    .td{padding:8px 10px;font-size:.76rem;color:var(--text);border-bottom:1px solid var(--surface2);vertical-align:top;}
     .tr-par{background:var(--surface);}
     .tr-impar{background:#1a2535;}
-    .num-lei{color:var(--gold);font-weight:600;font-size:.73rem;}
-    .link-acesso{color:var(--blue);font-size:.73rem;font-weight:600;}
+    .num-lei{color:var(--gold);font-weight:600;font-size:.71rem;}
+    .link-acesso{color:var(--blue);font-size:.71rem;font-weight:600;}
     .link-acesso:hover{text-decoration:underline;}
+    .btn-linha-tempo{background:transparent;border:1px solid var(--border);color:var(--muted);padding:2px 7px;border-radius:4px;font-size:.63rem;margin-top:3px;display:block;}
+    .btn-linha-tempo:hover{border-color:var(--gold);color:var(--gold);}
+    .leg-nota{background:var(--surface2);border:1px solid var(--border);border-radius:4px;padding:5px 8px;font-size:.71rem;color:var(--text);width:100%;resize:vertical;min-height:40px;outline:none;margin-top:4px;}
+    .leg-nota:focus{border-color:var(--gold);}
 
-    /* PESQUISAR NORMAS */
-    #secao-pesquisa{padding:16px;}
-    .pesq-cabecalho{margin-bottom:16px;}
-    .pesq-titulo{font-family:var(--serif);font-size:.97rem;color:var(--gold);font-weight:700;margin-bottom:4px;}
-    .pesq-sub{font-size:.73rem;color:var(--muted);line-height:1.5;}
-    .pesq-form{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:10px;margin-bottom:14px;}
-    .pesq-campo-label{font-size:.67rem;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;margin-bottom:3px;}
-    .pesq-input{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:9px 12px;color:var(--text);font-size:.82rem;outline:none;}
+    /* PESQUISA */
+    #secao-pesquisa{padding:14px;}
+    .pesq-titulo{font-family:var(--serif);font-size:.93rem;color:var(--gold);font-weight:700;margin-bottom:3px;}
+    .pesq-sub{font-size:.71rem;color:var(--muted);margin-bottom:12px;line-height:1.5;}
+    .pesq-form{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:9px;margin-bottom:12px;}
+    .pesq-campo-label{font-size:.64rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:2px;}
+    .pesq-input{width:100%;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:8px 11px;color:var(--text);font-size:.80rem;outline:none;}
     .pesq-input:focus{border-color:var(--gold);}
-    .pesq-row{display:flex;gap:8px;}
-    .pesq-select{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:8px 10px;color:var(--text);font-size:.76rem;outline:none;}
+    .pesq-row{display:flex;gap:7px;}
+    .pesq-select{flex:1;background:var(--surface);border:1px solid var(--border);border-radius:6px;padding:7px 9px;color:var(--text);font-size:.74rem;outline:none;}
     .pesq-select:focus{border-color:var(--gold);}
-    .btn-buscar-dou{background:var(--gold);border:none;color:var(--bg);padding:11px 18px;border-radius:6px;font-size:.82rem;font-weight:700;width:100%;margin-top:2px;}
+    .btn-buscar-dou{background:var(--gold);border:none;color:var(--bg);padding:10px;border-radius:6px;font-size:.80rem;font-weight:700;width:100%;}
     .btn-buscar-dou:hover{background:var(--gold-dim);}
-
-    .dou-resultado-info{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:13px;margin-bottom:14px;font-size:.77rem;color:var(--muted);line-height:1.6;}
-    .dou-resultado-info strong{color:var(--text);}
-
-    .atalhos-titulo{font-size:.70rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:10px;}
-    .atalhos-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:16px;}
-    .btn-atalho{background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:11px 10px;display:flex;flex-direction:column;align-items:flex-start;gap:4px;text-align:left;text-decoration:none;transition:border-color .15s;}
+    .atalhos-label{font-size:.67rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase;margin-bottom:8px;}
+    .atalhos-grid{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:14px;}
+    .btn-atalho{background:var(--surface);border:1px solid var(--border);border-radius:7px;padding:10px 9px;display:flex;flex-direction:column;gap:3px;text-align:left;transition:border-color .15s;}
     .btn-atalho:hover{border-color:var(--gold);}
-    .atalho-icone{font-size:1.1rem;}
-    .atalho-nome{font-size:.76rem;color:var(--text);font-weight:600;}
-    .atalho-desc{font-size:.66rem;color:var(--muted);}
+    .atalho-icone{font-size:1rem;}
+    .atalho-nome{font-size:.74rem;color:var(--text);font-weight:600;}
+    .atalho-desc{font-size:.63rem;color:var(--muted);}
+    .salvar-manual{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:12px;}
+    .salvar-manual-titulo{font-size:.74rem;color:var(--gold);font-weight:600;margin-bottom:9px;}
+    .salvar-manual-form{display:flex;flex-direction:column;gap:7px;}
 
-    .salvar-manual{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:14px;}
-    .salvar-manual-titulo{font-size:.76rem;color:var(--gold);font-weight:600;margin-bottom:10px;}
-    .salvar-manual-form{display:flex;flex-direction:column;gap:8px;}
+    /* PRAZOS */
+    #secao-prazos{padding:14px;}
+    .prazos-cab{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;}
+    .prazos-titulo{font-family:var(--serif);font-size:.93rem;color:var(--gold);font-weight:700;}
+    #form-prazo{background:var(--surface2);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:12px;display:flex;flex-direction:column;gap:7px;}
+    .prazo-card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:12px;margin-bottom:9px;display:flex;flex-direction:column;gap:5px;}
+    .prazo-card.urgente{border-left:3px solid var(--red);background:var(--red-bg);}
+    .prazo-card.proximo{border-left:3px solid var(--amber);background:var(--amber-bg);}
+    .prazo-card.ok{border-left:3px solid var(--green);}
+    .prazo-topo{display:flex;justify-content:space-between;align-items:center;}
+    .prazo-titulo-txt{font-size:.83rem;font-weight:700;color:var(--text);}
+    .prazo-data-badge{font-size:.68rem;font-weight:700;padding:2px 8px;border-radius:20px;}
+    .prazo-card.urgente .prazo-data-badge{background:var(--red-bg);border:1px solid var(--red-bd);color:var(--red);}
+    .prazo-card.proximo .prazo-data-badge{background:var(--amber-bg);border:1px solid var(--amber-bd);color:var(--amber);}
+    .prazo-card.ok .prazo-data-badge{background:var(--green-bg);border:1px solid var(--green-bd);color:var(--green);}
+    .prazo-desc{font-size:.75rem;color:var(--muted);line-height:1.5;}
+    .prazo-area{font-size:.63rem;color:var(--muted);}
+    .btn-del-prazo{background:transparent;border:none;color:var(--muted);font-size:.75rem;cursor:pointer;padding:2px 5px;}
+    .btn-del-prazo:hover{color:var(--red);}
+    #prazos-vazio{color:var(--muted);font-size:.79rem;text-align:center;padding:30px;}
+
+    /* BOLETIM */
+    #modal-boletim-overlay{position:fixed;inset:0;background:rgba(0,0,0,.80);display:flex;align-items:flex-start;justify-content:center;z-index:300;overflow-y:auto;padding:20px 10px;}
+    #modal-boletim-overlay.oculto{display:none;}
+    #modal-boletim{background:var(--surface);border:1px solid var(--gold);border-radius:10px;width:100%;max-width:560px;padding:22px;}
+    .boletim-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;}
+    .boletim-titulo{font-family:var(--serif);font-size:1rem;color:var(--gold);font-weight:700;}
+    .boletim-conteudo{font-size:.78rem;color:var(--text);line-height:1.7;}
+    .boletim-secao{margin:14px 0 6px;font-family:var(--serif);font-size:.88rem;color:var(--gold);font-weight:700;border-bottom:1px solid var(--border);padding-bottom:4px;}
+    .boletim-item{margin-bottom:8px;padding-left:10px;border-left:2px solid var(--border);}
+    .boletim-item-titulo{color:var(--text);font-weight:600;}
+    .boletim-item-fonte{color:var(--muted);font-size:.70rem;}
+    .boletim-btns{display:flex;gap:8px;margin-top:16px;}
 
     /* BOTÕES GENÉRICOS */
-    .btn-salvar{background:var(--gold);border:none;color:var(--bg);padding:7px 16px;border-radius:5px;font-size:.76rem;font-weight:700;}
+    .btn-salvar{background:var(--gold);border:none;color:var(--bg);padding:7px 15px;border-radius:5px;font-size:.75rem;font-weight:700;}
     .btn-salvar:hover{background:var(--gold-dim);}
-    .btn-cancelar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:7px 16px;border-radius:5px;font-size:.76rem;}
+    .btn-cancelar{background:transparent;border:1px solid var(--border);color:var(--muted);padding:7px 15px;border-radius:5px;font-size:.75rem;}
 
-    /* MODAL */
+    /* MODAL PDF */
     #modal-overlay{position:fixed;inset:0;background:rgba(0,0,0,.75);display:flex;align-items:center;justify-content:center;z-index:200;}
     #modal-overlay.oculto{display:none;}
-    #modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:24px;max-width:460px;width:92%;box-shadow:0 20px 60px rgba(0,0,0,.5);}
-    .modal-titulo{font-family:var(--serif);font-size:.94rem;color:var(--gold);font-weight:700;margin-bottom:12px;}
-    .modal-corpo{font-size:.80rem;color:var(--text);line-height:1.65;}
-    .modal-meta{color:var(--muted);font-size:.73rem;margin-top:4px;}
-    .modal-btns{display:flex;gap:8px;margin-top:16px;}
+    #modal-box{background:var(--surface);border:1px solid var(--gold);border-radius:10px;padding:22px;max-width:450px;width:92%;box-shadow:0 20px 60px rgba(0,0,0,.5);}
+    .modal-titulo{font-family:var(--serif);font-size:.92rem;color:var(--gold);font-weight:700;margin-bottom:11px;}
+    .modal-corpo{font-size:.79rem;color:var(--text);line-height:1.65;}
+    .modal-meta{color:var(--muted);font-size:.71rem;margin-top:3px;}
+    .modal-btns{display:flex;gap:7px;margin-top:14px;}
 
     /* RODAPÉ */
-    #footer{background:var(--surface);border-top:1px solid var(--surface2);padding:10px 16px;display:flex;gap:8px;align-items:center;font-size:.67rem;color:var(--text);flex-wrap:wrap;}
+    #footer{background:var(--surface);border-top:1px solid var(--surface2);padding:9px 14px;display:flex;gap:7px;align-items:center;font-size:.66rem;color:var(--text);flex-wrap:wrap;}
     .footer-sep{color:var(--border);}
     .footer-fontes{color:var(--muted);}
 
     .oculto{display:none!important;}
+    .secao-pad{padding:14px;}
 
     @media(max-width:600px){
       #grid{grid-template-columns:1fr;}
-      .tabela{font-size:.70rem;}
       .th,.td{padding:6px 8px;}
       .pesq-row{flex-direction:column;}
       .atalhos-grid{grid-template-columns:1fr;}
@@ -181,11 +237,15 @@
       <div class="logo-sub">Atualização Jurídica Diária</div>
     </div>
     <div class="header-dir">
-      <div class="data-badge" id="data-hoje"></div>
+      <div class="header-status">
+        <div class="data-badge" id="data-hoje"></div>
+        <div class="offline-badge" id="offline-badge">&#9899; Offline</div>
+      </div>
       <div class="abas">
         <button class="btn-aba ativo" data-aba="noticias">Notícias</button>
         <button class="btn-aba"       data-aba="legislacao">Legislação</button>
         <button class="btn-aba"       data-aba="pesquisa">&#128269; Normas</button>
+        <button class="btn-aba"       data-aba="prazos">&#128197; Prazos</button>
         <button class="btn-aba"       data-aba="favoritos">&#9733; Favoritos</button>
       </div>
     </div>
@@ -208,69 +268,67 @@
       <span class="ultima-att" id="ultima-att"></span>
       <button class="btn-att" id="btn-att">&#8635; Atualizar</button>
     </div>
-    <input id="busca-leg-input" class="oculto" type="text" placeholder="Buscar norma salva..." />
+    <input id="busca-leg-input" class="oculto" type="text" placeholder="Buscar norma salva..."/>
   </div>
 
   <main id="main">
-    <div id="loading">
-      <div class="spinner"></div>
-      <div class="loading-txt">Carregando notícias...</div>
-      <div class="loading-sub">STF &middot; Agência Brasil &middot; TRF-1</div>
-    </div>
+    <div id="loading"><div class="spinner"></div><div class="loading-txt">Carregando notícias...</div><div class="loading-sub">STF · Agência Brasil · TRF-1</div></div>
     <div id="erro-box" class="oculto">
       <div class="erro-titulo">Não foi possível carregar as notícias</div>
       <div class="erro-txt" id="erro-txt"></div>
       <button class="btn-salvar" id="btn-retry">Tentar novamente</button>
     </div>
-    <div id="aviso-box" class="oculto">
-      <span class="aviso-icone">&#9432;</span>
-      <span id="aviso-txt"></span>
+
+    <!-- NOTÍCIAS -->
+    <div id="secao-noticias" class="oculto">
+      <div id="aviso-box" class="oculto"><span style="color:var(--gold)">&#9432;</span><span id="aviso-txt"></span></div>
+      <div id="alerta-vinculante" class="oculto">
+        <div class="alerta-header"><span style="font-size:.9rem">&#9650;</span><span class="alerta-header-txt">Decisões Vinculantes — STF &amp; STJ</span></div>
+        <div class="alerta-lista" id="alerta-lista"></div>
+      </div>
+      <div id="btn-boletim-wrap">
+        <button class="btn-boletim" id="btn-boletim">&#128196; Boletim Semanal</button>
+      </div>
+      <div id="grid"></div>
     </div>
-    <div id="grid" class="oculto"></div>
 
     <!-- LEGISLAÇÃO -->
     <div id="secao-leg" class="oculto">
-      <div class="leg-cab">
-        <div class="leg-titulo">Banco de Legislação</div>
-        <button class="btn-add" id="btn-toggle-form">+ Adicionar</button>
-      </div>
-      <div id="form-lei" class="oculto">
-        <div class="form-row">
-          <input class="leg-input" id="lei-numero" placeholder="Número (ex: Lei nº 8.213/1991)" />
-          <select class="leg-input" id="lei-area" style="flex:0 0 140px">
-            <option value="previdenciario">Previdenciário</option>
-            <option value="saude">Saúde</option>
-          </select>
+      <div style="padding:14px">
+        <div class="leg-cab">
+          <div class="leg-titulo">Banco de Legislação</div>
+          <button class="btn-add" id="btn-toggle-form">+ Adicionar</button>
         </div>
-        <input class="leg-input" id="lei-nome" placeholder="Nome ou ementa da norma" />
-        <input class="leg-input" id="lei-link" placeholder="Link de acesso (https://...)" />
-        <div style="display:flex;gap:8px">
-          <button class="btn-salvar" id="btn-salvar-lei">Salvar</button>
-          <button class="btn-cancelar" id="btn-cancelar-lei">Cancelar</button>
+        <div id="form-lei" class="oculto">
+          <div class="form-row">
+            <input class="leg-input" id="lei-numero" placeholder="Número (ex: Lei nº 8.213/1991)"/>
+            <select class="leg-input" id="lei-area" style="flex:0 0 130px">
+              <option value="previdenciario">Previdenciário</option>
+              <option value="saude">Saúde</option>
+            </select>
+          </div>
+          <input class="leg-input" id="lei-nome" placeholder="Nome ou ementa da norma"/>
+          <input class="leg-input" id="lei-link" placeholder="Link de acesso (https://...)"/>
+          <div style="display:flex;gap:7px"><button class="btn-salvar" id="btn-salvar-lei">Salvar</button><button class="btn-cancelar" id="btn-cancelar-lei">Cancelar</button></div>
         </div>
+        <table class="tabela"><thead><tr>
+          <th class="th">Número</th><th class="th">Nome / Anotação</th>
+          <th class="th">Área</th><th class="th">Data</th><th class="th">Ações</th>
+        </tr></thead><tbody id="tbody-leg"></tbody></table>
+        <div id="leg-vazio" class="vazio oculto">Nenhuma norma encontrada.</div>
       </div>
-      <table class="tabela"><thead><tr>
-        <th class="th">Número</th><th class="th">Nome</th>
-        <th class="th">Área</th><th class="th">Data</th><th class="th">Acesso</th>
-      </tr></thead><tbody id="tbody-leg"></tbody></table>
-      <div id="leg-vazio" class="vazio oculto">Nenhuma norma encontrada.</div>
     </div>
 
-    <!-- PESQUISAR NORMAS -->
+    <!-- PESQUISA DOU -->
     <div id="secao-pesquisa" class="oculto">
-      <div class="pesq-cabecalho">
-        <div class="pesq-titulo">Pesquisar Normas</div>
-        <div class="pesq-sub">Busca no Diário Oficial da União. O resultado abre no DOU em uma nova aba, e você pode salvar a norma encontrada no seu banco.</div>
-      </div>
-
-      <div class="pesq-form">
-        <div>
-          <div class="pesq-campo-label">Termo de busca</div>
-          <input class="pesq-input" id="pesq-termo" placeholder="Ex: aposentadoria por incapacidade, plano de saúde, INSS..." />
-        </div>
-        <div class="pesq-row">
-          <div style="flex:1">
-            <div class="pesq-campo-label">Tipo de ato</div>
+      <div style="padding:14px">
+        <div class="pesq-titulo">Pesquisar Normas no DOU</div>
+        <div class="pesq-sub">Busca no Diário Oficial da União. O resultado abre no DOU em nova aba. Após localizar a norma, salve-a no banco com um toque.</div>
+        <div class="pesq-form">
+          <div><div class="pesq-campo-label">Termo de busca</div>
+          <input class="pesq-input" id="pesq-termo" placeholder="Ex: aposentadoria por incapacidade, plano de saúde, INSS..."/></div>
+          <div class="pesq-row">
+            <div style="flex:1"><div class="pesq-campo-label">Tipo de ato</div>
             <select class="pesq-select" id="pesq-tipo">
               <option value="">Todos os tipos</option>
               <option value="PORTARIA">Portaria</option>
@@ -280,84 +338,77 @@
               <option value="DECRETO">Decreto</option>
               <option value="MEDIDA_PROVISORIA">Medida Provisória</option>
               <option value="EMENDA_CONSTITUCIONAL">Emenda Constitucional</option>
-              <option value="DESPACHO">Despacho</option>
-              <option value="EDITAL">Edital</option>
-            </select>
-          </div>
-          <div style="flex:1">
-            <div class="pesq-campo-label">Seção do DOU</div>
+            </select></div>
+            <div style="flex:1"><div class="pesq-campo-label">Seção do DOU</div>
             <select class="pesq-select" id="pesq-secao">
               <option value="dou">Todas as seções</option>
               <option value="do1" selected>Seção 1 — Atos normativos</option>
               <option value="do2">Seção 2 — Servidores</option>
-              <option value="do3">Seção 3 — Contratos e editais</option>
-              <option value="doe">Edição Extra</option>
-            </select>
+              <option value="do3">Seção 3 — Contratos</option>
+            </select></div>
           </div>
-        </div>
-        <div>
-          <div class="pesq-campo-label">Período</div>
+          <div><div class="pesq-campo-label">Período</div>
           <select class="pesq-select" id="pesq-data" style="width:100%">
             <option value="todos">Qualquer data</option>
             <option value="hoje">Hoje</option>
             <option value="semana">Últimos 7 dias</option>
             <option value="mes">Último mês</option>
             <option value="ano">Último ano</option>
-          </select>
+          </select></div>
+          <button class="btn-buscar-dou" id="btn-buscar-dou">Buscar no Diário Oficial &#8599;</button>
         </div>
-        <button class="btn-buscar-dou" id="btn-buscar-dou">Buscar no Diário Oficial &#8599;</button>
-      </div>
-
-      <div class="atalhos-titulo">Acesso direto por órgão</div>
-      <div class="atalhos-grid">
-        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=INSS&secao=do1&sortType=0" target="_blank" rel="noreferrer">
-          <span class="atalho-icone">&#127970;</span>
-          <span class="atalho-nome">INSS</span>
-          <span class="atalho-desc">Portarias e instruções normativas</span>
-        </a>
-        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=ANS&secao=do1&sortType=0" target="_blank" rel="noreferrer">
-          <span class="atalho-icone">&#127973;</span>
-          <span class="atalho-nome">ANS</span>
-          <span class="atalho-desc">Resoluções normativas de saúde</span>
-        </a>
-        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=previdencia&secao=do1&sortType=0" target="_blank" rel="noreferrer">
-          <span class="atalho-icone">&#128196;</span>
-          <span class="atalho-nome">Previdência</span>
-          <span class="atalho-desc">Normas previdenciárias em geral</span>
-        </a>
-        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=saude+suplementar&secao=do1&sortType=0" target="_blank" rel="noreferrer">
-          <span class="atalho-icone">&#128138;</span>
-          <span class="atalho-nome">Saúde Suplementar</span>
-          <span class="atalho-desc">Planos e cobertura obrigatória</span>
-        </a>
-        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=aposentadoria&secao=do1&sortType=0" target="_blank" rel="noreferrer">
-          <span class="atalho-icone">&#128100;</span>
-          <span class="atalho-nome">Aposentadoria</span>
-          <span class="atalho-desc">Normas sobre benefícios</span>
-        </a>
-        <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=plano+de+saude&secao=do1&sortType=0" target="_blank" rel="noreferrer">
-          <span class="atalho-icone">&#128203;</span>
-          <span class="atalho-nome">Planos de Saúde</span>
-          <span class="atalho-desc">Regulamentação e coberturas</span>
-        </a>
-      </div>
-
-      <!-- SALVAR NORMA ENCONTRADA -->
-      <div class="salvar-manual">
-        <div class="salvar-manual-titulo">&#10010; Salvar norma encontrada no banco</div>
-        <div class="salvar-manual-form">
-          <input class="leg-input" id="mn-numero" placeholder="Número (ex: Portaria MPS nº 1.432/2026)" />
-          <input class="leg-input" id="mn-nome" placeholder="Ementa ou nome da norma" />
-          <input class="leg-input" id="mn-link" placeholder="Link do DOU (cole aqui após abrir a norma)" />
-          <div class="form-row">
-            <select class="leg-input" id="mn-area">
-              <option value="previdenciario">Previdenciário</option>
-              <option value="saude">Saúde</option>
-            </select>
-            <button class="btn-salvar" id="btn-salvar-manual" style="flex:0 0 auto">Salvar no banco</button>
+        <div class="atalhos-label">Acesso direto por órgão</div>
+        <div class="atalhos-grid">
+          <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=INSS&secao=do1&sortType=0" target="_blank" rel="noreferrer"><span class="atalho-icone">&#127970;</span><span class="atalho-nome">INSS</span><span class="atalho-desc">Portarias e instruções normativas</span></a>
+          <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=ANS&secao=do1&sortType=0" target="_blank" rel="noreferrer"><span class="atalho-icone">&#127973;</span><span class="atalho-nome">ANS</span><span class="atalho-desc">Resoluções normativas de saúde</span></a>
+          <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=previdencia&secao=do1&sortType=0" target="_blank" rel="noreferrer"><span class="atalho-icone">&#128196;</span><span class="atalho-nome">Previdência</span><span class="atalho-desc">Normas previdenciárias</span></a>
+          <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=saude+suplementar&secao=do1&sortType=0" target="_blank" rel="noreferrer"><span class="atalho-icone">&#128138;</span><span class="atalho-nome">Saúde Suplementar</span><span class="atalho-desc">Planos e cobertura</span></a>
+          <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=aposentadoria&secao=do1&sortType=0" target="_blank" rel="noreferrer"><span class="atalho-icone">&#128100;</span><span class="atalho-nome">Aposentadoria</span><span class="atalho-desc">Normas sobre benefícios</span></a>
+          <a class="btn-atalho" href="https://www.in.gov.br/consulta/-/buscar/dou?s=beneficio+previdenciario&secao=do1&sortType=0" target="_blank" rel="noreferrer"><span class="atalho-icone">&#128203;</span><span class="atalho-nome">Benefícios</span><span class="atalho-desc">Benefícios previdenciários</span></a>
+        </div>
+        <div class="salvar-manual">
+          <div class="salvar-manual-titulo">&#10010; Salvar norma encontrada no banco</div>
+          <div class="salvar-manual-form">
+            <input class="leg-input" id="mn-numero" placeholder="Número (ex: Portaria MPS nº 1.432/2026)"/>
+            <input class="leg-input" id="mn-nome" placeholder="Ementa ou nome da norma"/>
+            <input class="leg-input" id="mn-link" placeholder="Link do DOU (cole aqui após abrir a norma)"/>
+            <div class="form-row">
+              <select class="leg-input" id="mn-area"><option value="previdenciario">Previdenciário</option><option value="saude">Saúde</option></select>
+              <button class="btn-salvar" id="btn-salvar-manual" style="flex:0 0 auto">Salvar</button>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- PRAZOS -->
+    <div id="secao-prazos" class="oculto">
+      <div style="padding:14px">
+        <div class="prazos-cab">
+          <div class="prazos-titulo">Prazos e Vigências</div>
+          <button class="btn-add" id="btn-toggle-prazo">+ Adicionar</button>
+        </div>
+        <div id="form-prazo" class="oculto">
+          <input class="leg-input" id="prazo-titulo" placeholder="Título (ex: Contestação INSS — João Silva)"/>
+          <input class="leg-input" id="prazo-desc" placeholder="Descrição ou observação"/>
+          <div class="form-row">
+            <input class="leg-input" id="prazo-data" type="date" style="flex:1"/>
+            <select class="leg-input" id="prazo-area" style="flex:0 0 130px">
+              <option value="previdenciario">Previdenciário</option>
+              <option value="saude">Saúde</option>
+              <option value="geral">Geral</option>
+            </select>
+          </div>
+          <div style="display:flex;gap:7px"><button class="btn-salvar" id="btn-salvar-prazo">Salvar</button><button class="btn-cancelar" id="btn-cancelar-prazo">Cancelar</button></div>
+        </div>
+        <div id="lista-prazos"></div>
+        <div id="prazos-vazio" class="oculto">Nenhum prazo cadastrado.</div>
+      </div>
+    </div>
+
+    <!-- FAVORITOS -->
+    <div id="secao-favoritos" class="oculto">
+      <div id="grid-favoritos" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(295px,1fr));gap:12px;padding:14px;"></div>
     </div>
 
   </main>
@@ -365,17 +416,18 @@
   <footer id="footer">
     <span>Izabela Gonçalves Advocacia</span>
     <span class="footer-sep">&middot;</span>
-    <span class="footer-fontes">Fontes: DOU &middot; STF &middot; Agência Brasil &middot; TRF-1</span>
+    <span class="footer-fontes">DOU &middot; STF &middot; Agência Brasil &middot; TRF-1</span>
   </footer>
 </div>
 
+<!-- MODAL PDF -->
 <div id="modal-overlay" class="oculto">
   <div id="modal-box">
     <div class="modal-titulo">Baixar notícia em PDF</div>
     <div class="modal-corpo">
       <strong id="modal-titulo-txt"></strong>
       <div class="modal-meta" id="modal-meta-txt"></div>
-      <p style="margin-top:11px;font-size:.79rem" id="modal-resumo-txt"></p>
+      <p style="margin-top:10px;font-size:.78rem" id="modal-resumo-txt"></p>
     </div>
     <div class="modal-btns">
       <button class="btn-salvar" id="btn-gerar-pdf">Gerar PDF</button>
@@ -384,7 +436,30 @@
   </div>
 </div>
 
+<!-- MODAL BOLETIM -->
+<div id="modal-boletim-overlay" class="oculto">
+  <div id="modal-boletim">
+    <div class="boletim-header">
+      <div class="boletim-titulo">Boletim Semanal — Prev &amp; Saúde</div>
+      <button class="btn-cancelar" id="btn-fechar-boletim" style="padding:4px 10px">✕</button>
+    </div>
+    <div class="boletim-conteudo" id="boletim-conteudo"></div>
+    <div class="boletim-btns">
+      <button class="btn-salvar" id="btn-pdf-boletim">&#8595; Baixar PDF</button>
+      <button class="btn-cancelar" id="btn-fechar-boletim2">Fechar</button>
+    </div>
+  </div>
+</div>
+
 <script>
+/* ═══ CONSTANTES ═══ */
+const PALAVRAS_VINCULANTE = [
+  'repercussão geral','repercussao geral','recurso repetitivo',
+  'tema vinculante','súmula vinculante','sumula vinculante',
+  'tese fixada','precedente qualificado','irdr',
+  'leading case','incidente de resolução','incidente de resolucao',
+];
+
 const LEGISLACOES_BASE = [
   {id:1,numero:'Lei nº 8.213/1991',nome:'Planos de Benefícios da Previdência Social',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm',data:'24/07/1991'},
   {id:2,numero:'EC nº 103/2019',nome:'Reforma da Previdência',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm',data:'12/11/2019'},
@@ -393,20 +468,54 @@ const LEGISLACOES_BASE = [
   {id:5,numero:'Lei nº 14.181/2021',nome:'Superendividamento e Proteção do Consumidor',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14181.htm',data:'01/07/2021'},
 ];
 
+const PRAZOS_BASE = [
+  {id:1,titulo:'Contestação administrativa — INSS',desc:'Prazo de 30 dias da ciência para impugnar decisão administrativa do INSS (art. 306 da IN PRES/INSS nº 128/2022).',data:'',area:'previdenciario'},
+  {id:2,titulo:'Recurso ao CRPS',desc:'Prazo de 30 dias após a ciência da decisão do INSS para interpor recurso ao Conselho de Recursos da Previdência Social.',data:'',area:'previdenciario'},
+  {id:3,titulo:'Portabilidade de plano de saúde',desc:'Após 12 meses de carência cumprida no plano de origem, o beneficiário pode solicitar portabilidade a qualquer tempo.',data:'',area:'saude'},
+  {id:4,titulo:'Revisão de BPC/LOAS',desc:'O benefício de prestação continuada deve ser revisto a cada 2 anos para avaliação das condições de manutenção (art. 21 da Lei nº 8.742/1993).',data:'',area:'previdenciario'},
+];
+
+/* ═══ ESTADO ═══ */
 let state = {
   aba:'noticias', filtro:'todos', busca:'', carregando:false,
-  noticias:[], favoritos:ls('prev_favs',[]),
-  legislacoes:ls('prev_legs', LEGISLACOES_BASE),
-  noticiaModal:null, ultimaAtt:'', aviso:'',
+  noticias:[],
+  favoritos: ls('prev_favs',[]),
+  legislacoes: ls('prev_legs', LEGISLACOES_BASE),
+  prazos: ls('prev_prazos', PRAZOS_BASE),
+  notas: ls('prev_notas', {}),
+  notasLeg: ls('prev_notas_leg', {}),
+  noticiaModal: null,
+  ultimaAtt:'', aviso:'',
 };
 
+/* ═══ UTILITÁRIOS ═══ */
 function ls(k,d){try{return JSON.parse(localStorage.getItem(k))||d;}catch{return d;}}
 function sv(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch{}}
 function dataHoje(){return new Date().toLocaleDateString('pt-BR',{weekday:'long',day:'2-digit',month:'long',year:'numeric'});}
 function fmtData(d){return d.toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});}
-function fmtHora(d){return d.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});}
 function mostrar(id){document.getElementById(id)?.classList.remove('oculto');}
 function ocultar(id){document.getElementById(id)?.classList.add('oculto');}
+
+function ehVinculante(titulo, resumo){
+  const t = (titulo+' '+(resumo||'')).toLowerCase();
+  return PALAVRAS_VINCULANTE.some(p => t.includes(p));
+}
+
+function tagClass(area){
+  if(area==='previdenciario') return 'tag-prev';
+  if(area==='saude') return 'tag-saude';
+  return 'tag-geral';
+}
+
+/* ═══ OFFLINE ═══ */
+function verificarOnline(){
+  const badge = document.getElementById('offline-badge');
+  if(!badge) return;
+  badge.style.display = navigator.onLine ? 'none' : 'flex';
+}
+window.addEventListener('online',  () => { verificarOnline(); buscarNoticias(); });
+window.addEventListener('offline', verificarOnline);
+verificarOnline();
 
 /* ═══ BUSCA news.json ═══ */
 async function buscarNoticias(){
@@ -419,25 +528,40 @@ async function buscarNoticias(){
     state.noticias = (dados.noticias||[]).map(n=>({...n,favorito:favIds.has(n.id)}));
     state.ultimaAtt = dados.atualizado||'';
     state.aviso = dados.aviso||'';
+    // Cache offline
+    sv('prev_noticias_cache', state.noticias);
+    sv('prev_ultima_att', state.ultimaAtt);
   }catch(e){
-    state.carregando=false;
-    document.getElementById('erro-txt').textContent = e.message;
-    ocultar('loading'); mostrar('erro-box'); return;
+    // Tenta cache offline
+    const cache = ls('prev_noticias_cache', null);
+    if(cache && cache.length){
+      state.noticias = cache;
+      state.ultimaAtt = ls('prev_ultima_att','');
+      state.aviso = 'Modo offline — exibindo notícias em cache.';
+    } else {
+      state.carregando=false;
+      document.getElementById('erro-txt').textContent = e.message+'. Verifique sua conexão.';
+      ocultar('loading'); mostrar('erro-box'); return;
+    }
   }
   state.carregando=false; render();
 }
 
-/* ═══ RENDER ═══ */
+/* ═══ RENDER PRINCIPAL ═══ */
 function render(){
   document.getElementById('data-hoje').textContent = dataHoje();
   document.querySelectorAll('.btn-aba').forEach(b=>b.classList.toggle('ativo',b.dataset.aba===state.aba));
   document.querySelectorAll('.btn-filtro').forEach(b=>b.classList.toggle('ativo',b.dataset.filtro===state.filtro));
 
-  const isLeg   = state.aba==='legislacao';
-  const isPesq  = state.aba==='pesquisa';
-  const isFiltro= !isLeg && !isPesq;
-  document.getElementById('filtro-bar').style.display = isPesq ? 'none' : '';
-  document.getElementById('att-wrap')?.classList.toggle('oculto', isLeg||isPesq);
+  const isLeg  = state.aba==='legislacao';
+  const isPesq = state.aba==='pesquisa';
+  const isPraz = state.aba==='prazos';
+  const isFav  = state.aba==='favoritos';
+  const isNot  = state.aba==='noticias';
+  const showFiltros = isNot || isFav || isLeg;
+
+  document.getElementById('filtro-bar').style.display = showFiltros ? '' : 'none';
+  document.getElementById('att-wrap')?.classList.toggle('oculto', !isNot && !isFav);
   document.getElementById('busca-leg-input')?.classList.toggle('oculto', !isLeg);
 
   const ua=document.getElementById('ultima-att');
@@ -445,62 +569,100 @@ function render(){
   const btnAtt=document.getElementById('btn-att');
   if(btnAtt) btnAtt.disabled=state.carregando;
 
-  ocultar('loading'); ocultar('erro-box'); ocultar('grid');
-  ocultar('secao-leg'); ocultar('secao-pesquisa'); ocultar('aviso-box');
+  ['loading','erro-box','secao-noticias','secao-leg','secao-pesquisa','secao-prazos','secao-favoritos'].forEach(ocultar);
 
-  if(isPesq)    { mostrar('secao-pesquisa'); return; }
-  if(isLeg)     { renderLeg(); mostrar('secao-leg'); return; }
   if(state.carregando){ mostrar('loading'); return; }
+  if(isLeg)   { renderLeg();    mostrar('secao-leg');      return; }
+  if(isPesq)  {                  mostrar('secao-pesquisa'); return; }
+  if(isPraz)  { renderPrazos(); mostrar('secao-prazos');   return; }
+  if(isFav)   { renderFavoritos(); mostrar('secao-favoritos'); return; }
 
-  if(state.aviso){ document.getElementById('aviso-txt').textContent=state.aviso; mostrar('aviso-box'); }
+  // Notícias
+  renderNoticias();
+  mostrar('secao-noticias');
+}
 
-  const pool = state.aba==='favoritos'
-    ? state.noticias.filter(n=>state.favoritos.some(f=>f.id===n.id))
-    : state.noticias;
-  const filtradas = pool.filter(n=>state.filtro==='todos'||n.area===state.filtro);
-  const grid=document.getElementById('grid'); grid.innerHTML=''; mostrar('grid');
+/* ═══ RENDER NOTÍCIAS ═══ */
+function renderNoticias(){
+  const aviso = document.getElementById('aviso-box');
+  const avisoTxt = document.getElementById('aviso-txt');
+  if(state.aviso){ avisoTxt.textContent=state.aviso; mostrar('aviso-box'); }
+  else ocultar('aviso-box');
 
-  if(!filtradas.length){
+  // Alerta vinculantes
+  const vinculantes = state.noticias.filter(n => ehVinculante(n.titulo, n.resumo));
+  const alertaEl = document.getElementById('alerta-vinculante');
+  const alertaLista = document.getElementById('alerta-lista');
+  if(vinculantes.length){
+    alertaLista.innerHTML='';
+    vinculantes.forEach(n=>{
+      const div=document.createElement('div'); div.className='alerta-item';
+      div.innerHTML=`<div class="alerta-titulo">${n.titulo}</div>
+        <div class="alerta-fonte">${n.fonte} · ${n.data}</div>
+        ${n.link?`<a class="alerta-link" href="${n.link}" target="_blank" rel="noreferrer">Acessar decisão ↗</a>`:''}`;
+      alertaLista.appendChild(div);
+    });
+    mostrar('alerta-vinculante');
+  } else ocultar('alerta-vinculante');
+
+  // Grid
+  const pool = state.noticias.filter(n => state.filtro==='todos' || n.area===state.filtro);
+  const grid=document.getElementById('grid'); grid.innerHTML='';
+  if(!pool.length){
     const d=document.createElement('div'); d.className='vazio';
-    d.textContent=state.aba==='favoritos'
-      ?'Você ainda não favoritou nenhuma notícia.'
-      :'Nenhuma notícia encontrada para este filtro.';
+    d.textContent='Nenhuma notícia encontrada para este filtro.';
     grid.appendChild(d); return;
   }
-  filtradas.forEach(n=>grid.appendChild(criarCard(n,state.aba==='favoritos')));
+  pool.forEach(n=>grid.appendChild(criarCard(n,false)));
 }
 
-function tagClass(area){
-  if(area==='previdenciario') return 'tag-prev';
-  if(area==='saude')          return 'tag-saude';
-  return 'tag-geral';
-}
-
-function criarCard(n,destaque){
+function criarCard(n, destaque){
   const isFav=state.favoritos.some(f=>f.id===n.id);
+  const isVinc=ehVinculante(n.titulo,n.resumo);
+  const nota=state.notas[n.id]||'';
   const div=document.createElement('div');
-  div.className='card'+(destaque?' destaque':'');
+  div.className='card'+(destaque?' destaque':'')+(isVinc?' vinculante':'');
   div.innerHTML=`
     <div class="card-topo">
-      <span class="${tagClass(n.area)}">${n.tag}</span>
+      <div style="display:flex;gap:4px;flex-wrap:wrap">
+        <span class="${tagClass(n.area)}">${n.tag}</span>
+        ${isVinc?'<span class="tag-vinculante">&#9650; Vinculante</span>':''}
+      </div>
       <span class="card-data-hora">
-        ${n.data?`<span class="card-data">${n.data}</span><span class="sep"> &middot; </span>`:''}
+        ${n.data?`<span class="card-data">${n.data}</span><span class="sep"> · </span>`:''}
         <span>${n.hora||''}</span>
       </span>
     </div>
     <div class="card-titulo">${n.titulo}</div>
     <div class="card-fonte">${n.fonte}</div>
     <div class="card-resumo">${n.resumo||'Sem descrição disponível.'}</div>
+    <div id="nota-wrap-${n.id}" ${nota?'':'class="oculto"'}>
+      <div class="nota-label">&#128393; Anotação pessoal</div>
+      <textarea class="card-nota" id="nota-${n.id}" placeholder="Sua anotação sobre este assunto...">${nota}</textarea>
+    </div>
     <div class="card-acoes">
       <button class="btn-fav${isFav?' ativo':''}" data-id="${n.id}">${isFav?'★ Favoritado':'☆ Favoritar'}</button>
       ${n.link?`<a class="btn-link" href="${n.link}" target="_blank" rel="noreferrer">Acessar fonte ↗</a>`:''}
       <button class="btn-pdf" data-id="${n.id}">↓ PDF</button>
+      <button class="btn-nota-toggle${nota?' tem-nota':''}" data-id="${n.id}">&#128393; ${nota?'Anotação':'Anotar'}</button>
     </div>`;
   div.querySelector('.btn-fav').addEventListener('click',()=>toggleFav(n.id));
   div.querySelector('.btn-pdf').addEventListener('click',()=>abrirModal(n));
+  div.querySelector('.btn-nota-toggle').addEventListener('click',()=>{
+    const wrap=document.getElementById('nota-wrap-'+n.id);
+    wrap.classList.toggle('oculto');
+  });
+  const ta=div.querySelector('.card-nota');
+  if(ta) ta.addEventListener('input',e=>{
+    state.notas[n.id]=e.target.value;
+    sv('prev_notas',state.notas);
+    const btn=div.querySelector('.btn-nota-toggle');
+    if(btn){ btn.classList.toggle('tem-nota',!!e.target.value); btn.textContent='✏ '+(e.target.value?'Anotação':'Anotar'); }
+  });
   return div;
 }
 
+/* ═══ RENDER LEGISLAÇÃO ═══ */
 function renderLeg(){
   const q=state.busca.toLowerCase();
   const lista=state.legislacoes.filter(l=>{
@@ -511,48 +673,163 @@ function renderLeg(){
   const tbody=document.getElementById('tbody-leg'); tbody.innerHTML='';
   if(!lista.length){mostrar('leg-vazio');return;} ocultar('leg-vazio');
   lista.forEach((l,i)=>{
+    const nota=state.notasLeg[l.id]||'';
     const tr=document.createElement('tr'); tr.className=i%2===0?'tr-par':'tr-impar';
-    tr.innerHTML=`<td class="td"><span class="num-lei">${l.numero}</span></td>
-      <td class="td">${l.nome}</td>
+    const numLimpo=encodeURIComponent(l.numero);
+    tr.innerHTML=`
+      <td class="td"><span class="num-lei">${l.numero}</span></td>
+      <td class="td">
+        ${l.nome}
+        <div class="nota-label" style="margin-top:5px">&#128393; Anotação</div>
+        <textarea class="leg-nota" data-lei-id="${l.id}" placeholder="Sua anotação...">${nota}</textarea>
+      </td>
       <td class="td"><span class="${tagClass(l.area)}">${l.area==='previdenciario'?'Prev.':'Saúde'}</span></td>
-      <td class="td" style="color:var(--muted);font-size:.72rem">${l.data}</td>
-      <td class="td">${l.link?`<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a>`:'<span style="color:var(--muted)">—</span>'}</td>`;
+      <td class="td" style="color:var(--muted);font-size:.70rem">${l.data}</td>
+      <td class="td">
+        ${l.link?`<a class="link-acesso" href="${l.link}" target="_blank" rel="noreferrer">Abrir ↗</a><br/>`:''}
+        <a class="btn-linha-tempo" href="https://normas.leg.br/norma?urn=${numLimpo}" target="_blank" rel="noreferrer">&#128336; Linha do tempo</a>
+      </td>`;
+    tr.querySelector('.leg-nota').addEventListener('input',e=>{
+      state.notasLeg[l.id]=e.target.value;
+      sv('prev_notas_leg',state.notasLeg);
+    });
     tbody.appendChild(tr);
   });
 }
 
-/* ═══ PESQUISA NO DOU ═══ */
-function buildDouUrl(){
-  const termo  = document.getElementById('pesq-termo').value.trim();
-  const tipo   = document.getElementById('pesq-tipo').value;
-  const secao  = document.getElementById('pesq-secao').value;
-  const periodo= document.getElementById('pesq-data').value;
+/* ═══ RENDER PRAZOS ═══ */
+function renderPrazos(){
+  const lista = document.getElementById('lista-prazos');
+  const vazio = document.getElementById('prazos-vazio');
+  lista.innerHTML='';
+  const prazos = [...state.prazos].sort((a,b)=>{
+    if(!a.data && !b.data) return 0;
+    if(!a.data) return 1;
+    if(!b.data) return -1;
+    return new Date(a.data)-new Date(b.data);
+  });
+  if(!prazos.length){mostrar('prazos-vazio');return;} ocultar('prazos-vazio');
+  prazos.forEach(p=>{
+    const div=document.createElement('div');
+    let urgencia='ok';
+    let dataLabel='Sem data definida';
+    if(p.data){
+      const dias=Math.ceil((new Date(p.data)-new Date())/(1000*60*60*24));
+      if(dias<0)         { urgencia='urgente'; dataLabel='Vencido há '+Math.abs(dias)+' dia(s)'; }
+      else if(dias<=7)   { urgencia='urgente'; dataLabel='Vence em '+dias+' dia(s)'; }
+      else if(dias<=30)  { urgencia='proximo'; dataLabel='Vence em '+dias+' dia(s)'; }
+      else               { urgencia='ok';      dataLabel=new Date(p.data+'T12:00:00').toLocaleDateString('pt-BR'); }
+    }
+    div.className='prazo-card '+urgencia;
+    div.innerHTML=`
+      <div class="prazo-topo">
+        <div class="prazo-titulo-txt">${p.titulo}</div>
+        <div style="display:flex;align-items:center;gap:6px">
+          <span class="prazo-data-badge">${dataLabel}</span>
+          <button class="btn-del-prazo" data-id="${p.id}">&#128465;</button>
+        </div>
+      </div>
+      ${p.desc?`<div class="prazo-desc">${p.desc}</div>`:''}
+      <div class="prazo-area">${p.area==='previdenciario'?'Previdenciário':p.area==='saude'?'Saúde':'Geral'}</div>`;
+    div.querySelector('.btn-del-prazo').addEventListener('click',()=>{
+      state.prazos=state.prazos.filter(x=>x.id!==p.id);
+      sv('prev_prazos',state.prazos); renderPrazos();
+    });
+    lista.appendChild(div);
+  });
+}
 
-  if(!termo){ document.getElementById('pesq-termo').focus(); return null; }
-
-  const base = 'https://www.in.gov.br/consulta/-/buscar/dou';
-  const p = new URLSearchParams({ s: termo, numberPage:'1', sortType:'0', delta:'20' });
-
-  if(tipo)       p.set('artType', tipo);
-  if(secao!=='dou') p.set('secao', secao);
-
-  if(periodo==='hoje'){
-    const hoje = new Date();
-    const dd = String(hoje.getDate()).padStart(2,'0');
-    const mm = String(hoje.getMonth()+1).padStart(2,'0');
-    const aa = hoje.getFullYear();
-    p.set('exactDate', `${dd}-${mm}-${aa}`);
-  } else if(periodo==='semana'){
-    const d = new Date(); d.setDate(d.getDate()-7);
-    p.set('dataInicio', `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
-  } else if(periodo==='mes'){
-    const d = new Date(); d.setMonth(d.getMonth()-1);
-    p.set('dataInicio', `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
-  } else if(periodo==='ano'){
-    const d = new Date(); d.setFullYear(d.getFullYear()-1);
-    p.set('dataInicio', `${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+/* ═══ RENDER FAVORITOS ═══ */
+function renderFavoritos(){
+  const pool=state.noticias.filter(n=>state.favoritos.some(f=>f.id===n.id));
+  const filtrados=pool.filter(n=>state.filtro==='todos'||n.area===state.filtro);
+  const grid=document.getElementById('grid-favoritos'); grid.innerHTML='';
+  if(!filtrados.length){
+    const d=document.createElement('div'); d.className='vazio'; d.style.gridColumn='1/-1';
+    d.textContent='Você ainda não favoritou nenhuma notícia.'; grid.appendChild(d); return;
   }
+  filtrados.forEach(n=>grid.appendChild(criarCard(n,true)));
+}
 
+/* ═══ BOLETIM SEMANAL ═══ */
+function gerarBoletim(){
+  const agora=new Date();
+  const semanaAtras=new Date(agora.getTime()-7*24*60*60*1000);
+  const recentes=state.noticias.filter(n=>{
+    if(!n.ts) return false;
+    return n.ts >= semanaAtras.getTime();
+  });
+  const prev=recentes.filter(n=>n.area==='previdenciario');
+  const saude=recentes.filter(n=>n.area==='saude');
+  const vinc=recentes.filter(n=>ehVinculante(n.titulo,n.resumo));
+
+  let html=`<div style="color:var(--muted);font-size:.72rem;margin-bottom:10px">
+    Semana de ${semanaAtras.toLocaleDateString('pt-BR')} a ${agora.toLocaleDateString('pt-BR')}
+    — ${recentes.length} publicação(ões) relevante(s)
+  </div>`;
+
+  if(vinc.length){
+    html+=`<div class="boletim-secao">&#9650; Decisões Vinculantes</div>`;
+    vinc.forEach(n=>{ html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} · ${n.data}</div></div>`; });
+  }
+  if(prev.length){
+    html+=`<div class="boletim-secao">Previdenciário</div>`;
+    prev.forEach(n=>{ html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} · ${n.data}</div></div>`; });
+  }
+  if(saude.length){
+    html+=`<div class="boletim-secao">Saúde</div>`;
+    saude.forEach(n=>{ html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} · ${n.data}</div></div>`; });
+  }
+  if(!recentes.length) html+=`<div style="color:var(--muted);font-size:.78rem">Nenhuma publicação encontrada nesta semana.</div>`;
+
+  document.getElementById('boletim-conteudo').innerHTML=html;
+  mostrar('modal-boletim-overlay');
+}
+
+function baixarBoletimPdf(){
+  const agora=new Date();
+  const semanaAtras=new Date(agora.getTime()-7*24*60*60*1000);
+  const recentes=state.noticias.filter(n=>n.ts>=semanaAtras.getTime());
+  const prev=recentes.filter(n=>n.area==='previdenciario');
+  const saude=recentes.filter(n=>n.area==='saude');
+  const vinc=recentes.filter(n=>ehVinculante(n.titulo,n.resumo));
+
+  const w=window.open('','_blank');
+  let body=`<h1>Boletim Semanal — Prev &amp; Saúde</h1>
+  <p style="color:#555;font-size:13px">Semana de ${semanaAtras.toLocaleDateString('pt-BR')} a ${agora.toLocaleDateString('pt-BR')} — Izabela Gonçalves Advocacia</p><hr>`;
+  if(vinc.length){ body+=`<h2>&#9650; Decisões Vinculantes</h2>`; vinc.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} · ${n.data}</em></p>`;}); }
+  if(prev.length){ body+=`<h2>Previdenciário</h2>`; prev.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} · ${n.data}</em>${n.resumo?`<br/>${n.resumo}`:''}</p>`;}); }
+  if(saude.length){ body+=`<h2>Saúde</h2>`; saude.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} · ${n.data}</em>${n.resumo?`<br/>${n.resumo}`:''}</p>`;}); }
+  w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>Boletim Semanal</title>
+  <style>body{font-family:Georgia,serif;padding:40px;max-width:720px;margin:auto;color:#1a1a1a}h1{font-size:1.3rem;margin-bottom:5px}h2{font-size:1rem;margin:20px 0 8px;color:#333;border-bottom:1px solid #ccc;padding-bottom:3px}p{margin-bottom:10px;line-height:1.6;font-size:14px}hr{border:1px solid #ccc;margin:15px 0}</style>
+  </head><body>${body}</body></html>`);
+  w.document.close(); w.print();
+}
+
+/* ═══ PESQUISA DOU ═══ */
+function buildDouUrl(){
+  const termo=document.getElementById('pesq-termo').value.trim();
+  if(!termo){ document.getElementById('pesq-termo').focus(); return null; }
+  const tipo=document.getElementById('pesq-tipo').value;
+  const secao=document.getElementById('pesq-secao').value;
+  const periodo=document.getElementById('pesq-data').value;
+  const base='https://www.in.gov.br/consulta/-/buscar/dou';
+  const p=new URLSearchParams({s:termo,numberPage:'1',sortType:'0',delta:'20'});
+  if(tipo) p.set('artType',tipo);
+  if(secao!=='dou') p.set('secao',secao);
+  if(periodo==='hoje'){
+    const d=new Date(); const dd=String(d.getDate()).padStart(2,'0'); const mm=String(d.getMonth()+1).padStart(2,'0');
+    p.set('exactDate',`${dd}-${mm}-${d.getFullYear()}`);
+  } else if(periodo==='semana'){
+    const d=new Date(); d.setDate(d.getDate()-7);
+    p.set('dataInicio',`${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+  } else if(periodo==='mes'){
+    const d=new Date(); d.setMonth(d.getMonth()-1);
+    p.set('dataInicio',`${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+  } else if(periodo==='ano'){
+    const d=new Date(); d.setFullYear(d.getFullYear()-1);
+    p.set('dataInicio',`${String(d.getDate()).padStart(2,'0')}-${String(d.getMonth()+1).padStart(2,'0')}-${d.getFullYear()}`);
+  }
   return `${base}?${p.toString()}`;
 }
 
@@ -563,118 +840,88 @@ function toggleFav(id){
   if(idx>=0) state.favoritos.splice(idx,1); else state.favoritos.push({...n,favorito:true});
   sv('prev_favs',state.favoritos); render();
 }
-
 function abrirModal(n){
   state.noticiaModal=n;
   document.getElementById('modal-titulo-txt').textContent=n.titulo;
   document.getElementById('modal-meta-txt').textContent=`${n.fonte} · ${n.data||''} às ${n.hora||''}`;
   document.getElementById('modal-resumo-txt').textContent=n.resumo;
-  document.getElementById('modal-overlay').classList.remove('oculto');
+  mostrar('modal-overlay');
 }
-function fecharModal(){document.getElementById('modal-overlay').classList.add('oculto');state.noticiaModal=null;}
-
+function fecharModal(){ocultar('modal-overlay');state.noticiaModal=null;}
 function gerarPdf(){
   const n=state.noticiaModal; if(!n) return;
+  const nota=state.notas[n.id]||'';
   const w=window.open('','_blank');
   w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>${n.titulo}</title>
-<style>body{font-family:Georgia,serif;padding:50px;max-width:720px;margin:auto;color:#1a1a1a}
-h2{font-size:1.2rem;margin-bottom:8px}.meta{color:#555;font-size:13px;margin-bottom:3px}
-hr{border:1px solid #ccc;margin:20px 0}p{line-height:1.8;font-size:15px}
-.rod{margin-top:30px;font-size:11px;color:#888}</style></head><body>
-<h2>${n.titulo}</h2><div class="meta">${n.fonte}</div><div class="meta">${n.data||''} às ${n.hora||''}</div>
-<hr><p>${n.resumo}</p>
-${n.link?`<div class="rod">Fonte: <a href="${n.link}">${n.link}</a></div>`:''}
-<div class="rod">Gerado por Prev&amp;Saúde Diário — Izabela Gonçalves Advocacia</div>
-</body></html>`);
+  <style>body{font-family:Georgia,serif;padding:50px;max-width:720px;margin:auto;color:#1a1a1a}h2{font-size:1.2rem;margin-bottom:8px}.meta{color:#555;font-size:13px;margin-bottom:3px}hr{border:1px solid #ccc;margin:20px 0}p{line-height:1.8;font-size:15px}.nota{margin-top:20px;padding:12px;background:#f5f5f5;border-left:3px solid #ccc;font-size:13px}.rod{margin-top:30px;font-size:11px;color:#888}</style></head><body>
+  <h2>${n.titulo}</h2><div class="meta">${n.fonte}</div><div class="meta">${n.data||''} às ${n.hora||''}</div>
+  <hr><p>${n.resumo}</p>
+  ${nota?`<div class="nota"><strong>Anotação pessoal:</strong><br/>${nota}</div>`:''}
+  ${n.link?`<div class="rod">Fonte: <a href="${n.link}">${n.link}</a></div>`:''}
+  <div class="rod">Gerado por Prev&amp;Saúde Diário — Izabela Gonçalves Advocacia</div>
+  </body></html>`);
   w.document.close(); w.print(); fecharModal();
 }
-
-function salvarNorma(numero, nome, link, area){
-  if(!numero||!nome) return false;
-  state.legislacoes.push({id:Date.now(),numero,nome,area,link,data:fmtData(new Date())});
-  sv('prev_legs',state.legislacoes);
-  return true;
-}
-
 function adicionarLei(){
-  const ok = salvarNorma(
-    document.getElementById('lei-numero').value.trim(),
-    document.getElementById('lei-nome').value.trim(),
-    document.getElementById('lei-link').value.trim(),
-    document.getElementById('lei-area').value
-  );
-  if(!ok) return;
+  const numero=document.getElementById('lei-numero').value.trim();
+  const nome=document.getElementById('lei-nome').value.trim();
+  if(!numero||!nome) return;
+  state.legislacoes.push({id:Date.now(),numero,nome,area:document.getElementById('lei-area').value,link:document.getElementById('lei-link').value.trim(),data:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'})});
+  sv('prev_legs',state.legislacoes);
   ['lei-numero','lei-nome','lei-link'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('form-lei').classList.add('oculto');
   document.getElementById('btn-toggle-form').textContent='+ Adicionar';
   renderLeg();
 }
-
 function salvarManual(){
-  const ok = salvarNorma(
-    document.getElementById('mn-numero').value.trim(),
-    document.getElementById('mn-nome').value.trim(),
-    document.getElementById('mn-link').value.trim(),
-    document.getElementById('mn-area').value
-  );
-  if(!ok){ alert('Preencha ao menos o número e o nome da norma.'); return; }
+  const numero=document.getElementById('mn-numero').value.trim();
+  const nome=document.getElementById('mn-nome').value.trim();
+  if(!numero||!nome){alert('Preencha ao menos o número e o nome.');return;}
+  state.legislacoes.push({id:Date.now(),numero,nome,area:document.getElementById('mn-area').value,link:document.getElementById('mn-link').value.trim(),data:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'})});
+  sv('prev_legs',state.legislacoes);
   ['mn-numero','mn-nome','mn-link'].forEach(id=>document.getElementById(id).value='');
   alert('Norma salva no banco de legislação!');
+}
+function adicionarPrazo(){
+  const titulo=document.getElementById('prazo-titulo').value.trim();
+  if(!titulo) return;
+  state.prazos.push({id:Date.now(),titulo,desc:document.getElementById('prazo-desc').value.trim(),data:document.getElementById('prazo-data').value,area:document.getElementById('prazo-area').value});
+  sv('prev_prazos',state.prazos);
+  ['prazo-titulo','prazo-desc','prazo-data'].forEach(id=>document.getElementById(id).value='');
+  document.getElementById('form-prazo').classList.add('oculto');
+  document.getElementById('btn-toggle-prazo').textContent='+ Adicionar';
+  renderPrazos();
 }
 
 /* ═══ PWA ═══ */
 let deferredPrompt=null;
-window.addEventListener('beforeinstallprompt',e=>{
-  e.preventDefault(); deferredPrompt=e;
-  if(!localStorage.getItem('prev_dispensou')) mostrar('banner-instalar');
-});
-document.getElementById('btn-instalar')?.addEventListener('click',async()=>{
-  if(!deferredPrompt) return;
-  deferredPrompt.prompt(); await deferredPrompt.userChoice;
-  deferredPrompt=null; ocultar('banner-instalar');
-});
-document.getElementById('btn-dispensar')?.addEventListener('click',()=>{
-  localStorage.setItem('prev_dispensou','1'); ocultar('banner-instalar');
-});
+window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();deferredPrompt=e;if(!localStorage.getItem('prev_dispensou'))mostrar('banner-instalar');});
+document.getElementById('btn-instalar')?.addEventListener('click',async()=>{if(!deferredPrompt)return;deferredPrompt.prompt();await deferredPrompt.userChoice;deferredPrompt=null;ocultar('banner-instalar');});
+document.getElementById('btn-dispensar')?.addEventListener('click',()=>{localStorage.setItem('prev_dispensou','1');ocultar('banner-instalar');});
 window.addEventListener('appinstalled',()=>ocultar('banner-instalar'));
 
 /* ═══ EVENTOS ═══ */
-document.querySelectorAll('.btn-aba').forEach(b=>b.addEventListener('click',()=>{
-  state.aba=b.dataset.aba; state.filtro='todos'; state.busca='';
-  const bi=document.getElementById('busca-leg-input'); if(bi) bi.value='';
-  render();
-}));
+document.querySelectorAll('.btn-aba').forEach(b=>b.addEventListener('click',()=>{state.aba=b.dataset.aba;state.filtro='todos';state.busca='';const bi=document.getElementById('busca-leg-input');if(bi)bi.value='';render();}));
 document.querySelectorAll('.btn-filtro').forEach(b=>b.addEventListener('click',()=>{state.filtro=b.dataset.filtro;render();}));
 document.getElementById('btn-att')?.addEventListener('click',()=>buscarNoticias());
 document.getElementById('btn-retry')?.addEventListener('click',()=>{ocultar('erro-box');buscarNoticias();});
 document.getElementById('busca-leg-input')?.addEventListener('input',e=>{state.busca=e.target.value;renderLeg();});
-
-document.getElementById('btn-toggle-form')?.addEventListener('click',()=>{
-  const f=document.getElementById('form-lei'),btn=document.getElementById('btn-toggle-form');
-  const aberto=!f.classList.contains('oculto');
-  f.classList.toggle('oculto',aberto);
-  btn.textContent=aberto?'+ Adicionar':'✕ Cancelar';
-});
+document.getElementById('btn-toggle-form')?.addEventListener('click',()=>{const f=document.getElementById('form-lei'),btn=document.getElementById('btn-toggle-form');const a=!f.classList.contains('oculto');f.classList.toggle('oculto',a);btn.textContent=a?'+ Adicionar':'✕ Cancelar';});
 document.getElementById('btn-salvar-lei')?.addEventListener('click',adicionarLei);
-document.getElementById('btn-cancelar-lei')?.addEventListener('click',()=>{
-  document.getElementById('form-lei').classList.add('oculto');
-  document.getElementById('btn-toggle-form').textContent='+ Adicionar';
-});
-
-document.getElementById('btn-buscar-dou')?.addEventListener('click',()=>{
-  const url=buildDouUrl(); if(!url) return;
-  window.open(url,'_blank','noreferrer');
-});
-document.getElementById('pesq-termo')?.addEventListener('keydown',e=>{
-  if(e.key==='Enter'){ const url=buildDouUrl(); if(url) window.open(url,'_blank','noreferrer'); }
-});
-document.getElementById('btn-salvar-manual')?.addEventListener('click', salvarManual);
-
+document.getElementById('btn-cancelar-lei')?.addEventListener('click',()=>{document.getElementById('form-lei').classList.add('oculto');document.getElementById('btn-toggle-form').textContent='+ Adicionar';});
+document.getElementById('btn-toggle-prazo')?.addEventListener('click',()=>{const f=document.getElementById('form-prazo'),btn=document.getElementById('btn-toggle-prazo');const a=!f.classList.contains('oculto');f.classList.toggle('oculto',a);btn.textContent=a?'+ Adicionar':'✕ Cancelar';});
+document.getElementById('btn-salvar-prazo')?.addEventListener('click',adicionarPrazo);
+document.getElementById('btn-cancelar-prazo')?.addEventListener('click',()=>{document.getElementById('form-prazo').classList.add('oculto');document.getElementById('btn-toggle-prazo').textContent='+ Adicionar';});
+document.getElementById('btn-buscar-dou')?.addEventListener('click',()=>{const url=buildDouUrl();if(url)window.open(url,'_blank','noreferrer');});
+document.getElementById('pesq-termo')?.addEventListener('keydown',e=>{if(e.key==='Enter'){const url=buildDouUrl();if(url)window.open(url,'_blank','noreferrer');}});
+document.getElementById('btn-salvar-manual')?.addEventListener('click',salvarManual);
+document.getElementById('btn-boletim')?.addEventListener('click',gerarBoletim);
+document.getElementById('btn-pdf-boletim')?.addEventListener('click',baixarBoletimPdf);
+document.getElementById('btn-fechar-boletim')?.addEventListener('click',()=>ocultar('modal-boletim-overlay'));
+document.getElementById('btn-fechar-boletim2')?.addEventListener('click',()=>ocultar('modal-boletim-overlay'));
 document.getElementById('btn-gerar-pdf')?.addEventListener('click',gerarPdf);
 document.getElementById('btn-fechar-modal')?.addEventListener('click',fecharModal);
-document.getElementById('modal-overlay')?.addEventListener('click',e=>{
-  if(e.target===document.getElementById('modal-overlay')) fecharModal();
-});
+document.getElementById('modal-overlay')?.addEventListener('click',e=>{if(e.target===document.getElementById('modal-overlay'))fecharModal();});
 
 /* ═══ SERVICE WORKER ═══ */
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
