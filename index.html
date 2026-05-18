@@ -61,6 +61,8 @@
     .ultima-att{font-size:.65rem;color:var(--muted);}
     .btn-att{background:transparent;border:1px solid var(--border);color:var(--gold);padding:3px 10px;border-radius:5px;font-size:.69rem;}
     .btn-att:disabled{opacity:.5;cursor:default;}
+    #busca-noticias{flex:1;max-width:360px;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:5px 11px;color:var(--text);font-size:.74rem;outline:none;}
+    #busca-noticias:focus{border-color:var(--gold);}
     #busca-leg-input{margin-left:auto;background:var(--surface2);border:1px solid var(--border);border-radius:6px;padding:4px 10px;color:var(--text);font-size:.73rem;outline:none;width:180px;}
 
     /* MAIN */
@@ -260,10 +262,7 @@
   </div>
 
   <div id="filtro-bar">
-    <span class="filtro-label">Filtrar:</span>
-    <button class="btn-filtro ativo" data-filtro="todos">Todos</button>
-    <button class="btn-filtro"       data-filtro="previdenciario">Previdenciário</button>
-    <button class="btn-filtro"       data-filtro="saude">Saúde</button>
+    <input id="busca-noticias" class="oculto" type="text" placeholder="&#128269; Buscar nas notícias..." style="flex:1;max-width:360px"/>
     <div class="att-wrap" id="att-wrap">
       <span class="ultima-att" id="ultima-att"></span>
       <button class="btn-att" id="btn-att">&#8635; Atualizar</button>
@@ -477,7 +476,7 @@ const PRAZOS_BASE = [
 
 /* ═══ ESTADO ═══ */
 let state = {
-  aba:'noticias', filtro:'todos', busca:'', carregando:false,
+  aba:'noticias', filtro:'todos', busca:'', buscaNoticias:'', carregando:false,
   noticias:[],
   favoritos: ls('prev_favs',[]),
   legislacoes: ls('prev_legs', LEGISLACOES_BASE),
@@ -558,11 +557,11 @@ function render(){
   const isPraz = state.aba==='prazos';
   const isFav  = state.aba==='favoritos';
   const isNot  = state.aba==='noticias';
-  const showFiltros = isNot || isFav || isLeg;
 
-  document.getElementById('filtro-bar').style.display = showFiltros ? '' : 'none';
-  document.getElementById('att-wrap')?.classList.toggle('oculto', !isNot && !isFav);
+  document.getElementById('filtro-bar').style.display = (isPesq || isPraz) ? 'none' : '';
+  document.getElementById('att-wrap')?.classList.toggle('oculto', !isNot);
   document.getElementById('busca-leg-input')?.classList.toggle('oculto', !isLeg);
+  document.getElementById('busca-noticias')?.classList.toggle('oculto', !isNot && !isFav);
 
   const ua=document.getElementById('ultima-att');
   if(ua) ua.textContent = state.ultimaAtt ? 'Atualizado: '+state.ultimaAtt : '';
@@ -606,7 +605,13 @@ function renderNoticias(){
   } else ocultar('alerta-vinculante');
 
   // Grid
-  const pool = state.noticias.filter(n => state.filtro==='todos' || n.area===state.filtro);
+  const q = (state.buscaNoticias||'').toLowerCase().trim();
+  const pool = state.noticias.filter(n => {
+    if(!q) return true;
+    return (n.titulo||'').toLowerCase().includes(q) ||
+           (n.resumo||'').toLowerCase().includes(q) ||
+           (n.fonte||'').toLowerCase().includes(q);
+  });
   const grid=document.getElementById('grid'); grid.innerHTML='';
   if(!pool.length){
     const d=document.createElement('div'); d.className='vazio';
@@ -741,8 +746,13 @@ function renderPrazos(){
 
 /* ═══ RENDER FAVORITOS ═══ */
 function renderFavoritos(){
+  const qf = (state.buscaNoticias||'').toLowerCase().trim();
   const pool=state.noticias.filter(n=>state.favoritos.some(f=>f.id===n.id));
-  const filtrados=pool.filter(n=>state.filtro==='todos'||n.area===state.filtro);
+  const filtrados=pool.filter(n => {
+    if(!qf) return true;
+    return (n.titulo||'').toLowerCase().includes(qf) ||
+           (n.resumo||'').toLowerCase().includes(qf);
+  });
   const grid=document.getElementById('grid-favoritos'); grid.innerHTML='';
   if(!filtrados.length){
     const d=document.createElement('div'); d.className='vazio'; d.style.gridColumn='1/-1';
@@ -901,11 +911,12 @@ document.getElementById('btn-dispensar')?.addEventListener('click',()=>{localSto
 window.addEventListener('appinstalled',()=>ocultar('banner-instalar'));
 
 /* ═══ EVENTOS ═══ */
-document.querySelectorAll('.btn-aba').forEach(b=>b.addEventListener('click',()=>{state.aba=b.dataset.aba;state.filtro='todos';state.busca='';const bi=document.getElementById('busca-leg-input');if(bi)bi.value='';render();}));
+document.querySelectorAll('.btn-aba').forEach(b=>b.addEventListener('click',()=>{state.aba=b.dataset.aba;state.filtro='todos';state.busca='';const bi=document.getElementById('busca-leg-input');if(bi)bi.value='';const bn=document.getElementById('busca-noticias');if(bn)bn.value='';state.buscaNoticias='';render();}));
 document.querySelectorAll('.btn-filtro').forEach(b=>b.addEventListener('click',()=>{state.filtro=b.dataset.filtro;render();}));
 document.getElementById('btn-att')?.addEventListener('click',()=>buscarNoticias());
 document.getElementById('btn-retry')?.addEventListener('click',()=>{ocultar('erro-box');buscarNoticias();});
 document.getElementById('busca-leg-input')?.addEventListener('input',e=>{state.busca=e.target.value;renderLeg();});
+document.getElementById('busca-noticias')?.addEventListener('input',e=>{state.buscaNoticias=e.target.value;render();});
 document.getElementById('btn-toggle-form')?.addEventListener('click',()=>{const f=document.getElementById('form-lei'),btn=document.getElementById('btn-toggle-form');const a=!f.classList.contains('oculto');f.classList.toggle('oculto',a);btn.textContent=a?'+ Adicionar':'✕ Cancelar';});
 document.getElementById('btn-salvar-lei')?.addEventListener('click',adicionarLei);
 document.getElementById('btn-cancelar-lei')?.addEventListener('click',()=>{document.getElementById('form-lei').classList.add('oculto');document.getElementById('btn-toggle-form').textContent='+ Adicionar';});
