@@ -1,182 +1,83 @@
 #!/usr/bin/env python3
-"""
-Busca todas as noticias juridicas dos feeds configurados e gera news.json.
-Sem filtro por palavras-chave — traz tudo das fontes selecionadas.
-"""
-
-import json, os, re, ssl, sys
-import urllib.request, urllib.error
-import xml.etree.ElementTree as ET
+import json, re, sys
+import urllib.request
 from datetime import datetime
-from email.utils import parsedate_to_datetime
+from xml.etree import ElementTree as ET
 
 FEEDS = [
-    {"url": "https://agenciabrasil.ebc.com.br/rss/saude/feed.xml",        "fonte": "Agência Brasil", "secao": "Saúde"},
-    {"url": "https://agenciabrasil.ebc.com.br/rss/justica/feed.xml",      "fonte": "Agência Brasil", "secao": "Justiça"},
-    {"url": "https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",     "fonte": "Agência Brasil", "secao": "Economia"},
-    {"url": "https://agenciabrasil.ebc.com.br/rss/politica/feed.xml",     "fonte": "Agência Brasil", "secao": "Política"},
-    {"url": "https://www.gov.br/ans/pt-br/assuntos/noticias/@@rss.xml",   "fonte": "ANS",            "secao": ""},
-    {"url": "https://www.gov.br/saude/pt-br/assuntos/noticias/@@rss.xml", "fonte": "Ministério da Saúde", "secao": ""},
-    {"url": "https://portal.stf.jus.br/noticias/rss.asp",                 "fonte": "STF",            "secao": ""},
-    {"url": "https://www.trf1.jus.br/trf1/noticia/rss",                   "fonte": "TRF-1",          "secao": ""},
+    ("https://agenciabrasil.ebc.com.br/rss/saude/feed.xml",        "Agência Brasil / Saúde"),
+    ("https://agenciabrasil.ebc.com.br/rss/justica/feed.xml",      "Agência Brasil / Justiça"),
+    ("https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",     "Agência Brasil / Economia"),
+    ("https://agenciabrasil.ebc.com.br/rss/politica/feed.xml",     "Agência Brasil / Política"),
+    ("https://www.gov.br/ans/pt-br/assuntos/noticias/@@rss.xml",   "ANS"),
+    ("https://www.gov.br/saude/pt-br/assuntos/noticias/@@rss.xml", "Ministério da Saúde"),
 ]
 
-HEADERS = {
-    "User-Agent":      "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0",
-    "Accept":          "application/rss+xml, application/xml, text/xml, */*",
-    "Accept-Language": "pt-BR,pt;q=0.9",
-}
+HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"}
 
-
-def limpar(t):
-    if not t: return ""
-    t = re.sub(r"<[^>]+>", " ", t)
-    for a, b in [("&nbsp;"," "),("&amp;","&"),("&lt;","<"),("&gt;",">"),
-                 ("&quot;",'"'),("&#39;","'"),("&#8211;","-"),("&#160;"," ")]:
-        t = t.replace(a, b)
-    return re.sub(r"\s+", " ", t).strip()
-
-
-def http_get(url):
-    ctx = ssl.create_default_context()
-    ctx.check_hostname = False
-    ctx.verify_mode = ssl.CERT_NONE
+def buscar(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=20, context=ctx) as resp:
-        return resp.read()
+    resp = urllib.request.urlopen(req, timeout=20)
+    return resp.read()
 
+noticias = []
 
-def parsear_xml(dados):
-    for enc in ["utf-8", "iso-8859-1", "latin-1"]:
-        try:
-            texto = dados.decode(enc, errors="replace")
-            texto = re.sub(r'encoding=["\'][^"\']+["\']', 'encoding="utf-8"', texto)
-            return ET.fromstring(texto.encode("utf-8"))
-        except ET.ParseError:
-            continue
-    return None
-
-
-def parsear_feed(feed_cfg):
-    fonte     = feed_cfg["fonte"]
-    secao     = feed_cfg.get("secao", "")
-    url       = feed_cfg["url"]
-    nome_exib = f"{fonte}{' / '+secao if secao else ''}"
-
-    print(f"\n[{nome_exib}]")
-
+for url, fonte in FEEDS:
+    print(f"\n[{fonte}] {url}")
     try:
-        dados = http_get(url)
-        print(f"  HTTP 200 | {len(dados)} bytes")
-    except urllib.error.HTTPError as e:
-        print(f"  HTTP {e.code} — ignorado")
-        return []
+        xml = buscar(url)
+        print(f"  OK: {len(xml)} bytes")
     except Exception as e:
         print(f"  ERRO: {e}")
-        return []
+        continue
 
-    root = parsear_xml(dados)
-    if root is None:
-        print(f"  ERRO: XML inválido")
-        return []
-
-    ns    = {"atom": "http://www.w3.org/2005/Atom"}
-    itens = root.findall(".//item") or root.findall(".//atom:entry", ns)
-    print(f"  {len(itens)} entradas")
-
-    resultado = []
-    for item in itens:
-        # Título
-        tel = (item.find("title") or
-               item.find("{http://www.w3.org/2005/Atom}title"))
-        titulo = limpar(tel.text if tel is not None else "")
-        if not titulo:
+    try:
+        root = ET.fromstring(xml)
+    except ET.ParseError:
+        try:
+            texto = xml.decode("iso-8859-1", errors="replace")
+            texto = re.sub(r'encoding=["\'][^"\']+["\']', 'encoding="utf-8"', texto)
+            root = ET.fromstring(texto.encode("utf-8"))
+        except Exception as e2:
+            print(f"  ERRO XML: {e2}")
             continue
 
-        # Link
-        lel = item.find("link")
-        if lel is not None:
-            link = (lel.text or "").strip() or lel.get("href", "")
-        else:
-            lel2 = item.find("{http://www.w3.org/2005/Atom}link")
-            link = lel2.get("href", "") if lel2 is not None else ""
+    itens = root.findall(".//item")
+    print(f"  {len(itens)} itens")
 
-        # Descrição
-        del_ = (item.find("description") or
-                item.find("{http://www.w3.org/2005/Atom}summary") or
-                item.find("{http://www.w3.org/2005/Atom}content"))
-        desc = limpar(del_.text if del_ is not None else "")
-
-        # Data
-        pel = (item.find("pubDate") or
-               item.find("{http://www.w3.org/2005/Atom}published") or
-               item.find("{http://www.w3.org/2005/Atom}updated"))
-        pub = (pel.text or "").strip() if pel is not None else ""
-        try:
-            dt = parsedate_to_datetime(pub)
-        except Exception:
-            try:
-                dt = datetime.fromisoformat(pub.replace("Z", "+00:00"))
-            except Exception:
-                dt = datetime.now()
-
-        resultado.append({
-            "id":      f"{fonte}_{(link or titulo)}"[:120],
-            "fonte":   nome_exib,
+    for item in itens:
+        t = item.find("title")
+        l = item.find("link")
+        d = item.find("description")
+        titulo = (t.text or "").strip() if t is not None else ""
+        if not titulo:
+            continue
+        link   = (l.text or "").strip() if l is not None else ""
+        resumo = re.sub(r"<[^>]+>", " ", d.text or "").strip() if d is not None else ""
+        print(f"  + {titulo[:60]}")
+        noticias.append({
+            "id":      f"{fonte}_{link or titulo}"[:120],
             "titulo":  titulo[:150],
-            "resumo":  desc[:300],
+            "fonte":   fonte,
+            "resumo":  resumo[:300],
             "link":    link,
-            "data":    dt.strftime("%d/%m/%Y"),
-            "hora":    dt.strftime("%H:%M"),
-            "ts":      int(dt.timestamp() * 1000),
+            "data":    datetime.now().strftime("%d/%m/%Y"),
+            "hora":    datetime.now().strftime("%H:%M"),
+            "ts":      int(datetime.now().timestamp() * 1000),
             "favorito": False,
         })
 
-    print(f"  {len(resultado)} itens coletados")
-    return resultado
+print(f"\nTotal: {len(noticias)} notícias")
 
+if not noticias:
+    print("Zero notícias. Preservando news.json anterior.")
+    sys.exit(0)
 
-def main():
-    print(f"=== Prev & Saúde | {datetime.now().strftime('%d/%m/%Y %H:%M')} ===")
-
-    todas = []
-    for feed in FEEDS:
-        try:
-            todas.extend(parsear_feed(feed))
-        except Exception as e:
-            print(f"ERRO {feed['fonte']}: {e}")
-
-    # Remove duplicatas por link
-    vistos = set()
-    unicas = []
-    for n in todas:
-        k = n["link"] or n["titulo"]
-        if k not in vistos:
-            vistos.add(k)
-            unicas.append(n)
-
-    unicas.sort(key=lambda x: x["ts"], reverse=True)
-    print(f"\nTotal: {len(unicas)} notícias")
-
-    if not unicas:
-        print("Nenhuma notícia. Preservando news.json anterior.")
-        if os.path.exists("news.json"):
-            with open("news.json", encoding="utf-8") as f:
-                dados = json.load(f)
-            dados["aviso"] = "Feeds indisponíveis. Exibindo última atualização."
-            with open("news.json", "w", encoding="utf-8") as f:
-                json.dump(dados, f, ensure_ascii=False, indent=2)
-        sys.exit(0)
-
-    saida = {
-        "noticias":   unicas,
+with open("news.json", "w", encoding="utf-8") as f:
+    json.dump({
+        "noticias":   noticias,
         "atualizado": datetime.now().strftime("%d/%m/%Y às %H:%M"),
-        "total":      len(unicas),
-    }
-    with open("news.json", "w", encoding="utf-8") as f:
-        json.dump(saida, f, ensure_ascii=False, indent=2)
-    print(f"Salvo: news.json com {len(unicas)} notícias")
+        "total":      len(noticias),
+    }, f, ensure_ascii=False, indent=2)
 
-
-if __name__ == "__main__":
-    main()
+print("Salvo: news.json")
