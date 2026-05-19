@@ -5,13 +5,13 @@ from datetime import datetime
 from xml.etree import ElementTree as ET
 
 FEEDS = [
-    ("https://agenciabrasil.ebc.com.br/rss/saude/feed.xml",        "Agência Brasil / Saúde"),
-    ("https://agenciabrasil.ebc.com.br/rss/justica/feed.xml",      "Agência Brasil / Justiça"),
-    ("https://agenciabrasil.ebc.com.br/rss/economia/feed.xml",     "Agência Brasil / Economia"),
-    ("https://agenciabrasil.ebc.com.br/rss/politica/feed.xml",     "Agência Brasil / Política"),
-    ("https://www.gov.br/ans/pt-br/assuntos/noticias/@@rss.xml",   "ANS"),
-    ("https://www.gov.br/saude/pt-br/assuntos/noticias/@@rss.xml", "Ministério da Saúde"),
+    ("https://agenciabrasil.ebc.com.br/rss/saude/feed.xml",    "Agência Brasil / Saúde"),
+    ("https://agenciabrasil.ebc.com.br/rss/justica/feed.xml",  "Agência Brasil / Justiça"),
+    ("https://agenciabrasil.ebc.com.br/rss/economia/feed.xml", "Agência Brasil / Economia"),
+    ("https://agenciabrasil.ebc.com.br/rss/politica/feed.xml", "Agência Brasil / Política"),
 ]
+
+LIMITE_DIAS = 30  # descarta notícias mais antigas que isso
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"}
 
@@ -77,6 +77,15 @@ for url, fonte in FEEDS:
         elif "lei " in tl or "decreto" in tl:       tag = "Legislação"
         elif "ministério" in fonte.lower():         tag = fonte.split("/")[0].strip()
         else:                                       tag = fonte.split("/")[-1].strip()
+
+        # Descarta itens muito antigos
+        idade_dias = (datetime.now(dt.tzinfo) - dt).days if dt.tzinfo else (datetime.now() - dt).days
+        if idade_dias > LIMITE_DIAS:
+            continue
+
+        # Descarta títulos inválidos (muito curtos, só números, categorias)
+        if len(titulo) < 15 or titulo.strip().isdigit():
+            continue
 
         print(f"  + {titulo[:60]}")
         noticias.append({
