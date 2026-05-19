@@ -466,6 +466,7 @@ const PALAVRAS_VINCULANTE = [
 const SUPABASE_URL = 'https://mlznzzskyqagriojsxmw.supabase.co';
 const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sem56enNreXFhZ3Jpb2pzeG13Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5ODcwMDQsImV4cCI6MjA5MDU2MzAwNH0.0Ah-fsxfn_SjAj-KRWoYOJ75NODwoJHc1-VPBSZ7u60';
 const SUPABASE_LEGS = SUPABASE_URL + '/rest/v1/legislacoes';
+const SUPABASE_FAVS = SUPABASE_URL + '/rest/v1/favoritos';
 const SUPA_HEADERS = {
   'apikey': SUPABASE_KEY,
   'Authorization': 'Bearer ' + SUPABASE_KEY,
@@ -541,6 +542,35 @@ async function carregarLegislacoes(){
     console.warn('Supabase indisponível, usando cache local:', e.message);
     const salvas = ls('prev_legs', []);
     if(salvas.length) state.legislacoes = salvas;
+  }
+}
+
+async function carregarFavoritos(){
+  try {
+    const resp = await fetch(SUPABASE_FAVS+'?select=*', {headers:SUPA_HEADERS});
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    const dados = await resp.json();
+    if(dados.length){
+      state.favoritos = dados;
+      sv('prev_favs', state.favoritos);
+    } else {
+      const local = ls('prev_favs',[]);
+      if(local.length){
+        // Envia favoritos locais para o Supabase
+        for(const f of local){
+          await fetch(SUPABASE_FAVS, {
+            method:'POST', headers:{...SUPA_HEADERS,'Prefer':'return=minimal'},
+            body:JSON.stringify({id:f.id,titulo:f.titulo||'',fonte:f.fonte||'',
+              resumo:f.resumo||'',link:f.link||'',data:f.data||'',
+              hora:f.hora||'',tag:f.tag||'',ts:f.ts||0}),
+          }).catch(()=>{});
+        }
+        state.favoritos = local;
+      }
+    }
+  } catch(e) {
+    const local = ls('prev_favs',[]);
+    if(local.length) state.favoritos = local;
   }
 }
 
@@ -880,10 +910,26 @@ function buildDouUrl(){
 }
 
 /* ═══ AÇÕES ═══ */
-function toggleFav(id){
+async function toggleFav(id){
   const n=state.noticias.find(x=>x.id===id); if(!n) return;
   const idx=state.favoritos.findIndex(f=>f.id===id);
-  if(idx>=0) state.favoritos.splice(idx,1); else state.favoritos.push({...n,favorito:true});
+  if(idx>=0){
+    // Remove favorito
+    state.favoritos.splice(idx,1);
+    fetch(SUPABASE_FAVS+'?id=eq.'+encodeURIComponent(id),
+      {method:'DELETE',headers:SUPA_HEADERS}).catch(()=>{});
+  } else {
+    // Adiciona favorito
+    const fav={...n,favorito:true};
+    state.favoritos.push(fav);
+    fetch(SUPABASE_FAVS, {
+      method:'POST',
+      headers:{...SUPA_HEADERS,'Prefer':'return=minimal'},
+      body:JSON.stringify({id:n.id,titulo:n.titulo||'',fonte:n.fonte||'',
+        resumo:n.resumo||'',link:n.link||'',data:n.data||'',
+        hora:n.hora||'',tag:n.tag||'',ts:n.ts||0}),
+    }).catch(()=>{});
+  }
   sv('prev_favs',state.favoritos); render();
 }
 function abrirModal(n){
@@ -1099,7 +1145,7 @@ document.getElementById('btn-sync-leg')?.addEventListener('click', async () => {
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 
 /* ═══ INIT ═══ */
-carregarLegislacoes(); buscarNoticias();
+carregarLegislacoes(); carregarFavoritos(); buscarNoticias();
 </script>
 </body>
 </html>
