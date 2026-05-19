@@ -54,16 +54,41 @@ for url, fonte in FEEDS:
             continue
         link   = (l.text or "").strip() if l is not None else ""
         resumo = re.sub(r"<[^>]+>", " ", d.text or "").strip() if d is not None else ""
+
+        # Data real da publicação
+        p = item.find("pubDate")
+        pub = (p.text or "").strip() if p is not None else ""
+        try:
+            from email.utils import parsedate_to_datetime
+            dt = parsedate_to_datetime(pub)
+        except Exception:
+            dt = datetime.now()
+
+        # Tag baseada no título e fonte
+        tl = titulo.lower()
+        if "stf" in tl or fonte == "STF":          tag = "STF"
+        elif "stj" in tl:                           tag = "STJ"
+        elif "inss" in tl:                          tag = "INSS"
+        elif "ans" in tl or fonte == "ANS":         tag = "ANS"
+        elif "anvisa" in tl:                        tag = "Anvisa"
+        elif "trf" in tl or fonte == "TRF-1":       tag = "TRF-1"
+        elif "portaria" in tl:                      tag = "Portaria"
+        elif "resolucao" in tl or "resolução" in tl: tag = "Resolução"
+        elif "lei " in tl or "decreto" in tl:       tag = "Legislação"
+        elif "ministério" in fonte.lower():         tag = fonte.split("/")[0].strip()
+        else:                                       tag = fonte.split("/")[-1].strip()
+
         print(f"  + {titulo[:60]}")
         noticias.append({
             "id":      f"{fonte}_{link or titulo}"[:120],
+            "tag":     tag,
             "titulo":  titulo[:150],
             "fonte":   fonte,
             "resumo":  resumo[:300],
             "link":    link,
-            "data":    datetime.now().strftime("%d/%m/%Y"),
-            "hora":    datetime.now().strftime("%H:%M"),
-            "ts":      int(datetime.now().timestamp() * 1000),
+            "data":    dt.strftime("%d/%m/%Y"),
+            "hora":    dt.strftime("%H:%M"),
+            "ts":      int(dt.timestamp() * 1000),
             "favorito": False,
         })
 
