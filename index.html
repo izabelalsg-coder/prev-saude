@@ -220,6 +220,9 @@
     .footer-fontes{color:var(--muted);}
 
     .oculto{display:none!important;}
+    #toast{position:fixed;bottom:76px;left:50%;transform:translateX(-50%);padding:9px 18px;border-radius:8px;font-size:.77rem;z-index:500;display:none;white-space:nowrap;box-shadow:0 4px 20px rgba(0,0,0,.4);transition:opacity .3s;}
+    #toast.ok  {background:#1a3d2e;border:1px solid var(--green-bd);color:var(--green);}
+    #toast.erro{background:var(--red-bg);border:1px solid var(--red-bd);color:var(--red);}
     .secao-pad{padding:14px;}
 
     @media(max-width:600px){
@@ -295,7 +298,7 @@
     <div id="secao-leg" class="oculto">
       <div style="padding:14px">
         <div class="leg-cab">
-          <div class="leg-titulo">Banco de Legislação</div>
+          <div style="display:flex;align-items:center;gap:8px"><div class="leg-titulo">Banco de Legislação</div><button class="btn-cancelar" id="btn-sync-leg" style="font-size:.65rem;padding:3px 9px">&#8635; Sincronizar</button></div>
           <div style="display:flex;gap:6px;flex-wrap:wrap">
             <button class="btn-add" id="btn-toggle-form">+ Adicionar</button>
             <button class="btn-cancelar" id="btn-exportar-leg" style="font-size:.70rem;padding:5px 10px">&#8595; Exportar</button>
@@ -412,6 +415,7 @@
 
   </main>
 
+  <div id="toast"></div>
   <footer id="footer">
     <span>Izabela Gonçalves Advocacia</span>
     <span class="footer-sep">&middot;</span>
@@ -906,20 +910,25 @@ async function adicionarLei(){
   const area = document.getElementById('lei-area').value;
   const link2 = document.getElementById('lei-link').value.trim();
   const dataHj = new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});
+  const payload = {numero, nome, area, link: link2, data: dataHj};
   try {
     const resp = await fetch(SUPABASE_LEGS, {
       method: 'POST',
       headers: SUPA_HEADERS,
-      body: JSON.stringify({numero, nome, area, link: link2, data: dataHj}),
+      body: JSON.stringify(payload),
     });
-    if(!resp.ok) throw new Error('Erro ao salvar: '+resp.status);
+    if(!resp.ok){
+      const txt = await resp.text();
+      throw new Error('HTTP '+resp.status+': '+txt);
+    }
     const [salva] = await resp.json();
-    state.legislacoes.push({...salva, favorito: false});
+    state.legislacoes.push({...salva, favorito:false});
     sv('prev_legs', state.legislacoes);
+    toast('✓ Norma salva e sincronizada', 'ok');
   } catch(e) {
-    console.warn('Supabase falhou, salvando localmente:', e.message);
-    const novaLei = {id: Date.now(), numero, nome, area, link: link2, data: dataHj};
-    state.legislacoes.push(novaLei);
+    toast('✗ Erro Supabase: '+e.message.slice(0,60), 'erro');
+    const nova = {id:Date.now(), ...payload};
+    state.legislacoes.push(nova);
     sv('prev_legs', state.legislacoes);
   }
   ['lei-numero','lei-nome','lei-link'].forEach(id=>document.getElementById(id).value='');
@@ -950,7 +959,7 @@ async function salvarManual(){
     sv('prev_legs', state.legislacoes);
   }
   ['mn-numero','mn-nome','mn-link'].forEach(id=>document.getElementById(id).value='');
-  alert('Norma salva no banco de legislação!');
+  toast('✓ Norma salva e sincronizada', 'ok');
 }
 function adicionarPrazo(){
   const titulo=document.getElementById('prazo-titulo').value.trim();
@@ -1043,7 +1052,30 @@ async function excluirLegislacao(id){
   renderLeg();
 }
 
+/* ═══ TOAST ═══ */
+function toast(msg, tipo='ok'){
+  const el=document.getElementById('toast');
+  if(!el) return;
+  el.textContent=msg; el.className=tipo; el.style.display='block';
+  clearTimeout(el._t);
+  el._t=setTimeout(()=>{ el.style.display='none'; }, 4000);
+}
+
 /* ═══ SERVICE WORKER ═══ */
+document.getElementById('btn-sync-leg')?.addEventListener('click', async () => {
+  try {
+    const resp = await fetch(SUPABASE_LEGS+'?select=*&order=id.asc', {headers:SUPA_HEADERS});
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    const dados = await resp.json();
+    state.legislacoes = dados.map(l=>({...l,favorito:false}));
+    sv('prev_legs', state.legislacoes);
+    renderLeg();
+    toast('✓ '+state.legislacoes.length+' norma(s) sincronizada(s)', 'ok');
+  } catch(e) {
+    toast('✗ Erro ao sincronizar: '+e.message.slice(0,50), 'erro');
+  }
+});
+
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 
 /* ═══ INIT ═══ */
