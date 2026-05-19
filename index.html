@@ -529,8 +529,13 @@ async function carregarLegislacoes(){
     const resp = await fetch(SUPABASE_LEGS + '?select=*&order=id.asc', {headers: SUPA_HEADERS});
     if(!resp.ok) throw new Error('Supabase HTTP '+resp.status);
     const dados = await resp.json();
-    state.legislacoes = dados.map(l => ({...l, favorito: false}));
-    sv('prev_legs', state.legislacoes);
+    if(dados.length){
+      state.legislacoes = dados.map(l => ({...l, favorito: false}));
+      sv('prev_legs', state.legislacoes);
+    } else {
+      const local = ls('prev_legs', []);
+      if(local.length) state.legislacoes = local;
+    }
     console.log('Legislações carregadas do Supabase:', state.legislacoes.length);
   } catch(e) {
     console.warn('Supabase indisponível, usando cache local:', e.message);
@@ -1067,12 +1072,27 @@ document.getElementById('btn-sync-leg')?.addEventListener('click', async () => {
     const resp = await fetch(SUPABASE_LEGS+'?select=*&order=id.asc', {headers:SUPA_HEADERS});
     if(!resp.ok) throw new Error('HTTP '+resp.status);
     const dados = await resp.json();
+    if(!dados.length){
+      // Supabase vazio — envia dados locais para o servidor
+      if(state.legislacoes.length){
+        for(const l of state.legislacoes){
+          await fetch(SUPABASE_LEGS, {
+            method:'POST', headers:SUPA_HEADERS,
+            body:JSON.stringify({numero:l.numero,nome:l.nome,area:l.area,link:l.link||'',data:l.data||''}),
+          });
+        }
+        toast('✓ '+state.legislacoes.length+' norma(s) enviada(s) ao servidor', 'ok');
+      } else {
+        toast('Servidor e dispositivo sem normas', 'ok');
+      }
+      return;
+    }
     state.legislacoes = dados.map(l=>({...l,favorito:false}));
     sv('prev_legs', state.legislacoes);
     renderLeg();
     toast('✓ '+state.legislacoes.length+' norma(s) sincronizada(s)', 'ok');
   } catch(e) {
-    toast('✗ Erro ao sincronizar: '+e.message.slice(0,50), 'erro');
+    toast('✗ Erro: '+e.message.slice(0,50), 'erro');
   }
 });
 
