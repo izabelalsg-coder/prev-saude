@@ -296,7 +296,11 @@
       <div style="padding:14px">
         <div class="leg-cab">
           <div class="leg-titulo">Banco de Legislação</div>
-          <button class="btn-add" id="btn-toggle-form">+ Adicionar</button>
+          <div style="display:flex;gap:6px;flex-wrap:wrap">
+            <button class="btn-add" id="btn-toggle-form">+ Adicionar</button>
+            <button class="btn-cancelar" id="btn-exportar-leg" style="font-size:.70rem;padding:5px 10px">&#8595; Exportar</button>
+            <label class="btn-cancelar" style="font-size:.70rem;padding:5px 10px;cursor:pointer">&#8593; Importar<input type="file" id="input-importar-leg" accept=".json" style="display:none"/></label>
+          </div>
         </div>
         <div id="form-lei" class="oculto">
           <div class="form-row">
@@ -455,13 +459,7 @@ const PALAVRAS_VINCULANTE = [
   'leading case','incidente de resolução','incidente de resolucao',
 ];
 
-const LEGISLACOES_BASE = [
-  {id:1,numero:'Lei nº 8.213/1991',nome:'Planos de Benefícios da Previdência Social',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm',data:'24/07/1991'},
-  {id:2,numero:'EC nº 103/2019',nome:'Reforma da Previdência',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm',data:'12/11/2019'},
-  {id:3,numero:'Lei nº 9.656/1998',nome:'Planos e Seguros Privados de Saúde',area:'saude',link:'https://www.planalto.gov.br/ccivil_03/leis/l9656.htm',data:'03/06/1998'},
-  {id:4,numero:'RN ANS nº 465/2021',nome:'Rol de Procedimentos e Eventos em Saúde',area:'saude',link:'https://www.ans.gov.br',data:'24/02/2021'},
-  {id:5,numero:'Lei nº 14.181/2021',nome:'Superendividamento e Proteção do Consumidor',area:'previdenciario',link:'https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14181.htm',data:'01/07/2021'},
-];
+const LEGISLACOES_BASE = [];
 
 const PRAZOS_BASE = [
   {id:1,titulo:'Contestação administrativa — INSS',desc:'Prazo de 30 dias da ciência para impugnar decisão administrativa do INSS (art. 306 da IN PRES/INSS nº 128/2022).',data:'',area:'previdenciario'},
@@ -475,7 +473,7 @@ let state = {
   aba:'noticias', filtro:'todos', busca:'', buscaNoticias:'', carregando:false,
   noticias:[],
   favoritos: ls('prev_favs',[]),
-  legislacoes: ls('prev_legs', LEGISLACOES_BASE),
+    legislacoes:[],
   prazos: ls('prev_prazos', PRAZOS_BASE),
   notas: ls('prev_notas', {}),
   notasLeg: ls('prev_notas_leg', {}),
@@ -513,6 +511,24 @@ window.addEventListener('offline', verificarOnline);
 verificarOnline();
 
 /* ═══ BUSCA news.json ═══ */
+async function carregarLegislacoes(){
+  try {
+    const resp = await fetch('legislacoes.json?t='+Date.now());
+    if(!resp.ok) return;
+    const dados = await resp.json();
+    const base = dados.legislacoes || [];
+    // Mescla: base do servidor + adições locais que não estão na base
+    const idsBase = new Set(base.map(l=>l.id));
+    const extras = ls('prev_legs_extras', []);
+    state.legislacoes = [...base, ...extras.filter(l=>!idsBase.has(l.id))];
+    sv('prev_legs', state.legislacoes);
+  } catch(e) {
+    // Fallback para localStorage
+    const salvas = ls('prev_legs', []);
+    if(salvas.length) state.legislacoes = salvas;
+  }
+}
+
 async function buscarNoticias(){
   state.carregando=true; render();
   try{
@@ -872,7 +888,11 @@ function adicionarLei(){
   const numero=document.getElementById('lei-numero').value.trim();
   const nome=document.getElementById('lei-nome').value.trim();
   if(!numero||!nome) return;
-  state.legislacoes.push({id:Date.now(),numero,nome,area:document.getElementById('lei-area').value,link:document.getElementById('lei-link').value.trim(),data:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'})});
+  const novaLei={id:Date.now(),numero,nome,area:document.getElementById('lei-area').value,link:document.getElementById('lei-link').value.trim(),data:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'})};
+  state.legislacoes.push(novaLei);
+  const extras=ls('prev_legs_extras',[]);
+  extras.push(novaLei);
+  sv('prev_legs_extras',extras);
   sv('prev_legs',state.legislacoes);
   ['lei-numero','lei-nome','lei-link'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('form-lei').classList.add('oculto');
@@ -930,11 +950,45 @@ document.getElementById('btn-gerar-pdf')?.addEventListener('click',gerarPdf);
 document.getElementById('btn-fechar-modal')?.addEventListener('click',fecharModal);
 document.getElementById('modal-overlay')?.addEventListener('click',e=>{if(e.target===document.getElementById('modal-overlay'))fecharModal();});
 
+/* ═══ EXPORTAR / IMPORTAR LEGISLAÇÃO ═══ */
+function exportarLegislacoes(){
+  const dados = JSON.stringify({legislacoes: state.legislacoes}, null, 2);
+  const blob  = new Blob([dados], {type:'application/json'});
+  const a     = document.createElement('a');
+  a.href      = URL.createObjectURL(blob);
+  a.download  = 'legislacoes_backup.json';
+  a.click();
+}
+
+function importarLegislacoes(arquivo){
+  const reader = new FileReader();
+  reader.onload = e => {
+    try {
+      const dados = JSON.parse(e.target.result);
+      const lista = dados.legislacoes || dados;
+      if(!Array.isArray(lista)) throw new Error('Formato inválido');
+      state.legislacoes = lista;
+      sv('prev_legs', lista);
+      sv('prev_legs_extras', lista.filter(l => l.id > 5));
+      renderLeg();
+      alert('Importação concluída: '+lista.length+' normas carregadas.');
+    } catch(err) {
+      alert('Erro ao importar: '+err.message);
+    }
+  };
+  reader.readAsText(arquivo);
+}
+
+document.getElementById('btn-exportar-leg')?.addEventListener('click', exportarLegislacoes);
+document.getElementById('input-importar-leg')?.addEventListener('change', e => {
+  if(e.target.files[0]) importarLegislacoes(e.target.files[0]);
+});
+
 /* ═══ SERVICE WORKER ═══ */
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
 
 /* ═══ INIT ═══ */
-buscarNoticias();
+carregarLegislacoes(); buscarNoticias();
 </script>
 </body>
 </html>

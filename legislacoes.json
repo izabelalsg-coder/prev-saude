@@ -1,0 +1,44 @@
+{
+  "legislacoes": [
+    {
+      "id": 1,
+      "numero": "Lei nº 8.213/1991",
+      "nome": "Planos de Benefícios da Previdência Social",
+      "area": "previdenciario",
+      "link": "https://www.planalto.gov.br/ccivil_03/leis/l8213cons.htm",
+      "data": "24/07/1991"
+    },
+    {
+      "id": 2,
+      "numero": "EC nº 103/2019",
+      "nome": "Reforma da Previdência",
+      "area": "previdenciario",
+      "link": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+      "data": "12/11/2019"
+    },
+    {
+      "id": 3,
+      "numero": "Lei nº 9.656/1998",
+      "nome": "Planos e Seguros Privados de Saúde",
+      "area": "saude",
+      "link": "https://www.planalto.gov.br/ccivil_03/leis/l9656.htm",
+      "data": "03/06/1998"
+    },
+    {
+      "id": 4,
+      "numero": "RN ANS nº 465/2021",
+      "nome": "Rol de Procedimentos e Eventos em Saúde",
+      "area": "saude",
+      "link": "https://www.ans.gov.br",
+      "data": "24/02/2021"
+    },
+    {
+      "id": 5,
+      "numero": "Lei nº 14.181/2021",
+      "nome": "Superendividamento e Proteção do Consumidor",
+      "area": "previdenciario",
+      "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14181.htm",
+      "data": "01/07/2021"
+    }
+  ]
+}
