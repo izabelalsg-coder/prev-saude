@@ -459,6 +459,15 @@ const PALAVRAS_VINCULANTE = [
   'leading case','incidente de resolução','incidente de resolucao',
 ];
 
+const SUPABASE_URL = 'https://mlznzzskyqagriosjxmw.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1sem56enNreXFhZ3Jpb2pzeG13Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzQ5ODcwMDQsImV4cCI6MjA5MDU2MzAwNH0.0Ah-fsxfn_SjAj-KRWoYOJ75NODwoJHc1-VPBSZ7u60';
+const SUPABASE_LEGS = SUPABASE_URL + '/rest/v1/legislacoes';
+const SUPA_HEADERS = {
+  'apikey': SUPABASE_KEY,
+  'Authorization': 'Bearer ' + SUPABASE_KEY,
+  'Content-Type': 'application/json',
+  'Prefer': 'return=representation',
+};
 const LEGISLACOES_BASE = [];
 
 const PRAZOS_BASE = [
@@ -513,17 +522,14 @@ verificarOnline();
 /* ═══ BUSCA news.json ═══ */
 async function carregarLegislacoes(){
   try {
-    const resp = await fetch('legislacoes.json?t='+Date.now());
-    if(!resp.ok) return;
+    const resp = await fetch(SUPABASE_LEGS + '?select=*&order=id.asc', {headers: SUPA_HEADERS});
+    if(!resp.ok) throw new Error('Supabase HTTP '+resp.status);
     const dados = await resp.json();
-    const base = dados.legislacoes || [];
-    // Mescla: base do servidor + adições locais que não estão na base
-    const idsBase = new Set(base.map(l=>l.id));
-    const extras = ls('prev_legs_extras', []);
-    state.legislacoes = [...base, ...extras.filter(l=>!idsBase.has(l.id))];
+    state.legislacoes = dados.map(l => ({...l, favorito: false}));
     sv('prev_legs', state.legislacoes);
+    console.log('Legislações carregadas do Supabase:', state.legislacoes.length);
   } catch(e) {
-    // Fallback para localStorage
+    console.warn('Supabase indisponível, usando cache local:', e.message);
     const salvas = ls('prev_legs', []);
     if(salvas.length) state.legislacoes = salvas;
   }
@@ -893,27 +899,56 @@ function gerarPdf(){
   </body></html>`);
   w.document.close(); w.print(); fecharModal();
 }
-function adicionarLei(){
+async function adicionarLei(){
   const numero=document.getElementById('lei-numero').value.trim();
   const nome=document.getElementById('lei-nome').value.trim();
   if(!numero||!nome) return;
-  const novaLei={id:Date.now(),numero,nome,area:document.getElementById('lei-area').value,link:document.getElementById('lei-link').value.trim(),data:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'})};
-  state.legislacoes.push(novaLei);
-  const extras=ls('prev_legs_extras',[]);
-  extras.push(novaLei);
-  sv('prev_legs_extras',extras);
-  sv('prev_legs',state.legislacoes);
+  const area = document.getElementById('lei-area').value;
+  const link2 = document.getElementById('lei-link').value.trim();
+  const dataHj = new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});
+  try {
+    const resp = await fetch(SUPABASE_LEGS, {
+      method: 'POST',
+      headers: SUPA_HEADERS,
+      body: JSON.stringify({numero, nome, area, link: link2, data: dataHj}),
+    });
+    if(!resp.ok) throw new Error('Erro ao salvar: '+resp.status);
+    const [salva] = await resp.json();
+    state.legislacoes.push({...salva, favorito: false});
+    sv('prev_legs', state.legislacoes);
+  } catch(e) {
+    console.warn('Supabase falhou, salvando localmente:', e.message);
+    const novaLei = {id: Date.now(), numero, nome, area, link: link2, data: dataHj};
+    state.legislacoes.push(novaLei);
+    sv('prev_legs', state.legislacoes);
+  }
   ['lei-numero','lei-nome','lei-link'].forEach(id=>document.getElementById(id).value='');
   document.getElementById('form-lei').classList.add('oculto');
   document.getElementById('btn-toggle-form').textContent='+ Adicionar';
   renderLeg();
 }
-function salvarManual(){
+async function salvarManual(){
   const numero=document.getElementById('mn-numero').value.trim();
   const nome=document.getElementById('mn-nome').value.trim();
   if(!numero||!nome){alert('Preencha ao menos o número e o nome.');return;}
-  state.legislacoes.push({id:Date.now(),numero,nome,area:document.getElementById('mn-area').value,link:document.getElementById('mn-link').value.trim(),data:new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'})});
-  sv('prev_legs',state.legislacoes);
+  const mnArea = document.getElementById('mn-area').value;
+  const mnLink = document.getElementById('mn-link').value.trim();
+  const mnData = new Date().toLocaleDateString('pt-BR',{day:'2-digit',month:'2-digit',year:'numeric'});
+  try {
+    const resp = await fetch(SUPABASE_LEGS, {
+      method: 'POST',
+      headers: SUPA_HEADERS,
+      body: JSON.stringify({numero, nome, area: mnArea, link: mnLink, data: mnData}),
+    });
+    if(!resp.ok) throw new Error('HTTP '+resp.status);
+    const [salva] = await resp.json();
+    state.legislacoes.push({...salva, favorito: false});
+    sv('prev_legs', state.legislacoes);
+  } catch(e) {
+    const nova = {id: Date.now(), numero, nome, area: mnArea, link: mnLink, data: mnData};
+    state.legislacoes.push(nova);
+    sv('prev_legs', state.legislacoes);
+  }
   ['mn-numero','mn-nome','mn-link'].forEach(id=>document.getElementById(id).value='');
   alert('Norma salva no banco de legislação!');
 }
@@ -992,6 +1027,21 @@ document.getElementById('btn-exportar-leg')?.addEventListener('click', exportarL
 document.getElementById('input-importar-leg')?.addEventListener('change', e => {
   if(e.target.files[0]) importarLegislacoes(e.target.files[0]);
 });
+
+/* ═══ EXCLUIR LEGISLAÇÃO DO SUPABASE ═══ */
+async function excluirLegislacao(id){
+  try {
+    await fetch(SUPABASE_LEGS + '?id=eq.' + id, {
+      method: 'DELETE',
+      headers: SUPA_HEADERS,
+    });
+  } catch(e) {
+    console.warn('Erro ao excluir do Supabase:', e.message);
+  }
+  state.legislacoes = state.legislacoes.filter(l => l.id !== id);
+  sv('prev_legs', state.legislacoes);
+  renderLeg();
+}
 
 /* ═══ SERVICE WORKER ═══ */
 if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(()=>{});
