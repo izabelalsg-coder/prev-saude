@@ -777,31 +777,33 @@ function renderFavoritos(){
 function gerarBoletim(){
   const agora=new Date();
   const semanaAtras=new Date(agora.getTime()-7*24*60*60*1000);
-  const recentes=state.noticias.filter(n=>{
-    if(!n.ts) return false;
-    return n.ts >= semanaAtras.getTime();
-  });
-  const prev=recentes.filter(n=>n.area==='previdenciario');
-  const saude=recentes.filter(n=>n.area==='saude');
+  const recentes=state.noticias.filter(n=>n.ts && n.ts >= semanaAtras.getTime());
   const vinc=recentes.filter(n=>ehVinculante(n.titulo,n.resumo));
+  const demais=recentes.filter(n=>!ehVinculante(n.titulo,n.resumo));
+
+  // Agrupa por fonte
+  const porFonte={};
+  demais.forEach(n=>{
+    const f=n.fonte||'Geral';
+    if(!porFonte[f]) porFonte[f]=[];
+    porFonte[f].push(n);
+  });
 
   let html=`<div style="color:var(--muted);font-size:.72rem;margin-bottom:10px">
     Semana de ${semanaAtras.toLocaleDateString('pt-BR')} a ${agora.toLocaleDateString('pt-BR')}
-    — ${recentes.length} publicação(ões) relevante(s)
+    &mdash; ${recentes.length} publicação(ões)
   </div>`;
 
   if(vinc.length){
     html+=`<div class="boletim-secao">&#9650; Decisões Vinculantes</div>`;
-    vinc.forEach(n=>{ html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} · ${n.data}</div></div>`; });
+    vinc.forEach(n=>{html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} &middot; ${n.data}</div></div>`;});
   }
-  if(prev.length){
-    html+=`<div class="boletim-secao">Previdenciário</div>`;
-    prev.forEach(n=>{ html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} · ${n.data}</div></div>`; });
-  }
-  if(saude.length){
-    html+=`<div class="boletim-secao">Saúde</div>`;
-    saude.forEach(n=>{ html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.fonte} · ${n.data}</div></div>`; });
-  }
+
+  Object.entries(porFonte).forEach(([fonte,itens])=>{
+    html+=`<div class="boletim-secao">${fonte}</div>`;
+    itens.forEach(n=>{html+=`<div class="boletim-item"><div class="boletim-item-titulo">${n.titulo}</div><div class="boletim-item-fonte">${n.data}</div></div>`;});
+  });
+
   if(!recentes.length) html+=`<div style="color:var(--muted);font-size:.78rem">Nenhuma publicação encontrada nesta semana.</div>`;
 
   document.getElementById('boletim-conteudo').innerHTML=html;
@@ -811,19 +813,26 @@ function gerarBoletim(){
 function baixarBoletimPdf(){
   const agora=new Date();
   const semanaAtras=new Date(agora.getTime()-7*24*60*60*1000);
-  const recentes=state.noticias.filter(n=>n.ts>=semanaAtras.getTime());
-  const prev=recentes.filter(n=>n.area==='previdenciario');
-  const saude=recentes.filter(n=>n.area==='saude');
+  const recentes=state.noticias.filter(n=>n.ts && n.ts>=semanaAtras.getTime());
   const vinc=recentes.filter(n=>ehVinculante(n.titulo,n.resumo));
+  const demais=recentes.filter(n=>!ehVinculante(n.titulo,n.resumo));
+
+  const porFonte={};
+  demais.forEach(n=>{ const f=n.fonte||'Geral'; if(!porFonte[f]) porFonte[f]=[]; porFonte[f].push(n); });
 
   const w=window.open('','_blank');
-  let body=`<h1>Boletim Semanal — Prev &amp; Saúde</h1>
-  <p style="color:#555;font-size:13px">Semana de ${semanaAtras.toLocaleDateString('pt-BR')} a ${agora.toLocaleDateString('pt-BR')} — Izabela Gonçalves Advocacia</p><hr>`;
-  if(vinc.length){ body+=`<h2>&#9650; Decisões Vinculantes</h2>`; vinc.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} · ${n.data}</em></p>`;}); }
-  if(prev.length){ body+=`<h2>Previdenciário</h2>`; prev.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} · ${n.data}</em>${n.resumo?`<br/>${n.resumo}`:''}</p>`;}); }
-  if(saude.length){ body+=`<h2>Saúde</h2>`; saude.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} · ${n.data}</em>${n.resumo?`<br/>${n.resumo}`:''}</p>`;}); }
+  let body=`<h1>Boletim Semanal &mdash; Prev &amp; Saúde</h1>
+  <p style="color:#555;font-size:13px">Semana de ${semanaAtras.toLocaleDateString('pt-BR')} a ${agora.toLocaleDateString('pt-BR')} &mdash; Izabela Gonçalves Advocacia</p><hr>`;
+  if(vinc.length){ body+=`<h2>Decisões Vinculantes</h2>`; vinc.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.fonte} &middot; ${n.data}</em></p>`;}); }
+  Object.entries(porFonte).forEach(([fonte,itens])=>{
+    body+=`<h2>${fonte}</h2>`;
+    itens.forEach(n=>{body+=`<p><strong>${n.titulo}</strong><br/><em>${n.data}</em>${n.resumo?`<br/><span style='font-size:13px;color:#444'>${n.resumo}</span>`:''}</p>`;});
+  });
+  if(!recentes.length) body+=`<p style="color:#888">Nenhuma publicação encontrada nesta semana.</p>`;
   w.document.write(`<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><title>Boletim Semanal</title>
-  <style>body{font-family:Georgia,serif;padding:40px;max-width:720px;margin:auto;color:#1a1a1a}h1{font-size:1.3rem;margin-bottom:5px}h2{font-size:1rem;margin:20px 0 8px;color:#333;border-bottom:1px solid #ccc;padding-bottom:3px}p{margin-bottom:10px;line-height:1.6;font-size:14px}hr{border:1px solid #ccc;margin:15px 0}</style>
+  <style>body{font-family:Georgia,serif;padding:40px;max-width:720px;margin:auto;color:#1a1a1a}
+  h1{font-size:1.3rem;margin-bottom:5px}h2{font-size:1rem;margin:20px 0 8px;color:#333;border-bottom:1px solid #ccc;padding-bottom:3px}
+  p{margin-bottom:10px;line-height:1.6;font-size:14px}hr{border:1px solid #ccc;margin:15px 0}</style>
   </head><body>${body}</body></html>`);
   w.document.close(); w.print();
 }
