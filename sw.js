@@ -1,4 +1,4 @@
-const CACHE = 'prev-saude-v5';
+const CACHE = 'prev-saude-v6';
 const ARQUIVOS = [
   './',
   './index.html',

@@ -924,11 +924,12 @@ async function toggleFav(id){
     state.favoritos.push(fav);
     fetch(SUPABASE_FAVS, {
       method:'POST',
-      headers:{...SUPA_HEADERS,'Prefer':'return=minimal'},
+      headers:{...SUPA_HEADERS,'Prefer':'resolution=merge-duplicates,return=minimal'},
       body:JSON.stringify({id:n.id,titulo:n.titulo||'',fonte:n.fonte||'',
         resumo:n.resumo||'',link:n.link||'',data:n.data||'',
         hora:n.hora||'',tag:n.tag||'',ts:n.ts||0}),
-    }).catch(()=>{});
+    }).then(r=>{ if(r.ok) toast('★ Favoritado e sincronizado','ok'); else r.text().then(t=>toast('✗ Erro: '+t.slice(0,40),'erro')); })
+      .catch(e=>toast('✗ Sem conexão — salvo localmente','erro'));
   }
   sv('prev_favs',state.favoritos); render();
 }
