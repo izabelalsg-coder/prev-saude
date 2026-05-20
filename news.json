@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/oms-continente-africano-tem-139-mortes-sus",
+      "tag": "Saúde",
+      "titulo": "OMS: continente africano tem 139 mortes suspeitas em surtos de ebola",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Organização Mundial da Saúde (OMS) contabiliza quase 600 casos suspeitos e 139 mortes suspeitas por ebola em surtos registrados na República Democrática do Congo (RDC) e em Uganda.    \n\n  Oficialmente, 51 casos foram confirmados em duas províncias ao norte da RDC, embora a própria OMS admita ter c",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/oms-continente-africano-tem-139-mortes-suspeitas-em-surtos-de-ebola",
+      "data": "20/05/2026",
+      "hora": "11:42",
+      "ts": 1779288120000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/luta-antimanicomial-ufjf-e-ufmg-se-desculp",
       "tag": "Saúde",
       "titulo": "Luta antimanicomial: UFJF e UFMG se desculpam por cadáveres em aulas",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/julho-neon-vai-conscientizar-populacao-sob",
-      "tag": "Saúde",
-      "titulo": "Julho Neon vai conscientizar população sobre saúde bucal",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A partir deste ano, os meses de julho serão marcados por campanhas e ações de conscientização sobre a  importância da saúde bucal .     \n\n  As medidas fazem parte do Julho Neon, instituído pela  Lei 15.408/2026  , assinada pelo presidente Luiz Inácio Lula da Silva e pelo ministro da Saúde, Alexandre",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/julho-neon-vai-conscientizar-populacao-sobre-saude-bucal",
-      "data": "18/05/2026",
-      "hora": "08:03",
-      "ts": 1779102180000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/stf-rejeita-pedido-para-revis%C3%A3o-d",
+      "tag": "STF",
+      "titulo": "STF rejeita pedido de destaque para revisão de aposentadorias do INSS",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF), retirou na terça-feira (19) um pedido de destaque (remessa ao plenário físico), restabelecendo a rejeição de mais um recurso sobre a  revisão da vida toda em aposentadorias do Instituto Nacional do Seguro Social (INSS).      \n\n  ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/stf-rejeita-pedido-para-revis%C3%A3o-de-aposentadorias-do-inss",
+      "data": "20/05/2026",
+      "hora": "10:42",
+      "ts": 1779284520000,
       "favorito": false
     },
     {
@@ -226,18 +238,6 @@
       "data": "18/05/2026",
       "hora": "19:01",
       "ts": 1779141660000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-diz-ter-sido-ameacado-de-morte-po",
-      "tag": "Justiça",
-      "titulo": "Dino diz ter sido ameaçado de morte por funcionária de companhia aérea",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), relatou nas redes sociais ter sido alvo de ameaça de morte feita por uma funcionária de uma companhia aérea . O caso ocorreu em um aeroporto de São Paulo na manhã desta segunda-feira (18).    \n\n  De acordo com Dino, a funcionária disse a um ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-diz-ter-sido-ameacado-de-morte-por-funcionaria-de-companhia-aerea",
-      "data": "18/05/2026",
-      "hora": "17:57",
-      "ts": 1779137820000,
       "favorito": false
     },
     {
@@ -361,6 +361,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/parecer-da-6x1-e-adiado-em-meio-pres",
+      "tag": "ANS",
+      "titulo": "Parecer da 6x1 é adiado em meio à pressão para transição de 10 anos",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A Comissão Especial que analisa as propostas de redução da jornada de trabalho das atuais 44 horas para 40 horas semanais e do fim da escala 6x1 adiou, para próxima segunda-feira (25), a apresentação do parecer do relator, o deputado Leo Prates (Republicanos-PB).  Pelo cronograma original, o relator",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/parecer-da-6x1-e-adiado-em-meio-pressao-para-transicao-de-10-anos",
+      "data": "20/05/2026",
+      "hora": "10:39",
+      "ts": 1779284340000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/ccj-da-camara-adia-analise-de-pec-so",
       "tag": "Política",
       "titulo": "CCJ da Câmara adia análise de PEC sobre redução da maioridade penal",
@@ -467,20 +479,8 @@
       "hora": "14:21",
       "ts": 1779124860000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/ia-pode-gerar-mais-fake-news-nas-ele",
-      "tag": "Política",
-      "titulo": "IA pode gerar mais fake news nas eleições, alertam especialistas",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O uso da inteligência artificial (IA) na campanha eleitoral deste ano deve ser um  ponto de especial atenção do ministro Nunes Marques  à frente do Tribunal Superior Eleitoral.    \n\n Para especialistas ouvidos pela  Agência Brasil , o uso da tecnologia poderá transbordar até outubro e agravar a circ",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/ia-pode-gerar-mais-fake-news-nas-eleicoes-alertam-especialistas",
-      "data": "16/05/2026",
-      "hora": "10:15",
-      "ts": 1778937300000,
-      "favorito": false
     }
   ],
-  "atualizado": "20/05/2026 às 12:36",
+  "atualizado": "20/05/2026 às 15:24",
   "total": 40
 }
