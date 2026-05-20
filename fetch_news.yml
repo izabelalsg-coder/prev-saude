@@ -2,7 +2,8 @@ name: Atualizar Noticias
 
 on:
   schedule:
-    - cron: '0 12 * * 1-5'
+    - cron: '0 11 * * 1-5'
+    - cron: '0 13 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -15,15 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Teste de conectividade
-        run: |
-          echo "=== Testando feeds ==="
-          curl -s -o /dev/null -w "Agencia Brasil Saude: %{http_code}\n" "https://agenciabrasil.ebc.com.br/rss/saude/feed.xml"
-          curl -s -o /dev/null -w "ANS: %{http_code}\n" "https://www.gov.br/ans/pt-br/assuntos/noticias/@@rss.xml"
-          curl -s -o /dev/null -w "Min. Saude: %{http_code}\n" "https://www.gov.br/saude/pt-br/assuntos/noticias/@@rss.xml"
-          echo "=== Primeiras linhas do feed de saude ==="
-          curl -sL "https://agenciabrasil.ebc.com.br/rss/saude/feed.xml" | head -c 800
-
       - name: Rodar script
         run: python3 fetch_news.py
 
@@ -32,5 +24,5 @@ jobs:
           git config user.name "bot"
           git config user.email "bot@github.com"
           git add news.json
-          git diff --staged --quiet || git commit -m "noticias $(date +'%d/%m/%Y')"
+          git diff --staged --quiet || git commit -m "noticias $(date +'%d/%m/%Y %H:%M')"
           git push
