@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/carmen-lucia-vota-por-derrubar-flexibi",
+      "tag": "Legislação",
+      "titulo": "Cármen Lúcia vota por derrubar flexibilização da Lei da Ficha Limpa",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A ministra Cármen Lúcia, do Supremo Tribunal Federal (STF), votou nesta terça-feira (22) por derrubar a flexibilização da Lei da Ficha Limpa,  aprovada pelo Congresso Nacional  no ano passado, para limitar o prazo de inelegibilidade de políticos condenados.     \n\n Para a ministra, as alterações “est",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/carmen-lucia-vota-por-derrubar-flexibilizacao-da-lei-da-ficha-limpa",
+      "data": "22/05/2026",
+      "hora": "11:45",
+      "ts": 1779461100000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/justica-condena-marinha-pagar-r-200-mi",
       "tag": "Justiça",
       "titulo": "Justiça condena Marinha a pagar R$ 200 mil por ofensas a João Cândido",
@@ -226,18 +238,6 @@
       "data": "20/05/2026",
       "hora": "18:03",
       "ts": 1779310980000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-pede-que-camara-explique-viagem-d",
-      "tag": "Justiça",
-      "titulo": "Dino pede que Câmara explique viagem de Mário Frias ao exterior",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), deu prazo de 48 horas para a Câmara dos Deputados dar explicações sobre a viagem do deputado Mário Frias (PL-SP) ao Bahrein e aos Estados Unidos.     \n\n Em entrevista concedida ontem ao SBT News, Frias disse que, na semana passada, esteve no",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-pede-que-camara-explique-viagem-de-mario-frias-ao-exterior",
-      "data": "20/05/2026",
-      "hora": "17:48",
-      "ts": 1779310080000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "22/05/2026 às 14:42",
+  "atualizado": "22/05/2026 às 16:00",
   "total": 40
 }
