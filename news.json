@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/capitao-de-navio-com-surto-de-hantavirus-d",
+      "tag": "Saúde",
+      "titulo": "Capitão de navio com surto de hantavírus deixa a embarcação",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Após o desembarque completo de passageiros e da tripulação, o capitão do navio de cruzeiro MV Hondius, que registrou um surto de hantavírus, deixou a embarcação neste sábado (23).  A informação foi  confirmada  pelo diretor-geral da Organização Mundial da Saúde (OMS), Tedros Adhanom Ghebreyesus.   \n",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/capitao-de-navio-com-surto-de-hantavirus-deixa-embarcacao",
+      "data": "23/05/2026",
+      "hora": "11:39",
+      "ts": 1779547140000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/uganda-confirma-mais-tres-casos-de-ebola-t",
+      "tag": "Saúde",
+      "titulo": "Uganda confirma mais três casos de ebola; total sobe para cinco",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Uganda reportou neste sábado (23) mais três casos confirmados de ebola no país, incluindo um profissional de saúde, um motorista e uma mulher congolesa que havia visitado a  província de Ituri, na República Democrática do Congo (RDC) , onde o surto da doença é ainda pior.    \n\n Com isso, a Organizaç",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/uganda-confirma-mais-tres-casos-de-ebola-total-sobe-para-cinco",
+      "data": "23/05/2026",
+      "hora": "10:58",
+      "ts": 1779544680000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ebola-oms-eleva-muito-alto-risco-na-republ",
       "tag": "Saúde",
       "titulo": "Ebola: OMS eleva a muito alto risco na República Democrática do Congo",
@@ -15,7 +39,7 @@
     {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/quem-vai-viajar-para-copa-deve-estar-alert",
       "tag": "Saúde",
-      "titulo": "Quem vai viajar para Copa deve estar alerta para vacina do sarampo",
+      "titulo": "Turistas rumo à Copa devem estar alerta para vacina do sarampo",
       "fonte": "Agência Brasil / Saúde",
       "resumo": "Os torcedores brasileiros que forem viajar para assistir a Copa do Mundo 2026 devem ficar atentos à vacinação contra sarampo.  O alerta é feito pelos principais órgãos de saúde do país.   \n\n A recomendação é por causa do  surto da doença nos países que irão sediar o Mundial: Estados Unidos, México e",
       "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/quem-vai-viajar-para-copa-deve-estar-alerta-para-vacina-do-sarampo",
@@ -94,30 +118,6 @@
       "data": "21/05/2026",
       "hora": "14:58",
       "ts": 1779386280000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/brasileiros-com-diabetes-defendem-uso-de-t",
-      "tag": "Saúde",
-      "titulo": "Brasileiros com diabetes defendem uso de tecnologias no tratamento",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Sete em cada dez brasileiros com diabetes (70%) afirmam que a doença afeta de modo significativo o bem-estar emocional. Setenta e oito por cento relatam ter ansiedade ou preocupação com o futuro, e dois em cada cinco pacientes se sentem sós ou isolados em função da doença.   \n\n Os dados são de pesqu",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/brasileiros-com-diabetes-defendem-uso-de-tecnologias-tratamento",
-      "data": "21/05/2026",
-      "hora": "10:30",
-      "ts": 1779370200000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ir-como-declarar-planos-de-saude-e-depende",
-      "tag": "Saúde",
-      "titulo": "IR: como declarar planos de saúde e dependentes sem cair na malha",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A declaração do Imposto de Renda envolve regras complexas sobre dependentes e plano de saúde, que geram dúvidas recorrentes entre os contribuintes.    \n\n Especialistas ouvidos pelo podcast  VideBula , da  Radioagência Nacional , reforçam que a regra a ser seguida é declarar todos os gastos que efeti",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ir-como-declarar-planos-de-saude-e-dependentes-sem-cair-na-malha",
-      "data": "21/05/2026",
-      "hora": "09:00",
-      "ts": 1779364800000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/china-suspende-tres-frigorificos-bra",
+      "tag": "Economia",
+      "titulo": "China suspende três frigoríficos brasileiros após irregularidades",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A China suspendeu temporariamente as exportações de três frigoríficos brasileiros após identificar irregularidades sanitárias em cargas de carne bovina enviadas ao país.    \n\n  A medida atinge unidades da JBS, da PrimaFoods e da Frialto e foi confirmada pela Associação Brasileira das Indústrias Expo",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/china-suspende-tres-frigorificos-brasileiros-apos-irregularidades",
+      "data": "23/05/2026",
+      "hora": "11:33",
+      "ts": 1779546780000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/uma-semana-do-fim-do-prazo-mais-de-3",
       "tag": "Economia",
       "titulo": "A uma semana do fim do prazo, mais de 30 mi enviaram declaração do IR",
@@ -346,18 +358,6 @@
       "data": "21/05/2026",
       "hora": "17:14",
       "ts": 1779394440000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/consumo-de-cafe-sobe-244-no-primeiro",
-      "tag": "Economia",
-      "titulo": "Consumo de café sobe 2,44% no primeiro quadrimestre deste ano",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Com a desaceleração dos preços do café nos supermercados, o consumo da bebida voltou a crescer no Brasil.  Nos primeiros quatro meses deste ano foi registrada uma alta de 2,44% no consumo de café na comparação com o mesmo período do ano passado, alcançando 4,9 milhões de sacas de 60 quilos.     \n\n S",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/consumo-de-cafe-sobe-244-no-primeiro-quadrimestre-deste-ano",
-      "data": "21/05/2026",
-      "hora": "17:02",
-      "ts": 1779393720000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "23/05/2026 às 14:00",
+  "atualizado": "23/05/2026 às 16:00",
   "total": 40
 }
