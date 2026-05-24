@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-tera-producao-nacional-de-terapias",
+      "tag": "Saúde",
+      "titulo": "Fiocruz terá produção nacional de terapias celulares contra o câncer",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Sistema Único de Saúde (SUS) ganhou um reforço, neste sábado (23), com o lançamento, na Fundação Oswaldo Cruz (Fiocruz), do Centro de Desenvolvimento e Produção de Terapias CAR-T, que vai possibilitar a fabricação nacional de terapias celulares a preços reduzidos.    \n\n  De acordo com a Fiocruz, a",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-tera-producao-nacional-de-terapias-celulares-contra-o-cancer",
+      "data": "23/05/2026",
+      "hora": "16:37",
+      "ts": 1779565020000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ebola-dez-paises-africanos-estao-sob-alto-",
+      "tag": "Saúde",
+      "titulo": "Ebola: dez países africanos estão sob alto risco, diz agência",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Dez países africanos estão sob alto risco em meio aos surtos de ebola registrados na República Democrática do Congo (RDC) e em Uganda.  A avaliação é do Centro de Controle e Prevenção de Doenças do continente (CDC Africa, na sigla em inglês).   \n\n “Temos dois países afetados e 10 países com alto ris",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ebola-dez-paises-africanos-estao-sob-alto-risco-diz-agencia",
+      "data": "23/05/2026",
+      "hora": "15:44",
+      "ts": 1779561840000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/capitao-de-navio-com-surto-de-hantavirus-d",
       "tag": "Saúde",
       "titulo": "Capitão de navio com surto de hantavírus deixa a embarcação",
@@ -37,12 +61,12 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/quem-vai-viajar-para-copa-deve-estar-alert",
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/turista-rumo-a-copa-devem-estar-alertas-pa",
       "tag": "Saúde",
-      "titulo": "Turistas rumo à Copa devem estar alerta para vacina do sarampo",
+      "titulo": "Turistas rumo à Copa devem estar alertas para vacina do sarampo",
       "fonte": "Agência Brasil / Saúde",
       "resumo": "Os torcedores brasileiros que forem viajar para assistir a Copa do Mundo 2026 devem ficar atentos à vacinação contra sarampo.  O alerta é feito pelos principais órgãos de saúde do país.   \n\n A recomendação é por causa do  surto da doença nos países que irão sediar o Mundial: Estados Unidos, México e",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/quem-vai-viajar-para-copa-deve-estar-alerta-para-vacina-do-sarampo",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/turista-rumo-a-copa-devem-estar-alertas-para-vacina-do-sarampo",
       "data": "23/05/2026",
       "hora": "10:05",
       "ts": 1779541500000,
@@ -97,27 +121,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/inca-faz-campanha-para-ampliar-ajuda-pacie",
-      "tag": "Saúde",
-      "titulo": "Inca faz campanha para ampliar ajuda a pacientes vulneráveis",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O INCAvoluntário, área de ações sociais do Instituto Nacional do Câncer (Inca), está convocando doadores para contribuir com o Programa Nutrir, que ajuda os pacientes em situação de vulnerabilidade social a manterem uma alimentação saudável.    \n\n O Inca é referência nacional em tratamento oncológic",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/inca-faz-campanha-para-ampliar-ajuda-pacientes-vulneraveis",
-      "data": "21/05/2026",
-      "hora": "17:33",
-      "ts": 1779395580000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/policiais-penais-denunciam-tratamento-",
+      "tag": "Justiça",
+      "titulo": "Policiais penais denunciam tratamento diferenciado a Deolane na prisão",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Sindicato dos Policiais Penais do Estado de São Paulo (Sinppenal) revelou que a advogada e influenciadora Deolane Bezerra,  detida por suspeita de integrar um esquema de lavagem de dinheiro  com o Primeiro Comando da Capital (PCC), recebeu tratamento especial na Penitenciária Feminina de Santana, ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/policiais-penais-denunciam-tratamento-diferenciado-deolane-na-prisao",
+      "data": "23/05/2026",
+      "hora": "16:57",
+      "ts": 1779566220000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-vai-produzir-remedio-de-alto-custo",
-      "tag": "Saúde",
-      "titulo": "Fiocruz vai produzir remédio de alto custo contra esclerose para o SUS",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O medicamento de alto custo cladribina oral, que já é distribuído pelo Sistema Único de Saúde (SUS) a pacientes com esclerose múltipla, passará a ser produzido no Brasil pela Fundação Oswaldo Cruz (Fiocruz). Com isso, os custos de aquisição devem cair, permitindo que mais pacientes recebam a medicaç",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-vai-produzir-remedio-de-alto-custo-contra-esclerose-para-o-sus",
-      "data": "21/05/2026",
-      "hora": "14:58",
-      "ts": 1779386280000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/fux-vota-para-manter-presos-pai-e-prim",
+      "tag": "Justiça",
+      "titulo": "Fux vota para manter presos pai e primo de Vorcaro",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Luiz Fux, do Supremo Tribunal Federal (STF), votou neste sábado (23) pela manutenção das prisões preventivas de Henrique Vorcaro e Felipe Vorcaro, pai e primo do ex-dono do Banco Master, Daniel Vorcaro. Com a decisão, a Segunda Turma da Corte formou placar parcial de 2 a 0 para manter as ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/fux-vota-para-manter-presos-pai-e-primo-de-vorcaro",
+      "data": "23/05/2026",
+      "hora": "16:28",
+      "ts": 1779564480000,
       "favorito": false
     },
     {
@@ -217,27 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/mario-frias-viajou-para-o-exterior-sem",
-      "tag": "Justiça",
-      "titulo": "Mário Frias viajou para o exterior sem autorização da Câmara",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A Câmara dos Deputados informou nesta sexta-feira (22) ao ministro Flávio Dino, do Supremo Tribunal Federal (STF), que o deputado federal Mário Frias (PL-SP) fez dois pedidos de autorização para viagens oficiais ao Bahrein e aos Estados Unidos, mas os pedidos ainda estão em fase de “apreciação”.    ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/mario-frias-viajou-para-o-exterior-sem-autorizacao-da-camara",
-      "data": "22/05/2026",
-      "hora": "15:25",
-      "ts": 1779474300000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/mendonca-vota-para-manter-prisao-de-pa",
-      "tag": "Justiça",
-      "titulo": "Mendonça vota para manter prisão de pai de Vorcaro; Gilmar pede vista",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), votou nesta sexta-feira (22) para manter sua própria decisão que determinou a prisão do pai do banqueiro Daniel Vorcaro, Henrique Vorcaro.    \n\n Após o voto de Mendonça, que é relator do caso,  o julgamento foi suspenso por um pedido de v",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/mendonca-vota-para-manter-prisao-de-pai-de-vorcaro-gilmar-pede-vista",
-      "data": "22/05/2026",
-      "hora": "15:20",
-      "ts": 1779474000000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/na-reta-final-30-ainda-nao-enviaram-",
+      "tag": "Economia",
+      "titulo": "Na reta final, 30% ainda não enviaram declaração do Imposto de Renda",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A seis dias do fim do prazo, 30,2% dos contribuintes ainda não acertaram as contas com o Leão. Até às 17h57 deste sábado (23), a Receita Federal recebeu 30.694.236 Declarações do Imposto de Renda Pessoa Física 2026 (ano-base 2025).     \n\n O número equivale a 69,8% do total de declarações previstas p",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/na-reta-final-30-ainda-nao-enviaram-declaracao-do-ir",
+      "data": "23/05/2026",
+      "hora": "18:15",
+      "ts": 1779570900000,
       "favorito": false
     },
     {
@@ -349,15 +361,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/novo-desenrola-renegocia-quase-r-12-",
-      "tag": "Economia",
-      "titulo": "Novo Desenrola renegocia quase R$ 12 bilhões em dívidas",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Novo Desenrola renegociou cerca de R$ 12 bilhões em dívidas de famílias e contratos do Fundo de Financiamento Estudantil (Fies) desde o lançamento, disse nesta quinta-feira (21) o ministro da Fazenda, Dario Durigan. Segundo ele, as negociações beneficiaram mais de 1 milhão de pessoas.    \n\n \n “O p",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/novo-desenrola-renegocia-quase-r-12-bilhoes-em-dividas",
-      "data": "21/05/2026",
-      "hora": "17:14",
-      "ts": 1779394440000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/brasil-nao-e-menor-nem-menos-competi",
+      "tag": "Política",
+      "titulo": "Brasil não é menor nem menos competitivo do que ninguém, diz Lula",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Ao inaugurar a nova sede do Centro de Desenvolvimento Tecnológico em Saúde da Fundação Oswaldo Cruz (Fiocruz), no Rio de Janeiro, o presidente Luiz Inácio Lula da Silva disse, neste sábado (23), que esse tipo de entrega dá ao país a certeza de não ser menor ou menos competitivo que nenhum outro.    ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/brasil-nao-e-menor-nem-menos-competitivo-que-ninguem-diz-lula",
+      "data": "23/05/2026",
+      "hora": "15:05",
+      "ts": 1779559500000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-pede-que-governador-do-rj-traba",
+      "tag": "Política",
+      "titulo": "Lula pede que governador do RJ trabalhe para prender milicianos",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O presidente Luiz Inácio Lula da Silva pediu neste sábado (23) que o governador do Rio de Janeiro, Ricardo Couto, trabalhe para prender “ladrões e milicianos” que, segundo ele, comandaram o estado ao longo dos últimos anos.    \n\n \n “Ninguém está esperando que você faça um viaduto. Ninguém está esper",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-pede-que-governador-do-rj-trabalhe-para-prender-milicianos",
+      "data": "23/05/2026",
+      "hora": "13:57",
+      "ts": 1779555420000,
       "favorito": false
     },
     {
@@ -455,32 +479,8 @@
       "hora": "17:05",
       "ts": 1779307500000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/decreto-determina-que-big-techs-deve",
-      "tag": "Legislação",
-      "titulo": "Decreto determina que big techs devem prevenir conteúdos criminosos",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O presidente Luiz Inácio Lula da Silva assinou, nesta quarta-feira (20),  decreto que atualiza a regulamentação do Marco Civil da Internet. O texto trata dos deveres e possibilita a responsabilização das plataformas digitais sobre os conteúdos distribuídos em seus ecossistemas.    \n\n A medida ainda ",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/decreto-determina-que-big-techs-devem-prevenir-conteudos-criminosos",
-      "data": "20/05/2026",
-      "hora": "16:17",
-      "ts": 1779304620000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/novas-medidas-do-governo-reforcam-pr",
-      "tag": "Política",
-      "titulo": "Novas medidas do governo reforçam proteção das mulheres na internet",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O presidente Luiz Inácio Lula da Silva assinou, nesta quarta-feira (20), decreto que visa reforçar a proteção das mulheres no ambiente digital.  O texto disciplina os deveres das plataformas digitais diante de crimes de violência contra mulheres na internet e institui mecanismos para prevenção e com",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/novas-medidas-do-governo-reforcam-protecao-das-mulheres-na-internet",
-      "data": "20/05/2026",
-      "hora": "16:08",
-      "ts": 1779304080000,
-      "favorito": false
     }
   ],
-  "atualizado": "23/05/2026 às 16:00",
+  "atualizado": "24/05/2026 às 14:00",
   "total": 40
 }
