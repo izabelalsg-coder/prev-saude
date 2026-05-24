@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-nega-pedido-de-soltura-de-deolane",
+      "tag": "Justiça",
+      "titulo": "Dino nega pedido de soltura de Deolane Bezerra",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro do  Supremo Tribunal Federal (STF) , Flávio Dino, negou pedido de soltura da influenciadora Deolane Bezerra, presa na última quinta-feira (21) na Operação Vérnix, que investiga lavagem de dinheiro da organização criminosa Primeiro Comando da Capital (PCC).    \n\n A decisão do ministro, ass",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-nega-pedido-de-soltura-de-deolane-bezerra",
+      "data": "24/05/2026",
+      "hora": "11:59",
+      "ts": 1779634740000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/policiais-penais-denunciam-tratamento-",
       "tag": "Justiça",
       "titulo": "Policiais penais denunciam tratamento diferenciado a Deolane na prisão",
@@ -226,18 +238,6 @@
       "data": "22/05/2026",
       "hora": "16:22",
       "ts": 1779477720000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/fachin-vai-propor-contracheque-unico-p",
-      "tag": "Justiça",
-      "titulo": "Fachin vai propor contracheque único para pagamento de juízes",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Conselho Nacional de Justiça (CNJ) e do Supremo Tribunal Federal (STF), ministro Edson Fachin, vai propor a aprovação de uma resolução para criar um contracheque único e fiscalizar os pagamentos a juízes de todo o país. A questão será votada na próxima terça-feira (26) pelo conselho.",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/fachin-vai-propor-contracheque-unico-para-pagamento-de-juizes",
-      "data": "22/05/2026",
-      "hora": "15:44",
-      "ts": 1779475440000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "24/05/2026 às 14:00",
+  "atualizado": "24/05/2026 às 16:00",
   "total": 40
 }
