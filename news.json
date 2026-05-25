@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-da-10-dias-para-governo-mostrar-p",
+      "tag": "Justiça",
+      "titulo": "Dino dá 10 dias para governo mostrar plano de combate a incêndios",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Flávio Dino, o Supremo Tribunal Federal (STF), deu prazo de 10 dias para que o governo federal e os estados da Amazônia Legal informarem à Corte como se planejam para combater uma provável alta nos incêndios florestais provocada pelo fenômeno climático  El Niño.        \n\n Dino tomou a med",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-da-10-dias-para-governo-mostrar-plano-de-combate-incendios",
+      "data": "25/05/2026",
+      "hora": "11:48",
+      "ts": 1779720480000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/moraes-e-notificado-por-e-mail-em-proc",
       "tag": "Justiça",
       "titulo": "Moraes é notificado por e-mail em processo da Trump Media nos EUA",
@@ -226,18 +238,6 @@
       "data": "22/05/2026",
       "hora": "16:55",
       "ts": 1779479700000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/policia-de-sp-identifica-mandante-de-r",
-      "tag": "Justiça",
-      "titulo": "Polícia de SP aponta mandante de roubo a Biblioteca Mário de Andrade",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A Polícia Civil de São Paulo identificou o mandante do  roubo de obras de arte  da Biblioteca Mário de Andrade, ocorrido em dezembro de 2025.  De acordo com a Secretaria de Segurança Pública de São Paulo, uma operação policial executou três mandados de prisão 11 mandados de busca e apreensão nesta s",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/policia-de-sp-identifica-mandante-de-roubo-biblioteca-mario-de-andrade",
-      "data": "22/05/2026",
-      "hora": "16:54",
-      "ts": 1779479640000,
       "favorito": false
     },
     {
@@ -361,6 +361,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-inicia-radioterapia-apos-retira",
+      "tag": "Política",
+      "titulo": "Lula inicia radioterapia após retirada de lesão no couro cabeludo",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O presidente  Luiz Inácio Lula da Silva  iniciou nesta segunda-feira (25) tratamento de radioterapia no couro cabeludo. A medida foi adotada após a retirada de uma lesão na pele em 24 de abril. O Procedimento, no  Hospital Sírio-Libanês em Brasília , é preventivo e terá 15 sessões.    \n\n De acordo c",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-inicia-radioterapia-apos-retirada-de-lesao-no-couro-cabeludo",
+      "data": "25/05/2026",
+      "hora": "11:37",
+      "ts": 1779719820000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/brasil-nao-e-menor-nem-menos-competi",
       "tag": "Política",
       "titulo": "Brasil não é menor nem menos competitivo do que ninguém, diz Lula",
@@ -467,20 +479,8 @@
       "hora": "19:12",
       "ts": 1779315120000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/ministro-das-comunicacoes-reforca-im",
-      "tag": "Política",
-      "titulo": "Ministro das Comunicações reforça importância da EBC para democracia",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O ministro das Comunicações, Frederico de Siqueira Filho, foi o convidado da última edição do programa  Na Mesa com Datena,  da  TV Brasil , exibida na última terça-feira (19). Durante a atração com José Luiz Datena,  o ministro comentou sobre a relevância da Empresa Brasil de Comunicação (EBC) para",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/ministro-das-comunicacoes-reforca-importancia-da-ebc-para-democracia",
-      "data": "20/05/2026",
-      "hora": "17:05",
-      "ts": 1779307500000,
-      "favorito": false
     }
   ],
-  "atualizado": "25/05/2026 às 14:00",
+  "atualizado": "25/05/2026 às 14:56",
   "total": 40
 }
