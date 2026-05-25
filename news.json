@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/cruz-vermelha-lamenta-mortes-de-voluntario",
+      "tag": "Saúde",
+      "titulo": "Cruz Vermelha lamenta mortes de voluntários no Congo devido ao Ebola",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Cruz Vermelha brasileira lamentou a morte de três voluntários da entidade na República Democrática do Congo (RDC). Em nota, divulgada no sábado (23), o órgão informou que eles foram vítimas de infecção por ebola .   \n\n \n “Eles perderam suas vidas para o vírus ebola enquanto lutavam bravamente na l",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/cruz-vermelha-lamenta-mortes-de-voluntarios-no-congo-devido-ao-ebola",
+      "data": "25/05/2026",
+      "hora": "09:22",
+      "ts": 1779711720000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/profissionais-de-saude-vencem-desafios-par",
+      "tag": "Saúde",
+      "titulo": "Profissionais de saúde vencem desafios para vacinação em área indígena",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Na área atendida pelo Distrito Sanitário Especial Indígena (DSEI) Alto Rio Purus, unidade descentralizada do Sistema Único de Saúde (SUS), vivem 11 mil pessoas das etnias Apurinã, Jamamadi, Jaminawa, Kaxarari, Kaxinawá, Huni Kuin, Madiha, Kulina e Manchineri.    \n\n São 155 aldeias, com populações qu",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/profissionais-de-saude-vencem-desafios-para-vacinacao-em-area-indigena",
+      "data": "24/05/2026",
+      "hora": "13:47",
+      "ts": 1779641220000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-tera-producao-nacional-de-terapias",
       "tag": "Saúde",
       "titulo": "Fiocruz terá produção nacional de terapias celulares contra o câncer",
@@ -97,27 +121,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/secretaria-da-saude-de-sp-reforca-vigilanc",
-      "tag": "Saúde",
-      "titulo": "Secretaria da Saúde de SP reforça vigilância sobre ebola no estado",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Secretaria de Estado da Saúde de São Paulo reforçou nesta quinta-feira (21) as  orientações  à rede estadual de saúde sobre fluxos de identificação, notificação, isolamento e atendimento de casos suspeitos de ebola no estado.   \n\n  A Organização Mundial da Saúde (OMS)  contabiliza quase 600 casos ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/secretaria-da-saude-de-sp-reforca-vigilancia-sobre-ebola-no-estado",
-      "data": "21/05/2026",
-      "hora": "19:45",
-      "ts": 1779403500000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/moraes-e-notificado-por-e-mail-em-proc",
+      "tag": "Justiça",
+      "titulo": "Moraes é notificado por e-mail em processo da Trump Media nos EUA",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF),   foi notificado judicialmente na última sexta-feira   (25) para responder a uma ação judicial aberta contra ele, nos Estados Unidos, pela plataforma Rumble e pela Trump Media &amp; Technology Group, empresa ligada ao presidente nort",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/moraes-e-notificado-por-e-mail-em-processo-da-trump-media-nos-eua",
+      "data": "25/05/2026",
+      "hora": "10:26",
+      "ts": 1779715560000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/sus-adota-novo-exame-para-rastrear-cancer-",
-      "tag": "Saúde",
-      "titulo": "SUS adota novo exame para rastrear câncer colorretal na população",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Ministério da Saúde anunciou nesta quinta-feira (21) a incorporação de um novo protocolo nacional para rastreamento do câncer colorretal no Sistema Único de Saúde (SUS). O  Teste Imunoquímico Fecal (FIT, na sigla em inglês) passa a ser o exame de referência para homens e mulheres assintomáticos en",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/sus-adota-novo-exame-para-rastrear-cancer-colorretal-na-populacao",
-      "data": "21/05/2026",
-      "hora": "18:56",
-      "ts": 1779400560000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/novo-juri-do-assassinato-de-henry-bore",
+      "tag": "Justiça",
+      "titulo": "Novo júri do assassinato de Henry Borel ocorre nesta segunda-feira",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Após a defesa de Jairo Souza Santos Júnior (Dr. Jairinho), padrasto de Henry Borel, abandonar o plenário, novo julgamento está marcado para segunda-feira (25). Dr. Jairinho e a mãe do menino Henry, Monique Medeiros, voltam ao banco dos réus no 2º Tribunal do Júri, no centro do Rio de Janeiro, acusad",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/novo-juri-do-assassinato-de-henry-borel-ocorre-nesta-segunda-feira",
+      "data": "25/05/2026",
+      "hora": "09:51",
+      "ts": 1779713460000,
       "favorito": false
     },
     {
@@ -217,27 +241,51 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/mendonca-autoriza-transferencia-de-vor",
-      "tag": "ANS",
-      "titulo": "Mendonça autoriza transferência de Vorcaro para sala especial na PF",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), decidiu nesta sexta-feira (22) que o banqueiro Daniel Vorcaro, dono do Banco Master, vai permanecer preso na Superintendência da Polícia Federal em Brasília.    \n\n  Contudo, Vorcaro deverá ser levado de volta para a sala de estado-maior e",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/mendonca-autoriza-transferencia-de-vorcaro-para-sala-especial-na-pf",
-      "data": "22/05/2026",
-      "hora": "16:52",
-      "ts": 1779479520000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/mercado-eleva-previsao-da-inflacao-p",
+      "tag": "Economia",
+      "titulo": "Mercado eleva previsão da inflação para 5,04% este ano",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 4,92% para 5,04% este ano . A estimativa está no  Boletim Focus  desta segunda-feira (25), pesquisa divulgada semanalmente pelo Banco Central (BC) com a exp",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/mercado-eleva-previsao-da-inflacao-para-504-este-ano",
+      "data": "25/05/2026",
+      "hora": "09:55",
+      "ts": 1779713700000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/tse-define-ministros-que-vao-julgar-pr",
-      "tag": "Justiça",
-      "titulo": "TSE define ministros que vão julgar processos de presidenciáveis",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Tribunal Superior Eleitoral (TSE), Nunes Marques, definiu nesta sexta-feira (22) os ministros que vão atuar no julgamento de processos envolvendo a propaganda eleitoral dos candidatos à Presidência da República nas eleições de outubro.   \n\n  Além do próprio presidente da Corte eleito",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/tse-define-ministros-que-vao-julgar-processos-de-presidenciaveis",
-      "data": "22/05/2026",
-      "hora": "16:22",
-      "ts": 1779477720000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-brasil-uso-do-FGTS-para-pa",
+      "tag": "Economia",
+      "titulo": "Desenrola Brasil: uso do FGTS para pagar dívidas começa nesta segunda",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Já disponível no  aplicativo  acesso ao saldo do Fundo de Garantia do Tempo de Serviço (FGTS) destinado à renegociação de dívidas no  Novo Desenrola Brasil . A nova modalidade permitirá uso de até 20% do saldo do fundo ou até R$ 1 mil , prevalecendo o maior valor, para amortização ou quitação de déb",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-brasil-uso-do-FGTS-para-pagar-d%C3%ADvidas-comeca-nesta-segunda",
+      "data": "25/05/2026",
+      "hora": "08:28",
+      "ts": 1779708480000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/caixa-paga-bolsa-familia-beneficiari",
+      "tag": "Economia",
+      "titulo": "Caixa paga Bolsa Família a beneficiários com NIS de final 6",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Caixa Econômica Federal paga nesta segunda-feira (25) a parcela de maio do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 6.    \n\n O valor mínimo corresponde a R$ 600, mas com o novo adicional o valor médio do benefício sobe para R$ 678,01. Segundo o Ministério do De",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/caixa-paga-bolsa-familia-beneficiarios-com-nis-de-final-6",
+      "data": "25/05/2026",
+      "hora": "07:32",
+      "ts": 1779705120000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/inss-paga-segunda-parcela-do-13o-apo",
+      "tag": "INSS",
+      "titulo": "INSS paga segunda parcela do 13º a aposentados e pensionistas",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O pagamento da segunda parcela antecipada do 13° aos beneficiários do  Instituto Nacional do Seguro Social (INSS)  começa nesta segunda-feira (25) e segue até 8 de junho.    \n\n  O repasse contempla quem ganha um até um salário mínimo. Para os que recebem o benefício com valor maior que R$1.621, os d",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/inss-paga-segunda-parcela-do-13o-aposentados-e-pensionistas",
+      "data": "25/05/2026",
+      "hora": "07:29",
+      "ts": 1779704940000,
       "favorito": false
     },
     {
@@ -310,54 +358,6 @@
       "data": "22/05/2026",
       "hora": "15:51",
       "ts": 1779475860000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/escola-para-tea-e-previdencia-privad",
-      "tag": "Economia",
-      "titulo": "Escola para TEA e previdência privada geram dúvidas no IR; saiba mais",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Quando se fala em Imposto de Renda, existem temas que geram divergência entre os entendimentos da Receita Federal e da Justiça Federal. O podcast  VideBula , da  Radioagência Nacional , explica como ocorrem entendimentos diferentes sobre dois temas relacionados às pessoas com deficiência, doenças ra",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/escola-para-tea-e-previdencia-privada-geram-duvidas-no-ir-saiba-mais",
-      "data": "22/05/2026",
-      "hora": "08:00",
-      "ts": 1779447600000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/receita-libera-consulta-ao-maior-lot",
-      "tag": "Economia",
-      "titulo": "Receita libera consulta ao maior lote de restituição da história",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Receita Federal libera, nesta sexta-feira (22), a partir das 10 horas, a consulta ao maior lote de restituição do imposto de Renda da história. Um total de 8.749.992 contribuintes receberão R$ 16 bilhões. O pagamento contempla o primeiro lote da Declaração do Imposto de Renda Pessoa Física de 2026",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/receita-libera-consulta-ao-maior-lote-de-restituicao-da-historia",
-      "data": "22/05/2026",
-      "hora": "07:42",
-      "ts": 1779446520000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/caixa-paga-bolsa-familia-beneficiari",
-      "tag": "Economia",
-      "titulo": "Caixa paga Bolsa Família a beneficiários com NIS de final 5",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Caixa Econômica Federal paga nesta sexta-feira (22) a parcela de maio do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 5.    \n\n  O valor mínimo corresponde a R$ 600, mas com o novo adicional o valor médio do benefício sobe para R$ 678,01 . Segundo o Ministério do De",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/caixa-paga-bolsa-familia-beneficiarios-com-nis-de-final-5",
-      "data": "22/05/2026",
-      "hora": "07:05",
-      "ts": 1779444300000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/arrecadacao-federal-bate-recorde-e-s",
-      "tag": "Economia",
-      "titulo": "Arrecadação federal bate recorde e supera R$ 278 bilhões em abril",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Impulsionado pelo crescimento da economia e pela alta do petróleo, o governo federal arrecadou R$ 278,8 bilhões em impostos, contribuições e demais receitas em abril.  É o melhor resultado para o mês desde o início da série histórica, em 1995.    \n\n Os dados foram divulgados nesta quinta-feira (21) ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/arrecadacao-federal-bate-recorde-e-supera-r-278-bilhoes-em-abril",
-      "data": "21/05/2026",
-      "hora": "17:26",
-      "ts": 1779395160000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "24/05/2026 às 16:00",
+  "atualizado": "25/05/2026 às 14:00",
   "total": 40
 }
