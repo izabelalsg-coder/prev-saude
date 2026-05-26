@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/nr-1-entra-em-vigor-e-amplia-cuidado-com-s",
+      "tag": "Saúde",
+      "titulo": "NR-1 entra em vigor e amplia cuidado com saúde mental do trabalhador",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Começam a valer nesta terça-feira (26) as novas regras de Segurança e Saúde no Trabalho. Com isso, empregadores, gestores e funcionários de todos os setores terão que cumprir normas mais rigorosas, procurando identificar e eliminar riscos ocupacionais, inclusive para a saúde mental dos trabalhadores",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/nr-1-entra-em-vigor-e-amplia-cuidado-com-saude-mental-do-trabalhador",
+      "data": "26/05/2026",
+      "hora": "12:16",
+      "ts": 1779808560000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/anvisa-aprova-primeira-caneta-analoga-ao-o",
+      "tag": "Anvisa",
+      "titulo": "Anvisa aprova primeira caneta análoga ao Ozempic para diabetes",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A  Agência Nacional de Vigilância Sanitária (Anvisa)  publicou nesta terça-feira (26) o  registro  do medicamento Ozivy. O produto é a primeira caneta de semaglutida sintética análoga ao produto biológico liberado para comercialização no Brasil.    \n\n O composto usa o mesmo princípio ativo do Ozempi",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/anvisa-aprova-primeira-caneta-analoga-ao-ozempic-para-diabetes",
+      "data": "26/05/2026",
+      "hora": "11:50",
+      "ts": 1779807000000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/beatriz-arcoverde-da-ebc-vence-categoria-d",
       "tag": "Saúde",
       "titulo": "Beatriz Arcoverde, da EBC, vence categoria do Prêmio Mulheres Raras",
@@ -97,27 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ebola-oms-eleva-muito-alto-risco-na-republ",
-      "tag": "Saúde",
-      "titulo": "Ebola: OMS eleva a muito alto risco na República Democrática do Congo",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Organização Mundial da Saúde (OMS) elevou de “alto” para “muito alto” o risco imposto pelo surto de ebola na República Democrática do Congo (RDC).  O anúncio foi feito pelo diretor-geral da entidade, Tedros Adhanom Ghebreyesus.   \n\n \n “O surto de ebola da República Democrática do Congo está se esp",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/ebola-oms-eleva-muito-alto-risco-na-republica-democratica-do-congo",
-      "data": "23/05/2026",
-      "hora": "10:19",
-      "ts": 1779542340000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/turista-rumo-a-copa-devem-estar-alertas-pa",
-      "tag": "Saúde",
-      "titulo": "Turistas rumo à Copa devem estar alertas para vacina do sarampo",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Os torcedores brasileiros que forem viajar para assistir a Copa do Mundo 2026 devem ficar atentos à vacinação contra sarampo.  O alerta é feito pelos principais órgãos de saúde do país.   \n\n A recomendação é por causa do  surto da doença nos países que irão sediar o Mundial: Estados Unidos, México e",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/turista-rumo-a-copa-devem-estar-alertas-para-vacina-do-sarampo",
-      "data": "23/05/2026",
-      "hora": "10:05",
-      "ts": 1779541500000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/operacao-contra-castro-mira-aportes-de",
+      "tag": "Justiça",
+      "titulo": "Operação contra Castro mira aportes de R$ 3,6 bi em fundos do Master",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A oitava fase da Operação Compliance Zero foi deflagrada nesta terça-feira (26) pela Polícia Federal (PF) e investiga o envolvimento do ex-governador Cláudio Castro na aplicação irregular de R$ 3,6 bilhões da previdência dos servidores fluminenses em Letras de Crédito e fundos do Banco Master.     \n",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/operacao-contra-castro-mira-aportes-de-r-36-bi-em-fundos-do-master",
+      "data": "26/05/2026",
+      "hora": "11:59",
+      "ts": 1779807540000,
       "favorito": false
     },
     {
@@ -229,15 +241,51 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-nega-pedido-de-soltura-de-deolane",
-      "tag": "Justiça",
-      "titulo": "Dino nega pedido de soltura de Deolane Bezerra",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro do  Supremo Tribunal Federal (STF) , Flávio Dino, negou pedido de soltura da influenciadora Deolane Bezerra, presa na última quinta-feira (21) na Operação Vérnix, que investiga lavagem de dinheiro da organização criminosa Primeiro Comando da Capital (PCC).    \n\n A decisão do ministro, ass",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/dino-nega-pedido-de-soltura-de-deolane-bezerra",
-      "data": "24/05/2026",
-      "hora": "11:59",
-      "ts": 1779634740000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/deficit-nas-contas-externas-fica-em-",
+      "tag": "Economia",
+      "titulo": "Déficit nas contas externas fica em R$ 1,8 bilhão em abril",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As contas externas do Brasil tiveram saldo negativo de US$ 1,765 bilhão em abril,  informou nesta terça-feira (24) o Banco Central (BC) . O valor é pouco maior que o registrado no mesmo período de 2025, quando o déficit alcançou US$ 1,636 bilhão nas transações correntes, que se referem às compras e ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/deficit-nas-contas-externas-fica-em-r-18-bilhao-em-abril",
+      "data": "26/05/2026",
+      "hora": "12:05",
+      "ts": 1779807900000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brb-celina-leao-vai-ao-stf-pedir-ava",
+      "tag": "STF",
+      "titulo": "BRB: Celina Leão vai ao STF pedir aval para empréstimo bilionário",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A governadora do Distrito Federal, Celina Leão, tem audiência marcada na tarde desta terça-feira (26), no Supremo Tribunal Federal (STF), com representantes do governo federal, para discutir uma autorização do Tesouro Nacional para um empréstimo bilionário para salvar o Banco Regional de Brasília (B",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brb-celina-leao-vai-ao-stf-pedir-aval-para-emprestimo-bilionario",
+      "data": "26/05/2026",
+      "hora": "11:08",
+      "ts": 1779804480000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brasil-do-futuro-depende-dos-jovens-",
+      "tag": "Economia",
+      "titulo": "Brasil do futuro depende dos jovens negros, mostra estudo do Pnud",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "“Quem sustentará o Brasil do futuro é um jovem negro, não é um jovem branco\". A ponderação é da coordenadora da Unidade de Desenvolvimento Humano do Programa das Nações Unidas para o Desenvolvimento (Pnud) Brasil, Betina Barbosa que vai além:    \n\n \n \"É fundamental colocar essas pessoas dentro da eq",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brasil-do-futuro-depende-dos-jovens-negros-diz-pnud",
+      "data": "26/05/2026",
+      "hora": "11:02",
+      "ts": 1779804120000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brasil-alcanca-maior-indice-de-desen",
+      "tag": "Economia",
+      "titulo": "Brasil alcança maior índice de desenvolvimento humano da história",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Brasil ingressou, pela primeira vez, na categoria de países com desenvolvimento humano “muito alto”.  Em 2024, o país alcançou 0,805 no Índice de Desenvolvimento Humano Municipal (IDHM), em comparação a 0,744 em 2012.  A escala para classificar o desenvolvimento humano varia de 0 a 1, sendo muito ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brasil-alcanca-maior-indice-de-desenvolvimento-humano-da-historia",
+      "data": "26/05/2026",
+      "hora": "11:00",
+      "ts": 1779804000000,
       "favorito": false
     },
     {
@@ -310,54 +358,6 @@
       "data": "25/05/2026",
       "hora": "18:29",
       "ts": 1779744540000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/caixa-antecipa-saque-aniversario-do-",
-      "tag": "Economia",
-      "titulo": "Caixa antecipa saque-aniversário do FGTS para demitidos",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Cerca de 10,5 milhões de trabalhadores demitidos sem justa causa de 2020 a 2025 recebem nesta segunda-feira (25) o saque-aniversário do Fundo de Garantia do Tempo de Serviço (FGTS).  A Caixa Econômica Federal antecipou o pagamento de valores desbloqueados.   \n\n Ao todo, o banco liberou cerca de R$ 8",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/caixa-antecipa-saque-aniversario-do-fgts-para-demitidos",
-      "data": "25/05/2026",
-      "hora": "18:09",
-      "ts": 1779743340000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-20-entenda-como-usar-fgts-",
-      "tag": "Economia",
-      "titulo": "Desenrola 2.0: entenda como usar FGTS para quitar dívidas",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os trabalhadores já podem autorizar o uso do saldo do Fundo de Garantia do Tempo de Serviço (FGTS) para renegociar dívidas pelo programa Desenrola 2.0. A  consulta dos valores  foi liberada nesta segunda-feira (25) e a expectativa do governo é movimentar até R$ 8,2 bilhões em renegociações.    \n\n A ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-20-entenda-como-usar-fgts-para-quitar-dividas",
-      "data": "25/05/2026",
-      "hora": "17:30",
-      "ts": 1779741000000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/quarta-edicao-do-leilao-eco-invest-l",
-      "tag": "Economia",
-      "titulo": "Quarta edição do leilão Eco Invest liberou R$ 13,2 bi em investimentos",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A 4ª edição do leilão do programa Eco Invest Brasil destravou R$ 13,2 bilhões para projetos de bioeconomia, turismo sustentável e infraestrutura no país. Mais da metade desse valor, o equivalente a cerca de R$ 9 bilhões, foi alocada para investimentos na Amazônia Legal.    \n\n Os dados foram divulgad",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/quarta-edicao-do-leilao-eco-invest-libera-r-132-bi-em-investimentos",
-      "data": "25/05/2026",
-      "hora": "16:32",
-      "ts": 1779737520000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/cresce-percentual-de-paulistanos-que",
-      "tag": "Economia",
-      "titulo": "Cresce percentual de paulistanos que apostam em bets para elevar renda",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A proporção de paulistanos que aposta em plataformas online para ter um aumento rápido da renda doméstica aumentou dez pontos percentuais entre 2024 e 2026, segundo estudo divulgado nesta segunda-feira (25) pela Federação do Comércio de Bens, Serviços e Turismo do Estado de São Paulo (FecomercioSP).",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/cresce-percentual-de-paulistanos-que-apostam-em-bets-para-elevar-renda",
-      "data": "25/05/2026",
-      "hora": "16:24",
-      "ts": 1779737040000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "26/05/2026 às 14:00",
+  "atualizado": "26/05/2026 às 15:34",
   "total": 40
 }
