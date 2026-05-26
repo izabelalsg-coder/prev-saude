@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/cnj-aprova-contracheque-unico-para-jui",
+      "tag": "Justiça",
+      "titulo": "CNJ aprova contracheque único para juízes de todo país",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Conselho Nacional de Justiça (CNJ) aprovou nesta terça-feira (26), por unanimidade, a  resolução para tornar obrigatória a adoção de um contracheque unificado para o pagamento dos vencimentos dos juízes em todo o país .    \n\n A medida foi proposta pelo presidente do CNJ, ministro Edson Fachin, com",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/cnj-aprova-contracheque-unico-para-juizes-de-todo-pais",
+      "data": "26/05/2026",
+      "hora": "12:45",
+      "ts": 1779810300000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/operacao-contra-castro-mira-aportes-de",
       "tag": "Justiça",
       "titulo": "Operação contra Castro mira aportes de R$ 3,6 bi em fundos do Master",
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/novo-juri-do-assassinato-de-henry-bore",
-      "tag": "Justiça",
-      "titulo": "Novo júri do assassinato de Henry Borel ocorre nesta segunda-feira",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Após a defesa de Jairo Souza Santos Júnior (Dr. Jairinho), padrasto de Henry Borel, abandonar o plenário, novo julgamento está marcado para segunda-feira (25). Dr. Jairinho e a mãe do menino Henry, Monique Medeiros, voltam ao banco dos réus no 2º Tribunal do Júri, no centro do Rio de Janeiro, acusad",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/novo-juri-do-assassinato-de-henry-borel-ocorre-nesta-segunda-feira",
-      "data": "25/05/2026",
-      "hora": "09:51",
-      "ts": 1779713460000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-05/inss-pagara-salario-maternid",
+      "tag": "INSS",
+      "titulo": "INSS pagará salário-maternidade em até 30 dias",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A partir desta terça-feira (26) a  Previdência Social  pagará o benefício do salário-maternidade em até 30 dias . Esse é o prazo para que o pedido seja analisado e concedido. Caso haja atraso, o repasse será automático.   \n\n  De acordo com a  Lei nº 15.415/2026 , publicada no   Diário Oficial da Uni",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-05/inss-pagara-salario-maternidade-em-ate-30-dias",
+      "data": "26/05/2026",
+      "hora": "12:34",
+      "ts": 1779809640000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "25/05/2026",
       "hora": "19:09",
       "ts": 1779746940000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/quatro-dias-do-prazo-115-milhoes-nao",
-      "tag": "Economia",
-      "titulo": "A quatro dias do prazo, 11,5 milhões não enviaram a declaração do IR",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A quatro dias do fim do prazo, 26,1% dos contribuintes, o que corresponde a cerca de 11,5 milhões de pessoas, ainda não acertaram as contas com o Leão. Até às 18h03 desta segunda-feira (25), a Receita Federal recebeu 32.520.296 Declarações do Imposto de Renda Pessoa Física 2026 (ano-base 2025).    \n",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/quatro-dias-do-prazo-115-milhoes-nao-enviaram-declaracao-do-ir",
-      "data": "25/05/2026",
-      "hora": "18:29",
-      "ts": 1779744540000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "26/05/2026 às 15:34",
+  "atualizado": "26/05/2026 às 16:00",
   "total": 40
 }
