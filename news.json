@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/mulheres-de-45-64-anos-lideram-mercado-de-",
+      "tag": "Saúde",
+      "titulo": "Mulheres de 45 a 64 anos lideram mercado de cannabis medicinal no país",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "As mulheres mais velhas e empregadas são as principais consumidoras de cannabis medicinal importada no Brasil.  Um levantamento inédito divulgado pela Blis Data em homenagem ao Mês das Mães comprova essa realidade entre as brasileiras que têm filhos.   \n\n A Blis Data possui o maior banco de dados de",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/mulheres-de-45-64-anos-lideram-mercado-de-cannabis-medicinal-no-pais",
+      "data": "27/05/2026",
+      "hora": "12:53",
+      "ts": 1779897180000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-apresenta-pesquisa-abrangente-sobr",
       "tag": "Saúde",
       "titulo": "Fiocruz apresenta pesquisa abrangente sobre a saúde dos idosos no país",
@@ -106,18 +118,6 @@
       "data": "24/05/2026",
       "hora": "13:47",
       "ts": 1779641220000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-tera-producao-nacional-de-terapias",
-      "tag": "Saúde",
-      "titulo": "Fiocruz terá produção nacional de terapias celulares contra o câncer",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Sistema Único de Saúde (SUS) ganhou um reforço, neste sábado (23), com o lançamento, na Fundação Oswaldo Cruz (Fiocruz), do Centro de Desenvolvimento e Produção de Terapias CAR-T, que vai possibilitar a fabricação nacional de terapias celulares a preços reduzidos.    \n\n  De acordo com a Fiocruz, a",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/fiocruz-tera-producao-nacional-de-terapias-celulares-contra-o-cancer",
-      "data": "23/05/2026",
-      "hora": "16:37",
-      "ts": 1779565020000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "27/05/2026 às 15:47",
+  "atualizado": "27/05/2026 às 16:00",
   "total": 40
 }
