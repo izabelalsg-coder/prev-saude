@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brb-muda-regras-e-permite-aportes-pa",
+      "tag": "Economia",
+      "titulo": "BRB muda regras e permite aportes parciais para aumento de capital",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Banco de Brasília (BRB) anunciou mudanças em seu processo de aumento de capital e, agora, aceitará aportes parciais de recursos.  Poderão ser realizadas homologações intermediárias de recursos internalizados até o montante de R$ 8,8 bilhões, para posterior autorização do Banco Central.    \n\n \n “Es",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brb-muda-regras-e-permite-aportes-parciais-para-aumento-de-capital",
+      "data": "28/05/2026",
+      "hora": "11:34",
+      "ts": 1779978840000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desemprego-chega-58-no-trimestre-enc",
       "tag": "Economia",
       "titulo": "Desemprego chega a 5,8% no trimestre encerrado em abril, diz IBGE",
@@ -349,15 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/bancos-transferem-r-57-bi-de-valores",
-      "tag": "ANS",
-      "titulo": "Bancos transferem R$ 5,7 bi de valores esquecidos para o Desenrola",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os brasileiros ainda podem recuperar quase R$ 5 bilhões em dinheiro esquecido em bancos e instituições financeiras, mesmo após o governo federal transferir parte dos recursos do Sistema de Valores a Receber (SVR), do Banco Central, para o programa Desenrola Brasil 2.0.   \n\n Segundo o Ministério da F",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/bancos-transferem-r-57-bi-de-valores-esquecidos-para-o-desenrola",
-      "data": "27/05/2026",
-      "hora": "14:48",
-      "ts": 1779904080000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/entenda-pec-que-acaba-com-escala-6x1",
+      "tag": "Política",
+      "titulo": "Entenda PEC que acaba com escala 6x1: mais tempo livre e mesmo salário",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A proposta de emenda à Constituição (PEC), aprovada na Câmara dos Deputados nessa quarta-feira (27),  acaba com a escala 6x1 , instituindo a obrigatoriedade de dois dias de descanso por semana, além de reduzir a jornada de trabalho das atuais 44 horas para 40 horas semanais. Tudo isso sem redução sa",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/entenda-pec-que-acaba-com-escala-6x1-mais-tempo-livre-e-mesmo-salario",
+      "data": "28/05/2026",
+      "hora": "10:57",
+      "ts": 1779976620000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "13:35",
       "ts": 1779899700000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/centrao-tenta-derrubar-transicao-de-",
-      "tag": "ANS",
-      "titulo": "Centrão tenta derrubar transição de 60 dias para fim da escala 6x1",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "Os partidos do chamado centrão, que reúne coligações da direita tradicional, tentam derrubar a transição de 60 dias para iniciar a implementação da proposta de emenda à Constituição (PEC) que acaba com a escala 6x1 no Brasil e reduz a jornada de trabalho das atuais 44 horas para 40 horas semanais. U",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/centrao-tenta-derrubar-transicao-de-60-dias-para-fim-da-escala-6x1",
-      "data": "27/05/2026",
-      "hora": "12:19",
-      "ts": 1779895140000,
-      "favorito": false
     }
   ],
-  "atualizado": "28/05/2026 às 14:00",
+  "atualizado": "28/05/2026 às 16:00",
   "total": 40
 }
