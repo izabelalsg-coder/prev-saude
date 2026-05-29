@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/plano-de-saude-individual-tera-reajuste-ma",
+      "tag": "ANS",
+      "titulo": "Plano de saúde individual terá reajuste máximo de 5,11%, decide ANS",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Os planos de saúde individuais/familiares terão reajuste contratual anual máximo de 5,11%.  O índice foi decidido nesta sexta-feira (29) pela  Agência Nacional de Saúde Suplementar  (ANS), órgão do governo regulador do setor.   \n\n Planos individuais são os contratados pelas próprias pessoas e depend",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/plano-de-saude-individual-tera-reajuste-maximo-de-511-decide-ans",
+      "data": "29/05/2026",
+      "hora": "12:21",
+      "ts": 1780068060000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/sus-vai-ampliar-protecao-vacinal-contra-do",
       "tag": "Saúde",
       "titulo": "SUS vai ampliar proteção vacinal contra doença pneumocócica",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/novas-regras-sobre-saude-mental-no-trabalh",
-      "tag": "Saúde",
-      "titulo": "Novas regras sobre saúde mental no trabalho entram em vigor",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Começam a valer nesta terça-feira (26) as novas regras de Segurança e Saúde no Trabalho. Com isso, empregadores, gestores e funcionários de todos os setores terão que cumprir normas mais rigorosas, procurando identificar e eliminar riscos ocupacionais, inclusive para a saúde mental dos trabalhadores",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/novas-regras-sobre-saude-mental-no-trabalho-entram-em-vigor",
-      "data": "26/05/2026",
-      "hora": "12:16",
-      "ts": 1779808560000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/classificar-pcc-e-cv-como-terroristas-",
+      "tag": "Justiça",
+      "titulo": "Classificar PCC e CV como terroristas não ajuda o Brasil, diz promotor",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A classificação do PCC e do Comando Vermelho como organizações terroristas pelos Estados Unidos não traz nenhum benefício para o Brasil neste momento.  Essa é a avaliação do promotor de Justiça do Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco), do Ministério Público de São Paulo, L",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/classificar-pcc-e-cv-como-terroristas-nao-ajuda-o-brasil-diz-promotor",
+      "data": "29/05/2026",
+      "hora": "12:18",
+      "ts": 1780067880000,
       "favorito": false
     },
     {
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/stf-shoppings-devem-ter-espacos-de-ama",
-      "tag": "STF",
-      "titulo": "STF: shoppings devem ter espaços de amamentação para funcionárias",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (27) que os shoppings devem garantir espaços de amamentação para funcionárias das lojas.     \n\n Por unanimidade, a Corte validou a norma da Consolidação das Leis do Trabalho (CLT) que obriga empresas que possuem mais de 30 mulheres a terem ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/stf-shoppings-devem-ter-espacos-de-amamentacao-para-funcionarias",
-      "data": "27/05/2026",
-      "hora": "18:42",
-      "ts": 1779918120000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/contas-publicas-tem-superavit-primar",
+      "tag": "Economia",
+      "titulo": "Contas públicas têm superávit primário de R$ 24,6 bilhões em abril",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Com arrecadação recorde e superávit no governo federal, as contas públicas fecharam o mês de abril com saldo positivo.  O setor público consolidado – formado por União, estados, municípios e empresas estatais – registrou superávit primário de R$ 24,6 bilhões no mês passado.    \n\n Na comparação com a",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/contas-publicas-tem-superavit-primario-de-r-246-bilhoes-em-abril",
+      "data": "29/05/2026",
+      "hora": "11:24",
+      "ts": 1780064640000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/dia-nacional-da-artesa-e-do-artesao-",
+      "tag": "Legislação",
+      "titulo": "Lei institui 19 de março Dia Nacional da Artesã e do Artesão",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Dia Nacional das Artesãs e Artesãos será comemorado oficialmente em 19 de março.  Lei publicada  nesta sexta-feira (29) no  Diário Oficial da União  consolida a data e atualiza normas sobre a  atividade no país , com foco na valorização.    \n\n  Um dos destaques da nova lei é o incentivo à organiza",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/dia-nacional-da-artesa-e-do-artesao-sera-comemorado-em-19-de-marco",
+      "data": "29/05/2026",
+      "hora": "11:05",
+      "ts": 1780063500000,
       "favorito": false
     },
     {
@@ -257,7 +281,7 @@
       "tag": "Economia",
       "titulo": "Economia brasileira cresce 1,1% no 1º trimestre",
       "fonte": "Agência Brasil / Economia",
-      "resumo": "A economia brasileira cresceu ​1,1% no primeiro trimestre de 2026 na comparação com o último trimestre de 2025.  Esse crescimento de 1,1% na passagem de trimestres imediatamente seguidos é o maior desde o mesmo trimestre de 2025, quando tinha avançado 1,8%.  No acumulado de 12 meses, houve expansão ",
+      "resumo": "A economia brasileira cresceu ​1,1% no primeiro trimestre de 2026 na comparação com o último trimestre de 2025.  Esse crescimento de 1,1% na passagem de trimestres imediatamente seguidos é o maior desde o mesmo trimestre de 2025, quando tinha avançado 1,3%.  No acumulado de 12 meses, houve expansão ",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/economia-brasileira-cresce-11-no-1o-trimestre",
       "data": "29/05/2026",
       "hora": "09:15",
@@ -337,27 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-para-empresas-ja-soma-r-8-",
-      "tag": "Economia",
-      "titulo": "Desenrola para empresas já soma R$ 8 bilhões em contratações",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Programa Novo Desenrola Brasil – Pessoa Jurídica,  lançado em maio , já soma mais de R$ 8 bilhões em contratações e cerca de 65 mil operações realizadas.  A informação foi dada nesta quinta-feira (28) pelo ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte (MEMP), Paulo Pe",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-para-empresas-ja-soma-r-8-bilhoes-em-contratacoes",
-      "data": "28/05/2026",
-      "hora": "18:45",
-      "ts": 1780004700000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/investimento-da-petrobras-dobrara-of",
-      "tag": "Economia",
-      "titulo": "Investimento da Petrobras dobrará oferta de gás natural do Nordeste",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A presidente da Petrobras, Magda Chambriard, anunciou nesta quinta-feira (28) investimentos de cerca de R$ 60 bilhões, em Sergipe, o que  deverá dobrar a participação da Região Nordeste na oferta de gás natural, passando dos atuais 16% para 31% até 2035.     \n\n Chambriard conversou com jornalistas a",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/investimento-da-petrobras-dobrara-oferta-de-gas-natural-do-nordeste",
-      "data": "28/05/2026",
-      "hora": "17:23",
-      "ts": 1779999780000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/pretexto-para-intervencao-e-inaceita",
+      "tag": "Política",
+      "titulo": "Pretexto para intervenção é inaceitável, diz Celso Amorim",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Após os Estados Unidos (EUA) classificarem organizações narcotraficantes do Brasil como terroristas, o assessor especial da Presidência da República, embaixador Celso Amorim, afirmou que usar “pretexto para intervenção é inaceitável”.    \n\n Em viagem a Moscou, para encontro do Fórum Internacional de",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/pretexto-para-intervencao-e-inaceitavel-diz-celso-amorim",
+      "data": "29/05/2026",
+      "hora": "12:17",
+      "ts": 1780067820000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "18:50",
       "ts": 1779918600000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/comissao-aprova-relatorio-de-pec-que",
-      "tag": "Política",
-      "titulo": "Comissão aprova relatório de PEC que acaba com escala 6X1",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "A comissão especial da Câmara dos Deputados aprovou nesta quarta-feira (27), por 34 votos favoráveis e quatro contrários, o relatório do deputado Leo Prates (Republicanos-BA) sobre a proposta de Emenda à Constituição (PEC) 221/19 que acaba com a escala de trabalho 6X1.     \n\n O texto prevê a redução",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/comissao-aprova-relatorio-de-pec-que-acaba-com-escala-6x1",
-      "data": "27/05/2026",
-      "hora": "16:46",
-      "ts": 1779911160000,
-      "favorito": false
     }
   ],
-  "atualizado": "29/05/2026 às 14:00",
+  "atualizado": "29/05/2026 às 15:37",
   "total": 40
 }
