@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/paciente-em-sp-com-suspeita-de-ebola-testa",
+      "tag": "Saúde",
+      "titulo": "Paciente em SP com suspeita de ebola testa positivo para meningite",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Secretaria de Saúde do Estado de São Paulo informou que o homem internado com suspeita de ter contraído o vírus Ebola testou positivo para meningite meningocócica.  O diagnóstico foi confirmado após a realização de um exame de sangue PCR.   \n\n De acordo com nota divulgada pelo órgão neste sábado (",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/paciente-em-sp-com-suspeita-de-ebola-testa-positivo-para-meningite",
+      "data": "31/05/2026",
+      "hora": "11:01",
+      "ts": 1780236060000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/sao-paulo-investiga-caso-suspeito-de-ebola",
       "tag": "Saúde",
       "titulo": "São Paulo investiga caso suspeito de ebola em homem de 37 anos",
@@ -106,18 +118,6 @@
       "data": "28/05/2026",
       "hora": "08:13",
       "ts": 1779966780000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/risco-cardiaco-dobra-para-pacientes-com-do",
-      "tag": "Saúde",
-      "titulo": "Risco cardíaco dobra para pacientes com doença de Chagas após cirurgia",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Portadores de doença de Chagas que apresentam arritmias graves têm mais risco de mortalidade do que outros grupos com doenças do coração. A informação é uma das conclusões de estudo conduzido por pesquisadores da Faculdade de Medicina da USP.   \n\n  O estudo, que revisou dados de atendimento a pacien",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/risco-cardiaco-dobra-para-pacientes-com-doenca-de-chagas-apos-cirurgia",
-      "data": "28/05/2026",
-      "hora": "07:28",
-      "ts": 1779964080000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "31/05/2026 às 14:00",
+  "atualizado": "31/05/2026 às 16:00",
   "total": 40
 }
