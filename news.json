@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/sao-paulo-investiga-caso-suspeito-de-ebola",
+      "tag": "Saúde",
+      "titulo": "São Paulo investiga caso suspeito de ebola em homem de 37 anos",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Um homem de 37 anos com sintomas compatíveis com Ebola está internado no Instituto de Infectologia Emílio Ribas, na capital paulista. O resultado para confirmar ou descartar o diagnóstico ainda não saiu.    \n\n Segundo informações da Secretaria de Estado da Saúde de São Paulo (SES), o caso do pacient",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/sao-paulo-investiga-caso-suspeito-de-ebola-em-homem-de-37-anos",
+      "data": "30/05/2026",
+      "hora": "13:57",
+      "ts": 1780160220000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/inca-alerta-para-os-riscos-de-cigarros-com",
       "tag": "Saúde",
       "titulo": "INCA alerta para os riscos de cigarros com sabor e aroma entre jovens",
@@ -106,18 +118,6 @@
       "data": "28/05/2026",
       "hora": "07:28",
       "ts": 1779964080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/governo-de-sp-reforca-vacina-contra-febre-",
-      "tag": "Saúde",
-      "titulo": "Governo de SP reforça vacina contra febre amarela na região do ABC",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O governo paulista anunciou reforço da vacina contra a febre amarela na região do Grande ABC, composta por sete municípios e parte da região metropolitana de São Paulo.     \n\n  A medida foi adotada após a morte de um primata não humano na cidade de Santo André.  \n\n  Notícias relacionadas:    Estado ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/governo-de-sp-reforca-vacina-contra-febre-amarela-na-regiao-do-abc",
-      "data": "27/05/2026",
-      "hora": "22:00",
-      "ts": 1779930000000,
       "favorito": false
     },
     {
@@ -241,6 +241,54 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/mega-sena-acumula-e-premio-principal",
+      "tag": "Economia",
+      "titulo": "Mega-Sena acumula e prêmio principal vai para R$ 16 milhões",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Nenhum apostador acertou as seis dezenas do Concurso 3.013 da Mega-Sena, realizado neste sábado (30).  O prêmio acumulou e está estimado em R$ 16 milhões para o próximo sorteio.    \n\n  Os números sorteados são: 02 - 14 - 21 - 22 - 34 - 44.  \n\n \n\t 46 apostas acertaram cinco dezenas e irão receber R$ ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/mega-sena-acumula-e-premio-principal-vai-para-r-16-milhoes",
+      "data": "31/05/2026",
+      "hora": "10:16",
+      "ts": 1780233360000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/governo-prorroga-descontos-no-queros",
+      "tag": "Economia",
+      "titulo": "Governo prorroga descontos no querosene de aviação e no biodiesel",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O governo federal prorrogou por dois meses os benefícios fiscais concedidos à importação e à venda de biodiesel e querosene de aviação.  A medida foi publicada no   Diário Oficial da União   desta sexta-feira (29) e estende até 31 de julho os descontos que, de outra forma, seriam extintos neste domi",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/governo-prorroga-descontos-no-querosene-de-aviacao-e-no-biodiesel",
+      "data": "30/05/2026",
+      "hora": "17:14",
+      "ts": 1780172040000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-brasil-saiba-como-usar-fgt",
+      "tag": "Economia",
+      "titulo": "Desenrola Brasil: saiba como usar FGTS para pagar dívidas em atraso",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Os trabalhadores podem usar, desde a última segunda-feira (25), parte dos recursos disponíveis do Fundo de Garantia do Tempo de Serviço (FGTS) para renegociar dívidas em atraso com bancos e instituições financeiras no Novo  Desenrola Brasil .    \n\n A modalidade inédita de uso do FGTS para colocar as",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/desenrola-brasil-saiba-como-usar-fgts-para-pagar-dividas-em-atraso",
+      "data": "30/05/2026",
+      "hora": "15:04",
+      "ts": 1780164240000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/embrapa-produz-em-laboratorio-salmao",
+      "tag": "Economia",
+      "titulo": "Embrapa produz em laboratório salmão, caviar e anéis de lula veganos",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Depois de 30 meses de pesquisa, o Laboratório de Nanobiotecnologia (LNANO) da Embrapa Recursos Genéticos e Biotecnologia, com sede em Brasília, desenvolveu amostras de alimentos impressos com base vegetal, que mimetizam filé de salmão, caviar e anéis de lula.    \n\n Além de copiar as formas dos alime",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/embrapa-produz-em-laboratorio-salmao-caviar-e-aneis-de-lula-veganos",
+      "data": "30/05/2026",
+      "hora": "13:02",
+      "ts": 1780156920000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/prazo-para-envio-da-declaracao-anual",
       "tag": "Economia",
       "titulo": "Prazo para envio da declaração anual do MEI termina neste domingo",
@@ -310,54 +358,6 @@
       "data": "29/05/2026",
       "hora": "19:26",
       "ts": 1780093560000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/conta-de-luz-continuara-com-acrescim",
-      "tag": "Economia",
-      "titulo": "Conta de luz continuará com acréscimo da bandeira amarela em junho",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A bandeira tarifária permanecerá amarela em junho, informou nesta sexta-feira (29) a Agência Nacional de Energia Elétrica (Aneel). Com isso, será mantido o acréscimo nas contas de luz, no próximo mês, para todos os consumidores conectados ao Sistema Interligado Nacional (SIN).  O custo adicional da ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/conta-de-luz-continuara-com-acrescimo-da-bandeira-amarela-em-junho",
-      "data": "29/05/2026",
-      "hora": "18:24",
-      "ts": 1780089840000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/bndes-abre-financiamento-para-transp",
-      "tag": "ANS",
-      "titulo": "BNDES abre financiamento para transporte de carga e passageiros",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Banco Nacional de Desenvolvimento Econômico e Social (BNDES) recebe, a partir desta sexta-feira (29), os pedidos de financiamento do BNDES Mais Mobilidade.  A linha de crédito de até R$ 21 bilhões é voltada à renovação da frota nacional de veículos pesados e à modernização do transporte rodoviário",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/bndes-abre-financiamento-para-transporte-de-carga-e-passageiros",
-      "data": "29/05/2026",
-      "hora": "17:39",
-      "ts": 1780087140000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brasil-deve-voltar-ser-10a-maior-eco",
-      "tag": "Economia",
-      "titulo": "Brasil deve voltar a ser 10ª maior economia após resultado do PIB",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Brasil deve voltar a ocupar a posição de 10ª maior economia do mundo em 2026, segundo projeções do Fundo Monetário Internacional (FMI) compiladas pela consultoria Austin Ratings a partir de dados de 45 países.    \n\n A estimativa foi reforçada após o  Produto Interno Bruto (PIB) brasileiro crescer ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brasil-deve-voltar-ser-10a-maior-economia-apos-resultado-do-pib",
-      "data": "29/05/2026",
-      "hora": "16:45",
-      "ts": 1780083900000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/bc-exigira-auditoria-independente-de",
-      "tag": "Economia",
-      "titulo": "BC exigirá auditoria independente de empresas de cripto",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A partir de 1º de junho, as empresas que atuam com ativos virtuais, como corretoras de criptomoedas, terão de apresentar um relatório de auditoria independente para ter o funcionamento autorizado.  O Banco Central (BC) editou nesta sexta-feira (29)  instrução normativa  que atinge as chamadas Socied",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/bc-exigira-auditoria-independente-de-empresas-de-cripto",
-      "data": "29/05/2026",
-      "hora": "15:55",
-      "ts": 1780080900000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "30/05/2026 às 16:00",
+  "atualizado": "31/05/2026 às 14:00",
   "total": 40
 }
