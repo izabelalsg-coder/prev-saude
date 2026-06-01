@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/exames-descartam-ebola-em-imigrante-da-rep",
+      "tag": "Saúde",
+      "titulo": "Exames descartam ebola em imigrante da República Democrática do Congo",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Secretaria Estadual de Saúde de São Paulo informou na manhã desta segunda-feira (1º) que  o homem de 37 anos internado no Emílio Ribas, na capital paulista, não está contaminado com ebola.  Exames feitos no paciente não detectaram material genético do vírus na amostra coletada.   \n\n O paciente é i",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/exames-descartam-ebola-em-imigrante-da-republica-democratica-do-congo",
+      "data": "01/06/2026",
+      "hora": "13:05",
+      "ts": 1780329900000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/dia-mundial-sem-tabaco-novas-tecnologias-c",
       "tag": "Saúde",
       "titulo": "Dia Mundial sem Tabaco: novas tecnologias camuflam vapes e são desafio",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/anvisa-libera-fabrica-da-ype-e-produtos-fe",
-      "tag": "Anvisa",
-      "titulo": "Anvisa libera fábrica da Ypê e produtos feitos a partir de 1º de abril",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) autorizou nesta sexta-feira (29) a retomada da produção na fábrica da Ypê, em Amparo, no interior de São Paulo , após concluir que a empresa corrigiu parte das falhas sanitárias identificadas em inspeções anteriores.   \n\n A decisão permite que a Qu",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-05/anvisa-libera-fabrica-da-ype-e-produtos-feitos-partir-de-1o-de-abril",
-      "data": "29/05/2026",
-      "hora": "19:46",
-      "ts": 1780094760000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/juri-do-caso-henry-chega-ao-8o-dia-e-e",
+      "tag": "Justiça",
+      "titulo": "Júri do caso Henry chega ao 8º dia e é o mais longo do Rio de Janeiro",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O julgamento do caso Henry, no 2º Tribunal do Júri do Rio de Janeiro, entrou no oitavo dia seguido nesta segunda-feira (1º). Desta forma, a sessão se torna a mais longa do Tribunal do Júri no estado do Rio, superando a da deputada federal cassada Flordelis.    \n\n Em novembro de 2022, a ex-parlamenta",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/juri-do-caso-henry-chega-ao-8o-dia-e-e-o-mais-longo-do-rio-de-janeiro",
+      "data": "01/06/2026",
+      "hora": "13:59",
+      "ts": 1780333140000,
       "favorito": false
     },
     {
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/tse-marca-para-2-de-junho-julgamento-d",
-      "tag": "Justiça",
-      "titulo": "TSE marca para 2 de junho julgamento de recurso de Claudio Castro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) marcou para o dia 2 de junho o julgamento do recurso do ex-governador do Rio de Janeiro Claudio Castro  contra a decisão do tribunal que o condenou à inelegibilidade .   \n\n No dia 23 de março,  Castro foi condenado pelo TSE até 2030 . Em função da condenação, o  t",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/tse-marca-para-2-de-junho-julgamento-de-recurso-de-claudio-castro",
-      "data": "28/05/2026",
-      "hora": "18:37",
-      "ts": 1780004220000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fmi-destaca-resiliencia-da-economia-",
+      "tag": "Economia",
+      "titulo": "FMI destaca resiliência da economia brasileira e projeta PIB de 2,5%",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Fundo Monetário Internacional (FMI) divulgou, nesta segunda-feira (1º), uma  nota na qual elogia a “notável resiliência”  da economia brasileira diante dos “múltiplos choques” que têm ocorrido em um contexto de pressões externas e internas pelas quais passa o país.   \n\n Segundo a entidade, o  Bras",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fmi-destaca-resiliencia-da-economia-brasileira-e-projeta-pib-de-25",
+      "data": "01/06/2026",
+      "hora": "14:21",
+      "ts": 1780334460000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gas-natural-tem-reducao-na-tarifa-pa",
+      "tag": "Economia",
+      "titulo": "Gás natural tem redução na tarifa a partir de hoje no Rio",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O preço do gás natural no Rio de Janeiro terá redução a partir desta segunda-feira (1),  beneficiando motoristas que utilizam veículos a gás, consumidores residenciais, indústrias e estabelecimentos comerciais em todo o estado .    \n\n A medida é resultado de um acordo firmado entre o governo do esta",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gas-natural-tem-reducao-na-tarifa-partir-de-hoje-no-rio",
+      "data": "01/06/2026",
+      "hora": "12:58",
+      "ts": 1780329480000,
       "favorito": false
     },
     {
@@ -334,30 +358,6 @@
       "data": "30/05/2026",
       "hora": "13:02",
       "ts": 1780156920000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/prazo-para-envio-da-declaracao-anual",
-      "tag": "Economia",
-      "titulo": "Prazo para envio da declaração anual do MEI termina neste domingo",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Profissionais autônomos e donos de pequenos negócios cadastrados como microempreendedores individuais (MEIs) tem até este domingo (31) para entregar a Declaração Anual Simplificada do MEI (Dasn-Simei) referente ao ano calendário de 2025.    \n\n A declaração anual do MEI é obrigatória para todos os em",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/prazo-para-envio-da-declaracao-anual-do-mei-termina-neste-domingo",
-      "data": "30/05/2026",
-      "hora": "10:47",
-      "ts": 1780148820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/defesa-e-cidades-lideram-bloqueios-n",
-      "tag": "Economia",
-      "titulo": "Defesa e Cidades lideram bloqueios no Orçamento de 2026",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os Ministérios da Defesa e das Cidades foram as pastas mais afetadas pelo  bloqueio adicional de R$ 22,1 bilhões no Orçamento de 2026 .  O governo federal publicou, nesta sexta-feira (29) à noite, o  decreto  com o detalhamento dos cortes por ministérios e órgãos federais.   \n\n Na semana passada, o ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/defesa-e-cidades-lideram-bloqueios-no-orcamento-de-2026",
-      "data": "30/05/2026",
-      "hora": "09:53",
-      "ts": 1780145580000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "01/06/2026 às 16:00",
+  "atualizado": "01/06/2026 às 17:42",
   "total": 40
 }
