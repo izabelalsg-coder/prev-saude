@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-reduz-preco-do-querosene-d",
+      "tag": "Economia",
+      "titulo": "Petrobras reduz preço do querosene de aviação em 14,2%",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Petrobras anunciou nesta segunda-feira (1º) a redução de 14,2% no preço do querosene de aviação (QAV). Essa variação representa diminuição de R$ 0,93 por litro. Nas refinarias da companhia, o  novo preço varia de R$ 5,48 a R$ 5,69 por litro.     \n\n  O preço do QAV é estipulado pela Petrobras mensa",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-reduz-preco-do-querosene-de-aviacao-em-142",
+      "data": "01/06/2026",
+      "hora": "11:44",
+      "ts": 1780325040000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/receita-pode-deixar-de-exigir-declar",
       "tag": "Economia",
       "titulo": "Declaração do IR pode passar a ser automática em até três anos",
@@ -346,18 +358,6 @@
       "data": "30/05/2026",
       "hora": "09:53",
       "ts": 1780145580000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brb-adia-divulgacao-de-balanco-apos-",
-      "tag": "Economia",
-      "titulo": "BRB adia divulgação de balanço após acordo de socorro com a União",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Banco de Brasília (BRB) não vai divulgar nesta sexta-feira (29) o balanço financeiro de 2025, como estava previsto inicialmente.  A informação foi confirmada pela governadora do Distrito Federal, Celina Leão, que afirmou que o banco precisará de mais alguns dias para concluir análises financeiras ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-05/brb-adia-divulgacao-de-balanco-apos-acordo-de-socorro-com-uniao",
-      "data": "29/05/2026",
-      "hora": "20:41",
-      "ts": 1780098060000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "01/06/2026 às 14:00",
+  "atualizado": "01/06/2026 às 16:00",
   "total": 40
 }
