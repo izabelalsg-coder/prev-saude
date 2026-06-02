@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/juri-do-caso-henry-borel-entra-na-reta",
+      "tag": "Justiça",
+      "titulo": "Júri do caso Henry Borel entra na reta final; entenda próximos passos",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O julgamento do caso Henry Borel, no 2° Tribunal do Júri do Rio de Janeiro, entra nesta terça-feira (2) no nono dia.  É o júri mais longo da história do estado ,  superando o da deputada cassada Flordelis , em novembro de 2022, que durou sete dias. Ela foi condenada por planejar o assassinato do mar",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/juri-do-caso-henry-borel-entra-na-reta-final-entenda-proximos-passos",
+      "data": "02/06/2026",
+      "hora": "12:01",
+      "ts": 1780412460000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-julga-recurso-de-castro-contra-dec",
       "tag": "Justiça",
       "titulo": "TSE julga recurso de Castro contra decisão que o tornou inelegível",
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/stf-maioria-e-contra-lei-que-permite-p",
-      "tag": "STF",
-      "titulo": "STF: maioria é contra lei que permite pais vetarem aulas sobre gênero",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A maioria dos ministros do Supremo Tribunal Federal (STF) votou por derrubar lei, no Maranhão, que concede aos pais e responsáveis o direito de não permitir a participação dos filhos em aulas sobre diversidade sexual, identidade de gênero e temas correlatos.     \n\n Até o momento, votaram nesse senti",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/stf-maioria-e-contra-lei-que-permite-pais-vetarem-aulas-sobre-genero",
-      "data": "29/05/2026",
-      "hora": "10:48",
-      "ts": 1780062480000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-ajusta-precos-do-diesel-pa",
+      "tag": "Economia",
+      "titulo": "Petrobras ajusta preços do diesel para R$ 1,12",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Conselho de Administração da Petrobras, em reunião nesta segunda-feira (1°), aprovou a adesão da companhia à subvenção econômica aos produtores e importadores de óleo diesel de uso rodoviário no país, no valor de R$ 1,12 por litro comercializado, instituída pela  Medida Provisória (MP) nº 1.363 , ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-ajusta-precos-do-diesel-para-r-112",
+      "data": "02/06/2026",
+      "hora": "11:24",
+      "ts": 1780410240000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/eua-atacam-pix-para-favorecer-empres",
+      "tag": "Economia",
+      "titulo": "EUA atacam Pix para favorecer empresas de pagamentos estadunidenses",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O escritório do Representante Comercial dos Estados Unidos (USTR) atacou o Pix brasileiro, acusando a tecnologia nacional de prejudicar “injustamente” as empresas estadunidenses que prestam serviços de pagamento eletrônico. Entre as empresas prejudicadas estariam a MasterCard, Visa e o Whatsapp Pay.",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/eua-atacam-pix-para-favorecer-empresas-de-pagamentos-estadunidenses",
+      "data": "02/06/2026",
+      "hora": "11:23",
+      "ts": 1780410180000,
       "favorito": false
     },
     {
@@ -334,30 +358,6 @@
       "data": "01/06/2026",
       "hora": "17:37",
       "ts": 1780346220000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/irpf-2026-bate-recorde-com-444-milho",
-      "tag": "Economia",
-      "titulo": "IRPF 2026 bate recorde com 44,4 milhões de declarações enviadas",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Receita Federal recebeu 44,39 milhões de declarações do Imposto de Renda Pessoa Física (IRPF) 2026, número recorde e acima da expectativa inicial de 44 milhões de documentos enviados.  O resultado representa um crescimento de 2,4% em relação ao ano passado, quando 43,34 milhões de contribuintes pr",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/irpf-2026-bate-recorde-com-444-milhoes-de-declaracoes-enviadas",
-      "data": "01/06/2026",
-      "hora": "17:25",
-      "ts": 1780345500000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/procuradoria-da-fazenda-nacional-pas",
-      "tag": "Economia",
-      "titulo": "Procuradoria da Fazenda Nacional passa a cobrar dívidas com o FGTS",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A partir desta segunda-feira (1º), a gestão e a cobrança dos débitos do Fundo de Garantia do Tempo de Serviço (FGTS)  inscritos em dívida ativa  passarão a ser feitas exclusivamente pela Procuradoria-Geral da Fazenda Nacional (PGFN).  Cerca de R$ 66,8 bilhões, referentes a 500 mil inscrições na dívi",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/procuradoria-da-fazenda-nacional-passa-cobrar-dividas-com-o-fgts",
-      "data": "01/06/2026",
-      "hora": "16:41",
-      "ts": 1780342860000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "02/06/2026 às 14:00",
+  "atualizado": "02/06/2026 às 16:00",
   "total": 40
 }
