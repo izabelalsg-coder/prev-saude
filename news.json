@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/caso-henry-10deg-dia-de-juri-sera-de-d",
+      "tag": "Justiça",
+      "titulo": "Caso Henry: 10° dia de júri será de debate entre defesas e acusação",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O júri do Caso Henry, o mais longo da história do Rio de Janeiro, entra no décimo dia nesta quarta-feira (3).  As próximas horas serão dedicadas à chamada fase de debates – quando acusação e defesa expõem seus pontos de vista sobre provas, evidências, fatos e testemunhos apresentados durante o julga",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/caso-henry-10deg-dia-de-juri-sera-de-debate-entre-defesas-e-acusacao",
+      "data": "03/06/2026",
+      "hora": "11:06",
+      "ts": 1780495560000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-mantem-condenacao-de-claudio-castr",
       "tag": "Justiça",
       "titulo": "TSE mantém condenação de Claudio Castro à inelegibilidade",
@@ -226,18 +238,6 @@
       "data": "31/05/2026",
       "hora": "13:07",
       "ts": 1780243620000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/legista-diz-que-henry-tinha-14-lesoes-",
-      "tag": "Justiça",
-      "titulo": "Legista diz que Henry tinha lesões e rebate tese de acidente doméstico",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O médico-legista Luiz Carlos Leal Prestes, ouvido nesta sexta-feira (29) na sessão de julgamento do caso Henry Borel, disse que as lesões encontradas no corpo do menino foram provocadas antes da morte por ações contundentes.    \n\n “Essa versão de acidente doméstico [para a morte de Henry Borel] é to",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-05/legista-diz-que-henry-tinha-14-lesoes-e-rebate-tese-acidente-domestico",
-      "data": "29/05/2026",
-      "hora": "22:01",
-      "ts": 1780102860000,
       "favorito": false
     },
     {
@@ -361,6 +361,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/brasil-vai-buscar-novos-parceiros-pa",
+      "tag": "Política",
+      "titulo": "Brasil vai buscar novos parceiros para diminuir impactos comerciais",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O presidente Luiz Inácio Lula da Silva afirmou, nesta quarta-feira (3), que o Brasil vai continuar buscando outros parceiros de negócios para minimizar os impactos da política comercial adotada pelos Estados Unidos.  Lula coordenou reunião ministerial, no Palácio do Planalto, que ocorre em meio ao  ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/brasil-vai-buscar-novos-parceiros-para-diminuir-impactos-comerciais",
+      "data": "03/06/2026",
+      "hora": "12:19",
+      "ts": 1780499940000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/alcolumbre-sugere-melhorar-6x1-e-que",
       "tag": "Política",
       "titulo": "Alcolumbre sugere “melhorar” 6x1 e quer passar PEC por comissões",
@@ -467,20 +479,8 @@
       "hora": "15:52",
       "ts": 1780080720000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-diz-que-vai-indicar-novamente-m",
-      "tag": "STF",
-      "titulo": "Lula diz que vai indicar novamente Messias ao STF",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O presidente Luiz Inácio Lula da Silva afirmou nesta sexta-feira (29) que vai indicar novamente o advogado Jorge Messias para a vaga de ministro do Supremo Tribunal Federal (STF).  A declaração foi feita durante visita à Fábrica de Fertilizantes Nitrogenados de Sergipe (Fafen-SE), em Laranjeiras.   ",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-diz-que-vai-indicar-novamente-messias-ao-stf",
-      "data": "29/05/2026",
-      "hora": "13:01",
-      "ts": 1780070460000,
-      "favorito": false
     }
   ],
-  "atualizado": "03/06/2026 às 14:00",
+  "atualizado": "03/06/2026 às 16:00",
   "total": 40
 }
