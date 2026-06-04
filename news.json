@@ -121,6 +121,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/plantao-judiciario-atende-pedidos-de-m",
+      "tag": "Justiça",
+      "titulo": "Judiciário do Rio atende pedidos de medida protetiva no feriado",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Devido ao aumento de pedidos de medidas protetivas previstas na Lei Maria da Penha, o Plantão Judiciário do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) está atendendo  urgentes nesta quinta-feirra (4), dia de Corpus Christi.    \n\n Somente nos quatro primeiros meses de 2026, o Tribunal de ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/plantao-judiciario-atende-pedidos-de-medidas-protetivas-no-rio",
+      "data": "04/06/2026",
+      "hora": "12:08",
+      "ts": 1780585680000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/adilsinho-da-cupula-do-jogo-do-bicho-t",
+      "tag": "Justiça",
+      "titulo": "Adilsinho, da cúpula do jogo do bicho, tem nova prisão decretada no RJ",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Tribunal de Justiça do Estado do Rio de Janeiro (TJ-RJ) decretou a prisão preventiva do contraventor Adilson Oliveira Coutinho Filho, conhecido como “Adilsinho”, do ex-policial militar Rafael do Nascimento Dutra, o “Sem Alma”, e de Jefferson Rodrigues da Silva, o “Jefe”.    \n\n  Os três foram denun",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/adilsinho-da-cupula-do-jogo-do-bicho-tem-nova-prisao-decretada-no-rj",
+      "data": "04/06/2026",
+      "hora": "11:14",
+      "ts": 1780582440000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/justica-condena-jairinho-e-concede-per",
       "tag": "Justiça",
       "titulo": "Caso Henry Borel: Justiça condena Jairinho e concede perdão a Monique",
@@ -214,30 +238,6 @@
       "data": "02/06/2026",
       "hora": "15:41",
       "ts": 1780425660000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/juri-do-caso-henry-borel-entra-na-reta",
-      "tag": "Justiça",
-      "titulo": "Júri do caso Henry Borel entra na reta final; entenda próximos passos",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O julgamento do caso Henry Borel, no 2° Tribunal do Júri do Rio de Janeiro, entra nesta terça-feira (2) no nono dia.  É o júri mais longo da história do estado ,  superando o da deputada cassada Flordelis , em novembro de 2022, que durou sete dias. Ela foi condenada por planejar o assassinato do mar",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/juri-do-caso-henry-borel-entra-na-reta-final-entenda-proximos-passos",
-      "data": "02/06/2026",
-      "hora": "12:01",
-      "ts": 1780412460000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-julga-recurso-de-castro-contra-dec",
-      "tag": "Justiça",
-      "titulo": "TSE julga recurso de Castro contra decisão que o tornou inelegível",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) julga nesta terça-feira (2), às 19h, recurso apresentado pelo ex-governador do Rio de Janeiro Claudio Castro contra a decisão do tribunal que o condenou.   \n\n  No dia 23 de março, Castro foi condenado à inelegibilidade até 2030. Em função da condenação, o tribunal",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-julga-recurso-de-castro-contra-decisao-que-o-tornou-inelegivel",
-      "data": "02/06/2026",
-      "hora": "07:32",
-      "ts": 1780396320000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "04/06/2026 às 14:00",
+  "atualizado": "04/06/2026 às 15:18",
   "total": 40
 }
