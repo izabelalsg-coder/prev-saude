@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-autoriza-agu-defender-moraes-em",
+      "tag": "Justiça",
+      "titulo": "Fachin autoriza AGU a defender Moraes em processo nos EUA",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, autorizou a Advocacia-Geral da União (AGU) a atuar em defesa do ministro Alexandre de Moraes em um processo movido contra ele nos Estados Unidos pelo grupo Trump Media e a plataforma Rumble.    \n\n Na ação aberta em um tribunal fe",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-autoriza-agu-defender-moraes-em-processo-nos-eua",
+      "data": "04/06/2026",
+      "hora": "12:44",
+      "ts": 1780587840000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/plantao-judiciario-atende-pedidos-de-m",
       "tag": "Justiça",
       "titulo": "Judiciário do Rio atende pedidos de medida protetiva no feriado",
@@ -226,18 +238,6 @@
       "data": "02/06/2026",
       "hora": "18:03",
       "ts": 1780434180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/cnj-nao-foi-notificado-da-classificaca",
-      "tag": "Justiça",
-      "titulo": "CNJ não foi notificado da classificação do PCC e CV como terroristas",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF) e do Conselho Nacional de Justiça (CNJ), Edson Fachin, disse nesta terça-feira (2) que o Poder Judiciário não foi comunicado oficialmente sobre a  decisão dos Estados Unidos que classificou as facções  Comando Vermelho (CV) e Primeiro Comando da Capital",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/cnj-nao-foi-notificado-da-classificacao-do-pcc-e-cv-como-terroristas",
-      "data": "02/06/2026",
-      "hora": "15:41",
-      "ts": 1780425660000,
       "favorito": false
     },
     {
@@ -385,6 +385,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-06/camara-aprova-urgencia-de-texto",
+      "tag": "Política",
+      "titulo": "Câmara aprova urgência de texto que facilita garimpo de menor porte",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O plenário da Câmara dos Deputados aprovou, nesta quarta-feira (3), a urgência do  Projeto de Lei (PL) 957 de 2024 , que altera o Código de Mineração no Brasil para, entre outros objetivos, agilizar as autorizações para mineração no Brasil e facilitar a atuação de garimpos de menor porte .     \n\n O ",
+      "link": "https://agenciabrasil.ebc.com.br/meio-ambiente/noticia/2026-06/camara-aprova-urgencia-de-texto-que-facilita-garimpo-de-menor-porte",
+      "data": "03/06/2026",
+      "hora": "13:20",
+      "ts": 1780503600000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/brasil-vai-buscar-novos-parceiros-pa",
       "tag": "Política",
       "titulo": "Brasil vai buscar novos parceiros para diminuir impactos comerciais",
@@ -467,20 +479,8 @@
       "hora": "09:40",
       "ts": 1780317600000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-visita-primeiro-hospital-oncolo",
-      "tag": "Política",
-      "titulo": "Lula visita primeiro hospital oncológico interestadual do país",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "Ao visitar nesta sexta-feira (29) o Hospital do Amor Interestadual de Lagarto, em Sergipe, o  primeiro oncológico interestadual do país , o presidente Luiz Inácio Lula da Silva falou pela primeira vez sobre a  radioterapia à qual está sendo submetido  para tratar de uma lesão no couro cabeludo.   \n\n",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-05/lula-visita-primeiro-hospital-oncologico-interestadual-do-pais",
-      "data": "29/05/2026",
-      "hora": "18:44",
-      "ts": 1780091040000,
-      "favorito": false
     }
   ],
-  "atualizado": "04/06/2026 às 15:18",
+  "atualizado": "04/06/2026 às 16:00",
   "total": 40
 }
