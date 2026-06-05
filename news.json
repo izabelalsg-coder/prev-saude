@@ -121,6 +121,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/justica-manda-prender-jornalista-perse",
+      "tag": "Justiça",
+      "titulo": "Justiça manda prender jornalista perseguido por Carla Zambelli",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O juiz José Fernando Steinberg, do Juizado Especial Criminal do Foro de Barra Funda, em São Paulo, determinou a prisão, em regime aberto, do jornalista Luan Araújo, que em outubro de 2022 foi alvo de uma perseguição a mão armada pelas ruas de São Paulo por parte da então deputada federal Carla Zambe",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/justica-manda-prender-jornalista-perseguido-por-zambelli",
+      "data": "05/06/2026",
+      "hora": "08:14",
+      "ts": 1780658040000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/monique-medeiros-deixa-prisao-mp-vai-r",
+      "tag": "Justiça",
+      "titulo": "Monique Medeiros deixa a prisão no Rio; MP vai recorrer da decisão",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A mãe do menino Henry Borel, a professora Monique Medeiros, deixou na tarde desta quinta-feira (4) o presídio feminino Talavera Bruce, no Complexo Penitenciário de Gericinó, após ter recebido o  perdão judicial  da juíza Elizabeth Louro, do 2º Tribunal do Júri.    \n\n Por decisão do Conselho de Sente",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/monique-medeiros-deixa-prisao-mp-vai-recorrer-da-decisao",
+      "data": "04/06/2026",
+      "hora": "18:32",
+      "ts": 1780608720000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-autoriza-agu-defender-moraes-em",
       "tag": "Justiça",
       "titulo": "Fachin autoriza AGU a defender Moraes em processo nos EUA",
@@ -217,27 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-mantem-condenacao-de-claudio-castr",
-      "tag": "Justiça",
-      "titulo": "TSE mantém condenação de Claudio Castro à inelegibilidade",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Por 5 votos a 2, o Tribunal Superior Eleitoral (TSE) negou nesta terça-feira (2) recurso apresentado pelo ex-governador do Rio de Janeiro Claudio Castro contra a decisão do tribunal que o condenou à inelegibilidade até 2030.  Também foi mantida a condenação do ex-deputado estadual Rodrigo Bacellar. ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-mantem-condenacao-de-claudio-castro-inelegibilidade",
-      "data": "02/06/2026",
-      "hora": "20:27",
-      "ts": 1780442820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/sancoes-internacionais-contra-justica-",
-      "tag": "Justiça",
-      "titulo": "Sanções internacionais contra Justiça brasileira preocupam Fachin",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, se reuniu nesta terça-feira (2) com uma representante da Organização das Nações Unidas (ONU) e demonstrou preocupação com sanções internacionais unilaterais para afetar a independência da Justiça brasileira.   \n\n  Fachin se reuni",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/sancoes-internacionais-contra-justica-brasileira-preocupam-fachin",
-      "data": "02/06/2026",
-      "hora": "18:03",
-      "ts": 1780434180000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mtur-microempreendedoras-vitimas-de-",
+      "tag": "Economia",
+      "titulo": "Microempreendedoras vítimas de violência terão crédito especial",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Microempresárias do setor de turismo vítimas de violência doméstica ou de gênero poderão pedir a suspensão temporária dos pagamentos de financiamentos obtidos por meio do Fundo Geral de Turismo (Fungetur), bem como a ampliação dos prazos de carência.   \n\n  As mudanças nas regras do fundo criado para",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mtur-microempreendedoras-vitimas-de-violencia-terao-credito-especial",
+      "data": "04/06/2026",
+      "hora": "16:22",
+      "ts": 1780600920000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "02/06/2026",
       "hora": "20:28",
       "ts": 1780442880000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/febraban-rebate-criticas-dos-eua-ao-",
-      "tag": "Economia",
-      "titulo": "Febraban rebate críticas dos EUA ao Pix e nega barreira à concorrência",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Federação Brasileira de Bancos (Febraban) defendeu o Pix após o sistema de pagamentos instantâneos ser alvo de críticas do governo dos Estados Unidos.  Em nota, a entidade afirmou que as conclusões do Escritório do Representante Comercial dos Estados Unidos (USTR) foram baseadas em informações inc",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/febraban-rebate-criticas-dos-eua-ao-pix-e-nega-barreira-concorrencia",
-      "data": "02/06/2026",
-      "hora": "19:57",
-      "ts": 1780441020000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "04/06/2026 às 16:00",
+  "atualizado": "05/06/2026 às 14:00",
   "total": 40
 }
