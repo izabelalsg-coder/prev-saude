@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-valida-acordo-que-suspende-acao",
+      "tag": "Justiça",
+      "titulo": "Moraes valida acordo que suspende ação contra deputado réu por 8/1",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), validou um acordo de não persecução penal (ANPP) firmado entre a Procuradoria-Geral da República (PGR) e o deputado estadual Sargento Rodrigues (PL-MG) para suspender a ação penal em que o parlamentar é réu por participação nos atos ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-valida-acordo-que-suspende-acao-contra-deputado-reu-por-81",
+      "data": "06/06/2026",
+      "hora": "12:54",
+      "ts": 1780761240000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-nega-suspeicao-de-kassio-para-d",
       "tag": "Justiça",
       "titulo": "Fachin nega suspeição de Kassio para decidir sobre CPI do Master",
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-derruba-idade-minima-para-aposenta",
-      "tag": "STF",
-      "titulo": "STF derruba idade mínima para aposentadoria em atividades nocivas",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (3) derrubar a regra da  reforma de previdência de 2019  que fixou idade mínima para aposentadoria especial de trabalhadores que exercem atividades com exposição a agentes nocivos à saúde.  Entre eles estão mergulhadores de plataformas de p",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-derruba-idade-minima-para-aposentadoria-em-atividades-nocivas",
-      "data": "03/06/2026",
-      "hora": "18:18",
-      "ts": 1780521480000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/uniao-europeia-oficializa-veto-carne",
+      "tag": "Economia",
+      "titulo": "União Europeia oficializa veto à carne brasileira a partir de setembro",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A União Europeia (EU) oficializou sua decisão de proibir a importação de carnes, tripas, peixe e mel produzidos no Brasil. O veto deve entrar em vigor a partir do próximo dia 3 de setembro.    \n\n  Anunciada há quase um mês , poucos dias após a entrada em vigor provisória do acordo comercial entre Me",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/uniao-europeia-oficializa-veto-carne-brasileira-partir-de-setembro",
+      "data": "06/06/2026",
+      "hora": "12:03",
+      "ts": 1780758180000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "03/06/2026",
       "hora": "10:58",
       "ts": 1780495080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/industria-cresce-07-em-abril-quarto-",
-      "tag": "Economia",
-      "titulo": "Indústria cresce 0,7% em abril, quarto mês seguido de avanço",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A produção industrial brasileira teve alta de 0,7% em abril de 2026 frente a março de 2026, na série com ajuste sazonal, quarto mês seguido de aumento, acumulando 4,4% de avanço neste período.    \n\n Os dados são da Pesquisa Industrial Mensal (PIM), divulgada nesta quarta-feira (3), pelo Instituto Br",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/industria-cresce-07-em-abril-quarto-mes-seguido-de-avanco",
-      "data": "03/06/2026",
-      "hora": "09:38",
-      "ts": 1780490280000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "06/06/2026 às 14:00",
+  "atualizado": "06/06/2026 às 16:00",
   "total": 40
 }
