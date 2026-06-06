@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/republica-democratica-do-congo-confirma-ma",
+      "tag": "Saúde",
+      "titulo": "República Democrática do Congo confirma mais 71 casos de ebola",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A República Democrática do Congo informou nesta sexta-feira (5) que o número de casos confirmados de ebola aumentou para 452, após a confirmação de 71 novos diagnósticos nas últimas 24 horas. As infecções causaram 82 mortes.   \n\n  As informações foram noticiadas pela agência Reuters e atribuídas ao ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/republica-democratica-do-congo-confirma-mais-71-casos-de-ebola",
+      "data": "05/06/2026",
+      "hora": "16:25",
+      "ts": 1780687500000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/contaminacao-por-mercurio-coloca-gestantes",
       "tag": "Saúde",
       "titulo": "Contaminação por mercúrio coloca gestantes e bebês Munduruku em risco",
@@ -109,15 +121,39 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/exames-descartam-ebola-em-imigrante-da-rep",
-      "tag": "Saúde",
-      "titulo": "Exames descartam ebola em imigrante da República Democrática do Congo",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Secretaria Estadual de Saúde de São Paulo informou na manhã desta segunda-feira (1º) que  o homem de 37 anos internado no Emílio Ribas, na capital paulista, não está contaminado com ebola.  Exames feitos no paciente não detectaram material genético do vírus na amostra coletada.   \n\n O paciente é i",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/exames-descartam-ebola-em-imigrante-da-republica-democratica-do-congo",
-      "data": "01/06/2026",
-      "hora": "13:05",
-      "ts": 1780329900000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-nega-suspeicao-de-kassio-para-d",
+      "tag": "Justiça",
+      "titulo": "Fachin nega suspeição de Kassio para decidir sobre CPI do Master",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, negou pedido de quatro senadores para declarar a suspeição do ministro Kassio Nunes Marques para julgar um mandado de segurança que pede a criação da Comissão Parlamentar de Inquérito (CPI) do Banco Master.   A decisão foi profer",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-nega-suspeicao-de-kassio-para-decidir-sobre-cpi-do-master",
+      "data": "05/06/2026",
+      "hora": "17:30",
+      "ts": 1780691400000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-e-dino-rejeitam-recurso-de-robe",
+      "tag": "Justiça",
+      "titulo": "Moraes e Dino rejeitam recurso de Roberto Jefferson contra multa",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), votou nesta sexta-feira (5) para rejeitar o recurso do ex-deputado Roberto Jefferson contra o pagamento de multa de R$ 452 mil.   \n\n Em seguida, Flávio Dino seguiu o relator e votou contra o recurso. O julgamento do plenário virtual ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-e-dino-rejeitam-recurso-de-roberto-jefferson-contra-multa",
+      "data": "05/06/2026",
+      "hora": "16:55",
+      "ts": 1780689300000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/robinho-defesa-pede-ao-stf-retirada-da",
+      "tag": "STF",
+      "titulo": "Robinho: defesa pede ao STF retirada da hediondez do crime de estupro",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A defesa do ex-jogador de futebol Robinho pediu ao Supremo Tribunal Federal (STF) a retirada da hediondez do crime de estupro.    \n\n Robinho está preso desde março de 2024, em São Paulo, por determinação do Superior Tribunal de Justiça (STJ). O  tribunal homologou a pena de nove anos de prisão, prof",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/robinho-defesa-pede-ao-stf-retirada-da-hediondez-do-crime-de-estupro",
+      "data": "05/06/2026",
+      "hora": "14:56",
+      "ts": 1780682160000,
       "favorito": false
     },
     {
@@ -205,39 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/defesas-de-jairinho-e-monique-tentam-c",
-      "tag": "Justiça",
-      "titulo": "Decisão dos jurados no caso Henry Borel deve sair até quinta-feira",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O décimo dia do julgamento do Caso Henry, o mais longo da história do Tribunal de Justiça do Rio de Janeiro, está sendo dedicado nesta quarta-feira (3) a debates entre acusação e defesa.    É a  última etapa  antes de os jurados chegarem a um veredito.    \n\n Os réus acompanham as exposições. A sessã",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/defesas-de-jairinho-e-monique-tentam-convencer-juri-do-caso-henry",
-      "data": "03/06/2026",
-      "hora": "18:06",
-      "ts": 1780520760000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tarifaco-stf-libera-julgamento-do-proc",
-      "tag": "STF",
-      "titulo": "Tarifaço: STF libera julgamento do processo contra Eduardo Bolsonaro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), liberou para julgamento a ação penal em que o ex-deputado federal Eduardo Bolsonaro (PL-SP) é réu pela acusação de promover o tarifaço dos Estados Unidos contra as exportações brasileiras.  O julgamento do caso foi marcado para terça",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tarifaco-stf-libera-julgamento-do-processo-contra-eduardo-bolsonaro",
-      "data": "03/06/2026",
-      "hora": "14:35",
-      "ts": 1780508100000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/caso-henry-10deg-dia-de-juri-sera-de-d",
-      "tag": "Justiça",
-      "titulo": "Caso Henry: 10° dia de júri será de debate entre defesas e acusação",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O júri do Caso Henry, o mais longo da história do Rio de Janeiro, entra no décimo dia nesta quarta-feira (3).  As próximas horas serão dedicadas à chamada fase de debates – quando acusação e defesa expõem seus pontos de vista sobre provas, evidências, fatos e testemunhos apresentados durante o julga",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/caso-henry-10deg-dia-de-juri-sera-de-debate-entre-defesas-e-acusacao",
-      "data": "03/06/2026",
-      "hora": "11:06",
-      "ts": 1780495560000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-06/desemprego-entre-mulheres-ne",
+      "tag": "Economia",
+      "titulo": "Desemprego entre mulheres negras jovens chega a 24,7%, aponta estudo",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Apesar de avanços recentes no mercado de trabalho, com  queda nos índices de desemprego  e resultados positivos no aumento da renda dos trabalhadores, as mulheres negras jovens continuam registrando os piores resultados em indicadores como taxa de desocupação, informalidade, desalento e rendimento. ",
+      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-06/desemprego-entre-mulheres-negras-jovens-chega-a-247-aponta-estudo",
+      "data": "05/06/2026",
+      "hora": "09:32",
+      "ts": 1780662720000,
       "favorito": false
     },
     {
@@ -349,15 +361,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bolsa-sobe-116-e-dolar-cai-para-r-5-",
-      "tag": "Economia",
-      "titulo": "Bolsa sobe 1,16%, e dólar cai para R$ 5, apesar de medida dos EUA",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A bolsa brasileira fechou em alta, e o dólar recuou nesta terça-feira (2), mesmo em meio ao aumento da tensão comercial entre Brasil e Estados Unidos.  O Ibovespa avançou 1,16%, aos 174.197 pontos, enquanto a moeda americana caiu 0,24%, encerrando o dia cotada a R$ 5,009.    \n\n O desempenho dos ativ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bolsa-sobe-116-e-dolar-cai-para-r-5-apesar-de-medida-dos-eua",
-      "data": "02/06/2026",
-      "hora": "20:28",
-      "ts": 1780442880000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/parlamentares-governistas-vao-aos-eu",
+      "tag": "Política",
+      "titulo": "Parlamentares governistas vão aos EUA apresentar contraponto à direita",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Um grupo de parlamentares brasileiros esteve em Washington, de 3 a 5 de junho, com o objetivo de apresentar um contraponto às narrativas da direita brasileira junto a instituições americanas.   \n\n Formado pelos deputados federais Pedro Uczai (PT/SC), Jandira Feghalli (PcdoB/RJ), Pedro Campos (PSB/PE",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/parlamentares-governistas-vao-aos-eua-apresentar-contraponto-direita",
+      "data": "05/06/2026",
+      "hora": "19:03",
+      "ts": 1780696980000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lula-sanciona-lei-que-garante-renova",
+      "tag": "Legislação",
+      "titulo": "Lula sanciona lei que garante renovação automática da CNH",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O presidente Luiz Inácio Lula da Silva sancionou nesta sexta-feira (5) a lei que permite a renovação automática da Carteira Nacional de Habilitação (CNH) para bons condutores.    \n\n A medida autoriza a renovação sem custos para motoristas que não cometeram infrações de trânsito sujeitas à pontuação ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lula-sanciona-lei-que-garante-renovacao-automatica-da-cnh",
+      "data": "05/06/2026",
+      "hora": "14:31",
+      "ts": 1780680660000,
       "favorito": false
     },
     {
@@ -455,32 +479,8 @@
       "hora": "15:04",
       "ts": 1780423440000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/quem-tinha-que-aumentar-taxa-seriamo",
-      "tag": "Política",
-      "titulo": "\"Quem tinha que aumentar a taxa seríamos nós\", diz Lula sobre EUA",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O presidente Luiz Inácio Lula da Silva rebateu, nesta terça-feira (2), o argumento do governo dos Estados Unidos de que o Brasil adota práticas “irrazoáveis” na relação entre os dois países.  Lula voltou a lembrar que os norte-americanos têm superávit na relação comercial com o Brasil. E, se alguém ",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/quem-tinha-que-aumentar-taxa-seriamos-nos-diz-lula-sobre-eua",
-      "data": "02/06/2026",
-      "hora": "13:50",
-      "ts": 1780419000000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/governadora-do-df-recebe-alta-apos-a",
-      "tag": "Política",
-      "titulo": "Governadora do DF recebe alta após apresentar quadro de pneumotórax",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "Internada desde o sábado (30) para tratar de um pneumotórax, a governadora do Distrito Federal, Celina Leão, recebeu alta e deixou o Hospital Santa Lúcia, em Brasília, na manhã desta segunda-feira (1º).   \n\n De acordo com o boletim hospitalar, ela foi submetida a uma drenagem pleural que transcorreu",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/governadora-do-df-recebe-alta-apos-apresentar-quadro-de-pneumotorax",
-      "data": "01/06/2026",
-      "hora": "09:40",
-      "ts": 1780317600000,
-      "favorito": false
     }
   ],
-  "atualizado": "05/06/2026 às 16:00",
+  "atualizado": "06/06/2026 às 14:00",
   "total": 40
 }
