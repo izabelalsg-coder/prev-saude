@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/uso-indiscriminado-de-corticoides-pode-cau",
+      "tag": "Saúde",
+      "titulo": "Uso indiscriminado de corticoides pode causar glaucoma e cegueira",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O uso de corticoides de forma inadequada e adquiridos sem receita médica pode levar ao desenvolvimento e aumento de casos de glaucoma.  O alerta é do presidente da Sociedade Brasileira de Glaucoma (SBG), Roberto Murad Vessani.   \n\n O glaucoma é uma doença que afeta o nervo óptico, provocada pela ele",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/uso-indiscriminado-de-corticoides-pode-causar-glaucoma-e-cegueira",
+      "data": "07/06/2026",
+      "hora": "10:12",
+      "ts": 1780837920000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/republica-democratica-do-congo-confirma-ma",
       "tag": "Saúde",
       "titulo": "República Democrática do Congo confirma mais 71 casos de ebola",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/resolucao-proibe-uso-de-pmma-por-medicos-e",
-      "tag": "Resolução",
-      "titulo": "Resolução proíbe uso de PMMA por médicos em procedimentos na pele",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Alergia, inchaço, dor intensa, manchas, deformação e perda de partes do corpo, queimaduras, sangramento, queloides, infecções, necrose e até morte.  Estas foram algumas das sequelas graves do uso do polimetilmetacrilato (PMMA) apontadas nesta segunda-feira (1º) pelo Conselho Federal de Medicina (CFM",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/resolucao-proibe-uso-de-pmma-por-medicos-em-procedimentos-na-pele",
-      "data": "01/06/2026",
-      "hora": "17:04",
-      "ts": 1780344240000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-cria-grupo-de-trabalho-para-rev",
+      "tag": "Justiça",
+      "titulo": "Fachin cria grupo de trabalho para revisar penduricalhos de juízes",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF) e do Conselho Nacional de Justiça (CNJ), ministro Edson Fachin, decidiu criar um grupo de trabalho para revisar todos os penduricalhos pagos aos magistrados do país.    \n\n Penduricalho é o nome pelo qual ficou conhecido o pagamento de variados tipos de ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-cria-grupo-de-trabalho-para-revisar-penduricalhos-de-juizes",
+      "data": "06/06/2026",
+      "hora": "13:36",
+      "ts": 1780763760000,
       "favorito": false
     },
     {
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/justica-condena-jairinho-e-concede-per",
-      "tag": "Justiça",
-      "titulo": "Caso Henry Borel: Justiça condena Jairinho e concede perdão a Monique",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Conselho de Sentença do II Tribunal do Júri do Rio condenou, na madrugada desta quinta-feira (4), o ex-vereador Jairo Souza Santos Júnior, o Dr. Jairinho, a 43 anos, 9 meses e 20 dias de prisão pela morte do menino Henry Borel Medeiros, de 4 anos, ocorrida em 8 março de 2021. Monique Medeiros da C",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/justica-condena-jairinho-e-concede-perdao-juducial-monique",
-      "data": "04/06/2026",
-      "hora": "08:43",
-      "ts": 1780573380000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fraudes-ligadas-copa-quase-dobram-e-",
+      "tag": "Economia",
+      "titulo": "Fraudes ligadas à Copa quase dobram e acendem alerta para 2026",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As tentativas de fraude relacionadas ao futebol e à Copa do Mundo avançaram de forma significativa no ciclo que antecede o Mundial de 2026, que começa nesta semana. Levantamento da NordVPN, provedor de serviços de rede privada virtual, aponta que 34% dos brasileiros que utilizam internet relataram c",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fraudes-ligadas-copa-quase-dobram-e-acendem-alerta-para-2026",
+      "data": "07/06/2026",
+      "hora": "10:47",
+      "ts": 1780840020000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/pec-no-senado-facilita-cooptacao-do-",
+      "tag": "Economia",
+      "titulo": "PEC no Senado facilita cooptação do Banco Central, dizem economistas",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A autonomia financeira e orçamentária do Banco Central (BC), prevista em proposta de emenda à Constituição (PEC), em tramitação no Senado, facilita a cooptação pelo setor financeiro da autoridade monetária responsável por regular e fiscalizar a área, além de favorecer a manutenção dos altos juros no",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/pec-no-senado-facilita-cooptacao-do-banco-central-dizem-economistas",
+      "data": "06/06/2026",
+      "hora": "13:44",
+      "ts": 1780764240000,
       "favorito": false
     },
     {
@@ -334,30 +358,6 @@
       "data": "03/06/2026",
       "hora": "17:17",
       "ts": 1780517820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/superavit-comercial-cresce-108-em-ma",
-      "tag": "Economia",
-      "titulo": "Superávit comercial cresce 10,8% em maio puxado por soja e cobre",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O aumento nas exportações de soja e de cobre fez o superávit da balança comercial crescer em maio, divulgou nesta quinta-feira (3) o Ministério do Desenvolvimento, Indústria, Comércio e Serviços (Mdic).  No mês passado, as exportações superaram as importações em US$ 7,823 bilhões.    \n\n O resultado ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/superavit-comercial-cresce-108-em-maio-puxado-por-soja-e-cobre",
-      "data": "03/06/2026",
-      "hora": "17:06",
-      "ts": 1780517160000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bancos-nao-terao-atendimento-presenc",
-      "tag": "Economia",
-      "titulo": "Bancos não terão atendimento presencial no feriado de Corpus Christi",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As agências bancárias estarão fechadas nesta quinta-feira (4), feriado de  Corpus Christi , informou a Federação Brasileira de Bancos (Febraban).  O atendimento presencial ao público será normalizado na sexta-feira (5) nas localidades onde não haja feriado estadual ou municipal ou ponto facultativo.",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bancos-nao-terao-atendimento-presencial-no-feriado-de-corpus-christi",
-      "data": "03/06/2026",
-      "hora": "10:58",
-      "ts": 1780495080000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "06/06/2026 às 16:00",
+  "atualizado": "07/06/2026 às 14:00",
   "total": 40
 }
