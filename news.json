@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/pf-mira-desembargador-e-deputado-estad",
+      "tag": "Justiça",
+      "titulo": "Desembargador e deputado de MT são alvos da PF por venda de sentenças",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A Polícia Federal (PF) deflagrou nesta segunda-feira (8) a Operação Gemini, tendo como alvo um desembargador e um deputado estadual de Mato Grosso suspeitos de venda de sentenças e lavagem de dinheiro.    \n\n Nesta manhã, foram cumpridos mandados de busca e apreensão em endereços ligados ao desembarg",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/pf-mira-desembargador-e-deputado-estadual-de-mt-por-venda-de-sentencas",
+      "data": "08/06/2026",
+      "hora": "12:31",
+      "ts": 1780932660000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/lei-torna-crime-exercicio-ilegal-da-me",
       "tag": "Legislação",
       "titulo": "Lei torna crime exercício ilegal da medicina veterinária",
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/monique-medeiros-deixa-prisao-mp-vai-r",
-      "tag": "Justiça",
-      "titulo": "Monique Medeiros deixa a prisão no Rio; MP vai recorrer da decisão",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A mãe do menino Henry Borel, a professora Monique Medeiros, deixou na tarde desta quinta-feira (4) o presídio feminino Talavera Bruce, no Complexo Penitenciário de Gericinó, após ter recebido o  perdão judicial  da juíza Elizabeth Louro, do 2º Tribunal do Júri.    \n\n Por decisão do Conselho de Sente",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/monique-medeiros-deixa-prisao-mp-vai-recorrer-da-decisao",
-      "data": "04/06/2026",
-      "hora": "18:32",
-      "ts": 1780608720000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/plano-brasil-soberano-adota-novas-re",
+      "tag": "Economia",
+      "titulo": "Plano Brasil Soberano adota novas regras e mais empresas podem aderir",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Entrou em vigor nesta segunda-feira (8) as novas regras do Programa Brasil Soberano. Agora, um número maior de empresas poderá solicitar linhas de crédito do programa.  O governo federal reduziu de 5% para 1% o percentual mínimo de impacto no faturamento exigido. As mudanças foram anunciadas na últi",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/plano-brasil-soberano-adota-novas-regras-e-mais-empresas-podem-aderir",
+      "data": "08/06/2026",
+      "hora": "12:44",
+      "ts": 1780933440000,
       "favorito": false
     },
     {
@@ -349,15 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/receita-identifica-divergencias-de-r",
-      "tag": "Economia",
-      "titulo": "Receita identifica divergências de R$ 44 bi em créditos de PIS/Cofins",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Receita Federal identificou divergências em aproximadamente R$ 44 bilhões em créditos do Programa de Integração Social (PIS) e da Contribuição para o Financiamento da Seguridade Social (Cofins) declarados por cerca de 12 mil empresas.  Os contribuintes serão orientados a regularizar as informações",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/receita-identifica-divergencias-de-r-44-bi-em-creditos-de-piscofins",
-      "data": "03/06/2026",
-      "hora": "19:22",
-      "ts": 1780525320000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/governo-prepara-linha-de-credito-par",
+      "tag": "Política",
+      "titulo": "Governo prepara linha de crédito para motociclistas de aplicativos",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O governo federal lançará uma nova linha de crédito para motociclistas de aplicativos financiar motos novas. A Move Motos seguirá a lógica do  Move Aplicativos ,  lançada no mês passado  para ajudar motoristas de aplicativos e taxistas a financiarem veículos.    \n\n A medida foi anunciada pela minist",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/governo-prepara-linha-de-credito-para-motociclistas-de-aplicativos",
+      "data": "08/06/2026",
+      "hora": "12:05",
+      "ts": 1780931100000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "16:56",
       "ts": 1780430160000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/alcolumbre-mantem-silencio-sobre-6x1",
-      "tag": "Política",
-      "titulo": "Alcolumbre mantém silêncio sobre 6x1 e oposição tenta preservar escala",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "Seis dias após aprovação na Câmara, a Proposta de Emenda à Constituição (PEC) 221/2019, que acaba com a escala 6x1, segue sem tramitação no Senado.     \n\n O presidente da Casa, Davi Alcolumbre (União-AP), mantém silêncio sobre o andamento da matéria, enquanto  a oposição apresentou PEC alternativa q",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/alcolumbre-mantem-silencio-sobre-6x1-e-oposicao-tenta-preservar-escala",
-      "data": "02/06/2026",
-      "hora": "15:04",
-      "ts": 1780423440000,
-      "favorito": false
     }
   ],
-  "atualizado": "08/06/2026 às 14:00",
+  "atualizado": "08/06/2026 às 15:55",
   "total": 40
 }
