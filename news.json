@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/dor-cronica-tera-5-de-julho-como-dia-de-co",
+      "tag": "Saúde",
+      "titulo": "Dor crônica terá 5 de julho como dia nacional de conscientização",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Lei  publicada nesta segunda-feira (8)  define diretrizes básicas para a melhoria do atendimento de saúde a pessoas que convivem com a dor e institui 5 de julho o Dia Nacional de Conscientização e Enfrentamento da Dor Crônica.    \n\n A norma assegura atendimento integral no  Sistema Único de Saúde (S",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/dor-cronica-tera-5-de-julho-como-dia-de-conscientizacao-e-enfrentamen",
+      "data": "08/06/2026",
+      "hora": "07:56",
+      "ts": 1780916160000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/uso-indiscriminado-de-corticoides-pode-cau",
       "tag": "Saúde",
       "titulo": "Uso indiscriminado de corticoides pode causar glaucoma e cegueira",
@@ -109,15 +121,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/acre-luta-para-reverter-desinformacao-e-am",
-      "tag": "Saúde",
-      "titulo": "Acre luta para reverter desinformação e ampliar vacinação contra o HPV",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Apesar de avanços nos últimos anos, o Brasil ainda batalha para atingir as metas de vacinação contra o HPV, e esse desafio é ainda maior em um estado: o Acre.    \n\n No ano passado, enquanto a média de cobertura no país foi de 86% entre as meninas e 74,5% entre os meninos,  no estado da região Norte,",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/acre-luta-para-reverter-desinformacao-e-ampliar-vacinacao-contra-o-hpv",
-      "data": "02/06/2026",
-      "hora": "08:10",
-      "ts": 1780398600000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/lei-torna-crime-exercicio-ilegal-da-me",
+      "tag": "Legislação",
+      "titulo": "Lei torna crime exercício ilegal da medicina veterinária",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O  Código Penal Brasileiro  passa a incluir nesta segunda-feira (8) o exercício ilegal da medicina veterinária como crime.     \n\n   Pela legislação , aquele que exercer a profissão de médico veterinário sem autorização legal, ainda que de forma gratuita, está sujeito à pena de detenção de seis meses",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/lei-torna-crime-exercicio-ilegal-da-medicina-veterinaria",
+      "data": "08/06/2026",
+      "hora": "09:10",
+      "ts": 1780920600000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/entidades-repudiam-prisao-de-jornalist",
+      "tag": "Justiça",
+      "titulo": "Entidades repudiam prisão de jornalista perseguido por Zambelli",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Entidades ligadas ao jornalismo manifestaram repúdio à decisão do Juizado Especial Criminal do Foro de Barra Funda, em São Paulo (SP), de determinar a  prisão , em regime aberto, do profissional Luan Araújo.  Em outubro de 2022, ele foi alvo de uma perseguição a mão armada por parte da então deputad",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/entidades-repudiam-prisao-de-jornalista-perseguido-por-zambelli",
+      "data": "07/06/2026",
+      "hora": "13:37",
+      "ts": 1780850220000,
       "favorito": false
     },
     {
@@ -217,27 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-autoriza-agu-defender-moraes-em",
-      "tag": "Justiça",
-      "titulo": "Fachin autoriza AGU a defender Moraes em processo nos EUA",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, autorizou a Advocacia-Geral da União (AGU) a atuar em defesa do ministro Alexandre de Moraes em um processo movido contra ele nos Estados Unidos pelo grupo Trump Media e a plataforma Rumble.    \n\n Na ação aberta em um tribunal fe",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-autoriza-agu-defender-moraes-em-processo-nos-eua",
-      "data": "04/06/2026",
-      "hora": "12:44",
-      "ts": 1780587840000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/plantao-judiciario-atende-pedidos-de-m",
-      "tag": "Justiça",
-      "titulo": "Judiciário do Rio atende pedidos de medida protetiva no feriado",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Devido ao aumento de pedidos de medidas protetivas previstas na Lei Maria da Penha, o Plantão Judiciário do Tribunal de Justiça do Estado do Rio de Janeiro (TJRJ) está atendendo  urgentes nesta quinta-feirra (4), dia de Corpus Christi.    \n\n Somente nos quatro primeiros meses de 2026, o Tribunal de ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/plantao-judiciario-atende-pedidos-de-medidas-protetivas-no-rio",
-      "data": "04/06/2026",
-      "hora": "12:08",
-      "ts": 1780585680000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-financeiro-eleva-previsao-da",
+      "tag": "Economia",
+      "titulo": "Mercado financeiro eleva previsão da inflação para 5,11% este ano",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 5,09% para 5,11% este ano. A estimativa está no   Boletim Focus   desta segunda-feira (8), pesquisa divulgada semanalmente pelo Banco Central (BC) com a exp",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-financeiro-eleva-previsao-da-inflacao-para-511-este-ano",
+      "data": "08/06/2026",
+      "hora": "09:32",
+      "ts": 1780921920000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "03/06/2026",
       "hora": "19:22",
       "ts": 1780525320000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-amplia-acesso-ao-plano-brasi",
-      "tag": "Economia",
-      "titulo": "Governo amplia acesso ao Plano Brasil Soberano",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As empresas afetadas pelas tarifas impostas pelos Estados Unidos ou pelos impactos econômicos dos conflitos no Oriente Médio terão mais facilidade para aderir ao Plano Brasil Soberano. O governo federal reduziu de 5% para 1% o percentual mínimo de impacto no faturamento exigido para que empresas pos",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-amplia-acesso-ao-plano-brasil-soberano",
-      "data": "03/06/2026",
-      "hora": "17:52",
-      "ts": 1780519920000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "07/06/2026 às 16:00",
+  "atualizado": "08/06/2026 às 14:00",
   "total": 40
 }
