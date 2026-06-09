@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-julga-liminar-que-suspendeu-pesqui",
+      "tag": "Justiça",
+      "titulo": "TSE julga liminar que suspendeu pesquisa desfavorável a Flávio",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O plenário do Tribunal Superior Eleitoral (TSE) deve julgar nesta terça-feira (9), em sessão marcada para as 19h, se mantém ou derruba uma decisão liminar do ministro Nunes Marques que mandou suspender a divulgação de uma pesquisa que havia mostrado queda nas intenções de voto no senador Flávio Bols",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-julga-liminar-que-suspendeu-pesquisa-desfavoravel-flavio",
+      "data": "09/06/2026",
+      "hora": "11:01",
+      "ts": 1781013660000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/operacao-do-mp-sp-investiga-infiltraca",
       "tag": "Justiça",
       "titulo": "Operação do MP-SP investiga infiltração do PCC na polícia",
@@ -226,18 +238,6 @@
       "data": "06/06/2026",
       "hora": "13:36",
       "ts": 1780763760000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-valida-acordo-que-suspende-acao",
-      "tag": "Justiça",
-      "titulo": "Moraes valida acordo que suspende ação contra deputado réu por 8/1",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), validou um acordo de não persecução penal (ANPP) firmado entre a Procuradoria-Geral da República (PGR) e o deputado estadual Sargento Rodrigues (PL-MG) para suspender a ação penal em que o parlamentar é réu por participação nos atos ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-valida-acordo-que-suspende-acao-contra-deputado-reu-por-81",
-      "data": "06/06/2026",
-      "hora": "12:54",
-      "ts": 1780761240000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "09/06/2026 às 14:00",
+  "atualizado": "09/06/2026 às 14:54",
   "total": 40
 }
