@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/bacia-do-sao-francisco-petroleira-tera",
+      "tag": "Justiça",
+      "titulo": "Bacia do São Francisco: petroleira terá de recuperar poços abandonados",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A petroleira Petra Energia, em Minas Gerais, terá de reparar danos ambientais decorrentes da falta de manutenção em 24 poços abandonados na Bacia do São Francisco.  De acordo com decisão do  Tribunal Regional Federal da 6ª Região (TRF 6) , a concessionária é responsável pela área, mesmo após o encer",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/bacia-do-sao-francisco-petroleira-tera-de-recuperar-pocos-abandonados",
+      "data": "09/06/2026",
+      "hora": "12:25",
+      "ts": 1781018700000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/tse-julga-liminar-que-suspendeu-pesqui",
       "tag": "Justiça",
       "titulo": "TSE julga liminar que suspendeu pesquisa desfavorável a Flávio",
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-cria-grupo-de-trabalho-para-rev",
-      "tag": "Justiça",
-      "titulo": "Fachin cria grupo de trabalho para revisar penduricalhos de juízes",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF) e do Conselho Nacional de Justiça (CNJ), ministro Edson Fachin, decidiu criar um grupo de trabalho para revisar todos os penduricalhos pagos aos magistrados do país.    \n\n Penduricalho é o nome pelo qual ficou conhecido o pagamento de variados tipos de ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/fachin-cria-grupo-de-trabalho-para-revisar-penduricalhos-de-juizes",
-      "data": "06/06/2026",
-      "hora": "13:36",
-      "ts": 1780763760000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/novo-desenrola-ja-beneficiou-6-milho",
+      "tag": "Economia",
+      "titulo": "Novo Desenrola já beneficiou 6 milhões de pessoas, diz Dario Durigan",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Novo Desenrola, programa do governo federal voltado à renegociação de dívidas de pessoas físicas, já beneficiou, nos primeiros dias do programa, mais de 6 milhões de pessoas e famílias, segundo o ministro da Fazenda, Dario Durigan.    \n\n  Deste total, cerca de 4 milhões de pessoas tiveram suas dív",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/novo-desenrola-ja-beneficiou-6-milhoes-de-pessoas-diz-dario-durigan",
+      "data": "09/06/2026",
+      "hora": "12:57",
+      "ts": 1781020620000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasileiros-sacaram-em-abril-r-4828-",
+      "tag": "Economia",
+      "titulo": "Brasileiros sacaram em abril R$ 482,8 milhões esquecidos em bancos",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Os brasileiros sacaram, em abril deste ano, R$ 482,8 milhões em valores esquecidos no sistema financeiro, de acordo com dados divulgados nesta terça-feira (9) pelo Banco Central (BC). No total, o Sistema de Valores a Receber (SVR) já devolveu R$ 15 bilhões a clientes bancários .   \n\n Até abril, aind",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasileiros-sacaram-em-abril-r-4828-milhoes-esquecidos-em-bancos",
+      "data": "09/06/2026",
+      "hora": "12:31",
+      "ts": 1781019060000,
       "favorito": false
     },
     {
@@ -334,30 +358,6 @@
       "data": "06/06/2026",
       "hora": "12:03",
       "ts": 1780758180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-06/desemprego-entre-mulheres-ne",
-      "tag": "Economia",
-      "titulo": "Desemprego entre mulheres negras jovens chega a 24,7%, aponta estudo",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Apesar de avanços recentes no mercado de trabalho, com  queda nos índices de desemprego  e resultados positivos no aumento da renda dos trabalhadores, as mulheres negras jovens continuam registrando os piores resultados em indicadores como taxa de desocupação, informalidade, desalento e rendimento. ",
-      "link": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-06/desemprego-entre-mulheres-negras-jovens-chega-a-247-aponta-estudo",
-      "data": "05/06/2026",
-      "hora": "09:32",
-      "ts": 1780662720000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mtur-microempreendedoras-vitimas-de-",
-      "tag": "Economia",
-      "titulo": "Microempreendedoras vítimas de violência terão crédito especial",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Microempresárias do setor de turismo vítimas de violência doméstica ou de gênero poderão pedir a suspensão temporária dos pagamentos de financiamentos obtidos por meio do Fundo Geral de Turismo (Fungetur), bem como a ampliação dos prazos de carência.   \n\n  As mudanças nas regras do fundo criado para",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mtur-microempreendedoras-vitimas-de-violencia-terao-credito-especial",
-      "data": "04/06/2026",
-      "hora": "16:22",
-      "ts": 1780600920000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "09/06/2026 às 14:54",
+  "atualizado": "09/06/2026 às 16:00",
   "total": 40
 }
