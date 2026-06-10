@@ -15,7 +15,7 @@
     {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/quais-sintomas-ficar-atento-para-quem-tomo",
       "tag": "Saúde",
-      "titulo": "Quais sintomas ficar atento para quem tomou vacina do Butantan",
+      "titulo": "Veja os sintomas a ficar atento para quem tomou vacina do Butantan",
       "fonte": "Agência Brasil / Saúde",
       "resumo": "Nesta segunda-feira (8), o Ministério da Saúde anunciou a suspensão temporária da aplicação da vacina contra a dengue desenvolvida pelo Instituto Butantan. A medida foi tomada após 42 pessoas apresentarem sintomas graves depois de terem sido vacinadas. Três foram internadas e duas faleceram.    \n\n O",
       "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/quais-sintomas-ficar-atento-para-quem-tomou-a-vacina-do-butantan",
@@ -361,6 +361,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/ccj-do-senado-aprova-autonomia-finan",
+      "tag": "Política",
+      "titulo": "CCJ do Senado aprova autonomia financeira do Banco Central",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A Comissão de Constituição e Justiça (CCJ) do Senado aprovou, nesta quarta-feira (10), a proposta de emenda à Constituição (PEC) que concede autonomia financeira e orçamentária ao Banco Central (BC).  A PEC 65 de 2023  agora segue para análise do plenário da Casa.     \n\n A proposta permite que o BC ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/ccj-do-senado-aprova-autonomia-financeira-do-banco-central",
+      "data": "10/06/2026",
+      "hora": "12:53",
+      "ts": 1781106780000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/camara-distrital-aprova-projeto-de-s",
       "tag": "Política",
       "titulo": "Câmara distrital aprova projeto de socorro ao BRB",
@@ -467,20 +479,8 @@
       "hora": "07:45",
       "ts": 1781001900000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lei-institui-no-rio-de-janeiro-o-mar",
-      "tag": "Legislação",
-      "titulo": "Lei institui no Rio de Janeiro o Marco Legal Mães na Ciência",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O Rio de Janeiro conta, a partir desta segunda-feira (8), com novo instrumento de promoção da equidade de gênero na produção científica. A Lei 11.213, que trata do assunto, foi sancionada pelo governador em exercício, desembargador Ricardo Couto, já publicada no  Diário Oficial do estado,  que insti",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lei-institui-no-rio-de-janeiro-o-marco-legal-maes-na-ciencia",
-      "data": "08/06/2026",
-      "hora": "17:42",
-      "ts": 1780951320000,
-      "favorito": false
     }
   ],
-  "atualizado": "10/06/2026 às 15:38",
+  "atualizado": "10/06/2026 às 16:00",
   "total": 40
 }
