@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/conab-producao-de-graos-pode-chegar-",
+      "tag": "Economia",
+      "titulo": "Conab: produção de grãos pode chegar a 358,6 milhões de toneladas",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A produção brasileira de grãos tem previsão de chegar a 358,6 milhões de toneladas na safra 2025/26.  Caso o resultado se confirme, o Brasil baterá novo recorde, com uma alta de 1,8% na comparação com a safra anterior. O  percentual corresponde a um aumento de 6,4 milhões de toneladas, ante ao ciclo",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/conab-producao-de-graos-pode-chegar-3586-milhoes-de-toneladas",
+      "data": "11/06/2026",
+      "hora": "12:04",
+      "ts": 1781190240000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/setor-de-servicos-cresce-12-em-abril",
       "tag": "Economia",
       "titulo": "Setor de serviços cresce 1,2% em abril, primeira alta em seis meses",
@@ -349,15 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-preve-aumento-de-etanol-na-g",
-      "tag": "Economia",
-      "titulo": "Governo prevê aumento de etanol na gasolina de 30% para até 32%",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O ministro de Minas e Energia, Alexandre Silveira, anunciou, nesta terça-feira (9), que submeterá ao Conselho Nacional de Política Energética (CNPE) uma proposta para elevar a mistura de etanol anidro na gasolina dos  atuais 30% (E30)  para até 32% (E32). A medida atende a uma demanda do setor de bi",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-preve-aumento-de-etanol-na-gasolina-de-30-para-ate-32",
-      "data": "09/06/2026",
-      "hora": "16:57",
-      "ts": 1781035020000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/ccj-do-senado-aprova-aposentadoria-e",
+      "tag": "Política",
+      "titulo": "CCJ do Senado aprova aposentadoria especial para agentes de saúde",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A Comissão de Constituição e Justiça (CCJ) do Senado aprovou, nesta quarta-feira (10), uma Proposta de Emenda à Constituição (PEC) que estabelece condições diferenciadas para a aposentadoria de agentes comunitários de saúde e de combate à endemia.    \n\n Protocolada em 2021, pelo então deputado feder",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/ccj-do-senado-aprova-aposentadoria-especial-para-agentes-de-saude",
+      "data": "11/06/2026",
+      "hora": "11:58",
+      "ts": 1781189880000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "21:03",
       "ts": 1781049780000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/senado-aprova-protecao-trabalhadores",
-      "tag": "Política",
-      "titulo": "Senado aprova proteção a trabalhadores resgatados de trabalho escravo",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O Senado aprovou nesta terça-feira (9) o projeto  PL 5760/2023 , que estabelece medidas para proteger trabalhadores resgatados de condições análogas à escravidão.   \n\n O texto traz obrigações para os empregadores e também medidas de proteção social para os trabalhadores, como a inserção no seguro-de",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/senado-aprova-protecao-trabalhadores-resgatados-de-trabalho-escravo",
-      "data": "09/06/2026",
-      "hora": "19:55",
-      "ts": 1781045700000,
-      "favorito": false
     }
   ],
-  "atualizado": "11/06/2026 às 14:00",
+  "atualizado": "11/06/2026 às 16:00",
   "total": 40
 }
