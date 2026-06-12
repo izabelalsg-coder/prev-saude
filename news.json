@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bancos-terao-expediente-especial-em-",
+      "tag": "Economia",
+      "titulo": "Bancos terão expediente especial em dia de jogos do Brasil na Copa",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Agências bancárias terão horário especial de atendimento ao público nos dias de jogos da seleção brasileira na Copa do Mundo. O horário de abertura será o habitual de cada agência, já fechamento dos locais será duas horas antes do horário de início do jogo.   \n\n  Caso a partida se inicie às 14h, o e",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bancos-terao-expediente-especial-em-dia-de-jogos-do-brasil-na-copa",
+      "data": "12/06/2026",
+      "hora": "12:07",
+      "ts": 1781276820000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inpc-inflacao-usada-para-reajustar-s",
+      "tag": "Economia",
+      "titulo": "INPC, inflação usada para reajustar salários, soma 4,42% em 12 meses",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Índice Nacional de Preços ao Consumidor (INPC), que costuma ser utilizado para correção anual de salários de diversas categorias, fechou maio em 0,65%. O resultado faz com que o acumulado de 12 meses marque 4,42%.    \n\n Os dados foram divulgados nesta sexta-feira (12) pelo Instituto Brasileiro de ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inpc-inflacao-usada-para-reajustar-salarios-soma-442-em-12-meses",
+      "data": "12/06/2026",
+      "hora": "11:47",
+      "ts": 1781275620000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inflacao-de-maio-fica-em-058-influen",
       "tag": "Economia",
       "titulo": "Inflação de maio fica em 0,58%, influenciada por preço dos alimentos",
@@ -334,30 +358,6 @@
       "data": "10/06/2026",
       "hora": "16:16",
       "ts": 1781118960000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-nao-abaixa-a-cabeca-diz-durig",
-      "tag": "Economia",
-      "titulo": "\"Brasil não abaixa a cabeça\", diz Durigan ao defender soberania e Pix",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O ministro da Fazenda, Dario Durigan, reafirmou, nesta quarta-feira (10), a defesa da soberania nacional.   \n\n \n \"O Brasil não abaixa a cabeça para ninguém, e a gente defende a nossa política econômica pelo mundo\", disse. \n \n\n  Notícias relacionadas:    Plano Brasil Soberano adota novas regras e mai",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-nao-abaixa-a-cabeca-diz-durigan-ao-defender-soberania-e-pix",
-      "data": "10/06/2026",
-      "hora": "15:02",
-      "ts": 1781114520000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-compra-50-do-bloco-itaimbe",
-      "tag": "Economia",
-      "titulo": "Petrobras compra 50% do bloco Itaimbezinho, no pré-sal de Campos",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A  Petrobras anunciou  nesta quarta-feira (10) acordo para adquirir 50% do campo de exploração de petróleo Itaimbezinho, no Polígono do Pré-Sal, na  Bacia de Campos , a cerca de 190 quilômetros da costa do Rio de Janeiro.    \n\n A venda foi feita pela Equinor Brasil Energia, que representa a multinac",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-compra-50-do-bloco-itaimbezinho-no-pre-sal-de-campos",
-      "data": "10/06/2026",
-      "hora": "12:54",
-      "ts": 1781106840000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "12/06/2026 às 14:00",
+  "atualizado": "12/06/2026 às 15:17",
   "total": 40
 }
