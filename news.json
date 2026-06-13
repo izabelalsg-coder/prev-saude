@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/condenacao-de-ex-capitao-da-marinha-e-",
+      "tag": "Justiça",
+      "titulo": "Condenação de ex-capitão da Marinha é mantida pela Justiça fluminense",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A desembargadora Maria Sandra Kayat Direito, da 1ª Câmara Criminal do Tribunal de Justiça do Rio de Janeiro (TJRJ), negou provimento ao recurso da defesa do oficial da Marinha, Cristiano da Silva Lacerda.    \n\n  A magistrada manteve a condenação pelos homicídios qualificados de Geraldo Pereira Coelh",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/condenacao-de-ex-capitao-da-marinha-e-mantida-pela-justica-fluminense",
+      "data": "13/06/2026",
+      "hora": "12:07",
+      "ts": 1781363220000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/governo-do-rj-e-condenado-pagar-indeni",
       "tag": "Justiça",
       "titulo": "Governo do RJ é condenado a pagar indenização por morte de crianças",
@@ -226,18 +238,6 @@
       "data": "11/06/2026",
       "hora": "16:27",
       "ts": 1781206020000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-sem-salario-e-fgts-terceirizados-d",
-      "tag": "STF",
-      "titulo": "STF: sem salário e FGTS, terceirizados da comunicação entram em greve",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Os jornalistas e radialistas terceirizados que trabalham na comunicação do Supremo Tribunal Federal (STF), na  TV Justiça e na Rádio Justiça  aprovaram uma greve com início na próxima segunda-feira (15), em razão do atraso no pagamento de salários e de verbas trabalhistas.     \n\n  A decisão foi toma",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-sem-salario-e-fgts-terceirizados-da-comunicacao-entram-em-greve",
-      "data": "11/06/2026",
-      "hora": "09:41",
-      "ts": 1781181660000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "13/06/2026 às 14:00",
+  "atualizado": "13/06/2026 às 16:00",
   "total": 40
 }
