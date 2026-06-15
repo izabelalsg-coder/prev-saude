@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-mantem-suspensao-de-lotes-de-produt",
+      "tag": "Anvisa",
+      "titulo": "Anvisa mantém suspensão de lotes de produtos Ypê",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A  Agência Nacional de Vigilância Sanitária (Anvisa)  manteve suspensa a comercialização, distribuição e uso de lotes específicos de  produtos Ypê . A medida publicada no  Diário Oficial da União  desta segunda-feira (15) se aplica a desinfetantes, detergentes e lava-roupas líquidos.     \n\n Segundo ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-mantem-suspensao-de-lotes-de-produtos-ype",
+      "data": "15/06/2026",
+      "hora": "08:43",
+      "ts": 1781523780000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sus-inclui-nova-terapia-para-pacientes-adu",
+      "tag": "Saúde",
+      "titulo": "SUS inclui nova terapia para pacientes adultos com leucemia mieloide",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Ministério da Saúde passará a inserir, no  Sistema Único de Saúde (SUS) , o tratamento combinado de venetoclax com azacitidina para pacientes adultos com leucemia mieloide aguda recém-diagnosticada.    \n\n A combinação dos medicamentos é indicada a pacientes que, por condições clínicas, não são ele",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sus-inclui-nova-terapia-para-pacientes-adultos-com-leucemia-mieloide",
+      "data": "15/06/2026",
+      "hora": "07:36",
+      "ts": 1781519760000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sp-descarta-segundo-caso-suspeito-de-ebola",
       "tag": "Saúde",
       "titulo": "SP descarta segundo caso suspeito de ebola",
@@ -94,30 +118,6 @@
       "data": "10/06/2026",
       "hora": "14:30",
       "ts": 1781112600000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/governo-institui-politica-de-qualidade-e-s",
-      "tag": "Saúde",
-      "titulo": "Governo institui Política de Qualidade e Segurança do Paciente no SUS",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Política Nacional de Qualidade e Segurança do Paciente no âmbito do Sistema Único de Saúde (SUS) começa a ser implementada nesta quarta-feira (10) em todo o país.  A  medida  visa à melhoria contínua do atendimento, com foco na redução de riscos e danos evitáveis, além da promoção do cuidado mais ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/governo-institui-politica-de-qualidade-e-seguranca-do-paciente-no-sus",
-      "data": "10/06/2026",
-      "hora": "09:37",
-      "ts": 1781095020000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/quais-sintomas-ficar-atento-para-quem-tomo",
-      "tag": "Saúde",
-      "titulo": "Veja os sintomas a ficar atento para quem tomou vacina do Butantan",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Nesta segunda-feira (8), o Ministério da Saúde anunciou a suspensão temporária da aplicação da vacina contra a dengue desenvolvida pelo Instituto Butantan. A medida foi tomada após 42 pessoas apresentarem sintomas graves depois de terem sido vacinadas. Três foram internadas e duas faleceram.    \n\n O",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/quais-sintomas-ficar-atento-para-quem-tomou-a-vacina-do-butantan",
-      "data": "10/06/2026",
-      "hora": "07:30",
-      "ts": 1781087400000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-financeiro-eleva-previsao-da",
+      "tag": "Economia",
+      "titulo": "Mercado financeiro eleva previsão da Selic para 13,75% ao ano",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Pela segunda semana seguida, às vésperas da reunião do Comitê de Política Monetária (Copom) do Banco Central (BC), o mercado financeiro elevou a estimativa para a taxa básica de juros, a Selic.  A previsão dos analistas para os juros, até o final de 2026, passou de 13,5% ao ano para 13,75% ao ano.  ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-financeiro-eleva-previsao-da-selic-para-1375-ao-ano",
+      "data": "15/06/2026",
+      "hora": "10:10",
+      "ts": 1781529000000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/transnordestina-ja-tem-mais-de-100-q",
       "tag": "ANS",
       "titulo": "Transnordestina já tem mais de 100 quilômetros de malha concluídos",
@@ -349,15 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inpc-inflacao-usada-para-reajustar-s",
-      "tag": "Economia",
-      "titulo": "INPC, inflação usada para reajustar salários, soma 4,42% em 12 meses",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Índice Nacional de Preços ao Consumidor (INPC), que costuma ser utilizado para correção anual de salários de diversas categorias, fechou maio em 0,65%. O resultado faz com que o acumulado de 12 meses marque 4,42%.    \n\n Os dados foram divulgados nesta sexta-feira (12) pelo Instituto Brasileiro de ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inpc-inflacao-usada-para-reajustar-salarios-soma-442-em-12-meses",
-      "data": "12/06/2026",
-      "hora": "11:47",
-      "ts": 1781275620000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lula-sanciona-lei-do-marco-legal-do-",
+      "tag": "ANS",
+      "titulo": "Lula sanciona lei do Marco Legal do Transporte Público Coletivo",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O presidente Luiz Inácio Lula da Silva sancionou, com vetos, a lei que institui o  Marco Legal do Transporte Público Coletivo .  O objetivo do texto é modernizar a política desse tipo de transporte no país, com a diversificação do financiamento e a melhoria da regulação e da operação dos transportes",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lula-sanciona-lei-do-marco-legal-do-transporte-publico-coletivo",
+      "data": "14/06/2026",
+      "hora": "17:26",
+      "ts": 1781468760000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "18:25",
       "ts": 1781126700000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/comissao-da-camara-aprova-reducao-da",
-      "tag": "Política",
-      "titulo": "Comissão da Câmara aprova redução da maioridade penal para 16 anos",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "A Comissão de Constituição e Justiça e de Cidadania (CCJ) da Câmara dos Deputados aprovou, nesta quarta-feira (10), a Proposta de Emenda à Constituição ( PEC nº 32/15 ) que reduz a maioridade penal de 18 para 16 anos no Brasil.    \n\n A PEC recebeu 44 votos favoráveis e 18 contrários.  O aval da comi",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/comissao-da-camara-aprova-reducao-da-maioridade-penal-para-16-anos",
-      "data": "10/06/2026",
-      "hora": "13:52",
-      "ts": 1781110320000,
-      "favorito": false
     }
   ],
-  "atualizado": "14/06/2026 às 16:00",
+  "atualizado": "15/06/2026 às 14:00",
   "total": 40
 }
