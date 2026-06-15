@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/agora-tem-especialistas-lanca-em-manguinho",
+      "tag": "Saúde",
+      "titulo": "Agora Tem Especialistas lança em Manguinhos carreta de saúde da mulher",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Programa Agora Tem Especialistas, do Ministério da Saúde, lançou nesta segunda-feira (15) mais uma carreta voltada a serviços especializados de saúde da mulher. Desta vez, pacientes de Manguinhos, na zona norte do Rio de Janeiro, poderão ter o diagnóstico precoce de câncer de mama e do colo do úte",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/agora-tem-especialistas-lanca-em-manguinhos-carreta-de-saude-da-mulher",
+      "data": "15/06/2026",
+      "hora": "13:12",
+      "ts": 1781539920000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/mutiroes-do-sus-farao-13-mil-atendimentos-",
+      "tag": "Saúde",
+      "titulo": "Mutirões do SUS farão 13 mil atendimentos em terras indígenas em junho",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O  Programa Agora Tem Especialistas  fará, neste mês de junho, mais de 13 mil atendimentos entre consultas, exames e cirurgias em territórios indígenas dos estados do Ceará, Pernambuco, Amapá e Pará.  Os procedimentos serão executadas pela  Agência Brasileira de Apoio à Gestão do SUS (AgSUS) .   \n\n ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/mutiroes-do-sus-farao-13-mil-atendimentos-em-terras-indigenas-em-junho",
+      "data": "15/06/2026",
+      "hora": "13:04",
+      "ts": 1781539440000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-mantem-suspensao-mas-libera-parte-d",
       "tag": "Anvisa",
       "titulo": "Anvisa mantém suspensão, mas libera parte de lotes de produtos Ypê",
@@ -94,30 +118,6 @@
       "data": "10/06/2026",
       "hora": "16:22",
       "ts": 1781119320000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/projeto-mais-medicos-especialistas-recebe-",
-      "tag": "Saúde",
-      "titulo": "Projeto Mais Médicos Especialistas recebe 50 profissionais no Rio",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O estado do Rio de Janeiro recebeu nesta quarta-feira (10) 50 profissionais do Projeto Mais Médicos Especialistas. A ação integra o Programa Agora Tem Especialistas que visa reduzir o tempo de espera da população a consultas, exames e cirurgias especializadas no Sistema Único de Saúde (SUS).    \n\n C",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/projeto-mais-medicos-especialistas-recebe-50-profissionais-no-rio",
-      "data": "10/06/2026",
-      "hora": "15:12",
-      "ts": 1781115120000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/secretaria-de-saude-de-sp-investiga-novo-c",
-      "tag": "Saúde",
-      "titulo": "Secretaria de Saúde de SP investiga novo caso suspeito de ebola",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Um novo caso suspeito de ebola está sendo investigado pela Secretaria de Estado da Saúde e pelo Centro de Vigilância Epidemiológica Professor Alexandre Vranjac (CVE-SP).    \n\n  Segundo a secretaria, a paciente é uma brasileira de 31 anos que esteve recentemente a trabalho na província de Kivu do Nor",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/secretaria-de-saude-de-sp-investiga-novo-caso-suspeito-de-ebola",
-      "data": "10/06/2026",
-      "hora": "14:30",
-      "ts": 1781112600000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-vai-desenvolver-sensor-que-se",
+      "tag": "Economia",
+      "titulo": "Brasil vai desenvolver sensor que será obrigatório para carros em 2029",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Pesquisadores de universidades, institutos de pesquisa e empresas do setor automotivo desenvolvem, aqui no Brasil, um sensor nacional para sistemas de frenagem automática, que será obrigatório em todos os veículos fabricados a partir de 1º de janeiro de 2029.   \n\n A tecnologia é um sensor de radar c",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-vai-desenvolver-sensor-que-sera-obrigatorio-para-carros-em-2029",
+      "data": "15/06/2026",
+      "hora": "14:00",
+      "ts": 1781542800000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-financeiro-eleva-previsao-da",
       "tag": "Economia",
       "titulo": "Mercado financeiro eleva previsão da Selic para 13,75% ao ano",
@@ -346,18 +358,6 @@
       "data": "12/06/2026",
       "hora": "13:30",
       "ts": 1781281800000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bancos-terao-expediente-especial-em-",
-      "tag": "Economia",
-      "titulo": "Bancos terão expediente especial em dia de jogos do Brasil na Copa",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Agências bancárias terão horário especial de atendimento ao público nos dias de jogos da seleção brasileira na Copa do Mundo. O horário de abertura será o habitual de cada agência, já fechamento dos locais será duas horas antes do horário de início do jogo.   \n\n  Caso a partida se inicie às 14h, o e",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bancos-terao-expediente-especial-em-dia-de-jogos-do-brasil-na-copa",
-      "data": "12/06/2026",
-      "hora": "12:07",
-      "ts": 1781276820000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "15/06/2026 às 16:00",
+  "atualizado": "15/06/2026 às 17:16",
   "total": 40
 }
