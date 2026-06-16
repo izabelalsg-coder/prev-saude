@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-da-24-horas-para-bolsonaro-expl",
+      "tag": "Justiça",
+      "titulo": "Moraes dá 24 horas para Bolsonaro explicar arma apreendida em blitz",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou nesta terça-feira (16) que a defesa do ex-presidente Jair Messias Bolsonaro preste esclarecimentos, no prazo de 24 horas, sobre  uma arma de fogo de propriedade de Bolsonaro apreendida em uma blitz da Polícia Militar do Di",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-da-24-horas-para-bolsonaro-explicar-arma-apreendida-em-blitz",
+      "data": "16/06/2026",
+      "hora": "12:41",
+      "ts": 1781624460000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-decide-se-eduardo-bolsonaro-sera-c",
       "tag": "STF",
       "titulo": "STF decide se Eduardo Bolsonaro será condenado no processo do tarifaço",
@@ -226,18 +238,6 @@
       "data": "12/06/2026",
       "hora": "19:18",
       "ts": 1781302680000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-rejeita-alterar-decisao-que-vetou-",
-      "tag": "STF",
-      "titulo": "STF rejeita alterar decisão que vetou revisão da vida toda",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Supremo Tribunal Federal (STF) formou maioria de votos nesta sexta-feira (12) para negar alterações na  decisão da Corte  que rejeitou a revisão da vida toda das aposentadorias do Instituto Nacional do Seguro Social (INSS).    \n\n O entendimento foi formado no julgamento virtual de um recurso proto",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-rejeita-alterar-decisao-que-vetou-revisao-da-vida-toda",
-      "data": "12/06/2026",
-      "hora": "17:34",
-      "ts": 1781296440000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "16/06/2026 às 14:00",
+  "atualizado": "16/06/2026 às 16:00",
   "total": 40
 }
