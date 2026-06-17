@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-",
+      "tag": "Economia",
+      "titulo": "Caixa começa a pagar Bolsa Família de junho",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A  Caixa Econômica Federal  começa a pagar nesta quarta-feira (17) a parcela de junho do  Bolsa Família  para beneficiários com Número de Inscrição Social (NIS) de final 1. Ao todo, cerca de 19,3 milhões de famílias recebem o benefício.    \n\n Beneficiários de alguns municípios de oito estados recebe",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-junho",
+      "data": "17/06/2026",
+      "hora": "12:03",
+      "ts": 1781708580000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cooperativas-sao-reconhecidas-como-m",
       "tag": "Economia",
       "titulo": "Cooperativas são reconhecidas como manifestação da cultura nacional",
@@ -346,18 +358,6 @@
       "data": "15/06/2026",
       "hora": "10:10",
       "ts": 1781529000000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/transnordestina-ja-tem-mais-de-100-q",
-      "tag": "ANS",
-      "titulo": "Transnordestina já tem mais de 100 quilômetros de malha concluídos",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Ferrovia Transnordestina alcançou um recorde em sua construção ao registrar o maior ritmo diário de montagem desde o início das obras, no último domingo (7).     \n\n  Na ocasião, as equipes concluíram 1,69 quilômetro de ferrovia em um único dia, durante a instalação de 3,36 quilômetros de trilhos n",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/transnordestina-ja-tem-mais-de-100-quilometros-de-malha-concluidos",
-      "data": "12/06/2026",
-      "hora": "20:19",
-      "ts": 1781306340000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "17/06/2026 às 14:00",
+  "atualizado": "17/06/2026 às 15:34",
   "total": 40
 }
