@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/economia-brasileira-cresceu-01-em-ab",
+      "tag": "Economia",
+      "titulo": "Economia brasileira cresceu 0,1% em abril, estima prévia da FGV",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Mesmo em um cenário de juros elevados e choque de preço do barril do petróleo, a economia brasileira cresceu 0,1% na passagem de março para abril. Já na comparação com abril de 2025, houve avanço de 1,8%.   \n\n As estimativas fazem parte do  Monitor do PIB , estudo mensal elaborado pelo Instituto Bra",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/economia-brasileira-cresceu-01-em-abril-estima-previa-da-fgv",
+      "data": "18/06/2026",
+      "hora": "12:32",
+      "ts": 1781796720000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/entidades-consideram-insuficiente-re",
       "tag": "Economia",
       "titulo": "Entidades consideram insuficiente redução da taxa Selic",
@@ -346,18 +358,6 @@
       "data": "16/06/2026",
       "hora": "19:39",
       "ts": 1781649540000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-e-finep-lancam-edital-para",
-      "tag": "Economia",
-      "titulo": "Petrobras e Finep lançam edital para desenvolvimento de eletrolisador",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Petrobras e a Financiadora de Estudos e Projetos (Finep) lançaram nesta terça-feira (16) um edital para apoiar com até R$ 150 milhões o desenvolvimento nacional de um eletrolisador de porte industrial.   \n\n  O eletrolisador utiliza eletricidade para converter água em hidrogênio de baixa emissão de",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/petrobras-e-finep-lancam-edital-para-desenvolvimento-de-eletrolisador",
-      "data": "16/06/2026",
-      "hora": "15:41",
-      "ts": 1781635260000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "18/06/2026 às 15:28",
+  "atualizado": "18/06/2026 às 16:00",
   "total": 40
 }
