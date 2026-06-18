@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-determina-recolhimento-de-lotes-de-",
+      "tag": "Anvisa",
+      "titulo": "Anvisa determina recolhimento de lotes de antibióticos",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A  Agência Nacional de Vigilância Sanitária (Anvisa)  determinou nesta quinta-feira (18) o recolhimento de dois medicamentos antibióticos por desvio de qualidade. Os produtos não podem ser vendidos, distribuídos ou utilizados.    \n\n  A resolução da agência,  publicada no  Diário Oficial da União  , ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-determina-recolhimento-de-lotes-de-antibioticos",
+      "data": "18/06/2026",
+      "hora": "11:32",
+      "ts": 1781793120000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/brasil-teve-120-mil-mortes-associadas-onda",
       "tag": "Saúde",
       "titulo": "Brasil teve 120 mil mortes associadas a ondas de calor em 20 anos",
@@ -106,18 +118,6 @@
       "data": "15/06/2026",
       "hora": "07:36",
       "ts": 1781519760000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sp-descarta-segundo-caso-suspeito-de-ebola",
-      "tag": "Saúde",
-      "titulo": "SP descarta segundo caso suspeito de ebola",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O governo de São Paulo descartou o segundo caso suspeito de ebola, que estava sob investigação na capital paulista.   \n\n Internada na quarta-feira (10), a paciente, uma brasileira de 31 anos, era acompanhada no Instituto de Infectologia Emílio Ribas. Os exames que afastaram a suspeita foram realizad",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sp-descarta-segundo-caso-suspeito-de-ebola",
-      "data": "12/06/2026",
-      "hora": "22:00",
-      "ts": 1781312400000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "18/06/2026 às 14:00",
+  "atualizado": "18/06/2026 às 15:28",
   "total": 40
 }
