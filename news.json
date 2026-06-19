@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/empregadores-tem-ate-sabado-para-env",
+      "tag": "Economia",
+      "titulo": "Empregadores têm até sábado para enviar dados ao eSocial",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Termina neste sábado (20) o prazo para que os empregadores enviem ao Sistema de Escrituração Digital das Obrigações Fiscais, Previdenciárias e Trabalhistas (eSocial) as informações sobre vínculos empregatícios referentes ao ano-base 2024.  Os dados são necessários para viabilizar o pagamento do abon",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/empregadores-tem-ate-sabado-para-enviar-dados-ao-esocial",
+      "data": "19/06/2026",
+      "hora": "12:30",
+      "ts": 1781883000000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/motoristas-de-apps-e-taxistas-ja-pod",
+      "tag": "Economia",
+      "titulo": "Motoristas de apps e taxistas já podem pedir financiamento",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Começa nesta sexta-feira (19) o período para motoristas de aplicativos e taxistas solicitarem financiamento de veículos zero quilômetro por meio do  programa Move Brasil . A iniciativa do governo federal é voltada à  renovação da frota  de transporte individual no país.    \n\n Os interessados precisa",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/motoristas-de-apps-e-taxistas-ja-podem-pedir-financiamento",
+      "data": "19/06/2026",
+      "hora": "12:29",
+      "ts": 1781882940000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-sentiu-menos-o-aumento-do-pet",
       "tag": "Economia",
       "titulo": "Brasil sentiu menos o aumento do petróleo que outros países, diz Ineep",
@@ -334,30 +358,6 @@
       "data": "17/06/2026",
       "hora": "15:05",
       "ts": 1781719500000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/desenrola-registra-17-mil-operacoes-",
-      "tag": "Economia",
-      "titulo": "Desenrola registra 17 mil operações em pouco mais de um mês",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Mais de 17 mil operações com recursos do Fundo de Garantia do Tempo de Serviço (FGTS) foram utilizadas para pagamento de dívidas por meio do programa Desenrola 2.0.  De acordo com o Ministério do Trabalho, o valor médio sacado para quitação de débitos com instituições financeiras é de R$ 604,73.    ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/desenrola-registra-17-mil-operacoes-em-pouco-mais-de-um-mes",
-      "data": "17/06/2026",
-      "hora": "14:43",
-      "ts": 1781718180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-",
-      "tag": "Economia",
-      "titulo": "Caixa começa a pagar Bolsa Família de junho",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A  Caixa Econômica Federal  começa a pagar nesta quarta-feira (17) a parcela de junho do  Bolsa Família  para beneficiários com Número de Inscrição Social (NIS) de final 1. Ao todo, cerca de 19,3 milhões de famílias recebem o benefício.    \n\n Beneficiários de alguns municípios de oito estados recebe",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-comeca-pagar-bolsa-familia-de-junho",
-      "data": "17/06/2026",
-      "hora": "12:03",
-      "ts": 1781708580000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "19/06/2026 às 15:20",
+  "atualizado": "19/06/2026 às 16:00",
   "total": 40
 }
