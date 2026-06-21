@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/semana-mundial-da-alergia-alerta-para-prev",
+      "tag": "Saúde",
+      "titulo": "Semana Mundial da Alergia alerta para prevenção e diagnóstico",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Dados da Organização Mundial de Alergia (WAO, do nome em inglês) apontam que 30% da população mundial têm algum tipo de alergia. No Brasil, isso se repete.    \n\n Os brasileiros alérgicos constituem “uma multidão, um país dentro de outro”, disse à  Agência Brasil  a presidente da Associação Brasileir",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/semana-mundial-da-alergia-alerta-para-prevencao-e-diagnostico",
+      "data": "21/06/2026",
+      "hora": "12:21",
+      "ts": 1782055260000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/apos-cirurgia-cacique-raoni-segue-com-boa-",
+      "tag": "Saúde",
+      "titulo": "Após cirurgia, cacique Raoni segue com boa evolução clínica em UTI",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O cacique Raoni Metukire, de 94 anos,  foi submetido na tarde de sábado (20) a uma cirurgia para desobstrução intestinal, no hospital da Universidade Federal de São Paulo (Unifesp), na capital paulist a.   \n\n O procedimento foi feito sem complicações, com uma técnica minimamente invasiva. Posteriorm",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/apos-cirurgia-cacique-raoni-segue-com-boa-evolucao-clinica-em-uti",
+      "data": "21/06/2026",
+      "hora": "11:07",
+      "ts": 1782050820000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/ministerio-da-saude-comeca-vacinar-crianca",
       "tag": "Saúde",
       "titulo": "Ministério da Saúde começa a vacinar crianças com a pneumo 20",
@@ -94,30 +118,6 @@
       "data": "19/06/2026",
       "hora": "09:27",
       "ts": 1781872020000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sintomas-da-doenca-falciforme-vao-alem-da-",
-      "tag": "Saúde",
-      "titulo": "Sintomas da doença falciforme vão além da anemia; saiba mais",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Genética e hereditária, a doença falciforme é mais abrangente que uma anemia, nome pela qual ela costuma ser conhecida. Em entrevista à  Agência Brasil , a hematologista Marimília Pita esclareceu esse e outros mitos sobre essa condição de saúde, que afeta até 100 mil brasileiros, segundo estimativa ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sintomas-da-doenca-falciforme-vao-alem-da-anemia-saiba-mais",
-      "data": "19/06/2026",
-      "hora": "06:30",
-      "ts": 1781861400000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/programa-de-atencao-domiciliar-amplia-cuid",
-      "tag": "Saúde",
-      "titulo": "Programa de atenção domiciliar amplia cuidado aos idosos no país",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Ministério da Saúde lançou nesta quinta-feira (18), no Rio de Janeiro, o Programa de Atenção Domiciliar à Pessoa Idosa (Padi Brasil). A previsão é investir R$ 500 milhões para estruturar e levar equipes multiprofissionais aos lares de idosos que têm limitações funcionais e não podem se deslocar at",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/programa-de-atencao-domiciliar-amplia-cuidado-aos-idosos-no-pais",
-      "data": "18/06/2026",
-      "hora": "18:42",
-      "ts": 1781818920000,
       "favorito": false
     },
     {
@@ -361,6 +361,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/roraima-elege-neste-domingo-governad",
+      "tag": "Política",
+      "titulo": "Roraima elege neste domingo governador para mandato tampão até 2027",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Mais de 384 mil eleitores de Roraima estão aptos a irem às urnas, neste domingo (21), para escolher o chefe do Executivo estadual em mandato tampão até janeiro de 2027. A votação segue até às 17h00, no horário local, em 350 locais de votação no estado.   \n\n  A eleição suplementar foi convocada após ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/roraima-elege-neste-domingo-governador-para-mandato-tampao-ate-2027",
+      "data": "21/06/2026",
+      "hora": "11:26",
+      "ts": 1782051960000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/sp-tce-aprova-com-ressalvas-contas-d",
       "tag": "Política",
       "titulo": "SP: TCE aprova com ressalvas as contas do governo de Tarcísio de 2025",
@@ -467,20 +479,8 @@
       "hora": "20:35",
       "ts": 1781652900000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/proposta-que-criminaliza-misoginia-a",
-      "tag": "Política",
-      "titulo": "Proposta que criminaliza misoginia avança na Câmara dos Deputados",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O grupo de trabalho da Câmara dos Deputados que debateu o  projeto de combate à misoginia  aprovou nesta terça-feira (16) o parecer da deputada Tabata Amaral (PSB-SP). O projeto de Lei (PL) 896/23 criminaliza a prática equiparando-a ao crime de racismo.     \n\n  A proposta também amplia a punição par",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/proposta-que-criminaliza-misoginia-avanca-na-camara-dos-deputados",
-      "data": "16/06/2026",
-      "hora": "20:15",
-      "ts": 1781651700000,
-      "favorito": false
     }
   ],
-  "atualizado": "21/06/2026 às 14:00",
+  "atualizado": "21/06/2026 às 16:00",
   "total": 40
 }
