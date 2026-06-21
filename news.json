@@ -1,11 +1,47 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/ministerio-da-saude-comeca-vacinar-crianca",
+      "tag": "Saúde",
+      "titulo": "Ministério da Saúde começa a vacinar crianças com a pneumo 20",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Ministério da Saúde iniciou neste sábado (20) a aplicação da vacina pneumocócica 20-valente (VPC20), conhecida como pneumo 20, em crianças menores de 5 anos.     \n\n O imunizante, disponibilizado pelo Sistema Único de Saúde (SUS), protege contra 20 sorotipos da bactéria  Streptococcus pneumoniae , ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/ministerio-da-saude-comeca-vacinar-criancas-com-pneumo-20",
+      "data": "20/06/2026",
+      "hora": "14:19",
+      "ts": 1781975940000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/projeto-apoia-maes-e-criancas-atipicas-tra",
+      "tag": "Saúde",
+      "titulo": "Projeto apoia mães e crianças atípicas tratadas à base de cannabis",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Na ilha de Fernando de Noronha, a professora Rayane Dixie dos Santos, de 31 anos, vivia uma situação complicada com seu filho neurodivergente.    \n\n A mãe solo de uma criança com o Transtorno do Espectro Autista (TEA) de suporte 2 e com o Transtorno de Déficit de Atenção com Hiperatividade (TDAH), l",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/projeto-apoia-maes-e-criancas-atipicas-tratadas-base-de-cannabis",
+      "data": "20/06/2026",
+      "hora": "14:10",
+      "ts": 1781975400000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/cacique-raoni-fara-cirurgia-de-desobstruca",
+      "tag": "Saúde",
+      "titulo": "Cacique Raoni fará cirurgia de desobstrução intestinal neste sábado",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O cacique Raoni Metukire, de 94 anos, será submetido, neste sábado (20), a uma cirurgia de desobstrução intestinal no Hospital São Paulo (HSP), da Universidade Federal de São Paulo (Unifesp), na capital paulista.   \n\n “O paciente encontra-se internado na Unidade de Terapia Intensiva (UTI) e passou b",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/cacique-raoni-fara-cirurgia-de-desobstrucao-intestinal-neste-sabado",
+      "data": "20/06/2026",
+      "hora": "13:40",
+      "ts": 1781973600000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/brasil-devera-ter-centro-para-enfrentament",
       "tag": "Saúde",
       "titulo": "Brasil deverá ter centro para enfrentamento de emergências em saúde",
       "fonte": "Agência Brasil / Saúde",
-      "resumo": "Até o final deste ano, o Brasil deverá criar um centro para o enfrentamento de emergências em saúde pública. A proposta é que o Centro Brasileiro de Emergências em Saúde Pública (Cbesp), como vem sendo chamado, seja uma instituição para tornar o país mais resiliente e preparado para enfrentar futura",
+      "resumo": "Até o final deste ano, o Brasil deverá criar um centro para o enfrentamento de emergências em saúde pública.  A proposta é que o Centro Brasileiro de Emergências em Saúde Pública (Cbesp), como vem sendo chamado, seja uma instituição para tornar o país mais resiliente e preparado para enfrentar futur",
       "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/brasil-devera-ter-centro-para-enfrentamento-de-emergencias-em-saude",
       "data": "20/06/2026",
       "hora": "10:06",
@@ -82,42 +118,6 @@
       "data": "18/06/2026",
       "hora": "18:42",
       "ts": 1781818920000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/lider-indigena-raoni-tem-melhora-do-quadro",
-      "tag": "Saúde",
-      "titulo": "Líder indígena Raoni tem melhora do quadro de saúde",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O líder indígena Raoni Metuktire, de 94 anos de idade, permanece internado na Unidade de Terapia Intensiva (UTI) do Hospital e Maternidade Dois Pinheiros, em Sinop, no Mato Grosso,  apresentando melhora progressiva de seu quadro de saúde .    \n\n Diante disso, a  equipe médica avalia a possibilidade ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/lider-indigena-raoni-tem-melhora-do-quadro-de-saude",
-      "data": "18/06/2026",
-      "hora": "15:02",
-      "ts": 1781805720000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-determina-recolhimento-de-lotes-de-",
-      "tag": "Anvisa",
-      "titulo": "Anvisa determina recolhimento de lotes de antibióticos",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A  Agência Nacional de Vigilância Sanitária (Anvisa)  determinou nesta quinta-feira (18) o recolhimento de dois medicamentos antibióticos por desvio de qualidade. Os produtos não podem ser vendidos, distribuídos ou utilizados.    \n\n  A resolução da agência,  publicada no  Diário Oficial da União  , ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-determina-recolhimento-de-lotes-de-antibioticos",
-      "data": "18/06/2026",
-      "hora": "11:32",
-      "ts": 1781793120000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/brasil-teve-120-mil-mortes-associadas-onda",
-      "tag": "Saúde",
-      "titulo": "Brasil teve 120 mil mortes associadas a ondas de calor em 20 anos",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Um  estudo lançado nesta quarta-feira  (17) estima que aproximadamente 120 mil mortes no Brasil entre 2000 e 2019 estiveram associadas às ondas de calor. Isso equivale a 0,6% da mortalidade total registrada no período, excluindo os óbitos por causas externas (acidentes e violências).    \n\n  Também h",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/brasil-teve-120-mil-mortes-associadas-ondas-de-calor-em-20-anos",
-      "data": "17/06/2026",
-      "hora": "17:32",
-      "ts": 1781728320000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inss-termina-neste-sabado-prazo-para",
+      "tag": "INSS",
+      "titulo": "INSS: termina neste sábado prazo para contestar descontos indevidos",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Termina neste sábado (20) o prazo para aposentados e pensionistas do Instituto Nacional do Seguro Social (INSS) contestarem a cobrança de mensalidades associativas descontadas de seus benefícios previdenciários sem autorização.    \n\n A  contestação é obrigatória para aderir ao acordo extrajudicial  ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inss-termina-neste-sabado-prazo-para-contestar-descontos-indevidos",
+      "data": "20/06/2026",
+      "hora": "13:29",
+      "ts": 1781972940000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/lula-assina-decreto-que-preve-bloque",
       "tag": "Legislação",
       "titulo": "Lula assina decreto que prevê bloqueio de recursos de bets ilegais",
@@ -346,18 +358,6 @@
       "data": "17/06/2026",
       "hora": "17:05",
       "ts": 1781726700000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/regras-sobre-combustivel-sustentavel",
-      "tag": "Economia",
-      "titulo": "Regras sobre combustível sustentável de aviação devem sair em breve",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O chamado Decreto do SAF, que vai ditar as regras para o esforço das companhias aéreas reduzirem as emissões de gás carbônico (CO₂  ), está em “vias de ser publicado” , afirmou nesta quarta-feira (17) a coordenadora-geral de Biodiesel e Outros Biocombustíveis do Ministério de Minas e Energia (MME),",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/regras-sobre-combustivel-sustentavel-de-aviacao-devem-sair-em-breve",
-      "data": "17/06/2026",
-      "hora": "16:59",
-      "ts": 1781726340000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "20/06/2026 às 16:00",
+  "atualizado": "21/06/2026 às 14:00",
   "total": 40
 }
