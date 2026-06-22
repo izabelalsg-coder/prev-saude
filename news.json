@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/festas-juninas-e-julinas-acendem-alerta-pa",
+      "tag": "Saúde",
+      "titulo": "Festas juninas e julinas acendem alerta para risco de queimaduras",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Festas juninas e julinas de São João intensificam a necessidade de cuidados com materiais que podem provocar queimaduras nas crianças e adolescentes. O alerta foi feito nesta segunda-feira (22) pela Sociedade Brasileira de Pediatria (SBP).    \n\n \n “As festas fazem parte da cultura brasileira e são m",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/festas-juninas-e-julinas-acendem-alerta-para-risco-de-queimaduras",
+      "data": "22/06/2026",
+      "hora": "12:44",
+      "ts": 1782143040000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/realidade-dos-manicomios-judiciarios-e-tem",
       "tag": "Saúde",
       "titulo": "Realidade dos manicômios judiciários é tema do Caminhos da Reportagem",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/quadro-de-saude-de-raoni-e-grave-mas-estav",
-      "tag": "Saúde",
-      "titulo": "Quadro de saúde de Raoni é grave, mas estável, diz Hospital São Paulo",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Hospital São Paulo divulgou há pouco boletim médico atualizado sobre as condições de saúde do cacique Raoni Metukire, 94 anos, internado na Unidade de Terapia Intensiva da em estado grave, porém estável.    \n\n  O cacique apresenta quadro de obstrução intestinal, desidratação e pneumonia aspirativa",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/quadro-de-saude-de-raoni-e-grave-mas-estavel-diz-hospital-sao-paulo",
-      "data": "19/06/2026",
-      "hora": "19:57",
-      "ts": 1781909820000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/defesa-diz-que-investigacao-da-morte-d",
+      "tag": "Justiça",
+      "titulo": "Defesa diz que investigação da morte de Gritzbach foi manipulada",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Sob forte esquema de segurança, tem início hoje (22), no Fórum Criminal de Guarulhos, o julgamento de três policiais militares acusados de participar do assassinato do empresário e delator Vinicius Gritzbach.   \n\n  O julgamento terá início com a seleção dos sete jurados que vão compor o júri popular",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/defesa-diz-que-investigacao-da-morte-de-gritzbach-foi-manipulada",
+      "data": "22/06/2026",
+      "hora": "11:06",
+      "ts": 1782137160000,
       "favorito": false
     },
     {
@@ -226,18 +238,6 @@
       "data": "18/06/2026",
       "hora": "19:53",
       "ts": 1781823180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-decide-anular-absolvicao-do-acusad",
-      "tag": "STF",
-      "titulo": "STF decide anular absolvição do acusado de estuprar Mariana Ferrer",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Supremo Tribunal Federal (STF) decidiu nesta quinta-feira (18) determinar a anulação do processo que absolveu o empresário André de Camargo Aranha da acusação de estupro da influenciadora digital Mariana Ferrer.  O crime teria ocorrido em 2018, na boate Café de La Musique, em Florianópolis.    \n\n ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-decide-anular-absolvicao-do-acusado-de-estuprar-mariana-ferrer",
-      "data": "18/06/2026",
-      "hora": "19:04",
-      "ts": 1781820240000,
       "favorito": false
     },
     {
@@ -361,6 +361,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/alcolumbre-mantem-pec-6x1-travada-em",
+      "tag": "Política",
+      "titulo": "Alcolumbre mantém PEC 6x1 travada em semana esvaziada no Senado",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A tramitação da  proposta de emenda à Constituição (PEC) que acaba com a escala 6x1  no Brasil deve seguir travada no Senado em uma semana esvaziada pelas festas de São João, pelo jogo do Brasil contra a Escócia e pelos trabalhos semipresenciais na Casa.   \n\n O presidente do Senado, Davi Alcolumbre ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/alcolumbre-mantem-pec-6x1-travada-em-semana-esvaziada-no-senado",
+      "data": "22/06/2026",
+      "hora": "12:36",
+      "ts": 1782142560000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/tse-vai-decidir-sobre-resultado-de-e",
+      "tag": "Política",
+      "titulo": "TSE vai decidir sobre resultado de eleição suplementar em Roraima",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Com candidatura em análise pelo  Tribunal Superior Eleitoral (TSE) , Arthur Henrique (PL) foi o mais votado para o cargo de governador do estado de Roraima,  em eleição suplementar ocorrida nesse domingo (21) .  Ele e o candidato a vice, subtenente Velton, receberam 160.004 votos, 60,87% dos votos v",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/tse-vai-decidir-sobre-resultado-de-eleicao-suplementar-em-roraima",
+      "data": "22/06/2026",
+      "hora": "11:42",
+      "ts": 1782139320000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/roraima-elege-neste-domingo-governad",
       "tag": "Política",
       "titulo": "Roraima elege neste domingo governador para mandato tampão até 2027",
@@ -455,32 +479,8 @@
       "hora": "15:25",
       "ts": 1781720700000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/prefeitura-de-limeira-fecha-acesso-p",
-      "tag": "Política",
-      "titulo": "Prefeitura de Limeira fecha acesso à Ponte do Esqueleto",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "A prefeitura de Limeira reforçou nesta quarta-feira (17) as medidas de segurança na área da Ponte do Esqueleto, com o fechamento de acessos irregulares e o complemento de ações emergenciais.  Segundo a prefeitura, uma intervenção mais ampla não havia sido executada antes devido às limitações operaci",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/prefeitura-de-limeira-fecha-acesso-ponte-do-esqueleto",
-      "data": "17/06/2026",
-      "hora": "15:01",
-      "ts": 1781719260000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/no-g7-lula-cobra-empenho-dos-paises-",
-      "tag": "Política",
-      "titulo": "No G7, Lula cobra empenho dos países ricos diante de desigualdades",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O presidente Luiz Inácio Lula da Silva cobrou nesta terça-feira (16) mais empenho dos países ricos para redução das desigualdades no mundo.  O discurso foi feito em Évian, na França, durante a Cúpula do g7, que reúne as principais economias do mundo.   \n\n De acordo com o presidente, a desigualdade e",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/no-g7-lula-cobra-empenho-dos-paises-ricos-diante-de-desigualdades",
-      "data": "16/06/2026",
-      "hora": "20:35",
-      "ts": 1781652900000,
-      "favorito": false
     }
   ],
-  "atualizado": "22/06/2026 às 14:00",
+  "atualizado": "22/06/2026 às 16:00",
   "total": 40
 }
