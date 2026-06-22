@@ -1,6 +1,42 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/realidade-dos-manicomios-judiciarios-e-tem",
+      "tag": "Saúde",
+      "titulo": "Realidade dos manicômios judiciários é tema do Caminhos da Reportagem",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "No primeiro semestre de 2025, 1.655 pessoas em todo o país ainda estavam internadas em hospitais de custódia e tratamento psiquiátrico, também chamados de manicômios judiciários. São pacientes com transtornos mentais que entraram em conflito com a lei.   \n\n  As internações contrariam a  Resolução 48",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/realidade-dos-manicomios-judiciarios-e-tema-do-caminhos-da-reportagem",
+      "data": "22/06/2026",
+      "hora": "07:32",
+      "ts": 1782124320000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/marcha-em-sao-paulo-pede-legalizacao-da-ma",
+      "tag": "Saúde",
+      "titulo": "Marcha em São Paulo pede legalização da maconha",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Dezenas de milhares de pessoas se reuniram, na tarde de hoje (21), em um protesto pela legalização da maconha no país. Em frente ao Museu de Arte de São Paulo Assis Chateaubriand (Masp), os manifestantes criticaram os efeitos da criminalização da planta. O grupo destacou que a proibição sobrecarrega",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/marcha-em-sao-paulo-pede-legalizacao-da-maconha",
+      "data": "21/06/2026",
+      "hora": "19:36",
+      "ts": 1782081360000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/maioria-dos-pacientes-que-importa-remedios",
+      "tag": "Saúde",
+      "titulo": "Maioria dos pacientes que importa remédios canábicos faz musculação",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Uma pesquisa inédita da Blis Data 2026 , a maior base de dados sobre pacientes canábicos da América Latina, aponta a musculação como a principal atividade praticada por quem faz esse tipo de tratamento com produtos importados. Ela aparece no topo da lista das modalidades mais populares, com 44%.   \n",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/maioria-dos-pacientes-que-importa-remedios-canabicos-faz-musculacao",
+      "data": "21/06/2026",
+      "hora": "14:21",
+      "ts": 1782062460000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/semana-mundial-da-alergia-alerta-para-prev",
       "tag": "Saúde",
       "titulo": "Semana Mundial da Alergia alerta para prevenção e diagnóstico",
@@ -82,42 +118,6 @@
       "data": "19/06/2026",
       "hora": "19:57",
       "ts": 1781909820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/alta-demanda-faz-sus-ampliar-teleatendimen",
-      "tag": "Saúde",
-      "titulo": "Alta demanda faz SUS ampliar teleatendimento a jogadores compulsivos",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Ministério da Saúde pretende ampliar, ainda este ano, os atendimentos por telefone e por videochamadas para pessoas com problemas relacionados à dependência em jogos de apostas.    \n\n Conforme a  Agência Brasil  apurou, a atual estratégia de teleatendimento será reforçada por meio da Agência Brasi",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/alta-demanda-faz-sus-ampliar-teleatendimento-jogadores-compulsivos",
-      "data": "19/06/2026",
-      "hora": "16:42",
-      "ts": 1781898120000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/geral/noticia/2026-06/cacique-raoni-e-transferido-de-mato-grosso",
-      "tag": "ANS",
-      "titulo": "Cacique Raoni é transferido de Mato Grosso para São Paulo",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O cacique Raoni Metuktire, de 94 anos, foi transferido, às 11h30 desta sexta-feira (19), do Hospital e Maternidade Dois Pinheiros, em Sinop, no norte de Mato Grosso, para o Hospital São Paulo, hospital da Escola Paulista de Medicina da Universidade Federal de São Paulo (Unifesp).  O líder indígena e",
-      "link": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-06/cacique-raoni-e-transferido-de-mato-grosso-para-sao-paulo",
-      "data": "19/06/2026",
-      "hora": "15:37",
-      "ts": 1781894220000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sao-paulo-inicia-vacinacao-infantil-com-pn",
-      "tag": "Saúde",
-      "titulo": "São Paulo inicia vacinação infantil com pneumocócica 20 neste sábado",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A capital paulista começa a aplicar, neste sábado (20), a vacina pneumocócica 20-valente (VPC20), dando início à substituição gradual da vacina pneumocócica 10-valente (VPC10) no calendário infantil. Neste primeiro momento, a vacinação será destinada a crianças menores de cinco anos, de acordo com o",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sao-paulo-inicia-vacinacao-infantil-com-pneumococica-20-neste-sabado",
-      "data": "19/06/2026",
-      "hora": "09:27",
-      "ts": 1781872020000,
       "favorito": false
     },
     {
@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-eleva-projecao-de-inflacao-e",
+      "tag": "Economia",
+      "titulo": "Mercado eleva projeção de inflação e vê Selic em 14% ao ano em 2026",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A previsão do mercado financeiro para o Índice Nacional de Preços ao Consumidor Amplo (IPCA), referência oficial da inflação no país, passou de 5,3% para 5,33% este ano.  A estimativa está no  Boletim Focus  desta segunda-feira (22), pesquisa divulgada semanalmente pelo Banco Central (BC) com a expe",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-eleva-projecao-de-inflacao-e-ve-selic-em-14-ao-ano-em-2026",
+      "data": "22/06/2026",
+      "hora": "10:26",
+      "ts": 1782134760000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-abre-credito-suplementar-de-",
+      "tag": "Economia",
+      "titulo": "Governo abre crédito suplementar de R$ 20,5 bi para reforçar Orçamento",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O  Ministério do Planejamento e Orçamento  abriu crédito suplementar de R$ 20,5 bilhões no Orçamento Fiscal da União para reforçar dotações de diversos órgãos do Poder Executivo federal.  A medida consta da  Portaria GM/MPO nº 246/2026 , publicada nesta segunda-feira (22).   \n\n Do total autorizado, ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-abre-credito-suplementar-de-r-205-bi-para-reforcar-orcamento",
+      "data": "22/06/2026",
+      "hora": "07:49",
+      "ts": 1782125340000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/inss-termina-neste-sabado-prazo-para",
       "tag": "INSS",
       "titulo": "INSS: termina neste sábado prazo para contestar descontos indevidos",
@@ -334,30 +358,6 @@
       "data": "17/06/2026",
       "hora": "20:27",
       "ts": 1781738820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/copom-reduz-taxa-selic-para-1425-ao-",
-      "tag": "Economia",
-      "titulo": "Copom reduz taxa Selic para 14,25% ao ano",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Comitê de Política Monetária (Copom) do Banco Central (BC) reduziu nesta quarta-feira (17) em 0,25 ponto percentual a Taxa Selic, que passará de 14,50% para 14,25% ao ano.    \n\n  Esta é a terceira vez consecutiva que o comitê reduz os juros.  \n\n  Notícias relacionadas:    Entidades do setor produt",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/copom-reduz-taxa-selic-para-1425-ao-ano",
-      "data": "17/06/2026",
-      "hora": "19:20",
-      "ts": 1781734800000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/promessa-de-dinheiro-facil-e-pix-sao",
-      "tag": "Economia",
-      "titulo": "Promessa de dinheiro fácil e Pix são meios mais usados por golpistas",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Promessas de dinheiro fácil vindas de marcas conhecidas com pagamentos instantâneos via Pix se tornaram a combinação mais frequente usada pelos golpistas online do Brasil. É o que aponta a segunda edição do relatório  A Jornada dos Golpes , divulgado nesta quarta-feira (17).    \n\n O estudo do Observ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/promessa-de-dinheiro-facil-e-pix-sao-meios-mais-usados-por-golpistas",
-      "data": "17/06/2026",
-      "hora": "17:05",
-      "ts": 1781726700000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "21/06/2026 às 16:00",
+  "atualizado": "22/06/2026 às 14:00",
   "total": 40
 }
