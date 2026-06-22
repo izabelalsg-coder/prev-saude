@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/tv-brasil-exibe-especial-sobre-74-an",
+      "tag": "Economia",
+      "titulo": "TV Brasil exibe especial sobre 74 anos do BNDES com foco nos desafios",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A conexão entre a economia e os fatos do cotidiano serve de mote para o Especial Economia e Futuro - 74 anos do BNDES, conteúdo original que a TV Brasil exibe nesta terça-feira (23), às 22h.   \n\n A produção apresentada pela jornalista Luciana Barreto revela as ideias, os desafios e as soluções que d",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/tv-brasil-exibe-especial-sobre-74-anos-do-bndes-com-foco-nos-desafios",
+      "data": "22/06/2026",
+      "hora": "13:45",
+      "ts": 1782146700000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-eleva-projecao-de-inflacao-e",
       "tag": "Economia",
       "titulo": "Mercado eleva projeção de inflação e vê Selic em 14% ao ano em 2026",
@@ -346,18 +358,6 @@
       "data": "18/06/2026",
       "hora": "12:32",
       "ts": 1781796720000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/entidades-consideram-insuficiente-re",
-      "tag": "Economia",
-      "titulo": "Entidades consideram insuficiente redução da taxa Selic",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A  redução de 0,25% ponto percentual na taxa básica de juros  da economia, a Selic, foi considerada insuficiente por entidades como a Confederação Nacional da Indústria (CNI) e a Central Única dos Trabalhadores (CUT).     \n\n  Para as representações da indústria e dos trabalhadores, o corte nos juros",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/entidades-consideram-insuficiente-reducao-da-taxa-selic",
-      "data": "17/06/2026",
-      "hora": "20:27",
-      "ts": 1781738820000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "22/06/2026 às 16:00",
+  "atualizado": "22/06/2026 às 17:00",
   "total": 40
 }
