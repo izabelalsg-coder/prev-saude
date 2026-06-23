@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/cnj-adia-para-agosto-analise-de-regras",
+      "tag": "Justiça",
+      "titulo": "CNJ adia para agosto análise de regras sobre aposentadoria compulsória",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O  Conselho Nacional de Justiça (CNJ)  adiou para agosto a análise de mudanças no regimento interno sobre procedimentos administrativos disciplinares aplicáveis a magistrados, incluindo a  aposentadoria compulsória .    \n\n Em sessão ordinária desta terça-feira (23), o relator do caso, conselheiro Ul",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/cnj-adia-para-agosto-analise-de-regras-sobre-aposentadoria-compulsoria",
+      "data": "23/06/2026",
+      "hora": "12:12",
+      "ts": 1782227520000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/justica-do-rio-mantem-condenacao-de-ac",
       "tag": "Justiça",
       "titulo": "Justiça do Rio mantém condenação de acusado de matar contraventor",
@@ -226,18 +238,6 @@
       "data": "22/06/2026",
       "hora": "17:06",
       "ts": 1782158760000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-vai-decidir-se-bolsonaro-contin",
-      "tag": "Justiça",
-      "titulo": "Moraes vai decidir se Bolsonaro continuará em prisão domiciliar",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), deve decidir até a próxima quinta-feira (25) se a prisão domiciliar do ex-presidente Jair Bolsonaro será mantida. A data marca o fim do prazo de 90 dias da prisão especial.    \n\n Bolsonaro  foi condenado a 27 anos e três meses de pri",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/moraes-vai-decidir-se-bolsonaro-continuara-em-prisao-domiciliar",
-      "data": "22/06/2026",
-      "hora": "16:39",
-      "ts": 1782157140000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "23/06/2026 às 14:51",
+  "atualizado": "23/06/2026 às 16:00",
   "total": 40
 }
