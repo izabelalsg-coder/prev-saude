@@ -121,6 +121,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/defesa-de-bolsonaro-pede-moraes-que-pr",
+      "tag": "Justiça",
+      "titulo": "Defesa de Bolsonaro pede a Moraes que prorrogue prisão domiciliar",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A defesa do ex-presidente da República (2020-2024) Jair Bolsonaro pediu ao ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, que prorrogue a prisão domiciliar  concedida ao político em março deste ano .    \n\n A solicitação foi protocolada no fim da noite desta terça-feira (23), com um",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/defesa-de-bolsonaro-pede-moraes-que-prorrogue-prisao-domiciliar",
+      "data": "24/06/2026",
+      "hora": "12:43",
+      "ts": 1782315780000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/anvisa-e-receita-federal-apreendem-25-",
+      "tag": "Anvisa",
+      "titulo": "Anvisa e Receita Federal apreendem 25 mil cigarros eletrônico",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) e a Receita Federal apreenderam mais de 25 mil cigarros eletrônicos,  produto proibido no Brasil.   \n\n A Operação Rede de Fumaça, deflagrada esta semana, apreendeu ainda 107 mil maços de cigarros convencionais contrabandeados. \n\n  Notícias relacion",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/anvisa-e-receita-federal-apreendem-25-mil-cigarros-eletronico",
+      "data": "24/06/2026",
+      "hora": "11:45",
+      "ts": 1782312300000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/governo-publica-banco-para-reunir-dado",
       "tag": "Justiça",
       "titulo": "Governo publica banco para reunir dados de celulares roubados",
@@ -217,27 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/motorista-de-app-tem-maior-risco-de-en",
-      "tag": "Justiça",
-      "titulo": "Motoristas de app têm maior risco de endividamento, alerta TST",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Do “nada”, um problema no motor e também vazamento de óleo. De repente, uma dívida de R$ 2,5 mil no mecânico. Na última semana, a motorista de aplicativo brasiliense Bárbara Sousa, de 28 anos, experimentou o que chama de “rotina” e “vivência” nesse ofício: quando o gasto fica maior que o rendimento.",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/motorista-de-app-tem-maior-risco-de-endividamento-alerta-tst",
-      "data": "23/06/2026",
-      "hora": "08:02",
-      "ts": 1782212520000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/parecer-do-mpe-e-contra-suspender-divu",
-      "tag": "Justiça",
-      "titulo": "Parecer do MPE é contra suspender divulgação de pesquisa eleitoral",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Ministério Público Eleitoral (MPE) enviou nesta segunda-feira (22) ao Tribunal Superior Eleitoral (TSE) parecer contrário à decisão individual do ministro Nunes Marques, que suspendeu a divulgação de uma pesquisa de intenção do voto para presidente da República, promovida pela AtlasIntel.    \n\n O ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/parecer-do-mpe-e-contra-suspender-divulgacao-de-pesquisa-eleitoral",
-      "data": "22/06/2026",
-      "hora": "21:03",
-      "ts": 1782172980000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/renovacao-de-cota-zero-para-carros-e",
+      "tag": "Economia",
+      "titulo": "Renovação de cota zero para carros elétricos beneficia consumidor",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Garantir melhores preços para o consumidor brasileiro e fortalecer a indústria automotiva nacional são as principais razões do governo federal para renovar, por seis meses, as cotas de importação com alíquota zero para veículos eletrificados desmontados (CKD) e semidesmontados (SKD). A informação é ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/renovacao-de-cota-zero-para-carros-eletricos-beneficia-consumidor",
+      "data": "24/06/2026",
+      "hora": "12:23",
+      "ts": 1782314580000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "23/06/2026",
       "hora": "14:39",
       "ts": 1782236340000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bc-melhores-praticas-recomendam-nao-",
-      "tag": "Economia",
-      "titulo": "BC: \"melhores práticas\" recomendam não reagir a choques de oferta",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A piora no cenário para a inflação não impediu o Banco Central (BC) de manter o ciclo de redução dos juros.  O Comitê de Política Monetária (Copom) justificou o corte na taxa básica de juros, a Selic, sob a perspectiva de que as \"melhores práticas\" de política monetária recomendam não reagir integra",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bc-melhores-praticas-recomendam-nao-reagir-choques-de-oferta",
-      "data": "23/06/2026",
-      "hora": "11:09",
-      "ts": 1782223740000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "24/06/2026 às 14:33",
+  "atualizado": "24/06/2026 às 16:00",
   "total": 40
 }
