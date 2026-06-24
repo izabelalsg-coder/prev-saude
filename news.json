@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/campanha-pede-criacao-de-politica-nacional",
+      "tag": "Saúde",
+      "titulo": "Campanha pede criação de Política Nacional de Saúde Mental Climática",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A organização Time To Act está lançando a campanha  Saúde Mental Climática  para estimular debates na sociedade sobre como a crise climática provoca danos emocionais, psicológicos e comunitários. A mobilização pede ainda a criação de uma política nacional com esse foco, que seria instituída por meio",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/campanha-pede-criacao-de-politica-nacional-de-saude-mental-climatica",
+      "data": "24/06/2026",
+      "hora": "11:07",
+      "ts": 1782310020000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/ans-defende-que-plano-cubra-mamografia-dig",
       "tag": "ANS",
       "titulo": "ANS defende que plano cubra mamografia digital sem restrição de idade",
@@ -106,18 +118,6 @@
       "data": "22/06/2026",
       "hora": "07:32",
       "ts": 1782124320000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/marcha-em-sao-paulo-pede-legalizacao-da-ma",
-      "tag": "Saúde",
-      "titulo": "Marcha em São Paulo pede legalização da maconha",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Dezenas de milhares de pessoas se reuniram, na tarde de hoje (21), em um protesto pela legalização da maconha no país. Em frente ao Museu de Arte de São Paulo Assis Chateaubriand (Masp), os manifestantes criticaram os efeitos da criminalização da planta. O grupo destacou que a proibição sobrecarrega",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/marcha-em-sao-paulo-pede-legalizacao-da-maconha",
-      "data": "21/06/2026",
-      "hora": "19:36",
-      "ts": 1782081360000,
       "favorito": false
     },
     {
@@ -361,6 +361,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/nao-houve-intuito-de-descumprir-lei-",
+      "tag": "Política",
+      "titulo": "Não houve intuito de descumprir a lei, diz Bolsonaro sobre arma",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Ao prestar depoimento à Polícia Civil do Distrito Federal no inquérito aberto para apurar o caso de uma arma de fogo apreendida em blitz com um de seus seguranças, o ex-presidente Jair Bolsonaro disse que em momento algum houve intenção de descumprir a lei.    \n\n Segundo o advogado Paulo Cunha Bueno",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/nao-houve-intuito-de-descumprir-lei-diz-bolsonaro-sobre-arma",
+      "data": "24/06/2026",
+      "hora": "11:18",
+      "ts": 1782310680000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/lula-entrega-aparelhos-de-radioterap",
       "tag": "Política",
       "titulo": "Lula entrega aparelhos de radioterapia em São Paulo",
@@ -467,20 +479,8 @@
       "hora": "19:51",
       "ts": 1781736660000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/projeto-dispensa-licitacao-para-medi",
-      "tag": "Política",
-      "titulo": "Projeto dispensa licitação para medicamentos produzidos pela Hemobrás",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "A Câmara dos Deputados aprovou nesta quarta-feira (17) o projeto de lei que dispensa a exigência de licitação para o fornecimento de medicamentos hemoderivados ao Sistema Único de Saúde (SUS) se a Hemobrás for a única instituição a produzi-los.     \n\n A proposta foi aprovada por 285 votos favoráveis",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-06/projeto-dispensa-licitacao-para-medicamentos-produzidos-pela-hemobras",
-      "data": "17/06/2026",
-      "hora": "18:38",
-      "ts": 1781732280000,
-      "favorito": false
     }
   ],
-  "atualizado": "24/06/2026 às 14:00",
+  "atualizado": "24/06/2026 às 14:33",
   "total": 40
 }
