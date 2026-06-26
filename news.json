@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-proibe-plataforma-de-consulta-onlin",
+      "tag": "Anvisa",
+      "titulo": "Anvisa proíbe plataforma de consulta online e entrega de medicamento",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) proibiu nesta sexta-feira (26) o funcionamento da plataforma Voy, que oferece tratamentos e avaliações de saúde personalizados para obesidade, mas que não está registrada como dispositivo médico.    \n\n “Plataformas que realizam a indicação de medic",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-proibe-plataforma-de-consulta-online-e-entrega-de-medicamento",
+      "data": "26/06/2026",
+      "hora": "12:03",
+      "ts": 1782486180000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sarampo-saude-pede-reforco-de-vacinacao-de",
       "tag": "Saúde",
       "titulo": "Sarampo: Saúde pede reforço de vacinação de crianças em SP e Guarulhos",
@@ -106,18 +118,6 @@
       "data": "23/06/2026",
       "hora": "17:24",
       "ts": 1782246240000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/raoni-faz-transicao-para-dieta-oral-e-tem-",
-      "tag": "ANS",
-      "titulo": "Raoni faz transição para dieta oral e tem evolução no quadro de saúde",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Boletim médico divulgado nesta terça-feira (23) informa que o Cacique Raoni iniciou transição para dieta oral. O quadro geral de saúde do líder indígena também apresenta evolução.    \n\n Raoni, de 94 anos, foi hospitalizado no dia 14 deste mês em Mato Grosso. O estado dele era considerado grave, apre",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/raoni-faz-transicao-para-dieta-oral-e-tem-evolucao-no-quadro-de-saude",
-      "data": "23/06/2026",
-      "hora": "15:34",
-      "ts": 1782239640000,
       "favorito": false
     },
     {
@@ -241,6 +241,42 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-avalia-aumentar-teto-do-mei-",
+      "tag": "Economia",
+      "titulo": "Governo avalia aumentar teto do MEI para R$ 140 mil, diz ministro",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O governo federal estuda elevar o limite de faturamento do microempreendedor individual (MEI) dos atuais R$ 81 mil para a faixa entre R$ 130 mil e R$ 140 mil por ano, informou nesta sexta-feira (26) o ministro do Planejamento e Orçamento, Bruno Moretti.    \n\n Segundo ele, a proposta deve ser enviada",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-avalia-aumentar-teto-do-mei-para-r-140-mil-diz-ministro",
+      "data": "26/06/2026",
+      "hora": "11:44",
+      "ts": 1782485040000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bloqueio-de-r-237-bi-nao-afetara-ser",
+      "tag": "Economia",
+      "titulo": "Bloqueio de R$ 23,7 bi não afetará serviços e benefícios, diz Moretti",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O ministro do Planejamento e Orçamento, Bruno Moretti, afirmou que o bloqueio de R$ 23,7 bilhões no orçamento federal será diluído entre as diferentes áreas do governo, de forma a evitar impactos concentrados e assegurar a continuidade de benefícios sociais, serviços públicos, bolsas, obras e outras",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bloqueio-de-r-237-bi-nao-afetara-servicos-e-beneficios-diz-moretti",
+      "data": "26/06/2026",
+      "hora": "11:33",
+      "ts": 1782484380000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/deficit-nas-contas-externas-foi-32-b",
+      "tag": "Economia",
+      "titulo": "Déficit em contas externas foi R$ 3,2 bilhões no mês de maio, diz BC",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As contas externas do Brasil tiveram  saldo negativo de US$ 3,185 bilhões em maio , informou nesta sexta-feira (26) o Banco Central (BC).  O valor representa uma estabilidade em relação ao registrado no mesmo mês de 2025, quando o déficit alcançou US$ 3,318 bilhões nas transações correntes, que se r",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/deficit-nas-contas-externas-foi-32-bilhoes-no-mes-de-maio-diz-bc",
+      "data": "26/06/2026",
+      "hora": "11:31",
+      "ts": 1782484260000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-usou-lucros-com-exportacao-p",
       "tag": "Economia",
       "titulo": "Governo usou lucros com exportação para conter preço dos combustíveis",
@@ -322,42 +358,6 @@
       "data": "25/06/2026",
       "hora": "19:24",
       "ts": 1782426240000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/conselho-monetario-regulamenta-bloqu",
-      "tag": "Economia",
-      "titulo": "Conselho Monetário regulamenta bloqueio de contas de apostas ilegais",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Conselho Monetário Nacional (CMN) regulamentou o  decreto que permite bloquear contas e impedir transações financeiras  de operadores de apostas de quota fixa que atuem sem autorização.    \n\n  O governo busca dificultar a operação de sites e empresas consideradas irregulares e estabelece regras pa",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/conselho-monetario-regulamenta-bloqueio-de-contas-de-apostas-ilegais",
-      "data": "25/06/2026",
-      "hora": "19:20",
-      "ts": 1782426000000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/pacto-quer-garantir-trabalho-decente",
-      "tag": "Economia",
-      "titulo": "Pacto quer garantir trabalho decente em grandes eventos no Brasil",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O governo federal, centrais sindicais, representantes patronais e outras instituições parceiras assinaram na tarde desta quinta-feira (25) o Pacto pelo Trabalho Decente em Grandes Eventos.    \n\n  A iniciativa abrange atividades relacionadas à cadeia produtiva de eventos de grande porte — como shows,",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/pacto-quer-garantir-trabalho-decente-em-grandes-eventos-no-brasil",
-      "data": "25/06/2026",
-      "hora": "18:28",
-      "ts": 1782422880000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-libera-dinheiro-de-antigo-fund",
-      "tag": "Economia",
-      "titulo": "Caixa libera dinheiro de antigo fundo PIS/Pasep; veja como sacar",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Empregados com carteira assinada e servidores públicos que trabalharam de 1971 a 1988 e estão na fila para sacar cotas do antigo fundo Programa de Integração Social (PIS) e Programa de Formação do Patrimônio do Servidor Público (Pasep) podem reaver o valor. A  Caixa Econômica Federal  começou a paga",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-libera-dinheiro-de-antigo-fundo-pispasep-veja-como-sacar",
-      "data": "25/06/2026",
-      "hora": "18:11",
-      "ts": 1782421860000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "26/06/2026 às 14:27",
+  "atualizado": "26/06/2026 às 16:00",
   "total": 40
 }
