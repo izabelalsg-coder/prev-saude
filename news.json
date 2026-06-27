@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/arquivos-da-justica-guarda-muitas-hist",
+      "tag": "Justiça",
+      "titulo": "Arquivos da Justiça guardam muitas histórias envolvendo o futebol",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Tribunal de Justiça do Rio (TJRJ) guarda em seus arquivos várias histórias que fizeram parte de processos envolvendo, por exemplo, o furto da Taça Jules Rimet, da antiga sede da Confederação Brasileira de Futebol, (CBF), na Rua da Alfândega, centro do Rio. Há também disputas que envolveram o álbum",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/arquivos-da-justica-guarda-muitas-historias-envolvendo-o-futebol",
+      "data": "27/06/2026",
+      "hora": "11:44",
+      "ts": 1782571440000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/pf-conclui-que-flavio-bolsonaro-comete",
       "tag": "Justiça",
       "titulo": "PF conclui que Flávio Bolsonaro cometeu calúnia contra Lula nas redes",
@@ -226,18 +238,6 @@
       "data": "25/06/2026",
       "hora": "17:03",
       "ts": 1782417780000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/gonet-diz-que-nao-ve-falta-grave-no-ca",
-      "tag": "Justiça",
-      "titulo": "Gonet diz que não vê falta grave no caso da arma de Bolsonaro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O procurador-geral da República, Paulo Gonet, enviou nesta quinta-feira (25) ao Supremo Tribunal Federal (STF) parecer sobre a arma apreendida com um dos seguranças do ex-presidente Jair Bolsonaro.    \n\n  Na manifestação, Gonet disse que o caso está na fase inicial de investigação e que ainda não vê",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/gonet-diz-que-nao-ve-falta-grave-no-caso-da-arma-de-bolsonaro",
-      "data": "25/06/2026",
-      "hora": "14:31",
-      "ts": 1782408660000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "27/06/2026 às 14:00",
+  "atualizado": "27/06/2026 às 16:00",
   "total": 40
 }
