@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/hospital-universitario-no-rio-inaugura-era",
+      "tag": "Saúde",
+      "titulo": "Hospital universitário no Rio inaugura era de UTIs Inteligentes no SUS",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Hospital Universitário Clementino Fraga Filho, conhecido como Hospital do Fundão, no Rio de Janeiro, inaugurou neste sábado (27) a primeira Unidade de Terapia Intensiva (UTI) Inteligente do Sistema Único de Saúde (SUS).   \n\n  Equipada com tecnologias de ponta, as UTIs Inteligentes otimizam o monit",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/hospital-universitario-no-rio-inaugura-era-de-utis-inteligentes-no-sus",
+      "data": "27/06/2026",
+      "hora": "14:33",
+      "ts": 1782581580000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sao-paulo-tem-tres-novos-casos-de-sarampo-",
       "tag": "Saúde",
       "titulo": "São Paulo tem três novos casos de sarampo confirmados em bebês",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/dia-de-prevencao-de-quedas-traz-alerta-par",
-      "tag": "Saúde",
-      "titulo": "Dia de prevenção de quedas traz alerta para idosos",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O número de pessoas transferidas para o  Instituto Nacional de Traumatologia e Ortopedia (Into)  após queda aumentou quase 50% de janeiro a maio deste ano, em comparação com o mesmo período do ano passado.  As 258 pessoas recebidas nesses cinco meses representam mais da metade dos pacientes de traum",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/dia-de-prevencao-de-quedas-traz-alerta-para-idosos",
-      "data": "24/06/2026",
-      "hora": "13:41",
-      "ts": 1782319260000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-forma-maioria-para-liberar-pagamen",
+      "tag": "STF",
+      "titulo": "STF forma maioria para liberar pagamento de penduricalhos retroativos",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Supremo Tribunal Federal (STF) formou maioria para liberar o pagamento de penduricalhos retroativos a juízes, procuradores e promotores do Ministério Público.  Com o voto do ministro Luiz Fux durante julgamento virtual neste sábado (27), o placar está 5 votos a 0 pela liberação.    \n\n Os votos ant",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-forma-maioria-para-liberar-pagamento-de-penduricalhos-retroativos",
+      "data": "27/06/2026",
+      "hora": "14:59",
+      "ts": 1782583140000,
       "favorito": false
     },
     {
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/mendonca-autoriza-transferencia-de-vor",
-      "tag": "ANS",
-      "titulo": "Mendonça autoriza transferência de Vorcaro para Papudinha",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), determinou nesta quinta-feira (25) que o banqueiro Daniel Vorcaro seja transferido para o 19° Batalhão da Polícia Militar do Distrito Federal, conhecido como Papudinha.   \n\n  Desde 4 de março deste ano, o banqueiro está preso nas dependên",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/mendonca-autoriza-transferencia-de-vorcaro-para-papudinha",
-      "data": "25/06/2026",
-      "hora": "17:03",
-      "ts": 1782417780000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mega-sena-acumula-e-premio-chega-r-2",
+      "tag": "Economia",
+      "titulo": "Mega-Sena acumula e prêmio chega a R$ 23 milhões",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Nenhuma aposta acertou as seis dezenas do concurso 3.024 da Mega-Sena, sorteadas neste sábado (27).     \n\n Os números sorteados foram 13 - 39 - 42 - 44 - 47- 49. \n\n Com isso, o prêmio da faixa principal para o próximo sorteio, na terça-feira (30), está estimado em  R$ 23 milhões . \n\n A quina teve 38",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mega-sena-acumula-e-premio-chega-r-23-milhoes",
+      "data": "28/06/2026",
+      "hora": "10:35",
+      "ts": 1782653700000,
       "favorito": false
     },
     {
@@ -253,24 +265,24 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cnpj-de-autonomos-prestadores-e-prod",
-      "tag": "Economia",
-      "titulo": "CNPJ de autônomos, prestadores e produtores rurais é adiado para 2027",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A obrigatoriedade de inscrição de parte das pessoas físicas no Cadastro Nacional da Pessoa Jurídica (CNPJ) para emissão de documentos fiscais foi prorrogada para 1º de janeiro de 2027. A decisão foi anunciada nesta sexta-feira (26) pela Receita Federal e pelo Comitê Gestor do Imposto sobre Bens e Se",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cnpj-de-autonomos-prestadores-e-produtores-rurais-e-adiado-para-2027",
-      "data": "26/06/2026",
-      "hora": "18:58",
-      "ts": 1782511080000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-avalia-que-tarifaco-dos-eua-f",
       "tag": "Economia",
       "titulo": "Brasil avalia que tarifaço dos EUA foi politizado mirando eleições",
       "fonte": "Agência Brasil / Economia",
       "resumo": "Em meio às tratativas sobre as taxas impostas pelos Estados Unidos aos produtos do Brasil, os negociadores brasileiros têm atuado levando em conta que as medidas foram politizadas em um contexto eleitoral no qual a Casa Branca tem interesse nos resultados do pleito presidencial de outubro de 2026, a",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-avalia-que-tarifaco-dos-eua-foi-politizado-mirando-eleicoes",
+      "data": "26/06/2026",
+      "hora": "18:58",
+      "ts": 1782511080000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cnpj-de-autonomos-prestadores-e-prod",
+      "tag": "Economia",
+      "titulo": "CNPJ de autônomos, prestadores e produtores rurais é adiado para 2027",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A obrigatoriedade de inscrição de parte das pessoas físicas no Cadastro Nacional da Pessoa Jurídica (CNPJ) para emissão de documentos fiscais foi prorrogada para 1º de janeiro de 2027. A decisão foi anunciada nesta sexta-feira (26) pela Receita Federal e pelo Comitê Gestor do Imposto sobre Bens e Se",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cnpj-de-autonomos-prestadores-e-produtores-rurais-e-adiado-para-2027",
       "data": "26/06/2026",
       "hora": "18:58",
       "ts": 1782511080000,
@@ -346,18 +358,6 @@
       "data": "26/06/2026",
       "hora": "15:44",
       "ts": 1782499440000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-abre-posto-tributario-na-chin",
-      "tag": "Economia",
-      "titulo": "Brasil abre posto tributário na China para ampliar comércio",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O ministro da Fazenda, Dario Durigan, inaugurou nesta sexta-feira (26) a Adidância Tributária e Aduaneira do Brasil em Pequim, na China. A iniciativa pretende facilitar o comércio entre os dois países, reduzir entraves burocráticos e ampliar a cooperação fiscal.    \n\n O novo posto será a quinta repr",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-abre-posto-tributario-na-china-para-ampliar-comercio",
-      "data": "26/06/2026",
-      "hora": "14:57",
-      "ts": 1782496620000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "27/06/2026 às 16:00",
+  "atualizado": "28/06/2026 às 14:00",
   "total": 40
 }
