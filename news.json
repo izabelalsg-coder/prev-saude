@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gastos-de-turistas-estrangeiros-no-b",
+      "tag": "Economia",
+      "titulo": "Gastos de turistas estrangeiros no Brasil soma R$ 25 bi em cinco meses",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Os gastos de turistas internacionais no Brasil bateram recorde histórico entre janeiro e maio deste ano, atingindo R$ 25 bilhões. De acordo com o Ministério do Turismo, o valor é 11% maior em comparação ao mesmo período do ano passado, quando os gastos somaram R$ 22,6 bilhões.    \n\n Também no mês de",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gastos-de-turistas-estrangeiros-no-brasil-soma-r-25-bi-em-cinco-meses",
+      "data": "28/06/2026",
+      "hora": "12:28",
+      "ts": 1782660480000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mega-sena-acumula-e-premio-chega-r-2",
       "tag": "Economia",
       "titulo": "Mega-Sena acumula e prêmio chega a R$ 23 milhões",
@@ -346,18 +358,6 @@
       "data": "26/06/2026",
       "hora": "16:07",
       "ts": 1782500820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gasto-com-pessoal-supera-teto-da-lrf",
-      "tag": "Economia",
-      "titulo": "Gasto com pessoal supera teto da LRF na Paraíba e Rio Grande do Norte",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Paraíba e o Rio Grande do Norte ultrapassaram, no primeiro quadrimestre de 2026, o limite estabelecido pela Lei de Responsabilidade Fiscal (LRF) para despesas com pessoal do Poder Executivo. Os dados constam no Relatório de Gestão Fiscal (RGF) em Foco dos Estados e do Distrito Federal, divulgado n",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gasto-com-pessoal-supera-teto-da-lrf-na-paraiba-e-rio-grande-do-norte",
-      "data": "26/06/2026",
-      "hora": "15:44",
-      "ts": 1782499440000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "28/06/2026 às 14:00",
+  "atualizado": "28/06/2026 às 16:00",
   "total": 40
 }
