@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/novas-modalidades-do-desenrola-facil",
+      "tag": "Economia",
+      "titulo": "Novas modalidades do Desenrola facilitam crédito para adimplentes",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O governo federal anunciou nesta segunda-feira (29) modalidades de crédito dentro do programa  Desenrola  voltadas a três públicos: trabalhadores informais adimplentes, trabalhadores com carteira assinada e estudantes que mantêm os pagamentos do Fundo de Financiamento Estudantil (Fies) em dia.    \n\n",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/novas-modalidades-do-desenrola-facilitam-credito-para-adimplentes",
+      "data": "29/06/2026",
+      "hora": "12:42",
+      "ts": 1782747720000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-mantem-projecao-de-inflacao-",
+      "tag": "Economia",
+      "titulo": "Mercado mantém em 5,33% projeção de inflação para 2026",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA) projetado pelo mercado financeiro se mantém em 5,33% para este ano, segundo o Boletim Focus divulgado nesta segunda-feira (29) pelo Banco Central (BC).    \n\n A estabilização do índice, que é referência oficial da inflação no país, ocorre após 15",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/mercado-mantem-projecao-de-inflacao-em-533-para-2026",
+      "data": "29/06/2026",
+      "hora": "11:08",
+      "ts": 1782742080000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fgv-gasolina-etanol-e-cafe-recuam-e-",
       "tag": "Economia",
       "titulo": "FGV: gasolina, etanol e café recuam e ajudam IGP-M cair 0,5% em junho",
@@ -334,30 +358,6 @@
       "data": "26/06/2026",
       "hora": "19:10",
       "ts": 1782511800000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-avalia-que-tarifaco-dos-eua-f",
-      "tag": "Economia",
-      "titulo": "Brasil avalia que tarifaço dos EUA foi politizado mirando eleições",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Em meio às tratativas sobre as taxas impostas pelos Estados Unidos aos produtos do Brasil, os negociadores brasileiros têm atuado levando em conta que as medidas foram politizadas em um contexto eleitoral no qual a Casa Branca tem interesse nos resultados do pleito presidencial de outubro de 2026, a",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/brasil-avalia-que-tarifaco-dos-eua-foi-politizado-mirando-eleicoes",
-      "data": "26/06/2026",
-      "hora": "18:58",
-      "ts": 1782511080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cnpj-de-autonomos-prestadores-e-prod",
-      "tag": "Economia",
-      "titulo": "CNPJ de autônomos, prestadores e produtores rurais é adiado para 2027",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A obrigatoriedade de inscrição de parte das pessoas físicas no Cadastro Nacional da Pessoa Jurídica (CNPJ) para emissão de documentos fiscais foi prorrogada para 1º de janeiro de 2027. A decisão foi anunciada nesta sexta-feira (26) pela Receita Federal e pelo Comitê Gestor do Imposto sobre Bens e Se",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/cnpj-de-autonomos-prestadores-e-produtores-rurais-e-adiado-para-2027",
-      "data": "26/06/2026",
-      "hora": "18:58",
-      "ts": 1782511080000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "29/06/2026 às 14:00",
+  "atualizado": "29/06/2026 às 15:49",
   "total": 40
 }
