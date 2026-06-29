@@ -1,6 +1,42 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/caminhos-da-reportagem-mostra-desafios-par",
+      "tag": "Saúde",
+      "titulo": "Caminhos da Reportagem mostra desafios para fechar manicômios",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "No primeiro semestre de 2025, 1.655 pessoas ainda estavam internadas, em todo o país, em hospitais de custódia e tratamento psiquiátrico, também chamados de manicômios judiciários. São pacientes com transtornos mentais que entraram em conflito com a lei.   \n\n As internações contrariam a  Resolução 4",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/caminhos-da-reportagem-mostra-desafios-para-fechar-manicomios",
+      "data": "29/06/2026",
+      "hora": "09:02",
+      "ts": 1782734520000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/hospitais-do-rio-homenageiam-bebes-que-nas",
+      "tag": "Saúde",
+      "titulo": "Hospitais do Rio homenageiam bebês que nascem durante a Copa",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Durante a  Copa do Mundo , bebês nascidos nas maternidades da  Secretaria de Estado de Saúde do Rio de Janeiro  voltam para casa com lembranças especiais. A equipe do Hospital Estadual da Mãe, em Mesquita, na Baixada Fluminense, por exemplo, preparou certificados de “Minha Primeira Copa”, touquinhas",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/hospitais-do-rio-homenageiam-bebes-que-nascem-durante-copa",
+      "data": "29/06/2026",
+      "hora": "08:30",
+      "ts": 1782732600000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/fiocruz-prorroga-ate-20-de-julho-inscricoe",
+      "tag": "Saúde",
+      "titulo": "Fiocruz prorroga até 20 de julho inscrições para Olimpíada de Saúde",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Fundação Oswaldo Cruz (Fiocruz) prorrogou até o dia 20 de julho o prazo de inscrições da 13ª Olimpíada Brasileira de Saúde e Meio Ambiente (Obsma). O objetivo é dar aos professores de todo o país mais tempo para que inscrevam trabalhos que articulem saúde, meio ambiente, educação e ciência. As ins",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/fiocruz-prorroga-ate-20-de-julho-inscricoes-para-olimpiada-de-saude",
+      "data": "29/06/2026",
+      "hora": "08:02",
+      "ts": 1782730920000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/hospital-universitario-no-rio-inaugura-era",
       "tag": "Saúde",
       "titulo": "Hospital universitário no Rio inaugura era de UTIs Inteligentes no SUS",
@@ -82,42 +118,6 @@
       "data": "25/06/2026",
       "hora": "21:03",
       "ts": 1782432180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-proibe-suplemento-irregular-e-suspe",
-      "tag": "Anvisa",
-      "titulo": "Anvisa proíbe suplemento irregular e suspende lotes de creatina",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A  Agência Nacional de Vigilância Sanitária (Anvisa)  determinou a apreensão do suplemento alimentar em cápsulas da marca Artro100, produzido por empresa desconhecida.  A  resolução , publicada nesta quinta-feira (25) no   Diário Oficial da União  , também proíbe a venda, a distribuição, a fabricaçã",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/anvisa-proibe-suplemento-irregular-e-suspende-lotes-de-creatina",
-      "data": "25/06/2026",
-      "hora": "14:58",
-      "ts": 1782410280000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/saude-anuncia-ampliacao-do-atendimento-pop",
-      "tag": "Saúde",
-      "titulo": "Saúde anuncia ampliação do atendimento à população em situação de rua",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O ministro da Saúde, Alexandre Padilha, lançou nesta quarta-feira (24), na capital paulista, uma nova política voltada à população em situação de rua que pretende ampliar o número de equipes e unidades móveis dedicadas ao atendimento no Sistema Único de Saúde (SUS).   \n\n Chamada de Política Nacional",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/saude-anuncia-ampliacao-do-atendimento-populacao-em-situacao-de-rua",
-      "data": "24/06/2026",
-      "hora": "19:58",
-      "ts": 1782341880000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/fissura-labiopalatina-demanda-tratamento-p",
-      "tag": "Saúde",
-      "titulo": "Fissura labiopalatina demanda tratamento precoce e multidisciplinar",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Dados do Ministério da Saúde revelam que aproximadamente 5 mil crianças nascem todos os anos com fissura labiopalatina no Brasil, o equivalente a cerca de um caso para cada 650 nascimentos.     \n\n  Trata-se da malformação craniofacial congênita mais frequente no país e uma das principais causas de n",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/fissura-labiopalatina-demanda-tratamento-precoce-e-multidisciplinar",
-      "data": "24/06/2026",
-      "hora": "14:44",
-      "ts": 1782323040000,
       "favorito": false
     },
     {
@@ -241,9 +241,69 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fgv-gasolina-etanol-e-cafe-recuam-e-",
+      "tag": "Economia",
+      "titulo": "FGV: gasolina, etanol e café recuam e ajudam IGP-M cair 0,5% em junho",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Os preços de combustíveis, minerais e do café recuaram em junho e ajudaram a inflação medida pelo  Índice Geral de Preços – Mercado (IGP-M) , conhecida como “inflação do aluguel”, ficar negativa em 0,5%, ou seja, na média, os preços ficaram mais baratos.    \n\n A deflação (inflação negativa) no mês é",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/fgv-gasolina-etanol-e-cafe-recuam-e-ajudam-igp-m-cair-05-em-junho",
+      "data": "29/06/2026",
+      "hora": "10:46",
+      "ts": 1782740760000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-abre-credito-de-r-550-milhoe",
+      "tag": "Economia",
+      "titulo": "Governo abre crédito de R$ 550 milhões para subsidiar diesel",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O governo federal abriu crédito extraordinário de R$ 550 milhões para subsidiar a importação de  óleo diesel  de uso rodoviário.  A medida provisória publicada nesta segunda-feira (29) destina-se ao  Ministério de Minas e Energia , com execução pela  Agência Nacional do Petróleo, Gás Natural e Bioco",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-abre-credito-de-r-550-milhoes-para-subsidiar-diesel",
+      "data": "29/06/2026",
+      "hora": "08:20",
+      "ts": 1782732000000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-isenta-de-iss-empresas-ligad",
+      "tag": "Economia",
+      "titulo": "Governo isenta de ISS empresas ligadas à Copa do Mundo Feminina",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O governo federal publica nesta segunda-feira (29) lei complementar que isenta do Imposto sobre Serviços (ISS) atividades relacionadas à organização da  Copa do Mundo Feminina de Futebol .  O torneio ocorrerá no Brasil em 2027.   \n\n A norma cria uma base legal para que municípios e o Distrito Federa",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-isenta-de-iss-empresas-ligadas-copa-do-mundo-feminina",
+      "data": "29/06/2026",
+      "hora": "07:43",
+      "ts": 1782729780000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-paga-bolsa-familia-beneficiari",
+      "tag": "Economia",
+      "titulo": "Caixa paga Bolsa Família a beneficiários com NIS de final 9",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Caixa Econômica Federal paga nesta segunda-feira (29) a parcela de junho do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 9.    \n\n O valor mínimo corresponde a R$ 600, mas com o novo adicional o valor médio do benefício sobe para R$ 677,66. Segundo o Ministério do D",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/caixa-paga-bolsa-familia-beneficiarios-com-nis-de-final-9",
+      "data": "29/06/2026",
+      "hora": "06:45",
+      "ts": 1782726300000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/nove-apostas-acertam-quina-de-sao-jo",
+      "tag": "Economia",
+      "titulo": "Nove apostas acertam Quina de São João e vão receber R$ 26,6 milhões",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Nove apostas acertaram a Quina de São João, concurso 7051, sorteada na tarde deste domingo (28). Cada uma irá receber R$ 26.603.233,33.  A premiação total estimada superior a R$ 239 milhões.   \n\n As apostas vencedoras são de Brasília, Fortaleza , Alexânia (GO), Contagem (MG), Aripuana (MT), Paranava",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/nove-apostas-acertam-quina-de-sao-joao-e-vao-receber-r-266-milhoes",
+      "data": "28/06/2026",
+      "hora": "16:31",
+      "ts": 1782675060000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gastos-de-turistas-estrangeiros-no-b",
       "tag": "Economia",
-      "titulo": "Gastos de turistas estrangeiros no Brasil soma R$ 25 bi em cinco meses",
+      "titulo": "Gastos de turistas estrangeiros no Brasil somam R$ 25 bi em 5 meses",
       "fonte": "Agência Brasil / Economia",
       "resumo": "Os gastos de turistas internacionais no Brasil bateram recorde histórico entre janeiro e maio deste ano, atingindo R$ 25 bilhões. De acordo com o Ministério do Turismo, o valor é 11% maior em comparação ao mesmo período do ano passado, quando os gastos somaram R$ 22,6 bilhões.    \n\n Também no mês de",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/gastos-de-turistas-estrangeiros-no-brasil-soma-r-25-bi-em-cinco-meses",
@@ -298,66 +358,6 @@
       "data": "26/06/2026",
       "hora": "18:58",
       "ts": 1782511080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/lula-visita-estaleiro-que-constroi-e",
-      "tag": "Economia",
-      "titulo": "Lula visita estaleiro que constrói embarcações para a Petrobras",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O presidente da República Luiz Inácio Lula da Silva visitou na tarde desta sexta-feira (26) o estaleiro Detroit Brasil, em Itajaí, norte de Santa Catarina.  O local é onde estão sendo fabricadas dez embarcações de apoio marítimo  offshore  para fornecer suporte logístico, operacional e de segurança ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/lula-visita-estaleiro-que-constroi-embarcacoes-para-petrobras",
-      "data": "26/06/2026",
-      "hora": "18:07",
-      "ts": 1782508020000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/jogos-do-brasil-na-copa-provocam-alt",
-      "tag": "Economia",
-      "titulo": "Jogos do Brasil na Copa provocam altos e baixos no consumo de energia",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Seleção brasileira em campo na Copa do Mundo é praticamente sinônimo de economia de energia. Na última quarta-feira (24), quando Vini Júnior e companhia iniciaram a partida contra a Escócia, no Hard Rock Stadium, em Miami (EUA), o consumo de energia elétrica aqui, no Brasil, despencou.   \n\n Às 19h, ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/jogos-do-brasil-na-copa-provocam-altos-e-baixos-no-consumo-de-energia",
-      "data": "26/06/2026",
-      "hora": "17:34",
-      "ts": 1782506040000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bandeira-tarifaria-das-contas-de-luz",
-      "tag": "Economia",
-      "titulo": "Bandeira tarifária das contas de luz segue amarela em julho",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A bandeira tarifária permanecerá amarela em julho , informou hoje (26) a Agência Nacional de Energia Elétrica (Aneel).  Com isso, será mantido o acréscimo de R$ 1,885 a cada 100 quilowatts-hora  ( kWh) consumidos nas contas de luz, no próximo mês,  para todos os consumidores conectados ao Sistema In",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/bandeira-tarifaria-das-contas-de-luz-segue-amarela-em-julho",
-      "data": "26/06/2026",
-      "hora": "17:31",
-      "ts": 1782505860000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/divida-publica-sobe-266-em-maio-e-su",
-      "tag": "Economia",
-      "titulo": "Dívida Pública sobe 2,66% em maio e supera R$ 9 trilhões",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A emissão forte de títulos vinculados à Taxa Selic (juros básicos da economia), fez a Dívida Pública Federal (DPF) subir em maio e superar a barreira dos R$ 9 trilhões.  Segundo números divulgados nesta sexta-feira (26) pelo Tesouro Nacional, a DPF passou de R$ 8,798 trilhões em abril para R$ 9,033 ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/divida-publica-sobe-266-em-maio-e-supera-r-9-trilhoes",
-      "data": "26/06/2026",
-      "hora": "17:10",
-      "ts": 1782504600000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/paixao-pelo-futebol-expoe-populacao-",
-      "tag": "Economia",
-      "titulo": "Paixão pelo futebol expõe população à publicidade de bets, alerta Idec",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Na Copa do Mundo, a paixão pelo futebol pode se tornar uma poderosa ferramenta de manipulação a serviço das empresas de apostas  online , as chamadas  bets . O alerta é do Instituto de Defesa do Consumidor (Idec).    \n\n \n “Eventos esportivos de grande mobilização emocional tendem a ampliar significa",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/paixao-pelo-futebol-expoe-populacao-publicidade-de-bets-alerta-idec",
-      "data": "26/06/2026",
-      "hora": "16:07",
-      "ts": 1782500820000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "28/06/2026 às 16:00",
+  "atualizado": "29/06/2026 às 14:00",
   "total": 40
 }
