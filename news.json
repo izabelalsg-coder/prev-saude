@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/vacinacao-de-adolescentes-de-15-19-anos-co",
+      "tag": "Saúde",
+      "titulo": "Vacinação de adolescentes de 15 a 19 anos contra o HPV é prorrogada",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Ministério da Saúde prorrogou a vacinação de adolescentes de 15 a 19 anos contra o HPV até 31 de dezembro deste ano. A estratégia de resgate vacinal de jovens que não receberam a dose na idade recomendada seria encerrada este mês.    \n\n Em ofício, a pasta reforçou a importância do resgate vacinal ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/vacinacao-de-adolescentes-de-15-19-anos-contra-o-hpv-e-prorrogada",
+      "data": "30/06/2026",
+      "hora": "12:26",
+      "ts": 1782833160000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/pandemia-de-covid-e-transformacao-do-futur",
       "tag": "ANS",
       "titulo": "Pandemia de covid e transformação do futuro é tema de exposição no Rio",
@@ -106,18 +118,6 @@
       "data": "26/06/2026",
       "hora": "12:03",
       "ts": 1782486180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sarampo-saude-pede-reforco-de-vacinacao-de",
-      "tag": "Saúde",
-      "titulo": "Sarampo: Saúde pede reforço de vacinação de crianças em SP e Guarulhos",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Ministério da Saúde recomendou, nesta sexta-feira (26), a aplicação da chamada dose zero da vacina tríplice viral em crianças de 6 a 11 meses e 29 dias. O objetivo é reforçar a proteção contra o sarampo nessa faixa etária, considerada mais suscetível à infecção e a formas graves da doença.   \n\n  A",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/sarampo-saude-pede-reforco-de-vacinacao-de-criancas-em-sp-e-guarulhos",
-      "data": "26/06/2026",
-      "hora": "10:32",
-      "ts": 1782480720000,
       "favorito": false
     },
     {
@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/deficit-do-setor-publico-em-maio-foi",
+      "tag": "Economia",
+      "titulo": "Déficit do setor público em maio foi de R$ 56 bilhões, informa BC",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O setor público consolidado – União, estados, municípios e empresas estatais – teve déficit primário de R$ 56,1 bilhões em maio de 2026, valor maior que no mesmo mês do ano passado, quando foi de R$ 33,7 bilhões. Os valores constam no relatório Estatísticas Fiscais, divulgado nesta terça-feira (30) ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/deficit-do-setor-publico-em-maio-foi-de-r-56-bilhoes-informa-bc",
+      "data": "30/06/2026",
+      "hora": "12:25",
+      "ts": 1782833100000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/boulos-critica-lobbies-contra-o-fim-",
+      "tag": "Economia",
+      "titulo": "Boulos critica lobbies contra o fim da escala 6 por 1 e o Move Brasil",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O ministro da Secretaria-Geral da Presidência da República, Guilherme Boulos, criticou a atuação de grandes grupos econômicos em duas frentes:  no Senado, onde dificultam a tramitação da proposta que acaba com a  jornada 6 por 1 , e no sistema financeiro, com bancos criando obstáculos à implementaçã",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/boulos-critica-lobbies-contra-o-fim-da-escala-6-por-1-e-o-move-brasil",
+      "data": "30/06/2026",
+      "hora": "11:53",
+      "ts": 1782831180000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/receita-paga-nesta-terca-maior-lote-",
       "tag": "Economia",
       "titulo": "Receita paga nesta terça maior lote de restituição do IR da história",
@@ -334,30 +358,6 @@
       "data": "29/06/2026",
       "hora": "10:46",
       "ts": 1782740760000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-abre-credito-de-r-550-milhoe",
-      "tag": "Economia",
-      "titulo": "Governo abre crédito de R$ 550 milhões para subsidiar diesel",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O governo federal abriu crédito extraordinário de R$ 550 milhões para subsidiar a importação de  óleo diesel  de uso rodoviário.  A medida provisória publicada nesta segunda-feira (29) destina-se ao  Ministério de Minas e Energia , com execução pela  Agência Nacional do Petróleo, Gás Natural e Bioco",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-abre-credito-de-r-550-milhoes-para-subsidiar-diesel",
-      "data": "29/06/2026",
-      "hora": "08:20",
-      "ts": 1782732000000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-isenta-de-iss-empresas-ligad",
-      "tag": "Economia",
-      "titulo": "Governo isenta de ISS empresas ligadas à Copa do Mundo Feminina",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O governo federal publica nesta segunda-feira (29) lei complementar que isenta do Imposto sobre Serviços (ISS) atividades relacionadas à organização da  Copa do Mundo Feminina de Futebol .  O torneio ocorrerá no Brasil em 2027.   \n\n A norma cria uma base legal para que municípios e o Distrito Federa",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-isenta-de-iss-empresas-ligadas-copa-do-mundo-feminina",
-      "data": "29/06/2026",
-      "hora": "07:43",
-      "ts": 1782729780000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "30/06/2026 às 14:21",
+  "atualizado": "30/06/2026 às 16:00",
   "total": 40
 }
