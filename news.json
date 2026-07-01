@@ -241,9 +241,21 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-alivio-da-guerra-petrobras-reduz",
+      "tag": "Economia",
+      "titulo": "Com alívio da guerra, Petrobras reduz preço do querosene de aviação",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Petrobras anunciou nesta quarta-feira (1º) que reduziu o preço de venda do querosene de aviação (QAV) em 14,5% . O preço do combustível vendido às distribuidoras é reajustado sempre no início do mês, e a variação de julho é o segundo recuo seguido.     \n\n  A mudança representa diminuição de R$ 0,8",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-alivio-da-guerra-petrobras-reduz-preco-do-querosene-de-aviacao",
+      "data": "01/07/2026",
+      "hora": "11:19",
+      "ts": 1782915540000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/plano-safra-esta-voltado-transicao-e",
       "tag": "ANS",
-      "titulo": "Plano Safra está voltado à transição ecológica, diz ministra",
+      "titulo": "Plano Safra terá foco em transição ecológica, diz ministra",
       "fonte": "Agência Brasil / Economia",
       "resumo": "A ministra do Desenvolvimento Agrário, Fernanda Machiaveli, declarou que o Plano Safra para a agricultura familiar, além de ser o maior em crédito, com a oferta de R$ 85,2 bilhões, também é o melhor, por ter reduzido a taxa de juros.    \n\n “Agora conseguimos produzir alimentos com a taxa de 2%. Se f",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/plano-safra-esta-voltado-transicao-ecologica-diz-ministra",
@@ -346,18 +358,6 @@
       "data": "30/06/2026",
       "hora": "12:59",
       "ts": 1782835140000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/deficit-do-setor-publico-em-maio-foi",
-      "tag": "Economia",
-      "titulo": "Déficit do setor público em maio foi de R$ 56 bilhões, informa BC",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O setor público consolidado – União, estados, municípios e empresas estatais – teve déficit primário de R$ 56,1 bilhões em maio de 2026, valor maior que no mesmo mês do ano passado, quando foi de R$ 33,7 bilhões. Os valores constam no relatório Estatísticas Fiscais, divulgado nesta terça-feira (30) ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/deficit-do-setor-publico-em-maio-foi-de-r-56-bilhoes-informa-bc",
-      "data": "30/06/2026",
-      "hora": "12:25",
-      "ts": 1782833100000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "01/07/2026 às 14:00",
+  "atualizado": "01/07/2026 às 14:38",
   "total": 40
 }
