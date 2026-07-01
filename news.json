@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mais-de-30-rodovias-paulistas-serao-",
+      "tag": "Economia",
+      "titulo": "Mais de 30 rodovias paulistas têm pedágio reajustado nesta quarta",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As tarifas de pedágio serão reajustadas em mais de 30 rodovias administradas por concessionárias em São Paulo a partir desta quarta-feira (1º) .     \n\n  Segundo a Agência de Transporte do Estado de São Paulo (Artesp), o reajuste é com base na variação acumulada do Índice Nacional de Preços ao Consum",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mais-de-30-rodovias-paulistas-serao-reajustadas-partir-desta-quarta",
+      "data": "01/07/2026",
+      "hora": "12:52",
+      "ts": 1782921120000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-alivio-da-guerra-petrobras-reduz",
       "tag": "Economia",
       "titulo": "Com alívio da guerra, Petrobras reduz preço do querosene de aviação",
@@ -346,18 +358,6 @@
       "data": "30/06/2026",
       "hora": "16:16",
       "ts": 1782846960000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-federal-lanca-plano-safra-20",
-      "tag": "Economia",
-      "titulo": "Governo federal lança Plano Safra 2026/2027 de R$ 525,1 bilhões",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O governo federal lançou nesta terça-feira (30) o Plano Safra 2026/2027. Principal programa federal de estímulo ao setor agropecuário brasileiro, a  iniciativa vai destinar R$ 525,1 bilhões apenas para a agricultura empresarial durante o próximo ano agrícola .   \n\n Do total, R$ 384,9 bilhões estão r",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-06/governo-federal-lanca-plano-safra-20262027-de-r-5251-bilhoes",
-      "data": "30/06/2026",
-      "hora": "12:59",
-      "ts": 1782835140000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "01/07/2026 às 14:38",
+  "atualizado": "01/07/2026 às 16:00",
   "total": 40
 }
