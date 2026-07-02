@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/pesquisa-nacional-do-ibge-quer-saber-como-",
+      "tag": "Saúde",
+      "titulo": "IBGE e Ministério da Saúde lançam Pesquisa Nacional de Saúde 2026",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Instituto Brasileiro de Geografia e Estatística (IBGE) e o Ministério da Saúde lançaram nesta quinta-feira (2) a terceira edição da Pesquisa Nacional de Saúde (PNS) 2026.   \n\n  O estudo vai investigar, em mais de 140 mil domicílios, hábitos de vida, acesso e utilização de serviços de saúde, doença",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/pesquisa-nacional-do-ibge-quer-saber-como-anda-saude-do-brasileiro",
+      "data": "02/07/2026",
+      "hora": "12:55",
+      "ts": 1783007700000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/cientistas-da-fiocruz-podem-produzir-vacin",
       "tag": "Saúde",
       "titulo": "Cientistas da Fiocruz podem produzir vacina completa contra a malária",
@@ -106,18 +118,6 @@
       "data": "30/06/2026",
       "hora": "12:26",
       "ts": 1782833160000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/pandemia-de-covid-e-transformacao-do-futur",
-      "tag": "ANS",
-      "titulo": "Pandemia de covid e transformação do futuro é tema de exposição no Rio",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Centro Cultural do Ministério da Saúde (CCMS), localizado na Praça Marechal Âncora, 95, no Corredor Cultural do Rio de Janeiro, recebe a partir das 18h desta terça-feira (30) a exposição inédita Vida Reinventada - A Pandemia de Covid-19 e a Transformação do Futuro, cuja concepção é da ex-ministra ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/pandemia-de-covid-e-transformacao-do-futuro-e-tema-de-exposicao-no-rio",
-      "data": "30/06/2026",
-      "hora": "11:08",
-      "ts": 1782828480000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fenabrave-emplacamentos-crescem-1601",
+      "tag": "Economia",
+      "titulo": "Fenabrave: emplacamentos crescem 16,01% no primeiro semestre",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A venda de veículos novos, que engloba o emplacamento de automóveis, comerciais leves - picapes e furgões -, ônibus, caminhões, motos e implementos rodoviários como reboques e carrocerias  cresceu 16,01% no primeiro semestre do ano, com a comercialização de 2.715.403 unidades .   \n\n Considerando ape",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fenabrave-emplacamentos-crescem-1601-no-primeiro-semestre",
+      "data": "02/07/2026",
+      "hora": "12:16",
+      "ts": 1783005360000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/caze-tv-expoe-uma-lacuna-nas-regras-",
       "tag": "Economia",
       "titulo": "Cazé TV expõe lacuna nas regras da publicidade de bets no país",
@@ -346,18 +358,6 @@
       "data": "01/07/2026",
       "hora": "14:46",
       "ts": 1782927960000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mais-de-30-rodovias-paulistas-serao-",
-      "tag": "Economia",
-      "titulo": "Mais de 30 rodovias paulistas têm pedágio reajustado nesta quarta",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As tarifas de pedágio serão reajustadas em mais de 30 rodovias administradas por concessionárias em São Paulo a partir desta quarta-feira (1º) .     \n\n  Segundo a Agência de Transporte do Estado de São Paulo (Artesp), o reajuste é com base na variação acumulada do Índice Nacional de Preços ao Consum",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mais-de-30-rodovias-paulistas-serao-reajustadas-partir-desta-quarta",
-      "data": "01/07/2026",
-      "hora": "12:52",
-      "ts": 1782921120000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "02/07/2026 às 14:03",
+  "atualizado": "02/07/2026 às 16:00",
   "total": 40
 }
