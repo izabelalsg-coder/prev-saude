@@ -181,6 +181,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/publicacao-propoe-alternativas-para-",
+      "tag": "Economia",
+      "titulo": "Publicação propõe alternativas para exploração de terras raras no país",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Centro de Gestão e Estudos Estratégicos (CGEE) - organização social ligada ao Ministério de Ciência, Tecnologia e Inovação (MCTI), lançou nesta semana o livro  Terras Raras no Brasil: estado da arte, cenários e um mapa do caminho estratégico para 2026–2040 .    \n\n Assinada por dez engenheiros, pes",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/publicacao-propoe-alternativas-para-exploracao-de-terras-raras-no-pais",
+      "data": "04/07/2026",
+      "hora": "11:00",
+      "ts": 1783173600000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/ibovespa-volta-aos-174-mil-pontos-co",
       "tag": "Economia",
       "titulo": "Ibovespa volta aos 174 mil pontos com aposta na Selic, e dólar cai",
@@ -205,24 +217,24 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-pri",
-      "tag": "Economia",
-      "titulo": "Exportações aos EUA crescem pela primeira vez após tarifaço de Trump",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O valor das exportações brasileiras aos Estados Unidos cresceu 3,7% em junho de 2026, marcando a primeira alta desde julho de 2025, quando o governo do presidente Donald Trump impôs uma sobretaxa de 50% sobre produtos brasileiros.   \n\n Os dados foram divulgados nesta sexta-feira (3) pela Secretaria ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-primeira-vez-apos-tarifaco-de-trump",
-      "data": "03/07/2026",
-      "hora": "18:34",
-      "ts": 1783114440000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-el",
       "tag": "Economia",
       "titulo": "Projeção de superávit comercial é elevada para US$ 90 bilhões",
       "fonte": "Agência Brasil / Economia",
       "resumo": "O Ministério do Desenvolvimento, Indústria, Comércio e Serviços (Mdic) elevou de US$ 72,1 bilhões para US$ 90 bilhões a projeção de superávit da balança comercial brasileira em 2026.    \n\n  Se confirmada, a marca será a segunda maior da série histórica, atrás apenas do resultado registrado em 2023, ",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-elevada-para-us-90-bilhoes",
+      "data": "03/07/2026",
+      "hora": "18:34",
+      "ts": 1783114440000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-pri",
+      "tag": "Economia",
+      "titulo": "Exportações aos EUA crescem pela primeira vez após tarifaço de Trump",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O valor das exportações brasileiras aos Estados Unidos cresceu 3,7% em junho de 2026, marcando a primeira alta desde julho de 2025, quando o governo do presidente Donald Trump impôs uma sobretaxa de 50% sobre produtos brasileiros.   \n\n Os dados foram divulgados nesta sexta-feira (3) pela Secretaria ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-primeira-vez-apos-tarifaco-de-trump",
       "data": "03/07/2026",
       "hora": "18:34",
       "ts": 1783114440000,
@@ -289,18 +301,6 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/valores-democraticos-sao-essenciais-",
-      "tag": "Economia",
-      "titulo": "Valores democráticos são essenciais em acordos, diz chanceler alemão",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Aliar-se a outros governos norteados pela cultura democrática, confiáveis e previsíveis e manter certo nível de protecionismo econômico foram algumas das posições defendidas pelo ministro das Relações Exteriores da Alemanha, Johann Wadephul. Ele falou durante painel do AHK Business Breakfast, promov",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/valores-democraticos-sao-essenciais-em-acordos-diz-chanceler-alemao",
-      "data": "03/07/2026",
-      "hora": "08:36",
-      "ts": 1783078560000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/agencia-brasil-segue-regras-do-tse-d",
       "tag": "Política",
       "titulo": "Agência Brasil segue regras do TSE durante período de defeso eleitoral",
@@ -361,6 +361,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "04/07/2026 às 14:00",
+  "atualizado": "04/07/2026 às 16:00",
   "total": 30
 }
