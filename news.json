@@ -181,6 +181,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/china-cria-mecanismos-financeiros-na",
+      "tag": "Economia",
+      "titulo": "China cria mecanismos financeiros na África para não depender de dólar",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A China vem ampliando a infraestrutura financeira na África para não depender do dólar, o que permite comercializar bens e serviços por meio das moedas africanas e da chinesa, o yuan.     \n\n Apesar das mudanças, o uso yuan (ou renminbi) ainda é minoritário no continente e a chamada desdolarização se",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/china-cria-mecanismos-financeiros-na-africa-para-nao-depender-de-dolar",
+      "data": "05/07/2026",
+      "hora": "12:00",
+      "ts": 1783263600000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/publicacao-propoe-alternativas-para-",
       "tag": "Economia",
       "titulo": "Publicação propõe alternativas para exploração de terras raras no país",
@@ -217,24 +229,24 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-el",
-      "tag": "Economia",
-      "titulo": "Projeção de superávit comercial é elevada para US$ 90 bilhões",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Ministério do Desenvolvimento, Indústria, Comércio e Serviços (Mdic) elevou de US$ 72,1 bilhões para US$ 90 bilhões a projeção de superávit da balança comercial brasileira em 2026.    \n\n  Se confirmada, a marca será a segunda maior da série histórica, atrás apenas do resultado registrado em 2023, ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-elevada-para-us-90-bilhoes",
-      "data": "03/07/2026",
-      "hora": "18:34",
-      "ts": 1783114440000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-pri",
       "tag": "Economia",
       "titulo": "Exportações aos EUA crescem pela primeira vez após tarifaço de Trump",
       "fonte": "Agência Brasil / Economia",
       "resumo": "O valor das exportações brasileiras aos Estados Unidos cresceu 3,7% em junho de 2026, marcando a primeira alta desde julho de 2025, quando o governo do presidente Donald Trump impôs uma sobretaxa de 50% sobre produtos brasileiros.   \n\n Os dados foram divulgados nesta sexta-feira (3) pela Secretaria ",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-primeira-vez-apos-tarifaco-de-trump",
+      "data": "03/07/2026",
+      "hora": "18:34",
+      "ts": 1783114440000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-el",
+      "tag": "Economia",
+      "titulo": "Projeção de superávit comercial é elevada para US$ 90 bilhões",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Ministério do Desenvolvimento, Indústria, Comércio e Serviços (Mdic) elevou de US$ 72,1 bilhões para US$ 90 bilhões a projeção de superávit da balança comercial brasileira em 2026.    \n\n  Se confirmada, a marca será a segunda maior da série histórica, atrás apenas do resultado registrado em 2023, ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-elevada-para-us-90-bilhoes",
       "data": "03/07/2026",
       "hora": "18:34",
       "ts": 1783114440000,
@@ -286,18 +298,6 @@
       "data": "03/07/2026",
       "hora": "13:43",
       "ts": 1783096980000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/industria-brasileira-recua-02-em-mai",
-      "tag": "Economia",
-      "titulo": "Indústria brasileira recua 0,2% em maio; primeira queda desde 2025",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A produção da indústria brasileira recuou 0,2% na passagem de abril para maio. Esse é o primeiro resultado negativo desde dezembro de 2025, quando o setor apresentou queda de 1,9%.    \n\n Já  na comparação com maio do ano passado, a indústria teve expansão de 0,2%. No acumulado de 12 meses, o setor v",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/industria-brasileira-recua-02-em-maio-primeira-queda-desde-2025",
-      "data": "03/07/2026",
-      "hora": "10:02",
-      "ts": 1783083720000,
       "favorito": false
     },
     {
@@ -361,6 +361,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "05/07/2026 às 14:00",
+  "atualizado": "05/07/2026 às 16:00",
   "total": 30
 }
