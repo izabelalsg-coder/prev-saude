@@ -241,24 +241,24 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-pri",
-      "tag": "Economia",
-      "titulo": "Exportações aos EUA crescem pela primeira vez após tarifaço de Trump",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O valor das exportações brasileiras aos Estados Unidos cresceu 3,7% em junho de 2026, marcando a primeira alta desde julho de 2025, quando o governo do presidente Donald Trump impôs uma sobretaxa de 50% sobre produtos brasileiros.   \n\n Os dados foram divulgados nesta sexta-feira (3) pela Secretaria ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-primeira-vez-apos-tarifaco-de-trump",
-      "data": "03/07/2026",
-      "hora": "18:34",
-      "ts": 1783114440000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-el",
       "tag": "Economia",
       "titulo": "Projeção de superávit comercial é elevada para US$ 90 bilhões",
       "fonte": "Agência Brasil / Economia",
       "resumo": "O Ministério do Desenvolvimento, Indústria, Comércio e Serviços (Mdic) elevou de US$ 72,1 bilhões para US$ 90 bilhões a projeção de superávit da balança comercial brasileira em 2026.    \n\n  Se confirmada, a marca será a segunda maior da série histórica, atrás apenas do resultado registrado em 2023, ",
       "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-de-superavit-comercial-e-elevada-para-us-90-bilhoes",
+      "data": "03/07/2026",
+      "hora": "18:34",
+      "ts": 1783114440000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-pri",
+      "tag": "Economia",
+      "titulo": "Exportações aos EUA crescem pela primeira vez após tarifaço de Trump",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O valor das exportações brasileiras aos Estados Unidos cresceu 3,7% em junho de 2026, marcando a primeira alta desde julho de 2025, quando o governo do presidente Donald Trump impôs uma sobretaxa de 50% sobre produtos brasileiros.   \n\n Os dados foram divulgados nesta sexta-feira (3) pela Secretaria ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-aos-eua-crescem-pela-primeira-vez-apos-tarifaco-de-trump",
       "data": "03/07/2026",
       "hora": "18:34",
       "ts": 1783114440000,
@@ -361,6 +361,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "06/07/2026 às 15:35",
+  "atualizado": "06/07/2026 às 16:00",
   "total": 30
 }
