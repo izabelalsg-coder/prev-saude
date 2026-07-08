@@ -109,6 +109,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/por-ordem-de-moraes-pf-faz-busca-por-a",
+      "tag": "Justiça",
+      "titulo": "Por ordem de Moraes, PF faz busca por armas na casa de Bolsonaro",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A Polícia Federal (PF) realizou nesta quarta-feira (8) uma varredura na residência do ex-presidente Jair Bolsonaro em busca de armas, munições e documentos de registro, por ordem do ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF).       \n\n A medida foi determinada por Moraes após uma",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/por-ordem-de-moraes-pf-faz-busca-por-armas-na-casa-de-bolsonaro",
+      "data": "08/07/2026",
+      "hora": "10:59",
+      "ts": 1783519140000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/justica-proibe-plataforma-de-aposta-es",
       "tag": "Justiça",
       "titulo": "Justiça proíbe plataforma de aposta esportiva que operava no Rio",
@@ -121,12 +133,12 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/defesa-de-bolsonaro-esclarece-armas-na",
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/defesa-de-bolsonaro-entrega-esclarecim",
       "tag": "Justiça",
-      "titulo": "Defesa de Bolsonaro esclarece armas não encontradas pelo Exército",
+      "titulo": "Defesa de Bolsonaro entrega esclarecimento sobre armas não localizadas",
       "fonte": "Agência Brasil / Justiça",
       "resumo": "A defesa do ex-presidente Jair Bolsonaro enviou nesta terça-feira (7) ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), esclarecimentos sobre duas armas que não foram localizadas pelo Exército.    \n\n Ontem (6), o Batalhão de Polícia do Exército (BPE) informou ao STF que entregou à ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/defesa-de-bolsonaro-esclarece-armas-nao-encontradas-pelo-exercito",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/defesa-de-bolsonaro-entrega-esclarecimento-sobre-armas-nao-localizadas",
       "data": "07/07/2026",
       "hora": "17:30",
       "ts": 1783456200000,
@@ -214,18 +226,6 @@
       "data": "06/07/2026",
       "hora": "14:00",
       "ts": 1783357200000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-exercito-entregar-armas-r",
-      "tag": "Justiça",
-      "titulo": "Moraes manda Exército entregar armas registradas em nome de Bolsonaro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou nesta segunda-feira (6) que o comando do Exército entregue em até 48 horas à Polícia Federal todas as armas pertencentes ao ex-presidente Jair Bolsonaro.    \n\n  A ordem foi proferida após a defesa ter informado ao Supremo ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-exercito-entregar-armas-registradas-em-nome-de-bolsonaro",
-      "data": "06/07/2026",
-      "hora": "13:08",
-      "ts": 1783354080000,
       "favorito": false
     },
     {
@@ -469,6 +469,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "08/07/2026 às 14:01",
+  "atualizado": "08/07/2026 às 14:11",
   "total": 39
 }
