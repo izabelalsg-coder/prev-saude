@@ -229,6 +229,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/poupanca-saques-superam-depositos-em",
+      "tag": "Economia",
+      "titulo": "Poupança: saques superam depósitos em R$ 39,3 bilhões no semestre",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Nos primeiros seis meses de 2026, as retiradas das cadernetas superaram em mais de R$ 39,3 bilhões os depósitos da poupança, aponta o relatório do Banco Central divulgado nesta quarta-feira (8). Apenas no mês de junho, a retirada líquida foi de R$ 237,5 milhões.   \n\n Ao longo dos seis primeiros mese",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/poupanca-saques-superam-depositos-em-r393-bilhoes-no-semestre",
+      "data": "08/07/2026",
+      "hora": "11:27",
+      "ts": 1783520820000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-libera-consulta-lote-especia",
       "tag": "Economia",
       "titulo": "Receita libera consulta a lote especial de cashback do IR nesta quarta",
@@ -334,18 +346,6 @@
       "data": "06/07/2026",
       "hora": "16:26",
       "ts": 1783365960000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mercado-financeiro-reduz-projecao-da",
-      "tag": "Economia",
-      "titulo": "Mercado financeiro reduz projeção da inflação para 5,30%",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA) projetado pelo mercado financeiro para este ano foi reduzido para 5,30%, segundo o boletim Focus divulgado nesta segunda-feira (6) pelo Banco Central (BC).  Na última semana, a estimativa era de 5,33%.   \n\n O índice, que é referência oficial da ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mercado-financeiro-reduz-projecao-da-inflacao-para-530",
-      "data": "06/07/2026",
-      "hora": "09:59",
-      "ts": 1783342740000,
       "favorito": false
     },
     {
@@ -469,6 +469,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "08/07/2026 às 14:11",
+  "atualizado": "08/07/2026 às 16:00",
   "total": 39
 }
