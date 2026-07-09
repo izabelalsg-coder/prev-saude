@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/perder-folego-ao-subir-escada-pode-ser-sin",
+      "tag": "Saúde",
+      "titulo": "Perder fôlego ao subir escada pode ser sinal de insuficiência cardíaca",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Perder o fôlego ao subir uma escada pode não ser apenas falta de condicionamento físico. Nesta quinta-feira (09), a Sociedade Brasileira de Cardiologia (SBC) chama atenção para o Dia Nacional de Alerta contra a Insuficiência Cardíaca, doença que já afeta cerca de 1,7 milhão de brasileiros.    \n\n Os ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/perder-folego-ao-subir-escada-pode-ser-sinal-de-insuficiencia-cardiaca",
+      "data": "09/07/2026",
+      "hora": "10:12",
+      "ts": 1783602720000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/assembleia-do-ceara-sedia-simposio-sobre-c",
       "tag": "Saúde",
       "titulo": "Assembleia do Ceará sedia simpósio sobre cannabis medicinal",
@@ -106,18 +118,6 @@
       "data": "01/07/2026",
       "hora": "19:09",
       "ts": 1782943740000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/ministerio-da-saude-comeca-vacinar-crianca",
-      "tag": "Saúde",
-      "titulo": "Ministério da Saúde começa a vacinar crianças com a pneumo 20",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Ministério da Saúde iniciou neste sábado (20) a aplicação da vacina pneumocócica 20-valente (VPC20), conhecida como pneumo 20, em crianças menores de 5 anos.     \n\n O imunizante, disponibilizado pelo Sistema Único de Saúde (SUS), protege contra 20 sorotipos da bactéria  Streptococcus pneumoniae , ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-06/ministerio-da-saude-comeca-vacinar-criancas-com-pneumo-20",
-      "data": "20/06/2026",
-      "hora": "14:19",
-      "ts": 1781975940000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "09/07/2026 às 14:00",
+  "atualizado": "09/07/2026 às 15:12",
   "total": 40
 }
