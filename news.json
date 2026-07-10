@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/inss-fara-mutirao-de-pericia-medica-neste-",
+      "tag": "INSS",
+      "titulo": "INSS fará mutirão de perícia médica neste fim de semana",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Instituto Nacional do Seguro Social (INSS) realiza neste sábado (11) e domingo (12) um mutirão de perícia médica federal  em 47 localidades de 18 estados mais o Distrito Federal .   \n\n A meta é atender mais de 17,8 mil pessoas em diversas partes do país.  As vagas do atendimento extra serão preenc",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/inss-fara-mutirao-de-pericia-medica-neste-fim-de-semana",
+      "data": "10/07/2026",
+      "hora": "12:51",
+      "ts": 1783698660000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/dia-da-saude-ocular-chama-atencao-para-doe",
       "tag": "Saúde",
       "titulo": "Dia da Saúde Ocular chama atenção para doenças que afetam a visão",
@@ -106,18 +118,6 @@
       "data": "07/07/2026",
       "hora": "16:08",
       "ts": 1783451280000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/vacina-contra-vsr-em-idosos-reduz-internac",
-      "tag": "Saúde",
-      "titulo": "Vacina contra VSR em idosos reduz internações em 75%",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O estudo que analisou dados de mais de 2,5 milhões de pessoas concluiu que a vacinação contra o vírus sincicial respiratório (VSR) em idosos esteve associada a uma redução de 75,6% das hospitalizações pela doença.    \n\n Além disso, os  pacientes vacinados que precisaram ser internados após a infecçã",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/vacina-contra-vsr-em-idosos-reduz-internacoes-em-75",
-      "data": "02/07/2026",
-      "hora": "18:46",
-      "ts": 1783028760000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cni-pede-negociacao-para-evita-tarif",
+      "tag": "Economia",
+      "titulo": "CNI pede negociação para evitar tarifas dos EUA",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Em carta conjunta, a Confederação Nacional da Indústria (CNI), a Amcham e o U.S. Chamber pedem para autoridades defenderem a relação comercial estratégica entre os países e propor uma agenda de negociação estruturada em duas etapas, com foco em evitar a aplicação de tarifas adicionais na exportação ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cni-pede-negociacao-para-evita-tarifas-dos-eua",
+      "data": "10/07/2026",
+      "hora": "12:41",
+      "ts": 1783698060000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/inflacao-usada-para-corrigir-salario",
       "tag": "Economia",
       "titulo": "Inflação usada para corrigir salários acumula 4,33% em 12 meses",
@@ -346,18 +358,6 @@
       "data": "09/07/2026",
       "hora": "12:58",
       "ts": 1783612680000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/inscricoes-para-selecao-do-ibge-term",
-      "tag": "Economia",
-      "titulo": "Inscrições para seleção do IBGE terminam nesta quinta-feira às 14h",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As inscrições para o processo seletivo simplificado do Instituto Brasileiro de Geografia e Estatística (IBGE), que vai contratar profissionais temporários para atuar no 12º Censo Agropecuário, Florestal e Aquícola, terminam às 14h desta quinta-feira (9), no horário de Brasília.   \n\n  Conforme a  ret",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/inscricoes-para-selecao-do-ibge-terminam-nesta-quinta-feira-14h",
-      "data": "09/07/2026",
-      "hora": "10:54",
-      "ts": 1783605240000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "10/07/2026 às 14:28",
+  "atualizado": "10/07/2026 às 16:00",
   "total": 40
 }
