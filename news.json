@@ -121,6 +121,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-soltar-ex-prefeito-de-bel",
+      "tag": "Justiça",
+      "titulo": "Moraes manda soltar ex-prefeito de Belford Roxo, após prisão com fuzil",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou a soltura do ex-prefeito de Belford Roxo Márcio Canella (União Brasil), preso em flagrante durante uma operação da Polícia Federal (PF) no Rio de Janeiro.  A decisão foi emitida na noite de sexta-feira (10), e a saída do p",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-soltar-ex-prefeito-de-belford-roxo-apos-prisao-com-fuzil",
+      "data": "11/07/2026",
+      "hora": "12:27",
+      "ts": 1783783620000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/confira-principais-datas-do-calendario",
+      "tag": "Justiça",
+      "titulo": "Confira as principais datas do calendário eleitoral",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O primeiro turno das eleições gerais está marcado para o dia 4 de outubro. Faltando menos de três meses para o pleito, eleitores e candidatos devem observar diversas regras previstas na Lei 9.504 de 1997, conhecida como  Lei das Eleições , e nas resoluções aprovadas pelo Tribunal Superior Eleitoral ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/confira-principais-datas-do-calendario-eleitoral",
+      "data": "10/07/2026",
+      "hora": "20:56",
+      "ts": 1783727760000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ebc-entra-com-acao-para-dar-seguranca-",
       "tag": "Justiça",
       "titulo": "EBC entra com ação para dar segurança jurídica à comunicação pública",
@@ -214,30 +238,6 @@
       "data": "09/07/2026",
       "hora": "08:28",
       "ts": 1783596480000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/justica-decide-manter-prisao-do-ex-pre",
-      "tag": "Justiça",
-      "titulo": "Justiça decide manter prisão do ex-prefeito de Belford Roxo",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ex-prefeito Márcio Canella, preso nesta terça-feira (7) pela Polícia Federal, na 6ª fase da Operação Unha e Carne, passou nesta quarta-feira (8) por audiência de custódia e vai permanecer preso à disposição da Justiça Federal.    \n\n Canella já foi transferido para a Cadeia Pública Pedrolino Werlin",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/justica-decide-manter-prisao-do-ex-prefeito-de-belford-roxo",
-      "data": "08/07/2026",
-      "hora": "21:11",
-      "ts": 1783555860000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/fachin-diz-que-soberania-do-brasil-dev",
-      "tag": "Justiça",
-      "titulo": "Fachin diz que soberania do Brasil deve prevalecer diante dos EUA",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, comentou nesta quarta-feira (8) as preocupações do governo brasileiro com a possibilidade de ações militares dos Estados Unidos após o reconhecimento das facções Comando Vermelho (CV) e Primeiro Comando da Capital (PCC) como  org",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/fachin-diz-que-soberania-do-brasil-deve-prevalecer-diante-dos-eua",
-      "data": "08/07/2026",
-      "hora": "15:59",
-      "ts": 1783537140000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "11/07/2026 às 14:00",
+  "atualizado": "11/07/2026 às 16:00",
   "total": 40
 }
