@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tv-brasil-estreia-documentario-manua",
+      "tag": "Economia",
+      "titulo": "TV Brasil estreia documentário Manual Básico da Educação Financeira",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O documentário independente  Manual Básico da Educação Financeira  estreia na programação da  TV Brasil  neste domingo (12), às 19h30. O filme será reexibido às 2h de segunda (13).   \n\n O conteúdo inédito mergulha nas complexidades econômicas do país ao abordar temas como o endividamento das família",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tv-brasil-estreia-documentario-manual-basico-da-educacao-financeira",
+      "data": "12/07/2026",
+      "hora": "11:24",
+      "ts": 1783866240000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/Novas-regras-proibem-publicidade-de-",
       "tag": "Economia",
       "titulo": "Novas regras proíbem publicidade de bets com promessa de ganho fácil",
@@ -346,18 +358,6 @@
       "data": "09/07/2026",
       "hora": "19:45",
       "ts": 1783637100000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/operacao-apura-fraudes-em-beneficios",
-      "tag": "INSS",
-      "titulo": "Operação apura fraudes em benefícios do INSS para indígenas na Bahia",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Polícia Federal (PF) deflagrou nesta quinta-feira (9) uma operação contra fraudes previdenciárias na Bahia. A ação, realizada em conjunto com a Controladoria-Geral da União (CGU), visa combater um esquema de fraudes na concessão de benefícios previdenciários para segurados especiais indígenas.    ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/operacao-apura-fraudes-em-beneficios-do-inss-para-indigenas-na-bahia",
-      "data": "09/07/2026",
-      "hora": "18:09",
-      "ts": 1783631340000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "12/07/2026 às 14:00",
+  "atualizado": "12/07/2026 às 16:00",
   "total": 40
 }
