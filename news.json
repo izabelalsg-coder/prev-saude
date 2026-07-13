@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/boletim-focus-mercado-reduz-para-516",
+      "tag": "Economia",
+      "titulo": "Boletim Focus: mercado reduz expectativa de inflação para 5,16%",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Pela segunda semana consecutiva, o mercado financeiro reduz a expectativa de inflação no Brasil em 2026. Segundo o boletim Focus, divulgado nesta segunda-feira pelo Banco Central, o Índice Nacional de Preços ao Consumidor Amplo (IPCA) projetado para o ano caiu para 5,16%.    \n\n Na semana passada, o ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/boletim-focus-mercado-reduz-para-516-expectativa-de-inflacao",
+      "data": "13/07/2026",
+      "hora": "11:07",
+      "ts": 1783951620000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidade-do-rio-proibe-publicidade-de-",
       "tag": "Economia",
       "titulo": "Cidade do Rio proíbe publicidade de bets em espaços públicos",
@@ -346,18 +358,6 @@
       "data": "10/07/2026",
       "hora": "10:08",
       "ts": 1783688880000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/imposto-de-12-sobre-exportacao-de-pe",
-      "tag": "Economia",
-      "titulo": "Imposto de 12% sobre exportação de petróleo é estendido por 60 dias",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Por mais dois meses, as exportações de petróleo bruto e minerais betuminosos (rochas e substâncias ricas em hidrocarbonetos) continuarão a ser tributadas. O Comitê Executivo de Gestão da Câmara de Comércio Exterior (Gecex-Camex) decidiu, nesta quinta-feira (9), manter em 12% a alíquota do Imposto de",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/imposto-de-12-sobre-exportacao-de-petroleo-e-estendido-por-60-dias",
-      "data": "09/07/2026",
-      "hora": "20:09",
-      "ts": 1783638540000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "13/07/2026 às 14:00",
+  "atualizado": "13/07/2026 às 14:36",
   "total": 40
 }
