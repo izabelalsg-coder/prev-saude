@@ -1,6 +1,54 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fatores-sociais-e-estruturais-empurram-mul",
+      "tag": "Saúde",
+      "titulo": "Fatores sociais e estruturais empurram mulheres para cesarianas",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O que leva tantas gestantes brasileiras a terem seus filhos por cesariana ao invés do parto normal? De acordo com pesquisa divulgada nesta segunda-feira (13) pelo Fundo das Nações Unidas para a Infância (Unicef),  não é uma escolha individual isolada, mas uma consequência de fatores psicológicos, so",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fatores-sociais-e-estruturais-empurram-mulheres-para-cesarea",
+      "data": "13/07/2026",
+      "hora": "07:10",
+      "ts": 1783937400000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/revalida-20261-divulgado-resultado-final-d",
+      "tag": "Saúde",
+      "titulo": "Revalida 2026/1: divulgado resultado final da primeira etapa do exame",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Os participantes da primeira etapa do Exame Nacional de Revalidação de Diplomas Médicos Expedidos por Instituição de Educação Superior Estrangeira (Revalida) 2026/1 já podem consultar o resultado definitivo da análise da documentação comprobatória de conclusão de curso.   \n\n A divulgação do Institut",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/revalida-20261-divulgado-resultado-final-da-primeira-etapa-do-exame",
+      "data": "12/07/2026",
+      "hora": "17:36",
+      "ts": 1783888560000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/vivencias-de-brasileiros-na-pandemia-sao-t",
+      "tag": "Saúde",
+      "titulo": "Vivências de brasileiros na pandemia são tema de mostra em São Paulo",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Depois de passar por Brasília, a exposição itinerante  A Infinita Memória da Pandemia: a História da Covid-19 por Todos Nós, Brasileiros  desembarcou em São Paulo. Concebida para ampliar o acesso do público ao  acervo Memorial Digital da Pandemia de Covid-19 , a mostra ficará em cartaz até o dia 9 d",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/vivencias-de-brasileiros-na-pandemia-sao-tema-de-mostra-em-sao-paulo",
+      "data": "12/07/2026",
+      "hora": "15:02",
+      "ts": 1783879320000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/ibge-inicia-coleta-da-pesquisa-nacional-de",
+      "tag": "Saúde",
+      "titulo": "IBGE inicia coleta da Pesquisa Nacional de Saúde 2026",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Instituto Brasileiro de Geografia e Estatística (IBGE) iniciou, na última semana, a coleta da terceira edição da Pesquisa Nacional de Saúde (PNS 2026), realizada em parceria com o Ministério da Saúde.   \n\n A PNS é realizada por amostragem.  Até 30 de novembro, cerca de 1,8 mil entrevistadores visi",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/ibge-inicia-coleta-da-pesquisa-nacional-de-saude-2026",
+      "data": "12/07/2026",
+      "hora": "13:23",
+      "ts": 1783873380000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/inverno-pode-trazer-gatilhos-para-crises-d",
       "tag": "Saúde",
       "titulo": "Inverno pode trazer gatilhos para crises de asma e requer cuidados",
@@ -73,51 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fiocruz-aponta-queda-da-sindrome-respirato",
-      "tag": "Saúde",
-      "titulo": "Fiocruz aponta queda da Síndrome Respiratória Aguda Grave no país",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Os casos de Síndrome Respiratória Aguda Grave (SRAG) seguem em tendência de queda, mas nove capitais ainda registram crescimento da doença, segundo o boletim InfoGripe, da Fundação Oswaldo Cruz (Fiocruz), divulgado nesta quinta-feira (9).    \n\n  A Influenza B mantém aumento em estados da Região Cent",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fiocruz-aponta-queda-da-sindrome-respiratoria-aguda-grave-no-pais",
-      "data": "09/07/2026",
-      "hora": "18:06",
-      "ts": 1783631160000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/perder-folego-ao-subir-escada-pode-ser-sin",
-      "tag": "Saúde",
-      "titulo": "Perder fôlego ao subir escada pode ser sinal de insuficiência cardíaca",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Perder o fôlego ao subir uma escada pode não ser apenas falta de condicionamento físico. Nesta quinta-feira (09), a Sociedade Brasileira de Cardiologia (SBC) chama atenção para o Dia Nacional de Alerta contra a Insuficiência Cardíaca, doença que já afeta cerca de 1,7 milhão de brasileiros.    \n\n Os ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/perder-folego-ao-subir-escada-pode-ser-sinal-de-insuficiencia-cardiaca",
-      "data": "09/07/2026",
-      "hora": "10:12",
-      "ts": 1783602720000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/assembleia-do-ceara-sedia-simposio-sobre-c",
-      "tag": "Saúde",
-      "titulo": "Assembleia do Ceará sedia simpósio sobre cannabis medicinal",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Especialistas, pesquisadores, representantes do governo e de entidades de classe participam a partir desta quinta-feira (9) do 2º Simpósio Cearense de Cannabis Medicinal, na Assembleia Legislativa do Ceará (Alece), em Fortaleza. Para participar do evento de dois dias, era preciso obter  um ingresso ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/assembleia-do-ceara-sedia-simposio-sobre-cannabis-medicinal",
-      "data": "09/07/2026",
-      "hora": "07:28",
-      "ts": 1783592880000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/alunas-vencem-competicao-internacional-com",
-      "tag": "Saúde",
-      "titulo": "Alunas vencem concurso internacional com projeto sobre câncer de mama",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Equipe brasileira formada por alunas do 8º e 9º ano do Colégio Ser, de Jundiaí, no interior paulista, conquistou o primeiro lugar no ISS Journey, programa internacional que desafia estudantes a desenvolverem experimentos científicos para serem realizados em condições de microgravidade.     \n\n Nesta ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/alunas-vencem-competicao-internacional-com-projeto-de-cancer-de-mama",
-      "data": "08/07/2026",
-      "hora": "17:14",
-      "ts": 1783541640000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/stf-bloqueia-r-6-mi-de-eduardo-cunha-p",
+      "tag": "STF",
+      "titulo": "STF bloqueia R$ 6 milhões de Eduardo Cunha por indicação de emendas",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro do Supremo Tribunal Federal (STF) Flávio Dino determinou, no último dia 6 de julho, o bloqueio de R$ R$ 6.150.378 do ex-deputado federal e ex-presidente da Câmara dos Deputados Eduardo Cunha (Republicanos-MG).   \n\n  A decisão foi motivada por suspeita de direcionamento de pelo menos 21 em",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/stf-bloqueia-r-6-mi-de-eduardo-cunha-por-indicacao-de-emendas",
+      "data": "12/07/2026",
+      "hora": "17:50",
+      "ts": 1783889400000,
       "favorito": false
     },
     {
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ex-prefeito-de-belford-roxo-permanecer",
-      "tag": "Justiça",
-      "titulo": "Ex-prefeito de Belford Roxo permanecerá preso à disposição da Justiça",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ex-prefeito de Belford Roxo, na Baixada Fluminense, Márcio Canella, preso terça-feira (7) pela Polícia Federal (PF), na 6ª fase da Operação Unha e Carne, passou por audiência de custódia e vai permanecer preso à disposição da Justiça.   \n\n  Canella foi transferido para a Cadeia Pública Pedrolino W",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ex-prefeito-de-belford-roxo-permanecera-preso-disposicao-da-justica",
-      "data": "09/07/2026",
-      "hora": "08:28",
-      "ts": 1783596480000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidade-do-rio-proibe-publicidade-de-",
+      "tag": "Economia",
+      "titulo": "Cidade do Rio proíbe publicidade de bets em espaços públicos",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Um decreto publicado nesta segunda-feira (13) pela prefeitura do Rio de Janeiro proíbe a veiculação de publicidade de plataformas de apostas, as chamadas  bets , em espaços públicos da cidade.  A proibição atinge locais onde há publicidade exterior, mobiliário urbano e demais locais cuja exploração ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cidade-do-rio-proibe-publicidade-de-bets-em-espacos-publicos",
+      "data": "13/07/2026",
+      "hora": "09:27",
+      "ts": 1783945620000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "09/07/2026",
       "hora": "20:09",
       "ts": 1783638540000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-ao-menor-nivel-em-tres-sem",
-      "tag": "Economia",
-      "titulo": "Dólar cai ao menor nível em três semanas; bolsa sobe 1,22%",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Apesar da continuidade das tensões entre Estados Unidos e Irá, o dólar fechou em queda nesta quinta-feira (9) e atingiu o menor valor em três semanas. A bolsa de valores voltou a subir, e o petróleo recuou mais de 2% no mercado internacional.   \n\n Os três mercados refletiram a melhora do apetite glo",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-ao-menor-nivel-em-tres-semanas-bolsa-sobe-122",
-      "data": "09/07/2026",
-      "hora": "19:45",
-      "ts": 1783637100000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "12/07/2026 às 16:00",
+  "atualizado": "13/07/2026 às 14:00",
   "total": 40
 }
