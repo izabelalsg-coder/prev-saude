@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/estudo-alerta-para-avanco-de-bacteria-em-c",
+      "tag": "Saúde",
+      "titulo": "Estudo alerta para avanço de bactéria em criações de peixes",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Um  estudo publicado na revista científica   Microbial Pathogenesis  identificou pela primeira vez no Brasil a presença de diferentes espécies de bactérias do gênero Flavobacterium em peixes cultivados para consumo humano.   \n\n A bactéria causa uma doença considerada grave chamada columnariose, que ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/estudo-alerta-para-avanco-de-bacteria-em-criacoes-de-peixes",
+      "data": "14/07/2026",
+      "hora": "11:47",
+      "ts": 1784040420000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/gripe-anvisa-aprova-nova-vacina-com-73-de-",
       "tag": "Anvisa",
       "titulo": "Gripe: Anvisa aprova nova vacina com 73% de eficácia",
@@ -106,18 +118,6 @@
       "data": "10/07/2026",
       "hora": "19:22",
       "ts": 1783722120000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/radio-nacional-estreia-programa-bem-viver-",
-      "tag": "Saúde",
-      "titulo": "Rádio Nacional estreia programa Bem-Viver Amazônia neste sábado",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A  Rádio Nacional da Amazônia , emissora da  Empresa Brasil de Comunicação (EBC) , estreia neste sábado (11) o programa  Bem-Viver Amazônia . A atração é a primeira produção do rádio brasileiro voltada exclusivamente à saúde da população da região amazônica e vai ao ar semanalmente, às 9h, no horári",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/radio-nacional-estreia-programa-bem-viver-amazonia-neste-sabado",
-      "data": "10/07/2026",
-      "hora": "13:08",
-      "ts": 1783699680000,
       "favorito": false
     },
     {
@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/safra-de-graos-deve-alcancar-360-mil",
+      "tag": "Economia",
+      "titulo": "Safra de grãos deve alcançar 360,1 milhões de toneladas, estima Conab",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A  Companhia Nacional de Abastecimento (Conab)  ajustou a estimativa para a safra de grãos 2025/26. No levantamento divulgado nesta terça-feira (14), o 10º do atual ciclo de produção agrícola, a estatal projeta produção de 360,1 milhões de toneladas. O volume é 0,4% superior à expectativa que a comp",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/safra-de-graos-deve-alcancar-360-milhoes-de-toneladas-estima-conab",
+      "data": "14/07/2026",
+      "hora": "12:02",
+      "ts": 1784041320000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/conselho-eleva-de-30-para-32-teor-de",
+      "tag": "Economia",
+      "titulo": "Conselho eleva de 30% para 32% teor de etanol na gasolina por 180 dias",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O  Conselho Nacional de Política Energética (CNPE)  aprovou, nesta terça-feira (14), o aumento temporário de 30% para 32% no teor obrigatório de etanol anidro misturado à gasolina.  Válida por 180 dias, com possibilidade de prorrogação, a medida visa a reduzir a dependência brasileira de combustívei",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/conselho-eleva-de-30-para-32-teor-de-etanol-na-gasolina-por-180-dias",
+      "data": "14/07/2026",
+      "hora": "11:06",
+      "ts": 1784037960000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/lote-especial-de-restituicao-do-irpf",
       "tag": "Economia",
       "titulo": "Lote especial de restituição do IRPF começa a ser pago nesta quarta",
@@ -334,30 +358,6 @@
       "data": "11/07/2026",
       "hora": "10:10",
       "ts": 1783775400000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/bolsa-sobe-quase-3-e-fecha-no-maior-",
-      "tag": "Economia",
-      "titulo": "Bolsa sobe quase 3% e fecha no maior nível desde maio",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Beneficiado pelo exterior e pela inflação mais baixa que o esperado no Brasil, o mercado financeiro brasileiro encerrou a sexta-feira (10) em tom positivo.  A bolsa avançou quase 3% e atingiu o maior nível desde maio. O dólar caiu pela terceira sessão consecutiva e voltou a fechar na faixa de R$ 5,1",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/bolsa-sobe-quase-3-e-fecha-no-maior-nivel-desde-maio",
-      "data": "10/07/2026",
-      "hora": "19:51",
-      "ts": 1783723860000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/juros-do-fies-empreendedor-incidirao",
-      "tag": "Economia",
-      "titulo": "Juros do Fies Empreendedor incidirão durante período de carência",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os tomadores de crédito do Fies Empreendedor, voltado a estudantes e ex-estudantes adimplentes do Fundo de Financiamento Estudantil (Fies), pagarão juros referentes ao período de carência. Em reunião extraordinária nesta sexta-feira (10), o Conselho Monetário Nacional (CMN) aprovou uma mudança na re",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/juros-do-fies-empreendedor-incidirao-durante-periodo-de-carencia",
-      "data": "10/07/2026",
-      "hora": "19:31",
-      "ts": 1783722660000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "14/07/2026 às 14:00",
+  "atualizado": "14/07/2026 às 16:00",
   "total": 40
 }
