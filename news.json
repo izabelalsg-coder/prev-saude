@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/unicef-13%2C5-milhoes-de-criancas-nao-rece",
+      "tag": "Saúde",
+      "titulo": "Unicef: 13,5 milhões de crianças não recebem vacina no 1° ano de vida",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A  cobertura vacinal  completa para a primeira infância apresenta realidade distante para 15% dos bebês em todo o mundo, segundo  dados governamentais  compilados pelo Fundo das Nações Unidas para Infância (Unicef) e divulgados nesta quarta-feira (15).     \n\n Em 2025, ao todo, 13,5 milhões de crianç",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/unicef-13%2C5-milhoes-de-criancas-nao-recebem-vacina-no-1-ano-de-vida",
+      "data": "15/07/2026",
+      "hora": "11:05",
+      "ts": 1784124300000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/ingestao-de-agua-e-importante-no-inverno-p",
       "tag": "Saúde",
       "titulo": "Ingestão de água é importante no inverno para evitar doença dos rins",
@@ -109,15 +121,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/inverno-pode-trazer-gatilhos-para-crises-d",
-      "tag": "Saúde",
-      "titulo": "Inverno pode trazer gatilhos para crises de asma e requer cuidados",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Janelas fechadas para se proteger do frio, viroses em alta e o contato com cobertores e casacos guardados são alguns dos gatilhos que podem complicar a vida das pessoas com asma no inverno, principalmente crianças e adolescentes. Para prevenir crises e o agravamento do quadro, especialistas recomend",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/inverno-pode-trazer-gatilhos-para-crises-de-asma-e-requer-cuidados",
-      "data": "11/07/2026",
-      "hora": "13:34",
-      "ts": 1783787640000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/dino-intima-partidos-explicar-controle",
+      "tag": "Justiça",
+      "titulo": "Dino intima partidos a explicar controle de emendas parlamentares",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF),  determinou que os presidentes de todos os partidos com representação no Congresso Nacional expliquem, em até dez dias úteis, se interferem na destinação de emendas parlamentares .   \n\n Proferida nesta quarta-feira (15), a intimação foi moti",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/dino-intima-partidos-explicar-controle-de-emendas-parlamentares",
+      "data": "15/07/2026",
+      "hora": "12:49",
+      "ts": 1784130540000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/comite-faz-operacao-em-sao-paulo-contr",
+      "tag": "Justiça",
+      "titulo": "Comitê faz operação em São Paulo contra fraude no ICMS",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Cira/SP, Comitê Interinstitucional de Recuperação de Ativos, faz nesta quarta-feira (15) a Operação Distrato, para investigar com um esquema de comercialização de créditos de ICMS falsos. Segundo as investigações, empresas – 752 delas - usavam esses créditos para reduzir o pagamento de imposto par",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/comite-faz-operacao-em-sao-paulo-contra-fraude-no-icms",
+      "data": "15/07/2026",
+      "hora": "11:19",
+      "ts": 1784125140000,
       "favorito": false
     },
     {
@@ -217,27 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dino-da-30-dias-para-congresso-explic",
-      "tag": "Justiça",
-      "titulo": "Dino dá 30 dias para Congresso explicar destinação de emendas",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Em decisão publicada nesta terça-feira (14), o ministro Flávio Dino, do Supremo Tribunal Federal (STF), criticou o que chamou de “terceirização de emendas” e deu prazo de 30 dias para que o Congresso explique irregularidades na destinação de recursos do orçamento federal.     \n\n A nova decisão surge",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dino-da-30-dias-para-congresso-explicar-destinacao-de-emendas",
-      "data": "14/07/2026",
-      "hora": "15:58",
-      "ts": 1784055480000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/belo-horizonte-proibe-publicidade-de",
+      "tag": "Economia",
+      "titulo": "Belo Horizonte proíbe publicidade de bets em espaços públicos",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A cidade de Belo Horizonte também decidiu proibir a publicidade de plataformas de apostas de quota fixa, as chamadas  bets , em espaços públicos. A proibição foi publicada no  Diário Oficial do Município  nesta terça-feira (14), um dia depois de o Rio de Janeiro editar um decreto semelhante.    \n\n S",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/belo-horizonte-proibe-publicidade-de-bets-em-espacos-publicos",
+      "data": "15/07/2026",
+      "hora": "12:31",
+      "ts": 1784129460000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tse-sugere-selo-para-premiar-instituto",
-      "tag": "Justiça",
-      "titulo": "TSE sugere selo para premiar institutos de pesquisas eleitorais",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Nunes Marques, sugeriu nesta terça-feira (14) a criação de um selo para premiar os institutos de pesquisa que mais acertarem o resultado das eleições de outubro.     \n\n A proposta foi feita durante reunião com representantes dos institutos ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tse-sugere-selo-para-premiar-institutos-de-pesquisas-eleitorais",
-      "data": "14/07/2026",
-      "hora": "15:09",
-      "ts": 1784052540000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/setor-de-servicos-cai-04-em-maio-por",
+      "tag": "ANS",
+      "titulo": "Setor de serviços cai 0,4% em maio por recuo na área de transportes",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O setor de serviços, que reúne atividades como turismo, restaurantes, salão de beleza, internet e tecnologia da informação (TI), recuou 0,4% em maio, puxado pelo desempenho negativo dos transportes.    \n\n Segundo a Secretaria da Política Econômica (SPE) do Ministério da Fazenda, o resultado veio aba",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/setor-de-servicos-cai-04-em-maio-por-recuo-no-setor-de-transportes",
+      "data": "15/07/2026",
+      "hora": "11:00",
+      "ts": 1784124000000,
       "favorito": false
     },
     {
@@ -334,30 +358,6 @@
       "data": "14/07/2026",
       "hora": "17:39",
       "ts": 1784061540000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cnpe-reconhece-interesse-publico-em-",
-      "tag": "Economia",
-      "titulo": "CNPE reconhece interesse público em suspensão das dívidas de Angra 3",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Conselho Nacional de Política Energética (CNPE) aprovou nesta terça-feira (14) uma resolução que reconhece como de interesse público a suspensão dos pagamentos das dívidas da Usina Termonuclear Angra 3.   \n\n O reconhecimento do conselho foi motivado por um pedido que a Eletronuclear fez para que s",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/cnpe-reconhece-interesse-publico-em-suspensao-das-dividas-de-angra-3",
-      "data": "14/07/2026",
-      "hora": "17:02",
-      "ts": 1784059320000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mei-garante-aposentadoria-e-outros-b",
-      "tag": "INSS",
-      "titulo": "MEI garante aposentadoria e outros benefícios do INSS; veja quais",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Abrir um Microempreendedor Individual (MEI) não significa apenas formalizar um negócio. Ao pagar mensalmente a contribuição do Documento de Arrecadação do Simples Nacional (DAS), o empreendedor também passa a ter direito à cobertura da Previdência Social.    \n\n Ele pode receber benefícios do Institu",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mei-garante-aposentadoria-e-outros-beneficios-do-inss-veja-quais",
-      "data": "14/07/2026",
-      "hora": "16:46",
-      "ts": 1784058360000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "15/07/2026 às 14:00",
+  "atualizado": "15/07/2026 às 16:00",
   "total": 40
 }
