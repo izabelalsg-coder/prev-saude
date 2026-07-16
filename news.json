@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-assume-presidencia-do-stf-parti",
+      "tag": "STF",
+      "titulo": "Moraes assume presidência temporária do STF a partir desta sexta-feira",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes assumirá, a partir desta sexta-feira (17), a presidência temporária do Supremo Tribunal Federal (STF). Desde o dia 2 de julho, no início do recesso da Corte, o cargo estava sendo ocupado pelo ministro Edson Fachin.   \n\n  O regime de plantão seguirá até o dia 31 de julh",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-assume-presidencia-do-stf-partir-desta-sexta-feira",
+      "data": "16/07/2026",
+      "hora": "12:17",
+      "ts": 1784215020000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/justica-articula-acoes-contra-crime-or",
       "tag": "Justiça",
       "titulo": "Justiça articula ações contra crime organizado em combustíveis",
@@ -226,18 +238,6 @@
       "data": "14/07/2026",
       "hora": "20:49",
       "ts": 1784072940000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/oab-pede-que-stf-autorize-comunicacao-",
-      "tag": "STF",
-      "titulo": "OAB pede que STF autorize comunicação entre Flávio e Jair Bolsonaro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Conselho Federal da Ordem dos Advogados do Brasil protocolou um ofício ao ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes pedindo que seja assegurada a comunicação entre o senador Flávio Bolsonaro (PL-RJ) e o ex-presidente Jair Bolsonaro, que cumpre prisão domiciliar.     \n\n O pedid",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/oab-pede-que-stf-autorize-comunicacao-entre-flavio-e-jair-bolsonaro",
-      "data": "14/07/2026",
-      "hora": "20:27",
-      "ts": 1784071620000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "16/07/2026 às 14:00",
+  "atualizado": "16/07/2026 às 16:00",
   "total": 40
 }
