@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-marca-para-28-de-julho-depoimen",
+      "tag": "Justiça",
+      "titulo": "Moraes marca para 28 de julho depoimento de Flávio Bolsonaro à PF",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), determinou que o senador Flávio Bolsonaro (PL-RJ), preste depoimento à Polícia Federal (PF) em 28 de julho, às 14h, no caso em que é acusado de calúnia contra o presidente Luiz Inácio Lula da Silva.     \n\n Na decisão, Moraes destacou",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-marca-para-28-de-julho-depoimento-de-flavio-bolsonaro-pf",
+      "data": "17/07/2026",
+      "hora": "11:46",
+      "ts": 1784299560000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/combate-aos-crimes-no-setor-de-combust",
       "tag": "Justiça",
       "titulo": "Combate aos crimes no setor de combustíveis no Rio terá ação integrada",
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/dino-intima-partidos-explicar-controle",
-      "tag": "Justiça",
-      "titulo": "Dino intima partidos a explicar controle de emendas parlamentares",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF),  determinou que os presidentes de todos os partidos com representação no Congresso Nacional expliquem, em até dez dias úteis, se interferem na destinação de emendas parlamentares .   \n\n Proferida nesta quarta-feira (15), a intimação foi moti",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/dino-intima-partidos-explicar-controle-de-emendas-parlamentares",
-      "data": "15/07/2026",
-      "hora": "12:49",
-      "ts": 1784130540000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/atividade-economica-cresceu-01-em-ma",
+      "tag": "Economia",
+      "titulo": "Atividade econômica cresceu 0,1% em maio",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Índice de Atividade Econômica do Banco Central (IBC-Br) subiu 0,1% em maio na comparação com abril de 2026. O resultado considera o ajuste sazonal. Nos últimos 12 meses, o indicador avançou 1,4% e tendo como base o trimestre, o crescimento ficou em 0,7%.    \n\n Os números foram divulgados nesta sex",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/atividade-economica-cresceu-01-em-maio",
+      "data": "17/07/2026",
+      "hora": "11:53",
+      "ts": 1784299980000,
       "favorito": false
     },
     {
@@ -349,15 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-oficial-de-inflacao-sobe-pa",
-      "tag": "Economia",
-      "titulo": "Projeção oficial de inflação sobe para 5,1%, com estouro da meta",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A guerra no Oriente Médio e os possíveis efeitos do El Niño fizeram a equipe econômica revisar para cima a projeção da inflação em 2026.  A estimativa para o Índice Nacional de Preços ao Consumidor Amplo (IPCA) subiu de 4,5% para 5,1%, ficando acima do teto da meta estabelecida pelo Conselho Monetár",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/projecao-oficial-de-inflacao-sobe-para-51-com-estouro-da-meta",
-      "data": "15/07/2026",
-      "hora": "15:21",
-      "ts": 1784139660000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/congresso-entra-em-recesso-com-proje",
+      "tag": "Política",
+      "titulo": "Congresso entra em recesso com projetos pendentes para o 2º semestre",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O Congresso Nacional entra em recesso a partir desta sexta-feira (17) sem analisar uma série de pautas que estavam previstas para o primeiro semestre e acabaram tendo a análise adiada.    \n\n  A retomada dos trabalhos deve ocorrer somente em agosto , embora o calendário deva ser afetado pela campanha",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/congresso-entra-em-recesso-com-projetos-pendentes-para-o-2o-semestre",
+      "data": "17/07/2026",
+      "hora": "12:32",
+      "ts": 1784302320000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "20:25",
       "ts": 1784071500000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/tse-atualiza-aplicativo-e-titulo-e-l",
-      "tag": "Política",
-      "titulo": "TSE atualiza aplicativo e-Título e libera novas funcionalidades",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O Tribunal Superior Eleitoral (TSE) atualizou a versão atual do aplicativo e-Título, elaborado para permitir ao cidadão acesso a diversos serviços nas eleições.     \n\n O aplicativo é gerido pela Justiça Eleitoral e pode ser utilizado como documento de identificação para votar e acessar o endereço do",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/tse-atualiza-aplicativo-e-titulo-e-libera-novas-funcionalidades",
-      "data": "14/07/2026",
-      "hora": "20:24",
-      "ts": 1784071440000,
-      "favorito": false
     }
   ],
-  "atualizado": "17/07/2026 às 14:00",
+  "atualizado": "17/07/2026 às 16:00",
   "total": 40
 }
