@@ -121,6 +121,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-nega-pedido-para-javier-milei-v",
+      "tag": "Legislação",
+      "titulo": "Moraes nega pedido para Javier Milei visitar Bolsonaro em casa",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), negou neste sábado (18) o  pedido para o presidente da Argentina, Javier Milei, visitar ao ex-presidente Jair Bolsonaro , que cumpre em prisão domiciliar a pena de 27 anos e 3 meses por liderar uma tentativa de golpe de Estado.   \n\n ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-nega-pedido-para-javier-milei-visitar-bolsonaro-em-casa",
+      "data": "18/07/2026",
+      "hora": "12:46",
+      "ts": 1784389560000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/irmaos-sao-condenados-pela-morte-do-co",
+      "tag": "Justiça",
+      "titulo": "Irmãos são condenados pela morte do contraventor Fernando Iggnácio",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Os irmãos Pedro Emanuel e Otto Samuel D' Onofre Andrade Silva Cordeiro foram condenados pelo I Tribunal do Júri do Rio de Janeiro pelo assassinato do contraventor Fernando Iggnácio, genro do bicheiro Castor de Andrade, um dos principais contraventores do Rio de Janeiro nas décadas de 1970/1980.  O  ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/irmaos-sao-condenados-pela-morte-do-contraventor-fernando-iggnacio",
+      "data": "18/07/2026",
+      "hora": "11:31",
+      "ts": 1784385060000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/henry-borel-justica-nega-recurso-de-ja",
       "tag": "Justiça",
       "titulo": "Henry Borel: Justiça nega recurso de Jairinho para anular julgamento",
@@ -214,30 +238,6 @@
       "data": "16/07/2026",
       "hora": "21:02",
       "ts": 1784246520000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tarifaco-fachin-diz-que-stf-exercera-s",
-      "tag": "STF",
-      "titulo": "Tarifaço: Fachin diz que STF exercerá suas funções sem pressão externa",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, declarou nesta quinta-feira (16) que a Corte vai continuar exercendo suas funções sem \"pressões externas\".    \n\n As declarações do ministro constam em nota divulgada à imprensa após o anúncio do novo  tarifaço dos Estados Unidos ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tarifaco-fachin-diz-que-stf-exercera-suas-funcoes-sem-pressao-externa",
-      "data": "16/07/2026",
-      "hora": "18:25",
-      "ts": 1784237100000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/thiago-brennand-e-condenado-31-anos-de",
-      "tag": "Justiça",
-      "titulo": "Empresário Thiago Brennand é condenado a 31 anos de prisão por estupro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O empresário Thiago Brennand foi condenado pela Justiça de São Paulo a 31 anos, cinco meses e 24 dias de prisão, em regime fechado, pelos crimes de agressão e estupro contra sua ex-companheira. Ele também a obrigou a tatuar as iniciais dele no corpo.    \n\n A decisão foi tomada pela 1ª Vara de Porto ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/thiago-brennand-e-condenado-31-anos-de-prisao-por-estupro",
-      "data": "16/07/2026",
-      "hora": "18:06",
-      "ts": 1784235960000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "18/07/2026 às 14:00",
+  "atualizado": "18/07/2026 às 16:00",
   "total": 40
 }
