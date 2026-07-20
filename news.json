@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-aprova-novo-medicamento-para-linfom",
+      "tag": "Anvisa",
+      "titulo": "Anvisa aprova novo medicamento para linfoma não Hodgkin",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) publicou nesta segunda-feira (20), no  Diário Oficial da União , o  registro do medicamento Columvi (glofitamabe)  desenvolvido pelo laboratório Roche  para tratamento de um tipo de câncer que acomete o sistema linfático que integra a defesa imunol",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-aprova-novo-medicamento-para-linfoma-nao-hodgkin",
+      "data": "20/07/2026",
+      "hora": "12:23",
+      "ts": 1784560980000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/incidencia-de-vsr-em-criancas-de-ate-2-ano",
       "tag": "Saúde",
       "titulo": "Incidência de VSR em crianças de até 2 anos está em queda, diz Fiocruz",
@@ -106,18 +118,6 @@
       "data": "14/07/2026",
       "hora": "09:09",
       "ts": 1784030940000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/enare-inscricao-para-residencia-com-pre-re",
-      "tag": "Saúde",
-      "titulo": "Enare: inscrição para residência com pré-requisito termina na 4ª feira",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "As inscrições para o Exame Nacional de Residência (Enare) 2026/2027 que exigem pré-requisito, como ano adicional de estudo e outra residência em área profissional da saúde (multiprofissional e uniprofissional) podem ser feitas até as 23h59 desta quarta-feira (15).   \n\n  O processo seletivo unificado",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/enare-inscricao-para-residencia-com-pre-requisito-termina-na-4a-feira",
-      "data": "13/07/2026",
-      "hora": "14:00",
-      "ts": 1783962000000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/economia-cresce-07-em-maio-puxada-po",
+      "tag": "Economia",
+      "titulo": "Economia cresce 0,7% em maio, puxada por consumo das famílias, diz FGV",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A economia brasileira cresceu 0,7% na passagem de abril para maio. No trimestre móvel terminado em maio, a alta é de 1,9% na comparação com o mesmo período de 2025.  Com esse desempenho, a variação positiva acumulada no período de 12 meses fica em 1,7%.    \n\n Os dados fazem parte do  Monitor do PIB ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/economia-cresce-07-em-maio-puxada-por-consumo-das-familias-diz-fgv",
+      "data": "20/07/2026",
+      "hora": "11:28",
+      "ts": 1784557680000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mercado-reduz-expectativa-de-inflaca",
       "tag": "Economia",
       "titulo": "Mercado reduz expectativa de inflação para 5,15% em 2026",
@@ -346,18 +358,6 @@
       "data": "17/07/2026",
       "hora": "11:53",
       "ts": 1784299980000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/morre-demografa-elza-berquo-referenc",
-      "tag": "Economia",
-      "titulo": "Morre a demógrafa Elza Berquó, referência em estudos populacionais",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Faleceu nesta quinta-feira (16), em São Paulo, aos 100 anos, a demógrafa Elza Salvatori Berquó. Professora e cientista, matemática em sua primeira formação, atuou por décadas na compreensão do Brasil, analisando dados demográficos e censitários.    \n\n  Elza se destacou na articulação de alguns dos c",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/morre-demografa-elza-berquo-referencia-em-estudos-populacionais",
-      "data": "16/07/2026",
-      "hora": "20:38",
-      "ts": 1784245080000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "20/07/2026 às 14:07",
+  "atualizado": "20/07/2026 às 16:00",
   "total": 40
 }
