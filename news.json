@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mercado-reduz-expectativa-de-inflaca",
+      "tag": "Economia",
+      "titulo": "Mercado reduz expectativa de inflação para 5,15% em 2026",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As expectativas do mercado financeiro para a inflação em 2026 mantêm a trajetória de queda observada nas últimas semanas. Segundo o  boletim Focus divulgado nesta segunda-feira (20) pelo Banco Central (BC), o Índice Nacional de Preços ao Consumidor Amplo (IPCA) deve fechar o ano em 5,15%.    \n\n Na s",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mercado-reduz-expectativa-de-inflacao-para-515-em-2026",
+      "data": "20/07/2026",
+      "hora": "09:47",
+      "ts": 1784551620000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-1-rec",
+      "tag": "Economia",
+      "titulo": "Beneficiários com NIS de final 1 recebem Bolsa Família de julho",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Caixa Econômica Federal começa a pagar a parcela de julho do Bolsa Família.  Recebem nesta segunda-feira (20) os beneficiários com Número de Inscrição Social (NIS) de final 1.    \n\n Os beneficiários de 175 municípios de seis estados receberão o crédito nesta segunda, independentemente do número fi",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-1-recebem-bolsa-familia-de-julho",
+      "data": "20/07/2026",
+      "hora": "07:11",
+      "ts": 1784542260000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-novas-regras-do-bc-registros-de-",
       "tag": "Economia",
       "titulo": "Com novas regras do BC, registros de fraudes financeiras crescem 10%",
@@ -334,30 +358,6 @@
       "data": "16/07/2026",
       "hora": "20:38",
       "ts": 1784245080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/setores-atingidos-por-tarifaco-dos-e",
-      "tag": "Economia",
-      "titulo": "Setores atingidos por tarifaço dos EUA terão novo plano de socorro",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O governo federal anunciou nesta quinta-feira (16) que retomará o programa de apoio aos setores empresariais atingidos pelo tarifaço imposto pelos Estados Unidos (EUA).  Ontem, o Escritório do Representante Comercial dos EUA (USTR, na sigla em inglês) confirmou uma tarifa adicional de 25% em parte d",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/setores-atingidos-por-tarifaco-dos-eua-terao-novo-plano-de-socorro",
-      "data": "16/07/2026",
-      "hora": "19:42",
-      "ts": 1784241720000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-encosta-em-r-510-com-tarifaco-",
-      "tag": "Economia",
-      "titulo": "Dólar encosta em R$ 5,10 com tarifaço e tensão global",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os mercados financeiros encerraram a quinta-feira (16) em clima de cautela. O dólar voltou a subir e fechou próximo de R$ 5,10, refletindo o fortalecimento da moeda estadunidense no exterior e os efeitos da confirmação de tarifas dos Estados Unidos sobre parte das exportações brasileiras.   \n\n A bol",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-encosta-em-r-510-com-tarifaco-e-tensao-global",
-      "data": "16/07/2026",
-      "hora": "19:20",
-      "ts": 1784240400000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "19/07/2026 às 16:00",
+  "atualizado": "20/07/2026 às 14:00",
   "total": 40
 }
