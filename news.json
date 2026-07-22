@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ministerio-publico-processa-empresas-p",
+      "tag": "Justiça",
+      "titulo": "Ministério Público processa empresas por escaneamento de íris",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Ministério Público de São Paulo (MPSP) ajuizou nesta segunda-feira (21) uma ação civil pública contra a Tools for Humanity Corporation e a Amazon AWS Serviços Brasil Ltda. por irregularidades na coleta de dados biométricos de íris de consumidores paulistanos.    \n\n A promotoria pede, em caráter li",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ministerio-publico-processa-empresas-por-escaneamento-de-iris",
+      "data": "22/07/2026",
+      "hora": "11:40",
+      "ts": 1784731200000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pf-cumpre-mandados-contra-suspeitos-de",
       "tag": "Justiça",
       "titulo": "PF cumpre mandados contra suspeitos de desviar R$ 45 milhões de contas",
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/dino-envia-pf-explicacoes-de-partidos-",
-      "tag": "Justiça",
-      "titulo": "Dino envia à PF explicações de partidos sobre gestão de emendas",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), mandou nesta segunda-feira (20) para a Polícia Federal (PF) as explicações recebidas de presidentes de partidos sobre a influência dos políticos na indicação de emendas parlamentares.    \n\n Conforme a decisão, as manifestações do presidente ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/dino-envia-pf-explicacoes-de-partidos-sobre-gestao-de-emendas",
-      "data": "20/07/2026",
-      "hora": "18:25",
-      "ts": 1784582700000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifa-dos-eua-tera-efeito-limitado-",
+      "tag": "Economia",
+      "titulo": "Tarifa dos EUA terá efeito limitado sobre etanol brasileiro",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A tarifa adicional de 25% anunciada pelos Estados Unidos sobre o etanol brasileiro deve provocar impactos pontuais sobre empresas exportadoras, mas esse efeito tende a ser limitado sobre o conjunto da economia brasileira.    \n\n Especialistas ouvidos pela  Agência Brasil  avaliam que a medida tem for",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifa-dos-eua-tera-efeito-limitado-sobre-etanol-brasileiro",
+      "data": "22/07/2026",
+      "hora": "12:37",
+      "ts": 1784734620000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifaco-de-25-dos-eua-sobre-o-brasi",
+      "tag": "Economia",
+      "titulo": "Tarifaço de 25% dos EUA sobre o Brasil começa a valer; saiba mais",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Começou a vigorar nesta quarta-feira (22) a tarifa adicional de 25% aplicada pelo governo de Donald Trump sobre produtos brasileiros. O tarifaço atinge cerca de 20% das exportações do Brasil para os Estados Unidos.     \n\n A estimativa do valor total das exportações afetadas varia entre US$ 7,2 bilhõ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifaco-de-25-dos-eua-sobre-o-brasil-comeca-valer-nesta-quarta",
+      "data": "22/07/2026",
+      "hora": "12:00",
+      "ts": 1784732400000,
       "favorito": false
     },
     {
@@ -334,30 +358,6 @@
       "data": "21/07/2026",
       "hora": "07:20",
       "ts": 1784629200000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-para-r-508-e-bolsa-recua-p",
-      "tag": "Economia",
-      "titulo": "Dólar cai para R$ 5,08, e bolsa recua pela quarta vez consecutiva",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O dólar voltou a cair e fechou abaixo de R$ 5,09, com o real favorecido pelos juros altos e pela valorização do petróleo. A bolsa de valores registrou a quarta queda seguida, pressionada por perdas de mineradoras.   \n\n No início do dia, o mercado reagiu a sinais de uma possível redução das tensões n",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/dolar-cai-para-r-508-e-bolsa-recua-pela-quarta-vez-consecutiva",
-      "data": "20/07/2026",
-      "hora": "19:53",
-      "ts": 1784587980000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifaco-deve-ter-efeito-limitado-na",
-      "tag": "Economia",
-      "titulo": "Tarifaço deve ter efeito limitado na balança comercial brasileira",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O tarifaço imposto pelos Estados Unidos sobre produtos brasileiros deve provocar efeitos limitados sobre a balança comercial do Brasil. No entanto, setores da indústria sentirão o impacto, embora as medidas do governo Donald Trump afetem apenas 18% das exportações nacionais para o mercado estadunide",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifaco-deve-ter-efeito-limitado-na-balanca-comercial-brasileira",
-      "data": "20/07/2026",
-      "hora": "17:59",
-      "ts": 1784581140000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "22/07/2026 às 14:00",
+  "atualizado": "22/07/2026 às 16:00",
   "total": 40
 }
