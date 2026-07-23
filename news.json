@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ia-esta-presente-em-6-de-cada-10-orgao",
+      "tag": "Justiça",
+      "titulo": "IA está presente em 6 de cada 10 órgãos públicos federais e estaduais",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A Inteligência Artificial (IA) já está presente em 59% dos órgãos federais e estaduais brasileiros, de acordo com os resultados da  Tecnologia da Informação e Comunicação  (TIC ) Governo 2025, divulgada nesta quinta-feira (23) pelo Comitê Gestor da Internet no Brasil (CGI.br).    \n\n O Poder Judiciár",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/ia-esta-presente-em-6-de-cada-10-orgaos-publicos-federais-e-estaduais",
+      "data": "23/07/2026",
+      "hora": "11:21",
+      "ts": 1784816460000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pt-aciona-tse-contra-flavio-bolsonaro-",
       "tag": "Justiça",
       "titulo": "PT aciona TSE contra Flávio Bolsonaro sobre urnas eletrônicas",
@@ -226,18 +238,6 @@
       "data": "21/07/2026",
       "hora": "18:41",
       "ts": 1784670060000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pf-intima-jaques-wagner-depor-sobre-in",
-      "tag": "Justiça",
-      "titulo": "PF intima Jaques Wagner a depor sobre investigações do Banco Master",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A Polícia Federal (PF) intimou o senador Jaques Wagner (PT-BA) a prestar depoimento no dia 7 de agosto em Brasília. O depoimento ocorrerá no âmbito das investigações de fraudes envolvendo o Banco Master.    \n\n A PF apura se Wagner recebeu algum tipo de benefício em troca de apoio no Congresso a proj",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/pf-intima-jaques-wagner-depor-sobre-investigacoes-do-banco-master",
-      "data": "21/07/2026",
-      "hora": "17:39",
-      "ts": 1784666340000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "23/07/2026 às 14:02",
+  "atualizado": "23/07/2026 às 16:00",
   "total": 40
 }
