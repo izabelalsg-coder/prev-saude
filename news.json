@@ -1,6 +1,42 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/cesarea-aumenta-risco-de-cancer-de-placent",
+      "tag": "Saúde",
+      "titulo": "Cesárea aumenta risco de câncer de placenta após mola gestacional",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Pessoas que passaram por cesariana têm 45% mais risco de desenvolver neoplasia trofoblástica gestacional, um tipo raro de câncer que surge a partir de células da placenta e cresce no útero. A conclusão é de um estudo liderado por pesquisadores da Maternidade Escola da Universidade Federal do Rio de ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/cesarea-aumenta-risco-de-cancer-de-placenta-apos-mola-gestacional",
+      "data": "26/07/2026",
+      "hora": "09:20",
+      "ts": 1785068400000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/entenda-mola-gestacional-que-pode-evoluir-",
+      "tag": "Saúde",
+      "titulo": "Entenda a mola gestacional, que pode evoluir para câncer de placenta",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Há cerca de dois anos, a terapeuta ocupacional Daiana Nascimento recebeu uma notícia muito aguardada: estava grávida, depois de um bom tempo de tentativas e espera. Mas logo descobriu que não viveria o que tanto sonhou.    \n\n \n \"Em menos de três dias, eu vivi o dia mais feliz e o dia mais triste da ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/entenda-mola-gestacional-que-pode-evoluir-para-cancer-de-placenta",
+      "data": "26/07/2026",
+      "hora": "09:15",
+      "ts": 1785068100000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/projeto-leva-atendimento-medico-comunidade",
+      "tag": "Saúde",
+      "titulo": "Projeto leva atendimento médico a comunidades ribeirinhas do Amazonas",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Aldeniza Silva e Silva espera o quinto filho. Grávida de sete meses, a moradora da comunidade ribeirinha de Boa Vista, localizada na Reserva de Desenvolvimento Sustentável (RDS) Uacari, na região do Médio Rio Juruá, em Carauari (AM), precisava, até então, se deslocar até a zona urbana do município p",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/projeto-leva-atendimento-medico-comunidades-ribeirinhas-do-amazonas",
+      "data": "25/07/2026",
+      "hora": "17:19",
+      "ts": 1785010740000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/pesquisa-mostra-que-vacinacao-diminuiu-pre",
       "tag": "Saúde",
       "titulo": "Pesquisa mostra que vacinação diminuiu prevalência de HPV entre jovens",
@@ -85,39 +121,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/lei-cria-politica-para-fortalecer-industri",
-      "tag": "Legislação",
-      "titulo": "Lei cria política para fortalecer indústria da saúde",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Sancionado nesta segunda-feira (20), o Projeto de Lei n° 2583/20 pretende garantir a autonomia do Brasil na produção de medicamentos, vacinas, equipamentos e insumos médicos, fortalecendo a soberania nacional, inclusive para lidar com eventuais emergências em saúde pública.  O PL institui a Estratég",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/lei-cria-politica-para-fortalecer-industria-da-saude",
-      "data": "20/07/2026",
-      "hora": "14:39",
-      "ts": 1784569140000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/fachin-repudia-fala-de-milei-contra-mo",
+      "tag": "STF",
+      "titulo": "Fachin repudia fala de Milei contra Moraes e reafirma autonomia do STF",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, divulgou neste sábado (25) nota oficial em que classifica como “referência desrespeitosa” a declaração do presidente da Argentina, Javier Milei, sobre o ministro do STF Alexandre de Moraes.   \n\n Em discurso na convenção nacional do PL, em",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/fachin-repudia-fala-de-milei-contra-moraes-e-reafirma-autonomia-do-stf",
+      "data": "25/07/2026",
+      "hora": "19:32",
+      "ts": 1785018720000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/sinais-do-cancer-colorretal-devem-ser-chec",
-      "tag": "Saúde",
-      "titulo": "Sinais do câncer colorretal devem ser checados com rapidez; saiba mais",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Apesar de reconhecerem que sintomas como presença de sangue nas fezes e mudança no fucionamento do intestino por mais de um mês podem ser graves, os brasileiros podem estar adiando a busca por assistência médica. A presença desses dois sinais está entre os principais indicativos do câncer colorretal",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/sinais-do-cancer-colorretal-devem-ser-checados-com-rapidez-saiba-mais",
-      "data": "20/07/2026",
-      "hora": "12:58",
-      "ts": 1784563080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-aprova-novo-medicamento-para-linfom",
-      "tag": "Anvisa",
-      "titulo": "Anvisa aprova novo medicamento para linfoma não Hodgkin",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) publicou nesta segunda-feira (20), no  Diário Oficial da União , o  registro do medicamento Columvi (glofitamabe)  desenvolvido pelo laboratório Roche  para tratamento de um tipo de câncer que acomete o sistema linfático que integra a defesa imunol",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-aprova-novo-medicamento-para-linfoma-nao-hodgkin",
-      "data": "20/07/2026",
-      "hora": "12:23",
-      "ts": 1784560980000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/brasil-nega-visto-para-funcionarios-do",
+      "tag": "Justiça",
+      "titulo": "Brasil nega visto para servidores dos EUA que queriam monitorar urnas",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Ministério das Relações Exteriores brasileiro confirmou neste sábado (25) a negativa do governo de autorizar vistos a dois funcionários norte-americanos: o subsecretário do Departamento de Estado para a Democracia, Direitos Humanos e Trabalho, Riley Barnes, e o subsecretário adjunto Samuel Samson.",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/brasil-nega-visto-para-funcionarios-dos-eua-que-queriam-monitorar-urnas",
+      "data": "25/07/2026",
+      "hora": "13:52",
+      "ts": 1784998320000,
       "favorito": false
     },
     {
@@ -214,30 +238,6 @@
       "data": "23/07/2026",
       "hora": "18:39",
       "ts": 1784842740000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/justica-federal-determina-indenizacao-",
-      "tag": "Justiça",
-      "titulo": "Justiça Federal determina indenização a filho de João Cândido",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A Justiça Federal condenou a União a pagar R$ 300 mil de indenização por danos morais ao filho de João Cândido Felisberto, Adalberto Cândido, em razão das manifestações oficiais da Marinha consideradas ofensivas à memória do líder da Revolta da Chibata.    \n\n Na sentença, a  4ª Vara Federal do Rio d",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/justica-federal-determina-indenizacao-filho-de-joao-candido",
-      "data": "23/07/2026",
-      "hora": "16:27",
-      "ts": 1784834820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mendonca-autoriza-pf-investigar-repass",
-      "tag": "Justiça",
-      "titulo": "Mendonça autoriza PF a investigar repasses para filme sobre Bolsonaro",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro André Mendonça, do  Supremo Tribunal Federal (STF) , autorizou a  Polícia Federal (PF)  a instaurar um inquérito para apurar repasses de recursos, pelo empresário Daniel Vorcaro, do  Banco Master , para a produção do filme  Dark Horse , sobre a vida do ex-presidente Jair Bolsonaro.    \n\n ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mendonca-autoriza-pf-investigar-repasses-para-filme-sobre-bolsonaro",
-      "data": "23/07/2026",
-      "hora": "14:51",
-      "ts": 1784829060000,
       "favorito": false
     },
     {
@@ -361,6 +361,54 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pl-oficializa-candidatura-de-flavio-",
+      "tag": "Política",
+      "titulo": "PL oficializa candidatura de Flávio Bolsonaro à Presidência",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O Partido Liberal (PL) formalizou, na tarde deste sábado (25), em São Paulo, a candidatura de Flávio Bolsonaro à Presidência da República. O anúncio foi feito durante a Convenção Nacional do partido, que reuniu lideranças e políticos do campo da direita.   \n\n O evento foi realizado no Mercado Pago H",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pl-oficializa-candidatura-de-flavio-bolsonaro-presidencia",
+      "data": "25/07/2026",
+      "hora": "18:58",
+      "ts": 1785016680000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pt-lanca-candidatura-de-fernando-had",
+      "tag": "Política",
+      "titulo": "PT lança candidatura de Fernando Haddad ao governo de São Paulo",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O Partido dos Trabalhadores (PT) confirmou, neste sábado (25), a candidatura do ex-ministro da Fazenda Fernando Haddad para o governo do Estado de São Paulo e do ex-ministro do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte Márcio França (PSB), como vice-governador na chapa.    \n\n A",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/pt-lanca-candidatura-de-fernando-haddad-ao-governo-de-sao-paulo",
+      "data": "25/07/2026",
+      "hora": "16:52",
+      "ts": 1785009120000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/um-terco-dos-partidos-explicou-contr",
+      "tag": "Política",
+      "titulo": "Um terço dos partidos explicou controle de emendas parlamentares",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "Dos 21 partidos com representação no  Congresso Nacional , apenas sete cumpriram a determinação do ministro Flávio Dino, do  Supremo Tribunal Federal (STF)  de apresentar explicação sobre interferência na destinação de emendas parlamentares.    \n\n A manifestação dos partidos políticos  foi determina",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/um-terco-dos-partidos-explicou-controle-de-emendas-parlamentares",
+      "data": "25/07/2026",
+      "hora": "14:25",
+      "ts": 1785000300000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/mesarios-tem-papel-fundamental-na-ga",
+      "tag": "Política",
+      "titulo": "Mesários têm papel fundamental na garantia do processo eleitoral",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A atuação de mesários durante a votação é considerada fundamental para o sucesso das eleições e para a garantia da transparência do processo eleitoral. Cabe a eles a responsabilidade pela condução dos trabalhos nas seções eleitorais, desde a abertura até o encerramento da votação, assegurando que o ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/mesarios-tem-papel-fundamental-na-garantia-do-processo-eleitoral",
+      "data": "25/07/2026",
+      "hora": "13:27",
+      "ts": 1784996820000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/sp-concentra-maior-parte-do-eleitora",
       "tag": "Política",
       "titulo": "SP concentra maior parte do eleitorado do país com 21,48% dos votantes",
@@ -431,56 +479,8 @@
       "hora": "16:35",
       "ts": 1784576100000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/eleicoes-prazo-para-convencoes-parti",
-      "tag": "Política",
-      "titulo": "Eleições: prazo para convenções partidárias começa nesta segunda-feira",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "Começa nesta segunda-feira (20) o prazo para os partidos políticos fazerem suas convenções. Essa é uma das etapas mais importantes do período eleitoral, pois  é nas convenções que os partidos definem seus candidatos aos cargos em disputa .   \n\n Os partidos terão até o dia 5 de agosto para realizarem",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/eleicoes-prazo-para-convencoes-partidarias-comeca-nesta-segunda-feira",
-      "data": "19/07/2026",
-      "hora": "12:07",
-      "ts": 1784473620000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/comecam-vigorar-hoje-regras-que-exig",
-      "tag": "Política",
-      "titulo": "Começam a vigorar hoje regras que exigem alertas em anúncios de bets",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "Apostar pode causar dependência, faz você perder dinheiro e não é investimento. A partir de hoje (17), as plataformas de apostas esportivas, as chamadas bets, estão obrigadas a exibir ao menos um desses três alertas do Ministério da Fazenda em suas campanhas publicitárias.    \n\n Semelhante ao que já",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/comecam-vigorar-hoje-regras-que-exigem-alertas-em-anuncios-de-bets",
-      "data": "17/07/2026",
-      "hora": "13:04",
-      "ts": 1784304240000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/congresso-entra-em-recesso-com-proje",
-      "tag": "Política",
-      "titulo": "Congresso entra em recesso com projetos pendentes para o 2º semestre",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O Congresso Nacional entra em recesso a partir desta sexta-feira (17) sem analisar uma série de pautas que estavam previstas para o primeiro semestre e acabaram tendo a análise adiada.    \n\n  A retomada dos trabalhos deve ocorrer somente em agosto , embora o calendário deva ser afetado pela campanha",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/congresso-entra-em-recesso-com-projetos-pendentes-para-o-2o-semestre",
-      "data": "17/07/2026",
-      "hora": "12:32",
-      "ts": 1784302320000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/spray-de-pimenta-para-mulher-e-medid",
-      "tag": "Política",
-      "titulo": "Spray de pimenta para mulher é medida paliativa, diz promotora",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "A aprovação do projeto de lei que autoriza a comercialização, a compra e a posse de  spray  de pimenta para mulheres acima de 16 anos em todo o país como medida de defesa pessoal, trata-se de apenas uma medida paliativa e não uma política real ou segura de segurança pública.     \n\n A afirmação é da ",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-07/spray-de-pimenta-para-mulher-e-medida-paliativa-diz-promotora",
-      "data": "16/07/2026",
-      "hora": "16:51",
-      "ts": 1784231460000,
-      "favorito": false
     }
   ],
-  "atualizado": "25/07/2026 às 16:00",
+  "atualizado": "26/07/2026 às 14:01",
   "total": 40
 }
