@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/risco-de-disseminacao-do-ebola-pelo-mundo-",
+      "tag": "Saúde",
+      "titulo": "Risco de disseminação do Ebola pelo mundo é baixo, diz Tedros Adhanom",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O diretor-geral da Organização Mundial da Saúde (OMS), Tedros Adhanom Ghebreyesus, afirmou nesta segunda-feira (27) que  é baixo o risco de disseminação do vírus ebola da Repúlica Democrática do Congo (RDC) para o resto do mundo .  Um surto da doença assola o país africano há alguns meses .   \n\n Mai",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/risco-de-disseminacao-do-ebola-pelo-mundo-e-baixo-diz-tedros-adhanom",
+      "data": "27/07/2026",
+      "hora": "12:42",
+      "ts": 1785166920000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/cesarea-aumenta-risco-de-cancer-de-placent",
       "tag": "Saúde",
       "titulo": "Cesárea aumenta risco de câncer de placenta após mola gestacional",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/brasil-envia-690-mil-doses-de-vacinas-em-a",
-      "tag": "Saúde",
-      "titulo": "Brasil envia 690 mil doses de vacinas em ajuda à Venezuela",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Brasil enviou, nesta segunda-feira (20), mais 4,5 toneladas de vacinas para a Venezuela, que sofreu terremotos no mês passado.    \n\n De acordo com o Ministério da Saúde, no total,  são 690 mil doses doadas,  sendo 48 mil da BCG, 102 mil da tríplice viral (contra o sarampo, caxumba e rubéola) e 540",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/brasil-envia-690-mil-doses-de-vacinas-em-ajuda-venezuela",
-      "data": "20/07/2026",
-      "hora": "21:15",
-      "ts": 1784592900000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tse-tera-outra-reuniao-com-embaixadore",
+      "tag": "Justiça",
+      "titulo": "TSE terá outra reunião com embaixadores para explicar urna eletrônica",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Tribunal Superior Eleitoral (TSE)  marcou para o dia 17 de agosto uma segunda reunião com embaixadores , representantes diplomáticos e organismos internacionais, a fim de explicar o funcionamento da urna eletrônica brasileira, bem como do sistema eleitoral do país.   \n\n Segundo o tribunal, o encon",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/tse-tera-outra-reuniao-com-embaixadores-para-explicar-urna-eletronica",
+      "data": "27/07/2026",
+      "hora": "12:54",
+      "ts": 1785167640000,
       "favorito": false
     },
     {
@@ -226,18 +238,6 @@
       "data": "23/07/2026",
       "hora": "21:33",
       "ts": 1784853180000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/stj-libera-retomada-de-cobranca-de-div",
-      "tag": "STJ",
-      "titulo": "STJ libera retomada de cobrança de dívidas do Grupo Manguinhos",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Superior Tribunal de Justiça (STJ) deferiu parcialmente o pedido feito pela Procuradoria Geral do Estado (PGE-RJ) e suspendeu a decisão que impedia o cancelamento do parcelamento tributário e o prosseguimento das execuções fiscais contra empresas do Grupo Manguinhos, proprietário da antiga Refinar",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/stj-libera-retomada-de-cobranca-de-dividas-do-grupo-manguinhos",
-      "data": "23/07/2026",
-      "hora": "20:27",
-      "ts": 1784849220000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "27/07/2026 às 14:36",
+  "atualizado": "27/07/2026 às 16:00",
   "total": 40
 }
