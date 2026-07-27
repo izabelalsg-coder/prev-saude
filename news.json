@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/comeca-hoje-financiamento-de-moto-e-",
+      "tag": "Economia",
+      "titulo": "Começa hoje financiamento de moto e bicicleta pelo Move Brasil",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As agências bancárias e instituições financeiras credenciadas começam a ofertar nesta segunda-feira (27), as linhas de financiamento de moto, motoneta, ciclomotor ou bicicleta elétrica produzidos no país, com condições facilitadas pelo programa Move Brasil.   \n\n  A política pública permite que entre",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/comeca-hoje-financiamento-de-moto-e-bicicleta-pelo-move-brasil",
+      "data": "27/07/2026",
+      "hora": "11:30",
+      "ts": 1785162600000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/durigan-divida-do-brasil-e-menor-do-",
+      "tag": "Economia",
+      "titulo": "Durigan: dívida do Brasil é menor do que a de grandes economias",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O ministro da Fazenda, Dario Durigan, afirmou nesta segunda-feira (27) que a dívida pública brasileira continua elevada, mas está sob controle e em patamar inferior ao de diversas economias desenvolvidas.    \n\n Em entrevista à Rádio Jornal de Pernambuco, o ministro argumentou que não existe uma regr",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/durigan-divida-do-brasil-e-menor-do-que-de-grandes-economias",
+      "data": "27/07/2026",
+      "hora": "11:02",
+      "ts": 1785160920000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/mercado-reduz-para-512-expectativa-d",
       "tag": "Economia",
       "titulo": "Mercado reduz para 5,12% expectativa de inflação em 2026",
@@ -334,30 +358,6 @@
       "data": "24/07/2026",
       "hora": "18:10",
       "ts": 1784927400000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifa-de-375-atingira-quase-4-mil-p",
-      "tag": "Economia",
-      "titulo": "Tarifa de 37,5% atingirá quase 4 mil produtos brasileiros, estima CNI",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A  nova tarifa adicional de 12,5% imposta pelos Estados Unidos  fará com que 3.985 produtos brasileiros passem a enfrentar uma tributação total de 37,5% para entrar no mercado estadunidense, segundo levantamento divulgado nesta quinta-feira (23) pela Confederação Nacional da Indústria (CNI).   \n\n  D",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/tarifa-de-375-atingira-quase-4-mil-produtos-brasileiros-estima-cni",
-      "data": "24/07/2026",
-      "hora": "16:10",
-      "ts": 1784920200000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-precatorios-previsao-de-deficit-",
-      "tag": "Economia",
-      "titulo": "Com precatórios, previsão de déficit primário soma R$ 52 bilhões",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A queda na previsão de gastos obrigatórios fez a estimativa total de déficit primário para este ano cair de R$ 60,3 bilhões para R$ 52 bilhões. A previsão consta do Relatório Bimestral de Avaliação de Receitas e Despesas, documento que orienta a execução do Orçamento, enviado nesta sexta-feira (24) ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/com-precatorios-previsao-de-deficit-primario-soma-r-52-bilhoes",
-      "data": "24/07/2026",
-      "hora": "16:02",
-      "ts": 1784919720000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "27/07/2026 às 14:00",
+  "atualizado": "27/07/2026 às 14:36",
   "total": 40
 }
