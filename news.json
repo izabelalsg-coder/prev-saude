@@ -1,11 +1,35 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fiocruz-e-farmaceutica-assinam-acordo-sobr",
+      "tag": "Saúde",
+      "titulo": "Fiocruz e farmacêutica assinam acordo sobre novo antirretroviral",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Um memorando de entendimento entre a Fundação Oswaldo Cruz (Fiocruz) e a farmacêutica privada MSD permitirá a produção, no Brasil, de um novo medicamento contra o vírus HIV.  O documento foi assinado nesta terça-feira (28), durante a 26ª Conferência Internacional da Aids, no Rio de Janeiro.   \n\n  O ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fiocruz-e-farmaceutica-assinam-acordo-sobre-novo-antirretroviral",
+      "data": "28/07/2026",
+      "hora": "12:50",
+      "ts": 1785253800000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/brasil-atinge-meta-de-reducao-da-transmiss",
+      "tag": "ANS",
+      "titulo": "Brasil atinge meta de redução da transmissão vertical de hepatite B",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Brasil atingiu as metas estabelecidas internacionalmente de eliminação da transmissão da hepatite B de mãe para filho.    \n\n Durante evento do Dia Mundial de Luta contra Hepatites Virais, no Rio de Janeiro, o  Ministério da Saúde  informou que, nos últimos dois anos, menos de 0,1% das crianças com",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/brasil-atinge-meta-de-reducao-da-transmissao-vertical-de-hepatite-b",
+      "data": "28/07/2026",
+      "hora": "12:02",
+      "ts": 1785250920000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/dor-cronica-pode-influenciar-no-tratamento",
       "tag": "Saúde",
       "titulo": "Dor crônica pode influenciar no tratamento da depressão",
       "fonte": "Agência Brasil / Saúde",
-      "resumo": "Artigo publicado na revista  Nature Mental Health  nesta terça-feira (28) argumenta que parte dos pacientes classificados com depressão resistente ao tratamento pode não ter uma doença refratária a remédio, mas sim uma dor crônica que nunca foi medida.   \n\n  A dor crônica é comum em quem tem depress",
+      "resumo": "Parte dos pacientes classificados com depressão resistente ao tratamento pode não ter uma doença refratária a remédio, mas sim uma dor crônica que nunca foi medida, argumentam especialistas em artigo publicado na revista  Nature Mental Health  nesta terça-feira (28).   \n\n  A dor crônica é comum em q",
       "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/dor-cronica-pode-influenciar-no-tratamento-da-depressao",
       "data": "28/07/2026",
       "hora": "10:21",
@@ -94,30 +118,6 @@
       "data": "27/07/2026",
       "hora": "12:42",
       "ts": 1785166920000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/cesarea-aumenta-risco-de-cancer-de-placent",
-      "tag": "Saúde",
-      "titulo": "Cesárea aumenta risco de câncer de placenta após mola gestacional",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Pessoas que passaram por cesariana têm 45% mais risco de desenvolver neoplasia trofoblástica gestacional, um tipo raro de câncer que surge a partir de células da placenta e cresce no útero. A conclusão é de um estudo liderado por pesquisadores da Maternidade Escola da Universidade Federal do Rio de ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/cesarea-aumenta-risco-de-cancer-de-placenta-apos-mola-gestacional",
-      "data": "26/07/2026",
-      "hora": "09:20",
-      "ts": 1785068400000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/entenda-mola-gestacional-que-pode-evoluir-",
-      "tag": "Saúde",
-      "titulo": "Entenda a mola gestacional, que pode evoluir para câncer de placenta",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Há cerca de dois anos, a terapeuta ocupacional Daiana Nascimento recebeu uma notícia muito aguardada: estava grávida, depois de um bom tempo de tentativas e espera. Mas logo descobriu que não viveria o que tanto sonhou.    \n\n \n \"Em menos de três dias, eu vivi o dia mais feliz e o dia mais triste da ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/entenda-mola-gestacional-que-pode-evoluir-para-cancer-de-placenta",
-      "data": "26/07/2026",
-      "hora": "09:15",
-      "ts": 1785068100000,
       "favorito": false
     },
     {
@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/china-facilita-exportacao-de-polpas-",
+      "tag": "Economia",
+      "titulo": "China facilita exportação de polpas e frutas congeladas brasileiras",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A China deu mais um passo para ampliar a entrada de produtos brasileiros em seu mercado ao disponibilizar os procedimentos necessários para a exportação de polpas e frutas congeladas produzidas no Brasil.   \n\n  A medida permite que empresas brasileiras interessadas iniciem o processo de habilitação ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/china-facilita-exportacao-de-polpas-e-frutas-congeladas-brasileiras",
+      "data": "28/07/2026",
+      "hora": "12:34",
+      "ts": 1785252840000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgts-138-milhoes-de-trabalhadores-re",
+      "tag": "Economia",
+      "titulo": "FGTS: 138 milhões de trabalhadores receberão R$ 13 bilhões de lucros",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Conselho Curador do Fundo de Garantia do Tempo de Serviço (FGTS) aprovou nesta terça-feira (28) a distribuição de R$ 13,04 bilhões aos trabalhadores referentes ao resultado positivo obtido pelo fundo em 2025.    \n\n O valor corresponde a 89% do lucro de R$ 14,65 bilhões registrado no exercício.  Ao",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/fgts-138-milhoes-de-trabalhadores-receberao-r-13-bilhoes-de-lucros",
+      "data": "28/07/2026",
+      "hora": "12:08",
+      "ts": 1785251280000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/exportacoes-batem-recorde-e-deficit-",
       "tag": "Economia",
       "titulo": "Exportações batem recorde e déficit das contas externas cai em junho",
@@ -334,30 +358,6 @@
       "data": "27/07/2026",
       "hora": "18:35",
       "ts": 1785188100000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/entregador-pode-acessar-credito-para",
-      "tag": "Economia",
-      "titulo": "Entregador pode acessar crédito para moto e bicicleta a partir de hoje",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As agências bancárias e instituições financeiras credenciadas começam a ofertar nesta segunda-feira (27), as linhas de financiamento de moto, motoneta, ciclomotor ou bicicleta elétrica produzidos no país, com condições facilitadas pelo programa Move Brasil.   \n\n  A política pública permite que entre",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/entregador-pode-acessar-credito-para-moto-e-bicicleta-a-partir-de-hoje",
-      "data": "27/07/2026",
-      "hora": "11:30",
-      "ts": 1785162600000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/durigan-divida-do-brasil-e-menor-do-",
-      "tag": "Economia",
-      "titulo": "Durigan: dívida do Brasil é menor do que a de grandes economias",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O ministro da Fazenda, Dario Durigan, afirmou nesta segunda-feira (27) que a dívida pública brasileira continua elevada, mas está sob controle e em patamar inferior ao de diversas economias desenvolvidas.    \n\n Em entrevista à Rádio Jornal de Pernambuco, o ministro argumentou que não existe uma regr",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/durigan-divida-do-brasil-e-menor-do-que-de-grandes-economias",
-      "data": "27/07/2026",
-      "hora": "11:02",
-      "ts": 1785160920000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "28/07/2026 às 14:08",
+  "atualizado": "28/07/2026 às 16:00",
   "total": 40
 }
