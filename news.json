@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-registra-5-novas-canetas-de-semaglu",
+      "tag": "Anvisa",
+      "titulo": "Anvisa registra 5 novas canetas de semaglutida para tratar diabetes",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou o registro de cinco novas canetas de semaglutida, indicadas para o tratamento de pacientes adultos com diabetes mellitus tipo 2, sem controle suficiente. Popularmente, esses medicamentos são chamados de canetas emagrecedoras porque ajudam n",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-registra-5-novas-canetas-de-semaglutida-para-tratar-diabetes",
+      "data": "29/07/2026",
+      "hora": "12:48",
+      "ts": 1785340080000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/conselho-pede-ao-mpsp-apuracao-de-venda-de",
       "tag": "Saúde",
       "titulo": "Conselho pede ao MPSP apuração de venda de medicamentos em máquinas",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/infeccoes-e-mortes-por-hiv-caem-mas-falta-",
-      "tag": "Saúde",
-      "titulo": "Infecções e mortes por HIV caem, mas falta de recursos ameaça avanços",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "As novas infecções por HIV e as mortes relacionadas à aids atingiram os menores níveis globais em 2025, apontam relatórios divulgados nesta segunda-feira (27) pelo Programa Conjunto das Nações Unidas para HIV/Aids (Unaids).   \n\n No entanto, a organização alerta que  este avanço está ameaçado pela qu",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/infeccoes-e-mortes-por-hiv-caem-mas-falta-de-recursos-ameaca-avancos",
-      "data": "27/07/2026",
-      "hora": "19:03",
-      "ts": 1785189780000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mp-acao-em-sao-jose-dos-campos-mira-la",
+      "tag": "Justiça",
+      "titulo": "MP: ação em São José dos Campos mira lavagem de dinheiro ligada ao PCC",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Ministério Público de São Paulo (MP-SP) e a Polícia Civil expediram mandados de busca e apreensão contra suspeitos de atuarem em um esquema de lavagem de dinheiro ligado ao Primeiro Comando da Capital (PCC), na cidade de São José dos Campos, no interior do estado.   \n\n Nesta quinta-feira (28),  fo",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mp-acao-em-sao-jose-dos-campos-mira-lavagem-de-dinheiro-ligada-ao-pcc",
+      "data": "29/07/2026",
+      "hora": "12:04",
+      "ts": 1785337440000,
       "favorito": false
     },
     {
@@ -226,18 +238,6 @@
       "data": "27/07/2026",
       "hora": "20:15",
       "ts": 1785194100000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/saiba-como-vai-funcionar-a-biometria-n",
-      "tag": "Justiça",
-      "titulo": "Saiba como vai funcionar a biometria nas eleições deste ano",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A biometria será usada mais uma vez para votar nas eleições deste ano. A tecnologia estará disponível em todas as seções eleitorais do país para evitar fraudes e garantir a lisura do pleito.    \n\n Apesar da requisição, a biometria não é obrigatória para exercer o direito ao voto.  Se o título estive",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/saiba-como-vai-funcionar-a-biometria-nas-eleicoes-deste-ano",
-      "data": "27/07/2026",
-      "hora": "19:59",
-      "ts": 1785193140000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "29/07/2026 às 14:11",
+  "atualizado": "29/07/2026 às 16:00",
   "total": 40
 }
