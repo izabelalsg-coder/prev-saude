@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-determina-apreensao-de-lote-falsifi",
+      "tag": "Anvisa",
+      "titulo": "Anvisa determina apreensão de lote falsificado de Mounjaro",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) determinou nesta quinta-feira (30) a apreensão de um lote falsificado do medicamento Mounjaro.  A resolução foi publicada nesta quinta-feira (30) no  Diário Oficial da União .   \n\n Segundo a Anvisa, a própria empresa detentora do registro do produt",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-determina-apreensao-de-lote-falsificado-de-mounjaro",
+      "data": "30/07/2026",
+      "hora": "11:17",
+      "ts": 1785421020000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/revalida-20252-recurso-de-resultado-prelim",
       "tag": "Saúde",
       "titulo": "Revalida 2025/2: recurso de resultado preliminar vai até sexta-feira",
@@ -106,18 +118,6 @@
       "data": "28/07/2026",
       "hora": "10:21",
       "ts": 1785244860000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/dia-de-luta-contra-hepatites-virais-alerta",
-      "tag": "Saúde",
-      "titulo": "Dia Mundial de Luta contra as Hepatites Virais alerta para prevenção",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Dia Mundial de Luta contra as Hepatites Virais, celebrado nesta terça (28), é o ponto alto da campanha nacional Julho Amarelo, destinada a promover a conscientização da população sobre a prevenção, diagnóstico e tratamento dessas doenças. O mês foi instituído no Brasil em 2019, pela  Lei nº 13.802",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/dia-de-luta-contra-hepatites-virais-alerta-para-conscientizacao",
-      "data": "28/07/2026",
-      "hora": "08:19",
-      "ts": 1785237540000,
       "favorito": false
     },
     {
@@ -241,6 +241,42 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/arrecadacao-federal-cresce-77-em-jun",
+      "tag": "Economia",
+      "titulo": "Arrecadação federal cresce 7,7% em junho e soma R$ 264,4 bilhões",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A arrecadação das receitas federais alcançou R$ 264,4 bilhões em junho deste ano, com crescimento real de 7,7% em relação ao mesmo mês de 2025, já descontada a inflação.  No acumulado do primeiro semestre, as receitas somaram cerca de R$ 1,587 trilhão, avanço real de 6,6% na comparação com os seis p",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/arrecadacao-federal-cresce-77-em-junho-e-soma-r-2644-bilhoes",
+      "data": "30/07/2026",
+      "hora": "12:49",
+      "ts": 1785426540000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/sp-registra-queda-de-73-no-numero-de",
+      "tag": "Economia",
+      "titulo": "SP registra queda de 7,3% no número de homicídios no 1º semestre",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O estado de São Paulo registrou 1.149 assassinatos no primeiro semestre de 2026, segundo balanço da Secretaria da Segurança Pública. De acordo com a pasta, esse é o menor número desde 2001, quando foi iniciada a série de balanços.    \n\n Na comparação com o mesmo período de 2025, quando ocorreram 1.2",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/sp-registra-queda-de-73-no-numero-de-homicidios-no-1o-semestre",
+      "data": "30/07/2026",
+      "hora": "11:36",
+      "ts": 1785422160000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/juros-das-familias-seguem-elevados-e",
+      "tag": "Economia",
+      "titulo": "Juros das famílias seguem elevados e chegam a 64% ao ano, diz BC",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As Estatísticas Monetárias e de Crédito divulgadas nesta quinta-feira (30) pelo Banco Central (BC) mostram que os juros cobrados das famílias continuam altos, assim como a inadimplência e o comprometimento da renda.    \n\n A taxa média de juros do crédito livre às pessoas físicas alcançou 64% ao ano ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/juros-das-familias-seguem-elevados-e-chegam-64-ao-ano-diz-bc",
+      "data": "30/07/2026",
+      "hora": "11:05",
+      "ts": 1785420300000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/desemprego-no-2o-trimestre-e-54-o-me",
       "tag": "Economia",
       "titulo": "Desemprego no 2º trimestre é 5,4%, o menor já registrado no período",
@@ -322,42 +358,6 @@
       "data": "29/07/2026",
       "hora": "16:09",
       "ts": 1785352140000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-8-rec",
-      "tag": "Economia",
-      "titulo": "Beneficiários com NIS de final 8 recebem Bolsa Família de julho",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Caixa Econômica Federal paga nesta quarta-feira (29) a parcela de julho do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 8.  Neste mês, o valor médio do benefício está em R$ 679,19.    \n\n Os moradores de 175 municípios de seis estados receberam o crédito no último d",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-8-recebem-bolsa-familia-de-julho",
-      "data": "29/07/2026",
-      "hora": "06:50",
-      "ts": 1785318600000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/producao-de-petroleo-e-gas-no-brasil",
-      "tag": "Economia",
-      "titulo": "Produção de petróleo e gás no Brasil cresce 14% no 2º trimestre",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Petrobras informou que a produção total de petróleo e gás (óleo, líquido de gás natural e gás natural) alcançou a marca recorde de 3,34 milhões (MM) barris de óleo equivalente por dia (boed) no 2º trimestre de 2026 , valor 14,1% acima do mesmo trimestre do ano passado e 3,4% acima do 1º trimestre ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/producao-de-petroleo-e-gas-no-brasil-cresce-14-no-2o-trimestre",
-      "data": "28/07/2026",
-      "hora": "21:32",
-      "ts": 1785285120000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/acordo-entre-mercosul-e-singapura-ga",
-      "tag": "Economia",
-      "titulo": "Acordo entre Mercosul e Singapura garante tarifa zero para exportações",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Entra em vigor a partir do próximo sábado (1º) o Acordo Mercosul-Singapura, que deverá reduzir ou eliminar gradualmente as tarifas entre o país asiático e o bloco sul americano.     \n\n  A parceria garante tarifa zero para 100% das exportações brasileiras destinadas ao país asiático.  O texto também ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/acordo-entre-mercosul-e-singapura-garante-tarifa-zero-para-exportacoes",
-      "data": "28/07/2026",
-      "hora": "21:08",
-      "ts": 1785283680000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "30/07/2026 às 14:03",
+  "atualizado": "30/07/2026 às 16:00",
   "total": 40
 }
