@@ -1,6 +1,42 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/plataforma-oferece-escuta-em-saude-mental-",
+      "tag": "Saúde",
+      "titulo": "Plataforma oferece escuta em saúde mental para jovens no SUS Digital",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A plataforma Pode Falar, que oferece  acolhimento, escuta qualificada e orientação em saúde mental para pessoas de 13 a 24 anos , está disponível no aplicativo meu SUS Digital (disponível na  App Store  e no Google Play).   \n\n De acordo com o Ministério da Saúde, o serviço realiza uma média de 1,1 m",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/plataforma-oferece-escuta-em-saude-mental-para-jovens-no-sus-digital",
+      "data": "31/07/2026",
+      "hora": "11:52",
+      "ts": 1785509520000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-suspende-venda-de-produtos-medicos-",
+      "tag": "Anvisa",
+      "titulo": "Anvisa suspende venda de produtos médicos irregulares",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa)  suspendeu  a venda, a importação, a distribuição, a divulgação e o uso do produto Bio-Aid - Curativo Fixador para Cateter, importado no Brasil pela empresa Bio Company Comércio e Serviços Ltda.    \n\n Em nota, a Anvisa informou que a medida está re",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-suspende-venda-de-produtos-medicos-irregulares",
+      "data": "31/07/2026",
+      "hora": "11:42",
+      "ts": 1785508920000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/campanha-alerta-sobre-imunizacao-contra-vi",
+      "tag": "Saúde",
+      "titulo": "Campanha alerta sobre imunização contra vírus que causa bronquiolite",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Sociedade Brasileira de Imunizações (SBIm) lançou a campanha Todos contra o VSR – Proteção desde o Início.  O objetivo é ampliar o conhecimento de gestantes e da população sobre a importância da imunização contra o vírus sincicial respiratório (VSR), bem como fortalecer o conhecimento dos profissi",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/campanha-alerta-sobre-imunizacao-contra-virus-que-causa-bronquiolite",
+      "data": "31/07/2026",
+      "hora": "11:33",
+      "ts": 1785508380000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/sp-inicia-campanha-de-multivacinacao-na-se",
       "tag": "Saúde",
       "titulo": "SP inicia campanha de multivacinação na segunda-feira (3)",
@@ -82,42 +118,6 @@
       "data": "28/07/2026",
       "hora": "16:01",
       "ts": 1785265260000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/ministerio-da-saude-recomenda-ampliar-vaci",
-      "tag": "Saúde",
-      "titulo": "Ministério da Saúde recomenda ampliar vacinação contra o sarampo em SP",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Ministério da Saúde recomendou nesta terça-feira (28) que os municípios de Guarulhos, São Bernardo do Campo e São Paulo ampliem a oferta de vacinação contra o sarampo para  todas as pessoas de 6 meses a 59 anos de idade . A pasta orienta a adotar a medida durante a próxima Campanha de Multivacinaç",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/ministerio-da-saude-recomenda-ampliar-vacinacao-contra-o-sarampo-em-sp",
-      "data": "28/07/2026",
-      "hora": "14:32",
-      "ts": 1785259920000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-aprova-novo-medicamento-para-cancer",
-      "tag": "Anvisa",
-      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou a inclusão de um novo medicamento, o Datroway® (datopotamabe deruxtecana), para tratamento de pacientes adultos com câncer de pulmão.    \n\n O registro do medicamento oncológico do laboratório Daiichi Sankyo Brasil Farmacêutica Ltda. foi  pu",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/anvisa-aprova-novo-medicamento-para-cancer-de-pulmao",
-      "data": "28/07/2026",
-      "hora": "14:28",
-      "ts": 1785259680000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fiocruz-e-farmaceutica-assinam-acordo-sobr",
-      "tag": "Saúde",
-      "titulo": "Fiocruz e farmacêutica assinam acordo sobre novo antirretroviral",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Um memorando de entendimento entre a Fundação Oswaldo Cruz (Fiocruz) e a farmacêutica privada MSD permitirá a produção, no Brasil, de um novo medicamento contra o vírus HIV.  O documento foi assinado nesta terça-feira (28), durante a 26ª Conferência Internacional da Aids, no Rio de Janeiro.   \n\n  O ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/fiocruz-e-farmaceutica-assinam-acordo-sobre-novo-antirretroviral",
-      "data": "28/07/2026",
-      "hora": "12:50",
-      "ts": 1785253800000,
       "favorito": false
     },
     {
@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-adia-cronograma-de-destaque-",
+      "tag": "Economia",
+      "titulo": "Receita adia cronograma de destaque de impostos da reforma tributária",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Receita Federal e o Comitê Gestor do Imposto sobre Bens e Serviços (CGIBS) divulgaram nesta sexta-feira (31) um novo cronograma para a obrigatoriedade do destaque dos tributos da reforma tributária nos documentos fiscais eletrônicos. A principal mudança é o escalonamento dos prazos de implementaçã",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-adia-cronograma-de-destaque-de-impostos-da-reforma-tributaria",
+      "data": "31/07/2026",
+      "hora": "12:52",
+      "ts": 1785513120000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/falsos-anuncios-sobre-desenrola-bras",
+      "tag": "Economia",
+      "titulo": "Falsos anúncios sobre Desenrola Brasil enganam usuários nas redes",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Em apenas dois meses e meio,  544 falsos anúncios sobre o programa Desenrola Brasil, do governo federal, foram veiculados em redes sociais, para praticar golpes contra seus usuários. A constatação é de um levantamento do Laboratório de Estudos de Internet e Redes Sociais (Netlab), da Universidade Fe",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/falsos-anuncios-sobre-desenrola-brasil-enganam-usuarios-nas-redes",
+      "data": "31/07/2026",
+      "hora": "11:49",
+      "ts": 1785509340000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/deficit-do-setor-publico-sobe-para-r",
       "tag": "Economia",
       "titulo": "Déficit do setor público sobe para R$ 55,3 bilhões em junho",
@@ -334,30 +358,6 @@
       "data": "30/07/2026",
       "hora": "19:26",
       "ts": 1785450360000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/governo-central-tem-deficit-de-r-482",
-      "tag": "Economia",
-      "titulo": "Governo Central tem déficit de R$ 48,2 bilhões em junho",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os gastos com saúde e Previdência fizeram o Governo Central registrar déficit primário de R$ 48,2 bilhões em junho, segundo dados divulgados nesta quinta-feira (30) pelo Tesouro Nacional.    \n\n O resultado representa aumento em relação ao mesmo mês de 2025, quando o saldo negativo foi de R$ 44,2 bil",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/governo-central-tem-deficit-de-r-482-bilhoes-em-junho",
-      "data": "30/07/2026",
-      "hora": "17:17",
-      "ts": 1785442620000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/caixa-paga-bolsa-familia-de-julho-be",
-      "tag": "Economia",
-      "titulo": "Caixa paga Bolsa Família de julho a beneficiários com NIS de final 9",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Caixa Econômica Federal paga nesta quinta-feira (30) a parcela de julho do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 9.  Neste mês, o valor médio do benefício está em R$ 679,19 .   \n\n Os moradores de 175 municípios de seis estados receberam o crédito no último d",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/caixa-paga-bolsa-familia-de-julho-beneficiarios-com-nis-de-final-9",
-      "data": "30/07/2026",
-      "hora": "15:16",
-      "ts": 1785435360000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "31/07/2026 às 14:08",
+  "atualizado": "31/07/2026 às 16:00",
   "total": 40
 }
