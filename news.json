@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/aumento-de-etanol-na-gasolina-divide",
+      "tag": "Economia",
+      "titulo": "Aumento de etanol na gasolina divide opiniões sobre impacto em carros",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Aprovado recentemente pelo Conselho Nacional de Política Energética (CNPE), o aumento da mistura obrigatória de etanol anidro na gasolina de 30% para 32% (E32) reacendeu o debate sobre os efeitos da medida tanto para o bolso dos consumidores como para o funcionamento dos veículos.   \n\n  Contrário à ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/aumento-de-etanol-na-gasolina-divide-opinioes-sobre-impacto-em-carros",
+      "data": "01/08/2026",
+      "hora": "12:01",
+      "ts": 1785596460000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-sera-de",
+      "tag": "Economia",
+      "titulo": "Aplicativo do Tesouro Direto será desativado a partir de 17 de agosto",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Ministério da Fazenda informou aplicativo do Tesouro Direto será desativado no dia 17 de agosto. Segundo a pasta, a medida foi tomada para permitir a \"construção de uma nova experiência para os investidores\" , que será divulgada em uma data ainda que será definida.   \n\n Com a desativação do aplica",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-sera-desativado-partir-de-17-de-agosto",
+      "data": "01/08/2026",
+      "hora": "11:39",
+      "ts": 1785595140000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/centrais-sindicais-propoem-medidas-p",
       "tag": "Economia",
       "titulo": "Centrais sindicais propõem medidas para enfrentar tarifaço dos EUA",
@@ -334,30 +358,6 @@
       "data": "31/07/2026",
       "hora": "08:50",
       "ts": 1785498600000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-0-rec",
-      "tag": "Economia",
-      "titulo": "Beneficiários com NIS de final 0 recebem Bolsa Família de julho",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A  Caixa Econômica Federal  conclui nesta sexta-feira (31) o pagamento da parcela de julho do Bolsa Família. Recebem hoje os beneficiários com Número de Inscrição Social (NIS) de final 0. Neste mês, o valor médio do crédito está em R$ 679,19.    \n\n Os moradores de 175 municípios de seis estados rece",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/beneficiarios-com-nis-de-final-0-recebem-bolsa-familia-de-julho",
-      "data": "31/07/2026",
-      "hora": "08:12",
-      "ts": 1785496320000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-paga-nesta-sexta-terceiro-lo",
-      "tag": "Economia",
-      "titulo": "Receita paga nesta sexta-feira terceiro lote de restituição do IR 2026",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Quase 3 milhões de contribuintes recebem, nesta sexta-feira (31), o terceiro lote de restituição do  Imposto de Renda 2026 . Ao longo do dia, a  Receita Federal  liberará R$ 4,61 bilhões a 2.743.200 declarantes.    \n\n A  consulta  pode ser feita desde o dia 24 na página da Receita Federal na interne",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/receita-paga-nesta-sexta-terceiro-lote-de-restituicao-do-ir-2026",
-      "data": "31/07/2026",
-      "hora": "07:52",
-      "ts": 1785495120000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "01/08/2026 às 14:00",
+  "atualizado": "01/08/2026 às 16:00",
   "total": 40
 }
