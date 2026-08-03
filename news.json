@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sao-paulo-inicia-multivacinacao-partir-des",
+      "tag": "Saúde",
+      "titulo": "São Paulo inicia multivacinação a partir desta segunda-feira",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O estado de São Paulo iniciou, nesta segunda-feira (3), a Campanha de Multivacinação para menores de 15 anos.  A ação acontece em todos os 645 municípios paulistas.    \n\n Com o objetivo de reforçar a imunização contra o sarampo, a campanha estende-se também a pessoas na faixa etária de 6 meses a 59 ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sao-paulo-inicia-multivacinacao-partir-desta-segunda-feira",
+      "data": "03/08/2026",
+      "hora": "12:34",
+      "ts": 1785771240000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/aberta-chamada-publica-para-pesquisas-sobr",
       "tag": "Saúde",
       "titulo": "Aberta chamada pública para pesquisas sobre endometriose",
@@ -106,18 +118,6 @@
       "data": "30/07/2026",
       "hora": "17:34",
       "ts": 1785443640000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/desinformacao-sobre-hiv-dificulta-tratamen",
-      "tag": "Saúde",
-      "titulo": "Desinformação sobre HIV dificulta tratamento e aumenta preconceito",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A falha em combater o estigma social em torno do HIV pode causar cerca de 440 mil mortes evitáveis nesta década, segundo projeção de uma pesquisa internacional de opinião pública realizada pela iniciativa não governamental Tackle HIV.    \n\n \n “Esse estigma traz impactos enormes para a sociedade em g",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/desinformacao-sobre-hiv-dificulta-tratamento-e-aumenta-preconceito",
-      "data": "30/07/2026",
-      "hora": "16:16",
-      "ts": 1785438960000,
       "favorito": false
     },
     {
@@ -241,6 +241,30 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emissao-de-notas-fiscais-com-cbs-e-i",
+      "tag": "Economia",
+      "titulo": "Emissão de notas fiscais com CBS e IBS começa nesta segunda-feira",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Começa a valer nesta segunda-feira (3) a obrigatoriedade de preenchimento dos campos da Contribuição sobre Bens e Serviços (CBS) e do Imposto sobre Bens e Serviços (IBS) em parte dos documentos fiscais eletrônicos emitidos no país.    \n\n A medida integra a implementação da reforma tributária sobre o",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/emissao-de-notas-fiscais-com-cbs-e-ibs-comeca-nesta-segunda-feira",
+      "data": "03/08/2026",
+      "hora": "12:40",
+      "ts": 1785771600000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-nesta-terca-reuniao-par",
+      "tag": "Economia",
+      "titulo": "Copom inicia nesta terça reunião para definir taxa básica de juros",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O  Comitê de Política Monetária (Copom)  do Banco Central (BC) inicia nesta terça-feira (4) a quinta reunião de 2026, em meio às projeções do mercado financeiro para novos cortes nos juros e redução das expectativas sobre a inflação.    \n\n A decisão sobre a  Taxa Selic  será anunciada na noite de qu",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/copom-inicia-nesta-terca-reuniao-para-definir-taxa-basica-de-juros",
+      "data": "03/08/2026",
+      "hora": "11:46",
+      "ts": 1785768360000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-mais-poco-de-gas-",
       "tag": "Economia",
       "titulo": "Petrobras descobre mais poço de gás na margem equatorial da Colômbia",
@@ -334,30 +358,6 @@
       "data": "01/08/2026",
       "hora": "12:01",
       "ts": 1785596460000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-sera-de",
-      "tag": "Economia",
-      "titulo": "Aplicativo do Tesouro Direto será desativado a partir de 17 de agosto",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Ministério da Fazenda informou aplicativo do Tesouro Direto será desativado no dia 17 de agosto. Segundo a pasta, a medida foi tomada para permitir a \"construção de uma nova experiência para os investidores\" , que será divulgada em uma data ainda que será definida.   \n\n Com a desativação do aplica",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/aplicativo-do-tesouro-direto-sera-desativado-partir-de-17-de-agosto",
-      "data": "01/08/2026",
-      "hora": "11:39",
-      "ts": 1785595140000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/centrais-sindicais-propoem-medidas-p",
-      "tag": "Economia",
-      "titulo": "Centrais sindicais propõem medidas para enfrentar tarifaço dos EUA",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As centrais sindicais apresentaram nesta sexta-feira (31) um documento com propostas para enfrentar os efeitos do  tarifaço aplicado pelos Estados Unidos  a diversos produtos brasileiros.    \n\n No documento, entregue ao ministro do Desenvolvimento, Indústria e Comércio Exterior, Márcio Elias Rosa, a",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-07/centrais-sindicais-propoem-medidas-para-enfrentar-tarifaco-dos-eua",
-      "data": "31/07/2026",
-      "hora": "20:01",
-      "ts": 1785538860000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "03/08/2026 às 14:40",
+  "atualizado": "03/08/2026 às 16:00",
   "total": 40
 }
