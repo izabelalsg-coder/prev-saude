@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sus-tera-100-mil-teleatendimentos-em-saude",
+      "tag": "Saúde",
+      "titulo": "SUS terá 100 mil teleatendimentos em saúde mental para vício em bets",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O Sistema Único de Saúde (SUS) ampliou para até 100 mil o número de teleatendimentos a pessoas que enfrentam problemas relacionados a jogos e apostas  online .  A iniciativa passa a valer nesta terça-feira (4).   \n\n O serviço começou a ser ofertado em março, com uma média de 600 teleatendimentos men",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sus-tera-100-mil-teleatendimentos-em-saude-mental-para-vicio-em-bets",
+      "data": "04/08/2026",
+      "hora": "12:53",
+      "ts": 1785858780000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/casos-de-sarampo-sobem-para-16-em-sao-paul",
       "tag": "Saúde",
       "titulo": "Casos de sarampo sobem para 16 em São Paulo",
@@ -109,24 +121,24 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/plataforma-oferece-escuta-em-saude-mental-",
-      "tag": "Saúde",
-      "titulo": "Plataforma oferece escuta em saúde mental para jovens no SUS Digital",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A plataforma Pode Falar, que oferece  acolhimento, escuta qualificada e orientação em saúde mental para pessoas de 13 a 24 anos , está disponível no aplicativo meu SUS Digital (disponível na  App Store  e no  Google Play ).   \n\n De acordo com o Ministério da Saúde, o serviço realiza uma média de 1,1",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-07/plataforma-oferece-escuta-em-saude-mental-para-jovens-no-sus-digital",
-      "data": "31/07/2026",
-      "hora": "11:52",
-      "ts": 1785509520000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/pf-investiga-senador-weverton-rocha-po",
+      "tag": "INSS",
+      "titulo": "PF investiga senador Weverton Rocha por suspeita de desvios no INSS",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A Polícia Federal (PF) deflagrou nesta terça-feira (4) nova fase da Operação Sem Desconto, que investiga suspeita de lavagem de dinheiro e fraudes relacionadas aos descontos indevidos de benefícios do Instituto Nacional do Seguro Social (INSS).    \n\n Foram cumpridos 18 mandados de busca e apreensão ",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/pf-investiga-senador-weverton-rocha-por-suspeita-de-desvios-no-inss",
+      "data": "04/08/2026",
+      "hora": "12:13",
+      "ts": 1785856380000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/justica-do-trabalho-chama-atencao-para",
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/assedio-eleitoral-no-trabalho-e-crime-",
       "tag": "Justiça",
-      "titulo": "Justiça do Trabalho chama atenção para assédio eleitoral",
+      "titulo": "Assédio eleitoral no trabalho é crime; saiba como identificar",
       "fonte": "Agência Brasil / Justiça",
       "resumo": "Com a chegada do período eleitoral, a Justiça do Trabalho chama a atenção para uma prática que busca interferir na liberdade do eleitor em escolher seu candidato e no exercício do voto livre e secreto: o assédio eleitoral nas relações de trabalho. Em muitas situações, patrões ou pessoas em posição d",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/justica-do-trabalho-chama-atencao-para-o-assedio-eleitoral",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/assedio-eleitoral-no-trabalho-e-crime-saiba-como-identificar",
       "data": "04/08/2026",
       "hora": "07:02",
       "ts": 1785837720000,
@@ -226,18 +238,6 @@
       "data": "01/08/2026",
       "hora": "09:03",
       "ts": 1785585780000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mprj-debate-aplicacao-da-lei-antifacca",
-      "tag": "Legislação",
-      "titulo": "MPRJ debate aplicação da Lei Antifacção no combate ao crime",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Ministério Público do Estado do Rio de Janeiro (MPRJ) promoveu, nesta sexta-feira (31), um encontro para discutir a Lei Antifacção e os desafios impostos pelas organizações criminosas classificadas como ultraviolentas.    \n\n  O procurador-geral de Justiça do Rio, Antonio José Campos Moreira, disse",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/mprj-debate-aplicacao-da-lei-antifaccao-no-combate-ao-crime",
-      "data": "31/07/2026",
-      "hora": "21:29",
-      "ts": 1785544140000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "04/08/2026 às 14:13",
+  "atualizado": "04/08/2026 às 16:00",
   "total": 40
 }
