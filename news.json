@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/assinatura-digital-e-lacracao-impedem-",
+      "tag": "Justiça",
+      "titulo": "Assinatura digital e lacração impedem alteração em sistemas eleitorais",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "A cerimônia de assinatura digital e lacração dos sistemas eleitorais impedem qualquer alteração nos programas que operam as urnas eletrônicas após sua conclusão.  Segundo o secretário de Tecnologia da Informação do Tribunal Superior Eleitoral (TSE), Júlio Valente, nem o próprio tribunal pode modific",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/assinatura-digital-e-lacracao-impedem-alteracao-em-sistemas-eleitorais",
+      "data": "05/08/2026",
+      "hora": "12:12",
+      "ts": 1785942720000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/tcu-envia-justica-eleitoral-lista-de-g",
       "tag": "Justiça",
       "titulo": "TCU envia à Justiça Eleitoral lista de gestores com contas rejeitadas",
@@ -226,18 +238,6 @@
       "data": "04/08/2026",
       "hora": "12:13",
       "ts": 1785856380000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/assedio-eleitoral-no-trabalho-e-crime-",
-      "tag": "Justiça",
-      "titulo": "Assédio eleitoral no trabalho é crime; saiba como identificar",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Com a chegada do período eleitoral, a Justiça do Trabalho chama a atenção para uma prática que busca interferir na liberdade do eleitor em escolher seu candidato e no exercício do voto livre e secreto: o assédio eleitoral nas relações de trabalho. Em muitas situações, patrões ou pessoas em posição d",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/assedio-eleitoral-no-trabalho-e-crime-saiba-como-identificar",
-      "data": "04/08/2026",
-      "hora": "07:02",
-      "ts": 1785837720000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "05/08/2026 às 14:10",
+  "atualizado": "05/08/2026 às 16:00",
   "total": 40
 }
