@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/justicas-eleitoral-e-do-trabalho-lanca",
+      "tag": "Justiça",
+      "titulo": "Justiças Eleitoral e do Trabalho lançam campanha contra assédio",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O Tribunal Superior Eleitoral (TSE), o Tribunal Superior do Trabalho (TST) e o Ministério Público do Trabalho (MPT) lançaram nesta quinta-feira (6) uma mobilização nacional conjunta contra o assédio eleitoral de patrões sobre os empregados.     \n\n Com o  slogan   No meu voto mando eu , a  campanha A",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/justicas-eleitoral-e-do-trabalho-lancam-campanha-contra-assedio",
+      "data": "06/08/2026",
+      "hora": "11:21",
+      "ts": 1786026060000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/coronel-do-corpo-de-bombeiros-vira-reu",
       "tag": "Justiça",
       "titulo": "Coronel do Corpo de Bombeiros vira réu em caso de assédio sexual",
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/operacao-livia-combate-rede-que-induzi",
-      "tag": "Justiça",
-      "titulo": "Operação Lívia combate rede que induzia jovens a suicídio na internet",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Ministério da Justiça e Segurança Pública (MJSP) apresentou nesta terça-feira (4) os resultados da Operação Lívia, conduzida pela Polícia Civil de Mato Grosso do Sul e realizada com o apoio técnico do Laboratório de Operações Cibernéticas (Ciberlab) da Secretaria Nacional de Segurança Pública (Sen",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/operacao-livia-combate-rede-que-induzia-jovens-suicidio-na-internet",
-      "data": "04/08/2026",
-      "hora": "16:40",
-      "ts": 1785872400000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-",
+      "tag": "Economia",
+      "titulo": "CNC: endividamento das famílias sobe para 82%, mas inadimplência cai",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O indicador que mede a proporção de famílias que têm dívidas, em atraso ou não, chegou a 82% em julho, marcando  o maior patamar já registrado pelo sexto mês seguido . Em junho, o índice era 81,6%; enquanto, em julho do ano passado, 78,5%.   \n\n No entanto,  a parcela de famílias com dívidas atrasada",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-para-82-mas-inadimplencia-cai",
+      "data": "06/08/2026",
+      "hora": "12:51",
+      "ts": 1786031460000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-diz-que-aumento-da-divida-de",
+      "tag": "Economia",
+      "titulo": "Durigan diz que aumento da dívida decorre dos juros, não dos gastos",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O ministro da Fazenda, Dario Durigan, disse que o aumento da dívida brasileira não se deve ao aumento de gastos, e sim aos juros altos que são cobrados no país. Segundo ele, isso ocorre por conta da necessidade de o governo pagar dívidas antigas com títulos novos, o que implica em mais pagamento de ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-diz-que-aumento-da-divida-decorre-dos-juros-nao-dos-gastos",
+      "data": "06/08/2026",
+      "hora": "11:54",
+      "ts": 1786028040000,
       "favorito": false
     },
     {
@@ -337,27 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-novo-poco-de-gas-",
-      "tag": "Economia",
-      "titulo": "Petrobras descobre novo poço de gás na margem equatorial da Colômbia",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Petrobras anunciou nesta segunda-feira (3) a descoberta de um poço de gás em uma área de grande potencial em águas profundas na Colômbia. A concentração de gás fica no poço exploratório Sandia-1, no bloco GUA-OFF-0, na Bacia de Guajira.    \n\n Sandia-1 fica a 42 quilômetros (km) da costa, a uma lâm",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-descobre-novo-poco-de-gas-na-margem-equatorial-da-colombia",
-      "data": "03/08/2026",
-      "hora": "11:08",
-      "ts": 1785766080000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pela-1a-vez-desde-marco-mercado-redu",
-      "tag": "Economia",
-      "titulo": "Pela 1ª vez desde março, mercado reduz expectativa para Selic em 2026",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O mercado financeiro reduziu as expectativas para os índices de inflação e, pela primeira vez desde março, da taxa básica de juros. Segundo o  Boletim Focus,  divulgado nesta segunda-feira (3) pelo Banco Central (BC), a Selic deve fechar 2026 em 13,75%.   \n\n As projeções para a economia (PIB, Produt",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pela-1a-vez-desde-marco-mercado-reduz-expectativa-para-selic-em-2026",
-      "data": "03/08/2026",
-      "hora": "10:31",
-      "ts": 1785763860000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/federacao-psol-rede-oficializa-apoio",
+      "tag": "Política",
+      "titulo": "Federação PSOL-Rede oficializa apoio à candidatura de Lula à reeleição",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "A Federação PSOL-Rede Sustentabilidade oficializou apoio à candidatura de Luiz Inácio Lula da Silva (PT) à presidência da República.  A convenção nacional ocorreu nesta quinta-feira (5).   \n\n Os partidos já haviam sinalizado a posição  quando participaram da convenção  do PT, no último fim de semana",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/federacao-psol-rede-oficializa-apoio-candidatura-de-lula-reeleicao",
+      "data": "06/08/2026",
+      "hora": "11:11",
+      "ts": 1786025460000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "21:51",
       "ts": 1785804660000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/tre-rj-abre-urna-para-o-publico-e-de",
-      "tag": "Política",
-      "titulo": "TRE-RJ abre urna para o público e defende segurança do voto eletrônico",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) organizou nesta segunda-feira (3) uma apresentação da urna eletrônica para a imprensa e entidades fiscalizadoras do processo eleitoral.  O equipamento foi desmontado diante do público , para explicar em detalhes o funcionamento dos circuitos e",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/tre-rj-abre-urna-para-o-publico-e-defende-seguranca-do-voto-eletronico",
-      "data": "03/08/2026",
-      "hora": "19:28",
-      "ts": 1785796080000,
-      "favorito": false
     }
   ],
-  "atualizado": "06/08/2026 às 14:11",
+  "atualizado": "06/08/2026 às 16:01",
   "total": 40
 }
