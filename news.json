@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/estado-de-sao-paulo-confirma-23-casos-de-s",
+      "tag": "Saúde",
+      "titulo": "Estado de São Paulo confirma 23 casos de sarampo; 16 não se vacinaram",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O estado de São Paulo tem 23 casos de sarampo confirmados, segundo a Secretaria da Saúde. Os dados indicam que 16 desses pacientes não tinham histórico de vacinação ou estavam com o esquema vacinal incompleto.     \n\n Do total de casos confirmados no estado, dois são importados e os demais estão rela",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/estado-de-sao-paulo-confirma-23-casos-de-sarampo-16-nao-se-vacinaram",
+      "data": "07/08/2026",
+      "hora": "11:30",
+      "ts": 1786113000000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/diagnostico-tardio-da-poucas-chances-de-cu",
       "tag": "Saúde",
       "titulo": "Diagnóstico tardio dá poucas chances de cura para o câncer de pulmão",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/campanha-nacional-de-multivacinacao-comeca",
-      "tag": "Saúde",
-      "titulo": "Campanha Nacional de Multivacinação começa nesta segunda",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Campanha Nacional de Multivacinação 2026 tem início nesta segunda-feira (3), em todo o Brasil. A mobilização segue até o dia 1º de setembro com o objetivo de aumentar a cobertura vacinal.   \n\n A vacinação é gratuita pelo Sistema Único de Saúde (SUS) e está disponível em todas as Unidades Básicas d",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/campanha-nacional-de-multivacinacao-comeca-nesta-segunda",
-      "data": "03/08/2026",
-      "hora": "12:57",
-      "ts": 1785772620000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-muda-decisao-de-moraes-e-reduz-pen",
+      "tag": "STF",
+      "titulo": "STF muda decisão de Moraes e reduz pena de condenada por 8 de janeiro",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Por maioria de 6 a 4, o plenário do Supremo Tribunal Federal (STF) decidiu reverter uma decisão do ministro Alexandre de Moraes e aumentar a redução de pena de uma das condenadas pelos atos antidemocráticos de 8 de janeiro de 2023.    \n\n  Simone Macedo foi condenada a 1 ano de reclusão em regime abe",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-muda-decisao-de-moraes-e-reduz-pena-de-condenada-por-8-de-janeiro",
+      "data": "07/08/2026",
+      "hora": "11:33",
+      "ts": 1786113180000,
       "favorito": false
     },
     {
@@ -229,15 +241,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-inicia-julgamento-sobre-validade-d",
-      "tag": "STF",
-      "titulo": "STF inicia julgamento sobre validade da Lei das Contravenções Penais",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Supremo Tribunal Federal (STF) começou a julgar nesta quarta-feira (5) a constitucionalidade da Lei das Contravenções Penais, que está vigente no país desde 1941, quando foi assinada pelo então presidente da República, Getúlio Vargas.   \n\n O caso chegou ao Supremo por meio de um recurso do Ministé",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-inicia-julgamento-sobre-validade-da-lei-das-contravencoes-penais",
-      "data": "05/08/2026",
-      "hora": "18:27",
-      "ts": 1785965220000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/retiradas-da-poupanca-superam-deposi",
+      "tag": "Economia",
+      "titulo": "Retiradas da poupança superam depósitos em R$ 7,15 bilhões em julho",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "As retiradas da caderneta de poupança superaram os depósitos em R$ 7,15 bilhões em julho deste ano, segundo relatório divulgado nesta sexta-feira (7) pelo Banco Central. No mês, foram aplicados R$ 370,76 bilhões, enquanto os saques somaram R$ 377,92 bilhões.    \n\n Na comparação com junho deste ano, ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/retiradas-da-poupanca-superam-depositos-em-r-715-bilhoes-em-julho",
+      "data": "07/08/2026",
+      "hora": "11:58",
+      "ts": 1786114680000,
       "favorito": false
     },
     {
@@ -346,18 +358,6 @@
       "data": "06/08/2026",
       "hora": "11:54",
       "ts": 1786028040000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-ins",
-      "tag": "Economia",
-      "titulo": "Redução da taxa de juros ainda é insuficiente, avaliam entidades",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O quarto corte consecutivo na Taxa Selic ,  definido nesta quarta-feira (5) pelo Comitê de Política Monetária (Copom) do Banco Central (BC), foi bem recebido por agentes econômicos, mas ainda é considerado insuficiente  e restritivo para a expansão do setor industrial.   \n\n Em nota, a Federação das ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/reducao-da-taxa-de-juros-ainda-e-insuficiente-avaliam-entidades",
-      "data": "05/08/2026",
-      "hora": "20:38",
-      "ts": 1785973080000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "07/08/2026 às 14:00",
+  "atualizado": "07/08/2026 às 16:00",
   "total": 40
 }
