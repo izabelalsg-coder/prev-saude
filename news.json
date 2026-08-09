@@ -121,6 +121,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/justica-abriu-urnas-diante-da-populaca",
+      "tag": "Justiça",
+      "titulo": "Justiça abriu as urnas diante da população, diz Nunes Marques",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O presidente do Tribunal Superior Eleitoral (TSE), Kassio Nunes Marques, voltou a defender a confiabilidade do sistema eletrônico de votação do Brasil e destacou as iniciativas da Justiça para fortalecer o processo democrático.     \n\n O ministro discursou na abertura da Corrida pela Democracia, real",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/justica-abriu-urnas-diante-da-populacao-diz-nunes-marques",
+      "data": "09/08/2026",
+      "hora": "12:45",
+      "ts": 1786290300000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/moraes-nega-pedido-para-que-bolsonaro-",
       "tag": "Justiça",
       "titulo": "Moraes nega pedido para que Bolsonaro receba filhos no Dia dos Pais",
@@ -226,18 +238,6 @@
       "data": "06/08/2026",
       "hora": "19:19",
       "ts": 1786054740000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-suspende-julgamento-de-lei-que-pro",
-      "tag": "STF",
-      "titulo": "STF suspende julgamento de lei que proíbe jogos de azar",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Supremo Tribunal Federal (STF) decidiu nesta quinta-feira (6) suspender o julgamento sobre a validade da Lei das Contravenções Penais . A norma está vigente no país desde 1941, quando foi assinada pelo então presidente da República, Getúlio Vargas.   \n\n  A análise do caso foi interrompida após um ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-suspende-julgamento-de-lei-que-proibe-jogos-de-azar",
-      "data": "06/08/2026",
-      "hora": "17:08",
-      "ts": 1786046880000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "09/08/2026 às 14:00",
+  "atualizado": "09/08/2026 às 16:00",
   "total": 40
 }
