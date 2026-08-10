@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/queixas-sexuais-na-menopausa-tem-tratament",
+      "tag": "Saúde",
+      "titulo": "Queixas sexuais na menopausa têm tratamento, diz especialista",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Queixas como secura vaginal, dor durante a relação e perda do desejo sexual não devem ser encaradas como consequências naturais do envelhecimento nem ignoradas nas consultas médicas.  Segundo a ginecologista Jussimara Souza Steglich, da Federação Brasileira das Associações de Ginecologia e Obstetríc",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/queixas-sexuais-na-menopausa-tem-tratamento-diz-especialista",
+      "data": "09/08/2026",
+      "hora": "16:23",
+      "ts": 1786303380000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/paulistanos-enfrentam-filas-para-tomar-vac",
       "tag": "Saúde",
       "titulo": "Paulistanos enfrentam filas para tomar vacina contra sarampo",
@@ -109,15 +121,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/rio-concentra-quase-um-terco-de-casos-de-e",
-      "tag": "Saúde",
-      "titulo": "Rio concentra quase um terço de casos de exercício ilegal da medicina",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O Rio de Janeiro registrou 937 ocorrências policiais relacionadas ao exercício ilegal da  medicina  entre 2012 e 2023, de acordo com dados do  Conselho Federal de Medicina (CFM) .     \n\n  O número pode ser ainda maior, pois muitos casos não são comunicados às autoridades, por receio, constrangimento",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/rio-concentra-quase-um-terco-de-casos-de-exercicio-ilegal-da-medicina",
-      "data": "06/08/2026",
-      "hora": "15:00",
-      "ts": 1786039200000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/prazo-para-solicitacao-de-voto-em-tran",
+      "tag": "Justiça",
+      "titulo": "Prazo para solicitação de voto em trânsito vai até dia 20 deste mês",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "Vai até o dia 20 deste mês o prazo para o eleitor solicitar a habilitação para votar em trânsito nas eleições de outubro. A solicitação pode ser feita pela  página do Tribunal Superior Eleitoral  (TSE) na internet ou nos cartórios eleitorais em todo o país.    \n\n  O voto em trânsito permite ao eleit",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/prazo-para-solicitacao-de-voto-em-transito-vai-ate-dia-20-deste-mes",
+      "data": "10/08/2026",
+      "hora": "09:19",
+      "ts": 1786364340000,
       "favorito": false
     },
     {
@@ -229,15 +241,27 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/pai-e-madrasta-sao-presos-suspeitos-de",
-      "tag": "Justiça",
-      "titulo": "Pai e madrasta são presos suspeitos de morte de menino de 3 anos no TO",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O pai e a madrasta de Gustavo Veloso Feitosa, de 3 anos, foram presos em Tocantins, sob suspeita de envolvimento na morte da criança. O menino foi encontrado morto na casa do casal, em Palmas, na última segunda-feira (3).    \n\n O advogado Igor Gustavo Veloso de Souza, de 33 anos, e a companheira del",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/pai-e-madrasta-sao-presos-suspeitos-de-morte-de-menino-de-3-anos-no",
-      "data": "06/08/2026",
-      "hora": "19:19",
-      "ts": 1786054740000,
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/expectativa-do-mercado-para-inflacao",
+      "tag": "Economia",
+      "titulo": "Expectativa do mercado para inflação de 2026 cai para 5,02%",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Pela sexta semana consecutiva, o mercado financeiro revê para baixo as expectativas que tem para a inflação em 2026. De acordo com o Boletim Focus, divulgado nesta segunda-feira (10) pelo Banco Central (BC), o Índice Nacional de Preços ao Consumidor Amplo (IPCA, a  inflação oficial do país, deve fec",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/expectativa-do-mercado-para-inflacao-de-2026-cai-para-502",
+      "data": "10/08/2026",
+      "hora": "09:42",
+      "ts": 1786365720000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/declaracao-do-imposto-sobre-imoveis-",
+      "tag": "Economia",
+      "titulo": "Declaração do imposto sobre imóveis rurais pode ser feita por internet",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Receita Federal disponibiliza a partir desta segunda-feira (10) a versão web do serviço Minhas Declarações do ITR, que  permite preencher, transmitir, retificar e consultar online a Declaração do Imposto sobre a Propriedade Territorial Rural (DITR) , sem necessidade de instalar programas no comput",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/declaracao-do-imposto-sobre-imoveis-rurais-pode-ser-feita-por-internet",
+      "data": "10/08/2026",
+      "hora": "07:02",
+      "ts": 1786356120000,
       "favorito": false
     },
     {
@@ -337,27 +361,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-",
-      "tag": "Economia",
-      "titulo": "CNC: endividamento das famílias sobe para 82%, mas inadimplência cai",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O indicador que mede a proporção de famílias que têm dívidas, em atraso ou não, chegou a 82% em julho, marcando  o maior patamar já registrado pelo sexto mês seguido . Em junho, o índice era 81,6%; enquanto, em julho do ano passado, 78,5%.   \n\n No entanto,  a parcela de famílias com dívidas atrasada",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/cnc-endividamento-das-familias-sobe-para-82-mas-inadimplencia-cai",
-      "data": "06/08/2026",
-      "hora": "12:51",
-      "ts": 1786031460000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-diz-que-aumento-da-divida-de",
-      "tag": "Economia",
-      "titulo": "Durigan diz que aumento da dívida decorre dos juros, não dos gastos",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O ministro da Fazenda, Dario Durigan, disse que o aumento da dívida brasileira não se deve ao aumento de gastos, e sim aos juros altos que são cobrados no país. Segundo ele, isso ocorre por conta da necessidade de o governo pagar dívidas antigas com títulos novos, o que implica em mais pagamento de ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/durigan-diz-que-aumento-da-divida-decorre-dos-juros-nao-dos-gastos",
-      "data": "06/08/2026",
-      "hora": "11:54",
-      "ts": 1786028040000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/avanco-da-ia-corroi-financiamento-do",
+      "tag": "Política",
+      "titulo": "Avanço da IA corrói financiamento do jornalismo profissional no Brasil",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O avanço da Inteligência Artificial (IA) por meio dos resumos que buscadores oferecem na internet vem derrubando o tráfego direto de internautas em  sites  jornalísticos, prejudicando o financiamento do jornalismo profissional no Brasil. Isso ocorre porque parte dos usuários tem deixado de clicar no",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/avanco-da-ia-corroi-financiamento-do-jornalismo-profissional-no-brasil",
+      "data": "09/08/2026",
+      "hora": "14:30",
+      "ts": 1786296600000,
       "favorito": false
     },
     {
@@ -467,20 +479,8 @@
       "hora": "19:09",
       "ts": 1785881340000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/uniao-brasil-decide-pela-neutralidad",
-      "tag": "Política",
-      "titulo": "União Brasil decide pela neutralidade na eleição presidencial",
-      "fonte": "Agência Brasil / Política",
-      "resumo": "O União Brasil decidiu, em convenção nacional realizada nesta terça-feira (4) adotar a neutralidade na corrida presidencial deste ano.  Com isso, o partido liberou os seus candidatos para, em âmbito estadual, fazerem as coligações que melhor atenderem seus objetivos nas eleições deste ano.   \n\n O pa",
-      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-08/uniao-brasil-decide-pela-neutralidade-na-eleicao-presidencial",
-      "data": "04/08/2026",
-      "hora": "18:48",
-      "ts": 1785880080000,
-      "favorito": false
     }
   ],
-  "atualizado": "09/08/2026 às 16:00",
+  "atualizado": "10/08/2026 às 13:09",
   "total": 40
 }
