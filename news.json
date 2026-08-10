@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/anvisa-libera-venda-de-medicamentos-por-pl",
+      "tag": "Anvisa",
+      "titulo": "Anvisa libera venda de medicamentos por plataformas como iFood e Rapp",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) revogou nesta segunda-feira (10) uma série de resoluções e medidas preventivas que proibiam a comercialização e a propaganda de medicamentos nas plataformas iFood, Rappi, Mercado Livre, Submarino e Americanas.   \n\n  Na última quinta-feira (6), a An",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/anvisa-libera-venda-de-medicamentos-por-plataformas-como-ifood-e-rapp",
+      "data": "10/08/2026",
+      "hora": "11:18",
+      "ts": 1786371480000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sus-inclui-novo-teste-para-rastreamento-de",
+      "tag": "Saúde",
+      "titulo": "SUS inclui novo teste para rastreamento de câncer colorretal",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "O  Sistema Único de Saúde  inclui a partir desta segunda-feira (10) o teste imunoquímico fecal (FIT, na sigla em inglês) na tabela de procedimentos disponíveis aos pacientes da rede.  \n \nPortaria publicada no   Diário Oficial da União   destaca que o exame que pesquisa sangue oculto nas fezes será d",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sus-inclui-novo-teste-para-rastreamento-de-cancer-colorretal",
+      "data": "10/08/2026",
+      "hora": "11:04",
+      "ts": 1786370640000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/consulta-publica-avalia-inclusao-no-sus-de",
       "tag": "Saúde",
       "titulo": "Consulta pública avalia inclusão no SUS de remédio para hipertensão",
@@ -94,30 +118,6 @@
       "data": "07/08/2026",
       "hora": "13:29",
       "ts": 1786120140000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/estado-de-sao-paulo-confirma-23-casos-de-s",
-      "tag": "Saúde",
-      "titulo": "Estado de São Paulo confirma 23 casos de sarampo; 16 não se vacinaram",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O estado de São Paulo tem 23 casos de sarampo confirmados, segundo a Secretaria da Saúde. Os dados indicam que 16 desses pacientes não tinham histórico de vacinação ou estavam com o esquema vacinal incompleto.     \n\n Do total de casos confirmados no estado, dois são importados e os demais estão rela",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/estado-de-sao-paulo-confirma-23-casos-de-sarampo-16-nao-se-vacinaram",
-      "data": "07/08/2026",
-      "hora": "11:30",
-      "ts": 1786113000000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/diagnostico-tardio-da-poucas-chances-de-cu",
-      "tag": "Saúde",
-      "titulo": "Diagnóstico tardio dá poucas chances de cura para o câncer de pulmão",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O câncer de pulmão é uma doença silenciosa, e segundo o oncologista Igor Morbeck, membro do Comitê Científico do Instituto Lado a Lado pela Vida, entre 70% e 80% dos cânceres de pulmão no mundo são diagnosticados em fase totalmente avançada ou em metástase. No Brasil, não é diferente.   \n\n Por meio ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/diagnostico-tardio-da-poucas-chances-de-cura-do-cancer-de-pulmao",
-      "data": "06/08/2026",
-      "hora": "17:19",
-      "ts": 1786047540000,
       "favorito": false
     },
     {
@@ -241,6 +241,18 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-",
+      "tag": "Economia",
+      "titulo": "Desenrola Adimplentes começa a operar nesta segunda-feira",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Começa nesta segunda-feira (10) a operação do Desenrola Adimplentes, modalidade do programa Desenrola voltada a trabalhadores informais que mantêm seus compromissos financeiros em dia. A linha permite trocar empréstimos mais caros por crédito com juros de até 1,99% ao mês e valores até R$ 15 mil.   ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-nesta-segunda-feira",
+      "data": "10/08/2026",
+      "hora": "11:25",
+      "ts": 1786371900000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/expectativa-do-mercado-para-inflacao",
       "tag": "Economia",
       "titulo": "Expectativa do mercado para inflação de 2026 cai para 5,02%",
@@ -346,18 +358,6 @@
       "data": "06/08/2026",
       "hora": "16:28",
       "ts": 1786044480000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/entenda-o-que-muda-com-nova-lei-do-f",
-      "tag": "Legislação",
-      "titulo": "Entenda o que muda com a nova Lei do Frete",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Sancionada esta semana , a Lei do Frete transforma em regras permanentes medidas que vinham sendo aplicadas desde março para reforçar a fiscalização do transporte rodoviário de cargas.    \n\n  A  lei torna permanente a obrigatoriedade do Código Identificador da Operação de Transporte (Ciot)  , mecani",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/entenda-o-que-muda-com-nova-lei-do-frete",
-      "data": "06/08/2026",
-      "hora": "13:08",
-      "ts": 1786032480000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "10/08/2026 às 14:00",
+  "atualizado": "10/08/2026 às 16:00",
   "total": 40
 }
