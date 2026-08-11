@@ -2,8 +2,7 @@ name: Atualizar Noticias
 
 on:
   schedule:
-    - cron: '0 11 * * 1-5'
-    - cron: '0 13 * * 1-5'
+    - cron: '0 9 * * *'   # 06h no horário de Brasília (UTC-3), todos os dias
   workflow_dispatch:
 
 permissions:
@@ -17,6 +16,8 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Rodar script
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 fetch_news.py
 
       - name: Salvar news.json
