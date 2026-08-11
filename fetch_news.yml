@@ -4,6 +4,7 @@ on:
   schedule:
     - cron: '0 9 * * *'   # 06h no horário de Brasília (UTC-3), todos os dias
   workflow_dispatch:
+    # Permite rodar manualmente pela aba Actions do GitHub
 
 permissions:
   contents: write
@@ -12,18 +13,24 @@ jobs:
   atualizar:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout do repositório
         uses: actions/checkout@v4
 
-      - name: Rodar script
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Buscar notícias e gerar news.json
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 fetch_news.py
 
-      - name: Salvar news.json
+      - name: Commit e push do news.json
         run: |
-          git config user.name "bot"
-          git config user.email "bot@github.com"
+          git config user.name "Prev & Saúde Bot"
+          git config user.email "actions@github.com"
           git add news.json
-          git diff --staged --quiet || git commit -m "noticias $(date +'%d/%m/%Y %H:%M')"
+          git diff --staged --quiet || git commit -m "Noticias atualizadas $(date +'%d/%m/%Y %H:%M')"
+          git pull --rebase origin main
           git push
