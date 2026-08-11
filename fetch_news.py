@@ -209,3 +209,4 @@ with open("news.json", "w", encoding="utf-8") as f:
     }, f, ensure_ascii=False, indent=2)
 
 print("Salvo: news.json")
+ atualizar fetch_news com curadoria
