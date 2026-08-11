@@ -15,7 +15,7 @@ FEEDS = [
     ("https://agenciabrasil.ebc.com.br/rss/politica/feed.xml", "Agência Brasil / Política"),
     ("https://www.conjur.com.br/rss.xml",                      "Conjur"),
     ("https://res.stj.jus.br/hrestp-c-portalp/RSS.xml",        "STJ"),
-    # ("URL_DO_SEU_FEED_STF_PUSH",                             "STF"),
+    ("https://portal.stf.jus.br/push/api/pushRss.asp?usuario=1665454&email=izabelagoncalves.adv@gmail.com", "STF"),
 ]
 
 import unicodedata
