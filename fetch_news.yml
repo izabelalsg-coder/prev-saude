@@ -9,6 +9,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: false
+
 jobs:
   atualizar:
     runs-on: ubuntu-latest
