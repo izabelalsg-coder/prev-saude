@@ -1,6 +1,30 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/rede-de-vigilancia-e-essencial-para-evitar",
+      "tag": "Saúde",
+      "titulo": "Rede de vigilância é essencial para evitar propagação de sarampo em SP",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A  concentração de casos de sarampo em São Paulo  expõe o risco de novos surtos enquanto a cobertura vacinal permanecer abaixo de 95%, índice considerado necessário para interromper a transmissão da doença. Segundo o infectologista Renato Kfouri, a entrada de novos casos é esperada na capital paulis",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/rede-de-vigilancia-e-essencial-para-evitar-propagacao-de-sarampo-em-sp",
+      "data": "10/08/2026",
+      "hora": "20:46",
+      "ts": 1786405560000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/estacoes-do-metro-de-sao-paulo-recebem-cam",
+      "tag": "Saúde",
+      "titulo": "Estações do Metrô de São Paulo recebem campanha de vacinação",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "Passageiros do Metrô de São Paulo que estiverem passando pelas estações Corinthians-Itaquera, São Mateus, Vila Prudente, Tucuruvi e Vila Matilde podem aproveitar para tomar a vacina tríplice viral contra sarampo, caxumba e rubéola (SCR) a partir desta segunda-feira (10) até 28 de agosto.   \n\n  Segun",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/estacoes-do-metro-de-sao-paulo-recebem-campanha-de-vacinacao",
+      "data": "10/08/2026",
+      "hora": "14:29",
+      "ts": 1786382940000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/anvisa-libera-venda-de-medicamentos-por-pl",
       "tag": "Anvisa",
       "titulo": "Anvisa libera venda de medicamentos por plataformas como iFood e Rapp",
@@ -94,30 +118,6 @@
       "data": "08/08/2026",
       "hora": "10:15",
       "ts": 1786194900000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/campanha-contra-sarampo-vacinou-280-mil-pe",
-      "tag": "Saúde",
-      "titulo": "Campanha contra sarampo vacinou 280 mil pessoas em SP em uma semana",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Dose zero, para crianças com menos de um ano, foi aplicada para 32.501 crianças desde 29 de junho.  Grupo é o mais atingido no estado, com 16 dos 23 casos confirmados.    \n\n  A intensificação da campanha de vacinação contra o sarampo tem surtido efeito. Desde a segunda-feira, (3), foram aplicadas 28",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/campanha-contra-sarampo-vacinou-280-mil-pessoas-em-sp-em-uma-semana",
-      "data": "08/08/2026",
-      "hora": "09:50",
-      "ts": 1786193400000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/cirurgias-plasticas-de-mama-no-sus-crescem",
-      "tag": "Saúde",
-      "titulo": "Cirurgias plásticas de mama no SUS crescem mais de 50% em dez anos",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "O volume de cirurgias plásticas mamárias feitas no  Sistema Único de Saúde (SUS)  cresceu 54,3% entre 2016 e 2025, passando de 9 mil para 14.213.    \n\n Em 2020, ápice da crise sanitária causada pela  covid-19 , foram contabilizadas apenas 4.547 operações de mama, a metade do que vinha sendo praticad",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/cirurgias-plasticas-de-mama-no-sus-crescem-mais-de-50-em-dez-anos",
-      "data": "07/08/2026",
-      "hora": "13:29",
-      "ts": 1786120140000,
       "favorito": false
     },
     {
@@ -241,12 +241,60 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inflacao-recua-para-007-em-julho-e-v",
+      "tag": "Economia",
+      "titulo": "Inflação recua para 0,07% em julho e volta para meta do governo",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "Os alimentos ficaram mais baratos no mês de julho e ajudaram a inflação oficial a perder força pelo quarto mês seguido e fechar em 0,07%.  O resultado faz o Índice Nacional de Preços ao Consumidor Amplo (IPCA) acumular 4,44% em 12 meses, trazendo o indicador de volta para a meta do governo.    \n\n O ",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/inflacao-recua-para-007-em-julho-e-volta-para-meta-do-governo",
+      "data": "11/08/2026",
+      "hora": "09:48",
+      "ts": 1786452480000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/procon-rio-divulga-cartilha-com-orie",
+      "tag": "Economia",
+      "titulo": "Procon Rio divulga cartilha com orientações sobre riscos das bets",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Programa de Proteção e Defesa do Consumidor (Procon-RJ) lançou nesta segunda-feira (10), a cartilha  Apostas Online: Bets e Jogos de Azar - Proteja Seu Dinheiro, Sua Saúde e Sua Família .   \n\n O  guia reúne orientações  para conscientizar a população sobre os riscos das apostas esportivas e dos jo",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/procon-rio-divulga-cartilha-com-orientacoes-sobre-riscos-das-bets",
+      "data": "10/08/2026",
+      "hora": "18:21",
+      "ts": 1786396860000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-central-estuda-interligar-pix-",
+      "tag": "Economia",
+      "titulo": "Banco Central estuda interligar Pix com sistemas de outros países",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O Banco Central (BC) do Brasil estuda interligar o Pix com sistemas de pagamentos de outros países e com mecanismos multilaterais globais de pagamentos instantâneos. A autoridade monetária argumenta que a medida tem o potencial de diminuir tarifas e ampliar o acesso a transações internacionais.    \n",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/banco-central-estuda-interligar-pix-com-sistemas-de-outros-paises",
+      "data": "10/08/2026",
+      "hora": "16:47",
+      "ts": 1786391220000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pf-apura-aporte-de-97-milhoes-de-ins",
+      "tag": "Economia",
+      "titulo": "PF apura aporte de R$ 97 milhões de previdência de Maceió no Master",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "A Polícia Federal (PF) e a Controladoria-Geral da União (CGU) realizaram, nesta segunda-feira (10), uma operação para aprofundar as investigações sobre supostas irregularidades na aplicação de R$ 97 milhões do Instituto de Previdência dos Servidores Públicos de Maceió (Iprev) em operações financeira",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/pf-apura-aporte-de-97-milhoes-de-instituto-de-previdencia-de-maceio-no-master",
+      "data": "10/08/2026",
+      "hora": "16:34",
+      "ts": 1786390440000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-",
       "tag": "Economia",
-      "titulo": "Desenrola Adimplentes começa a operar nesta segunda-feira",
+      "titulo": "Desenrola Adimplentes começa a operar nesta terça-feira",
       "fonte": "Agência Brasil / Economia",
-      "resumo": "Começa nesta segunda-feira (10) a operação do Desenrola Adimplentes, modalidade do programa Desenrola voltada a trabalhadores informais que mantêm seus compromissos financeiros em dia. A linha permite trocar empréstimos mais caros por crédito com juros de até 1,99% ao mês e valores até R$ 15 mil.   ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-nesta-segunda-feira",
+      "resumo": "Começa nesta terça-feira (11) a operação do Desenrola Adimplentes, modalidade do programa Desenrola voltada a trabalhadores informais que mantêm seus compromissos financeiros em dia. A linha permite trocar empréstimos mais caros por crédito com juros de até 1,99% ao mês e valores até R$ 15 mil.    \n",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/desenrola-adimplentes-comeca-operar-nesta-ter%C3%A7a-feira",
       "data": "10/08/2026",
       "hora": "11:25",
       "ts": 1786371900000,
@@ -310,54 +358,6 @@
       "data": "06/08/2026",
       "hora": "21:35",
       "ts": 1786062900000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524",
-      "tag": "Economia",
-      "titulo": "Petrobras tem lucro líquido de R$ 52,4 bi no segundo trimestre",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Petrobras teve lucro líquido de R$ 52,4 bilhões (US$ 10,4 bilhões) no segundo trimestre de 2026, 97% a mais em comparação ao mesmo período de 2025 . Esse é um dos maiores resultados trimestrais da série histórica.   \n\n Segundo a empresa,  o resultado foi marcado por recordes na produção de óleo, q",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/petrobras-tem-lucro-liquido-de-r-524-bi-no-segundo-trimestre",
-      "data": "06/08/2026",
-      "hora": "21:27",
-      "ts": 1786062420000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/balanca-comercial-de-julho-tem-super",
-      "tag": "Economia",
-      "titulo": "Balança comercial de julho tem superávit de US$ 7 bilhões",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Com exportações de US$ 34,1 bilhões e importações de US$ 27,1 bilhões, o Brasil registrou pouco mais de US$ 7 bilhões de superávit na balança comercial ao longo do mês de julho deste ano . Os dados foram atualizados nesta quinta-feira (6) pelo Ministério do Desenvolvimento, Indústria, Comércio e Ser",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/balanca-comercial-de-julho-tem-superavit-de-us-7-bilhoes",
-      "data": "06/08/2026",
-      "hora": "19:37",
-      "ts": 1786055820000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/leiloes-de-petroleo-em-outubro-terao",
-      "tag": "Economia",
-      "titulo": "Leilões de petróleo em outubro terão recorde de áreas em disputa",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A  Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP)  afirmou nesta quinta-feira (6) que as licitações de exploração de petróleo no país marcadas para outubro terão número recorde de áreas em disputa. A Agência é a responsável por organizar esses leilões.    \n\n Dois certames estão ma",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/leiloes-de-petroleo-em-outubro-terao-recorde-de-areas-em-disputa",
-      "data": "06/08/2026",
-      "hora": "16:29",
-      "ts": 1786044540000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-",
-      "tag": "Economia",
-      "titulo": "Famílias brasileiras perderam R$ 62,5 bilhões para bets em 2025",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "As famílias brasileiras perderam R$ 62,5 bilhões para as  bets  no ano passado. O montante corresponde ao valor líquido, ou seja, à diferença entre o dinheiro apostado e o devolvido em forma de prêmio.  Este valor equivale a uma média de R$ 4,7 bilhões por mês, considerando o período de outubro de 2",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-08/familias-brasileiras-perderam-r-625-bilhoes-para-bets-em-2025",
-      "data": "06/08/2026",
-      "hora": "16:28",
-      "ts": 1786044480000,
       "favorito": false
     },
     {
@@ -481,6 +481,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "10/08/2026 às 16:00",
+  "atualizado": "11/08/2026 às 13:06",
   "total": 40
 }
