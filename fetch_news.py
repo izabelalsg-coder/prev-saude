@@ -15,7 +15,8 @@ FEEDS = [
     ("https://agenciabrasil.ebc.com.br/rss/politica/feed.xml", "Agência Brasil / Política"),
     ("https://www.conjur.com.br/rss.xml",                      "Conjur"),
     ("https://res.stj.jus.br/hrestp-c-portalp/RSS.xml",        "STJ"),
-    ("https://portal.stf.jus.br/push/api/pushRss.asp?usuario=1665454&email=izabelagoncalves.adv@gmail.com", "STF"),
+    # STF Push bloqueia requisições de servidores fora do Brasil (mesma limitação do DJEN).
+    # ("https://portal.stf.jus.br/push/api/pushRss.asp?usuario=1665454&email=izabelagoncalves.adv@gmail.com", "STF"),
 ]
 
 import unicodedata
