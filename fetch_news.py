@@ -18,20 +18,42 @@ FEEDS = [
     # ("URL_DO_SEU_FEED_STF_PUSH",                             "STF"),
 ]
 
+import unicodedata
+
 LIMITE_DIAS = 30  # descarta notícias mais antigas que isso
-MAX_SELECIONADAS = 20  # teto de notícias curadas por execução
+MAX_SELECIONADAS = 25  # teto de notícias curadas por execução
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"}
 
-ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
-ANTHROPIC_MODEL = "claude-haiku-4-5-20251001"
+# Palavras-chave usadas para pontuar a relevância de cada notícia.
+# Quanto mais termos aparecerem no título/resumo, maior a pontuação.
+PALAVRAS_CHAVE = [
+    # Direito Previdenciário
+    "aposentadoria", "aposentar", "inss", "tempo de contribuicao", "contribuicao",
+    "beneficio", "beneficios", "bpc", "loas", "auxilio-doenca", "auxilio doenca",
+    "pensao por morte", "previdenciario", "previdencia", "ec 103", "reforma da previdencia",
+    "regra de transicao", "salario de beneficio", "fator previdenciario",
+    "aposentadoria especial", "revisao de beneficio", "rpps", "regime proprio",
+    "contagem de tempo", "carencia", "atividade rural", "atividade especial",
+    "ppp", "ltcat", "invalidez", "incapacidade",
+    # Direito em Saude
+    "plano de saude", "ans ", "anvisa", "negativa de cobertura", "cobertura",
+    "reajuste de plano", "saude suplementar", "paciente", "cirurgia", "tratamento",
+    "medicamento", "home care", "internacao", "liminar saude", "operadora de saude",
+    # Marcadores gerais de relevancia juridica
+    "tema repetitivo", "sumula", "stj", "stf", "trf", "tnu", "jurisprudencia",
+    "projeto de lei", "portaria", "resolucao", "decreto", "cnj", "recurso repetitivo",
+]
 
-PERFIL_ATUACAO = (
-    "Advocacia em Direito Previdenciário (aposentadorias, tempo de contribuição, "
-    "revisão de benefícios, BPC/LOAS, auxílio-doença, pensão por morte, INSS, "
-    "regras de transição da EC 103/2019) e Direito em Saúde (planos de saúde, ANS, "
-    "Anvisa, negativa de cobertura, direitos do paciente)."
-)
+
+def normalizar(texto):
+    texto = unicodedata.normalize("NFKD", texto.lower())
+    return "".join(c for c in texto if not unicodedata.combining(c))
+
+
+def pontuar(noticia):
+    texto = normalizar(noticia["titulo"] + " " + noticia["resumo"])
+    return sum(1 for termo in PALAVRAS_CHAVE if termo in texto)
 
 
 def buscar(url):
@@ -124,75 +146,19 @@ def coletar_noticias():
     return noticias
 
 
-def curar_com_ia(noticias):
-    """Envia as notícias coletadas para a API da Claude e retorna apenas
-    as consideradas relevantes para o perfil de atuação da advogada."""
-    if not ANTHROPIC_API_KEY:
-        print("\nANTHROPIC_API_KEY não configurada. Pulando curadoria e mantendo a lista completa.")
-        return noticias
+def curar_por_palavras_chave(noticias):
+    """Pontua cada notícia pelo número de termos do perfil de atuação que
+    aparecem no título/resumo e mantém apenas as mais relevantes.
+    Não depende de API nem gera custo."""
     if not noticias:
         return noticias
 
-    itens_resumidos = [
-        {"id": n["id"], "titulo": n["titulo"], "resumo": n["resumo"], "fonte": n["fonte"]}
-        for n in noticias
-    ]
+    pontuadas = [(pontuar(n), n) for n in noticias]
+    relevantes = [(p, n) for p, n in pontuadas if p > 0]
+    relevantes.sort(key=lambda x: (-x[0], -x[1]["ts"]))
 
-    prompt = (
-        "Você é um assistente de curadoria jurídica. Analise a lista de notícias abaixo "
-        "e selecione apenas as que são realmente relevantes para este perfil de atuação:\n\n"
-        f"{PERFIL_ATUACAO}\n\n"
-        "Priorize: mudanças normativas, novas súmulas ou temas repetitivos do STJ/STF, "
-        "alterações em regras do INSS, decisões que afetem planos de saúde ou ANS/Anvisa, "
-        "e notícias com impacto direto na estratégia processual ou administrativa de um "
-        "advogado da área. Descarte notícias genéricas, políticas sem relação direta com "
-        "a área, ou factuais sem relevância jurídica prática.\n\n"
-        f"Retorne no máximo {MAX_SELECIONADAS} itens, em ordem de relevância (mais relevante primeiro).\n\n"
-        "Responda SOMENTE com um JSON no formato: {\"ids\": [\"id1\", \"id2\", ...]}. "
-        "Sem nenhum texto adicional, sem markdown.\n\n"
-        f"Notícias:\n{json.dumps(itens_resumidos, ensure_ascii=False)}"
-    )
-
-    body = json.dumps({
-        "model": ANTHROPIC_MODEL,
-        "max_tokens": 1024,
-        "messages": [{"role": "user", "content": prompt}],
-    }).encode("utf-8")
-
-    req = urllib.request.Request(
-        "https://api.anthropic.com/v1/messages",
-        data=body,
-        headers={
-            "Content-Type": "application/json",
-            "x-api-key": ANTHROPIC_API_KEY,
-            "anthropic-version": "2023-06-01",
-        },
-        method="POST",
-    )
-
-    try:
-        with urllib.request.urlopen(req, timeout=60) as resp:
-            resposta = json.loads(resp.read())
-        texto = "".join(
-            bloco.get("text", "") for bloco in resposta.get("content", []) if bloco.get("type") == "text"
-        ).strip()
-        texto = re.sub(r"^```json|```$", "", texto, flags=re.MULTILINE).strip()
-        selecionados = json.loads(texto)
-        ids_selecionados = selecionados.get("ids", [])
-    except urllib.error.HTTPError as e:
-        detalhe = e.read().decode("utf-8", errors="replace")
-        print(f"\nERRO ao chamar a API da Claude: {e}. Detalhe: {detalhe}. Mantendo lista completa.")
-        return noticias
-    except urllib.error.URLError as e:
-        print(f"\nERRO de conexão ao chamar a API da Claude: {e}. Mantendo lista completa.")
-        return noticias
-    except Exception as e:
-        print(f"\nERRO ao interpretar resposta da curadoria: {e}. Mantendo lista completa.")
-        return noticias
-
-    mapa = {n["id"]: n for n in noticias}
-    curadas = [mapa[i] for i in ids_selecionados if i in mapa]
-    print(f"\nCuradoria: {len(curadas)} de {len(noticias)} notícias selecionadas.")
+    curadas = [n for _, n in relevantes[:MAX_SELECIONADAS]]
+    print(f"\nCuradoria por palavras-chave: {len(curadas)} de {len(noticias)} notícias selecionadas.")
     return curadas if curadas else noticias
 
 
@@ -203,7 +169,7 @@ if not noticias:
     print("Zero notícias. Preservando news.json anterior.")
     sys.exit(0)
 
-noticias_curadas = curar_com_ia(noticias)
+noticias_curadas = curar_por_palavras_chave(noticias)
 
 with open("news.json", "w", encoding="utf-8") as f:
     json.dump({
