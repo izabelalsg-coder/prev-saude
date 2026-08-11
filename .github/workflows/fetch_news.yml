@@ -26,8 +26,6 @@ jobs:
           python-version: '3.11'
 
       - name: Buscar notícias e gerar news.json
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python3 fetch_news.py
 
       - name: Commit e push do news.json
