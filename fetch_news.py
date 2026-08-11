@@ -23,7 +23,11 @@ import unicodedata
 LIMITE_DIAS = 30  # descarta notícias mais antigas que isso
 MAX_SELECIONADAS = 25  # teto de notícias curadas por execução
 
+import ssl
+
 HEADERS = {"User-Agent": "Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0"}
+
+CONTEXTO_SEM_VERIFICACAO = ssl._create_unverified_context()
 
 # Palavras-chave usadas para pontuar a relevância de cada notícia.
 # Quanto mais termos aparecerem no título/resumo, maior a pontuação.
@@ -58,8 +62,13 @@ def pontuar(noticia):
 
 def buscar(url):
     req = urllib.request.Request(url, headers=HEADERS)
-    resp = urllib.request.urlopen(req, timeout=20)
-    return resp.read()
+    try:
+        return urllib.request.urlopen(req, timeout=20).read()
+    except urllib.error.URLError as e:
+        if isinstance(e.reason, ssl.SSLCertVerificationError):
+            print("  aviso: certificado não reconhecido, tentando sem verificação...")
+            return urllib.request.urlopen(req, timeout=20, context=CONTEXTO_SEM_VERIFICACAO).read()
+        raise
 
 
 def parsear_feed(xml):
