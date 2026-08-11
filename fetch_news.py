@@ -179,8 +179,12 @@ def curar_com_ia(noticias):
         texto = re.sub(r"^```json|```$", "", texto, flags=re.MULTILINE).strip()
         selecionados = json.loads(texto)
         ids_selecionados = selecionados.get("ids", [])
-    except (urllib.error.URLError, urllib.error.HTTPError) as e:
-        print(f"\nERRO ao chamar a API da Claude: {e}. Mantendo lista completa.")
+    except urllib.error.HTTPError as e:
+        detalhe = e.read().decode("utf-8", errors="replace")
+        print(f"\nERRO ao chamar a API da Claude: {e}. Detalhe: {detalhe}. Mantendo lista completa.")
+        return noticias
+    except urllib.error.URLError as e:
+        print(f"\nERRO de conexão ao chamar a API da Claude: {e}. Mantendo lista completa.")
         return noticias
     except Exception as e:
         print(f"\nERRO ao interpretar resposta da curadoria: {e}. Mantendo lista completa.")
