@@ -1,63 +1,39 @@
 {
   "noticias": [
     {
-      "id": "Conjur_https://conjur.com.br/2026-set-05/limbo-trabalhista-previdenciario-como-proceder/",
+      "id": "Conjur_https://conjur.com.br/2026-set-06/stj-veta-ms-coletivo-para-excluir-beneficio-de-icms-de-irpj-e-csll/",
+      "tag": "STJ",
+      "titulo": "STJ veta MS coletivo para excluir benefício de ICMS de IRPJ e CSLL",
+      "fonte": "Conjur",
+      "resumo": "O mandado de segurança coletivo não serve para discutir a exclusão dos incentivos de ICMS da base de cálculo do Imposto de Renda Pessoa Jurídica (IRPJ) e da Contribuição Social sobre o Lucro Líquido (CSLL). A conclusão é da 2ª Turma do Superior Tribunal de Justiça, em julgamento encerrado na terça-f",
+      "link": "https://conjur.com.br/2026-set-06/stj-veta-ms-coletivo-para-excluir-beneficio-de-icms-de-irpj-e-csll/",
+      "data": "06/09/2026",
+      "hora": "10:22",
+      "ts": 1788690174000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-06/juiz-afasta-restricao-do-cfm-e-concede-bloqueio-hormonal-para-adolescente-trans",
       "tag": "Conjur",
-      "titulo": "Limbo trabalhista-previdenciário: como proceder?",
+      "titulo": "Juiz afasta restrição do CFM e libera bloqueio hormonal em adolescente trans",
       "fonte": "Conjur",
-      "resumo": "Há situações em que o direito parece construir um corredor entre duas portas e, por uma falha de coordenação, deixa alguém parado exatamente no meio. O chamado limbo trabalhista-previdenciário é uma delas. De um lado, o INSS cessa o benefício por incapacidade temporária por não mais reconhecer a inc",
-      "link": "https://conjur.com.br/2026-set-05/limbo-trabalhista-previdenciario-como-proceder/",
-      "data": "05/09/2026",
-      "hora": "09:32",
-      "ts": 1788600776000,
+      "resumo": "A 4ª Vara Federal de Florianópolis concedeu a um adolescente trans de 13 anos uma liminar que autoriza a submissão ao bloqueio hormonal da puberdade, sem aplicação, ao caso concreto, da restrição prevista na Resolução 2.427/2025 do Conselho Federal de Medicina (CFM). Em discussão no Supremo Tribunal",
+      "link": "https://conjur.com.br/2026-set-06/juiz-afasta-restricao-do-cfm-e-concede-bloqueio-hormonal-para-adolescente-trans/",
+      "data": "06/09/2026",
+      "hora": "11:48",
+      "ts": 1788695324000,
       "favorito": false
     },
     {
-      "id": "Conjur_https://conjur.com.br/2026-set-05/1966831/",
-      "tag": "STF",
-      "titulo": "Inadequação de precedente previdenciário do STF na Justiça do Trabalho",
-      "fonte": "Conjur",
-      "resumo": "Há mais de dez anos, o Supremo Tribunal Federal julgou o Tema 555 de repercussão geral, que analisou a possibilidade de o uso de equipamento de proteção individual (EPI) descaracterizar o tempo de serviço especial para fins de aposentadoria. Na ocasião, o STF firmou tese em matéria previdenciária no",
-      "link": "https://conjur.com.br/2026-set-05/1966831/",
-      "data": "05/09/2026",
-      "hora": "11:00",
-      "ts": 1788606051000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/pacientes-com-cancer-colorretal-tem-medica",
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-importacao-de-remedio-experi",
       "tag": "Anvisa",
-      "titulo": "Pacientes com câncer colorretal têm medicamento aprovado pela Anvisa",
+      "titulo": "Anvisa aprova importação de remédio experimental para piloto Lito",
       "fonte": "Agência Brasil / Saúde",
-      "resumo": "Pacientes adultos em tratamento contra o  câncer colorretal  metastático têm o medicamento Fruzaqla (fruquintinibe) como opção de tratamento. A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou o  registro da substância  nesta segunda-feira (31).    \n\n O produto é indicado ao tratamento de p",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/pacientes-com-cancer-colorretal-tem-medicamento-aprovado-pela-anvisa",
-      "data": "31/08/2026",
-      "hora": "13:26",
-      "ts": 1788193560000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sus-tera-tres-novos-medicamentos-para-canc",
-      "tag": "Saúde",
-      "titulo": "SUS terá três novos medicamentos para câncer de pulmão",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "Três novos medicamentos para o tratamento de câncer de pulmão serão disponibilizados a pacientes em tratamento no Sistema Único de Saúde (SUS) a partir de outubro. São eles o brigatinibe, o gefitinibe e o durvalumabe.     \n\n De acordo com o Ministério da Saúde, cerca de 1,9 mil pacientes devem ser a",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/sus-tera-tres-novos-medicamentos-para-cancer-de-pulmao",
-      "data": "31/08/2026",
-      "hora": "13:35",
-      "ts": 1788194100000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-05/preso-dependente-quimico-deve-receber-tratamento-ambulatorial-em-caps/",
-      "tag": "Conjur",
-      "titulo": "Preso dependente químico deve receber tratamento ambulatorial no Caps",
-      "fonte": "Conjur",
-      "resumo": "A internação em um Hospital de Custódia e Tratamento Psiquiátrico (HCTP) é incompatível com a semi-imputabilidade decorrente exclusivamente de dependência química, configurando excesso de execução penal. Nesses casos, deve prevalecer o tratamento ambulatorial em meio aberto. Com isso, o ministro Gil",
-      "link": "https://conjur.com.br/2026-set-05/preso-dependente-quimico-deve-receber-tratamento-ambulatorial-em-caps/",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) autorizou a importação e o uso de uma medicação experimental para o tratamento do piloto e youtuber Lito Sousa, diagnosticado com  Doença de Creutzfeldt-Jakob . A informação foi confirmada pela família via redes sociais.    \n\n Segundo a esposa de L",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-importacao-de-remedio-experimental-para-piloto-lito",
       "data": "05/09/2026",
-      "hora": "11:23",
-      "ts": 1788607413000,
+      "hora": "16:52",
+      "ts": 1788637920000,
       "favorito": false
     },
     {
@@ -85,15 +61,39 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/anvisa-aprova-nova-caneta-emagrecedora-bas",
-      "tag": "Anvisa",
-      "titulo": "Anvisa aprova nova caneta emagrecedora à base de semaglutida",
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/stf-mendes-propoe-vetar-delegados-da-p",
+      "tag": "STF",
+      "titulo": "STF: Mendes propõe vetar delegados da PF como assessores de ministros",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Gilmar Mendes, decano do Supremo Tribunal Federal (STF), apresentou neste sábado (5) uma proposta para proibir que militares, delegados ou policiais sejam cedidos para atuar como assessores nos gabinetes da Corte.    \n\n A proposta de alteração no Regimento Interno do STF já havia sido adi",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/stf-mendes-propoe-vetar-delegados-da-pf-como-assessores-de-ministros",
+      "data": "05/09/2026",
+      "hora": "18:51",
+      "ts": 1788645060000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/dallagnol-expoe-sigilo-fiscal-de-zanin",
+      "tag": "Justiça",
+      "titulo": "Dallagnol divulga sigilo fiscal de Zanin, que pede responsabilização",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Cristiano Zanin (foto), do Supremo Tribunal Federal (STF), enviou neste sábado (5) um ofício ao Tribunal Regional Eleitoral do Paraná (TRE-PE) pedindo responsabilização dos envolvidos na exposição de seus dados fiscais e bancários, que foram anexados ao registro de candidatura ao Senado d",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/dallagnol-expoe-sigilo-fiscal-de-zanin-que-pede-responsabilizacao",
+      "data": "05/09/2026",
+      "hora": "18:18",
+      "ts": 1788643080000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/hospital-de-amor-em-barretos-inaugura-ala-",
+      "tag": "Saúde",
+      "titulo": "Hospital de Amor em Barretos inaugura ala de reabilitação oncológica",
       "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou o registro de um novo medicamento da classe dos agonistas do receptor GLP 1, popularmente conhecidos como canetas emagrecedoras.    \n\n O Yluméc, produzido pela farmacêutica EMS, tem como princípio ativo a semaglutida, o mesmo do Ozempic, qu",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-08/anvisa-aprova-nova-caneta-emagrecedora-base-de-semaglutida",
-      "data": "31/08/2026",
-      "hora": "14:16",
-      "ts": 1788196560000,
+      "resumo": "Com sede em Barretos (SP), o Hospital de Amor, maior centro oncológico de atendimento 100% gratuito da América Latina, inaugurou recentemente o Diretório de Reabilitação Moderna (DREAM), que vai articular atendimentos ambulatoriais, terapias, internação e suporte cirúrgico.    \n\n A nova unidade, que",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/hospital-de-amor-em-barretos-inaugura-ala-de-reabilitacao-oncologica",
+      "data": "05/09/2026",
+      "hora": "15:12",
+      "ts": 1788631920000,
       "favorito": false
     },
     {
@@ -106,18 +106,6 @@
       "data": "05/09/2026",
       "hora": "08:42",
       "ts": 1788608520000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-05/stj-e-cointeligencia-uma-nova-arquitetura-da-decisao-no-direito/",
-      "tag": "STJ",
-      "titulo": "STJ e cointeligência: uma nova arquitetura da decisão no Direito",
-      "fonte": "Conjur",
-      "resumo": "O Superior Tribunal de Justiça acaba de estabelecer abertamente um modelo de organização do trabalho processual em que se emprega uma arquitetura de cointeligência, na qual advogados, sistemas de inteligência artificial e integrantes do tribunal passam a atuar, em momentos distintos, sobre o mesmo p",
-      "link": "https://conjur.com.br/2026-set-05/stj-e-cointeligencia-uma-nova-arquitetura-da-decisao-no-direito/",
-      "data": "05/09/2026",
-      "hora": "09:04",
-      "ts": 1788599099000,
       "favorito": false
     },
     {
@@ -142,30 +130,6 @@
       "data": "04/09/2026",
       "hora": "06:45",
       "ts": 1788515100000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/moraes-encaminha-fachin-pedido-de-inve",
-      "tag": "Justiça",
-      "titulo": "Moraes encaminha a Fachin pedido de investigação contra Mendonça",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), retirou nesta quinta-feira (3) o sigilo de decisão que aponta supostas irregularidades na atuação do ministro André Mendonça na relatoria de processos relacionados às operações Sem Desconto e Compliance Zero.    \n\n Moraes encaminhou ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/moraes-encaminha-fachin-pedido-de-investigacao-contra-mendonca",
-      "data": "03/09/2026",
-      "hora": "21:34",
-      "ts": 1788482040000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/stf-decide-limitar-gratuidade-em-acoes",
-      "tag": "STF",
-      "titulo": "STF decide limitar gratuidade em ações na Justiça do Trabalho",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O plenário do Supremo Tribunal Federal (STF) decidiu, nesta quinta-feira (3), que a gratuidade em processos trabalhistas só poderá ser concedida mediante comprovação de renda.     \n\n A decisão contraria a prática adotada pelo Tribunal Superior do Trabalho (TST). Para o TST, bastava a apresentação da",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/stf-decide-limitar-gratuidade-em-acoes-na-justica-do-trabalho",
-      "data": "03/09/2026",
-      "hora": "19:56",
-      "ts": 1788476160000,
       "favorito": false
     },
     {
@@ -217,6 +181,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "05/09/2026 às 12:19",
-  "total": 18
+  "atualizado": "06/09/2026 às 12:35",
+  "total": 15
 }
