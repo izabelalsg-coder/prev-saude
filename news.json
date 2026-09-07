@@ -1,30 +1,6 @@
 {
   "noticias": [
     {
-      "id": "Conjur_https://conjur.com.br/2026-set-06/stj-veta-ms-coletivo-para-excluir-beneficio-de-icms-de-irpj-e-csll/",
-      "tag": "STJ",
-      "titulo": "STJ veta MS coletivo para excluir benefício de ICMS de IRPJ e CSLL",
-      "fonte": "Conjur",
-      "resumo": "O mandado de segurança coletivo não serve para discutir a exclusão dos incentivos de ICMS da base de cálculo do Imposto de Renda Pessoa Jurídica (IRPJ) e da Contribuição Social sobre o Lucro Líquido (CSLL). A conclusão é da 2ª Turma do Superior Tribunal de Justiça, em julgamento encerrado na terça-f",
-      "link": "https://conjur.com.br/2026-set-06/stj-veta-ms-coletivo-para-excluir-beneficio-de-icms-de-irpj-e-csll/",
-      "data": "06/09/2026",
-      "hora": "10:22",
-      "ts": 1788690174000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-06/juiz-afasta-restricao-do-cfm-e-concede-bloqueio-hormonal-para-adolescente-trans",
-      "tag": "Conjur",
-      "titulo": "Juiz afasta restrição do CFM e libera bloqueio hormonal em adolescente trans",
-      "fonte": "Conjur",
-      "resumo": "A 4ª Vara Federal de Florianópolis concedeu a um adolescente trans de 13 anos uma liminar que autoriza a submissão ao bloqueio hormonal da puberdade, sem aplicação, ao caso concreto, da restrição prevista na Resolução 2.427/2025 do Conselho Federal de Medicina (CFM). Em discussão no Supremo Tribunal",
-      "link": "https://conjur.com.br/2026-set-06/juiz-afasta-restricao-do-cfm-e-concede-bloqueio-hormonal-para-adolescente-trans/",
-      "data": "06/09/2026",
-      "hora": "11:48",
-      "ts": 1788695324000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-importacao-de-remedio-experi",
       "tag": "Anvisa",
       "titulo": "Anvisa aprova importação de remédio experimental para piloto Lito",
@@ -61,6 +37,54 @@
       "favorito": false
     },
     {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-aguarda-explicacoes-de-ministro",
+      "tag": "Justiça",
+      "titulo": "Fachin aguarda explicações de ministros para decidir sobre crise",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Edson Fachin, presidente do Supremo Tribunal Federal (STF), aguarda as explicações dos ministros André Mendonça e Alexandre de Moraes, também do Supremo, para decidir se leva a crise dos dois para julgamento no plenário, em sessão aberta ou fechada.    \n\n A crise ganhou, na última semana,",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-aguarda-explicacoes-de-ministros-para-decidir-sobre-crise",
+      "data": "07/09/2026",
+      "hora": "10:45",
+      "ts": 1788788700000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-07/13o-proporcional-e-limites-da-tributacao-sobre-a-folha-de-salarios/",
+      "tag": "Conjur",
+      "titulo": "13º proporcional e limites da tributação sobre a folha de salários",
+      "fonte": "Conjur",
+      "resumo": "Como é sabido, a definição da base de incidência das contribuições previdenciárias sobre a folha de salários continua sendo um dos pontos sensíveis da tributação brasileira. Embora a Constituição estabeleça parâmetros para a incidência dessas contribuições, a prática administrativa frequentemente am",
+      "link": "https://conjur.com.br/2026-set-07/13o-proporcional-e-limites-da-tributacao-sobre-a-folha-de-salarios/",
+      "data": "07/09/2026",
+      "hora": "12:23",
+      "ts": 1788783814000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-07/solucoes-de-consulta-e-pareceres-juridicos-no-novo-artigo-107-do-ctn/",
+      "tag": "Conjur",
+      "titulo": "Soluções de consulta e pareceres jurídicos no novo artigo 107 do CTN",
+      "fonte": "Conjur",
+      "resumo": "Com a sanção da Lei Complementar nº 236/2026 (LC 236/2026), resultante do PLP nº 124/2022, foi concluída a reforma do Código Tributário Nacional (CTN). Entre os dispositivos incorporados ao Código estão os três parágrafos do artigo 107, que tratam da resolução de dúvidas e da fixação da interpretaçã",
+      "link": "https://conjur.com.br/2026-set-07/solucoes-de-consulta-e-pareceres-juridicos-no-novo-artigo-107-do-ctn/",
+      "data": "07/09/2026",
+      "hora": "11:00",
+      "ts": 1788778813000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-07/atestado-falso-impede-estabilidade-provisoria-e-condena-gestante-por-ma-fe/",
+      "tag": "Conjur",
+      "titulo": "Atestado falso impede estabilidade provisória e condena gestante por má-fé",
+      "fonte": "Conjur",
+      "resumo": "A apresentação de atestado falso ou com conteúdo adicional configura ato de improbidade e sustenta a demissão por justa causa. Em consequência, mesmo que a empregada seja gestante, a estabilidade provisória não a alcança, uma vez que o benefício só se estende para dispensas arbitrárias ou sem justa ",
+      "link": "https://conjur.com.br/2026-set-07/atestado-falso-impede-estabilidade-provisoria-e-condena-gestante-por-ma-fe/",
+      "data": "07/09/2026",
+      "hora": "10:31",
+      "ts": 1788777102000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/stf-mendes-propoe-vetar-delegados-da-p",
       "tag": "STF",
       "titulo": "STF: Mendes propõe vetar delegados da PF como assessores de ministros",
@@ -77,7 +101,7 @@
       "tag": "Justiça",
       "titulo": "Dallagnol divulga sigilo fiscal de Zanin, que pede responsabilização",
       "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro Cristiano Zanin (foto), do Supremo Tribunal Federal (STF), enviou neste sábado (5) um ofício ao Tribunal Regional Eleitoral do Paraná (TRE-PE) pedindo responsabilização dos envolvidos na exposição de seus dados fiscais e bancários, que foram anexados ao registro de candidatura ao Senado d",
+      "resumo": "O ministro Cristiano Zanin (foto), do Supremo Tribunal Federal (STF), enviou neste sábado (5) um ofício ao Tribunal Regional Eleitoral do Paraná (TRE-PR) pedindo responsabilização dos envolvidos na exposição de seus dados fiscais e bancários, que foram anexados ao registro de candidatura ao Senado d",
       "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/dallagnol-expoe-sigilo-fiscal-de-zanin-que-pede-responsabilizacao",
       "data": "05/09/2026",
       "hora": "18:18",
@@ -109,27 +133,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-da-5-dias-para-mendonca-e-gonet",
-      "tag": "Justiça",
-      "titulo": "Fachin dá 5 dias para Mendonça e Gonet responderem acusação de Moraes",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, determinou nesta sexta-feira (4) cinco dias de prazo para que o ministro André Mendonça, também da Corte, e o procurador-geral da República, Paulo Gonet, manifestem-se sobre supostas irregularidades na condução do caso Master.    \n\n  Tais",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-da-5-dias-para-mendonca-e-gonet-responderem-acusacao-de-moraes",
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/presidente-do-stf-diz-que-gravidade-",
+      "tag": "STF",
+      "titulo": "Presidente do STF diz que gravidade dos fatos não autoriza atalhos",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, garantiu, nesta sexta-feira (4), em Brasília, que  será dentro da legalidade a resposta do Judiciário brasileiro aos fatos relacionados a supostas irregularidades na condução do caso do Banco Master  e ao vazamento de trocas de mensagens ",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-09/presidente-do-stf-diz-que-gravidade-dos-fatos-nao-autoriza-atalhos",
       "data": "04/09/2026",
-      "hora": "11:08",
-      "ts": 1788530880000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/tre-rj-vai-oferecer-transporte-gratuit",
-      "tag": "ANS",
-      "titulo": "TRE-RJ vai oferecer transporte gratuito na eleição em 3 localidades",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O Tribunal Regional Eleitoral do Rio de Janeiro (TRE-RJ) vai oferecer transporte gratuito e adaptado a pessoas com deficiência ou mobilidade reduzida em três localidades do estado. O projeto-piloto faz parte do programa Seu Voto Importa, instituído por resolução do Tribunal Superior Eleitoral (TSE).",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/tre-rj-vai-oferecer-transporte-gratuito-na-eleicao-em-3-localidades",
-      "data": "04/09/2026",
-      "hora": "06:45",
-      "ts": 1788515100000,
+      "hora": "14:44",
+      "ts": 1788543840000,
       "favorito": false
     },
     {
@@ -181,6 +193,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "06/09/2026 às 12:35",
-  "total": 15
+  "atualizado": "07/09/2026 às 14:44",
+  "total": 16
 }
