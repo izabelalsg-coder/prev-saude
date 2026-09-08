@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Conjur_https://conjur.com.br/2026-set-08/indicacao-medica-permite-reembolso-por-tratamento-off-label/",
+      "tag": "Conjur",
+      "titulo": "Indicação médica permite reembolso por tratamento off label",
+      "fonte": "Conjur",
+      "resumo": "A indicação de tratamento ou procedimento é de competência exclusiva do médico assistente, de modo que a operadora de plano de saúde não pode interferir na escolha terapêutica para negar reembolso de despesas sob a alegação de uso fora da bula (off label) ou do rol da Agência Nacional de Saúde Suple",
+      "link": "https://conjur.com.br/2026-set-08/indicacao-medica-permite-reembolso-por-tratamento-off-label/",
+      "data": "08/09/2026",
+      "hora": "11:21",
+      "ts": 1788866514000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-importacao-de-remedio-experi",
       "tag": "Anvisa",
       "titulo": "Anvisa aprova importação de remédio experimental para piloto Lito",
@@ -37,6 +49,66 @@
       "favorito": false
     },
     {
+      "id": "Conjur_https://conjur.com.br/2026-set-08/mendonca-afasta-diretor-geral-da-pf-e-manda-suspender-relatorios/",
+      "tag": "Conjur",
+      "titulo": "Mendonça afasta diretor-geral da PF e suspende relatórios dos quais foi alvo",
+      "fonte": "Conjur",
+      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal, determinou nesta segunda-feira (8/9) o afastamento preventivo de Andrei Rodrigues do cargo de delegado e diretor-geral da Polícia Federal. A ordem foi tomada em petição com pedido feito pelo partido Novo, na esteira da disputa interna no STF co",
+      "link": "https://conjur.com.br/2026-set-08/mendonca-afasta-diretor-geral-da-pf-e-manda-suspender-relatorios/",
+      "data": "08/09/2026",
+      "hora": "12:38",
+      "ts": 1788871094000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-afasta-andrei-rodrigues-da-di",
+      "tag": "Justiça",
+      "titulo": "Mendonça afasta Andrei Rodrigues da direção-geral da Polícia Federal",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro André Mendonça, relator do caso do Banco Master no Supremo Tribunal Federal (STF), decidiu nesta terça-feira (8) afastar o diretor-geral da Polícia Federal, Andrei Rodrigues, de suas funções.    \n\n Mendonça também afastou preventivamente o diretor de Inteligência da PF, Leandro Almada.  \n",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-afasta-andrei-rodrigues-da-direcao-geral-da-policia-federal",
+      "data": "08/09/2026",
+      "hora": "09:27",
+      "ts": 1788870420000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-08/encerrar-conta-corrente-livre-do-cdc-fortalece-compliance-dos-bancos/",
+      "tag": "STJ",
+      "titulo": "Aval do STJ para encerrar conta-corrente fortalece compliance dos bancos",
+      "fonte": "Conjur",
+      "resumo": "A decisão do Superior Tribunal de Justiça que permitiu aos bancos encerrar contas-correntes de forma unilateral, sem a vedação do Código de Defesa do Consumidor, é medida coerente que fortalece o compliance e seus deveres regulatórios. A opinião é de advogados ouvidos pela revista eletrônica Consult",
+      "link": "https://conjur.com.br/2026-set-08/encerrar-conta-corrente-livre-do-cdc-fortalece-compliance-dos-bancos/",
+      "data": "08/09/2026",
+      "hora": "11:50",
+      "ts": 1788868220000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-08/embarg-stf-mantem-precedentes-do-tst-sobre-estabilidade-no-emprego/",
+      "tag": "STF",
+      "titulo": "STF mantém precedentes do TST sobre estabilidade no emprego",
+      "fonte": "Conjur",
+      "resumo": "O Supremo Tribunal Federal manteve, por unanimidade, a decisão que rejeitou uma ação contra quatro precedentes do Tribunal Superior do Trabalho relacionados à estabilidade no emprego. Todos os ministros acompanharam o voto do relator, Nunes Marques, que entendeu que a Arguição de Descumprimento de P",
+      "link": "https://conjur.com.br/2026-set-08/embarg-stf-mantem-precedentes-do-tst-sobre-estabilidade-no-emprego/",
+      "data": "08/09/2026",
+      "hora": "10:24",
+      "ts": 1788863064000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-08/provimento-231-do-cnj-regulamentar-nao-e-legislar-muito-menos-condicionar-a-jur",
+      "tag": "Conjur",
+      "titulo": "Provimento 231 do CNJ: regulamentar não é legislar, muito menos condicionar a jurisdição",
+      "fonte": "Conjur",
+      "resumo": "Há uma fronteira que não pode ser ultrapassada, mesmo quando os objetivos perseguidos são legítimos: aquela que separa a regulamentação da criação autônoma do Direito. O Provimento nº 231/2026 da Corregedoria Nacional de Justiça recoloca essa fronteira no centro do debate. O ato estabelece critérios",
+      "link": "https://conjur.com.br/2026-set-08/provimento-231-do-cnj-regulamentar-nao-e-legislar-muito-menos-condicionar-a-jurisdicao/",
+      "data": "08/09/2026",
+      "hora": "10:01",
+      "ts": 1788861699000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-aguarda-explicacoes-de-ministro",
       "tag": "Justiça",
       "titulo": "Fachin aguarda explicações de ministros para decidir sobre crise",
@@ -46,42 +118,6 @@
       "data": "07/09/2026",
       "hora": "10:45",
       "ts": 1788788700000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-07/13o-proporcional-e-limites-da-tributacao-sobre-a-folha-de-salarios/",
-      "tag": "Conjur",
-      "titulo": "13º proporcional e limites da tributação sobre a folha de salários",
-      "fonte": "Conjur",
-      "resumo": "Como é sabido, a definição da base de incidência das contribuições previdenciárias sobre a folha de salários continua sendo um dos pontos sensíveis da tributação brasileira. Embora a Constituição estabeleça parâmetros para a incidência dessas contribuições, a prática administrativa frequentemente am",
-      "link": "https://conjur.com.br/2026-set-07/13o-proporcional-e-limites-da-tributacao-sobre-a-folha-de-salarios/",
-      "data": "07/09/2026",
-      "hora": "12:23",
-      "ts": 1788783814000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-07/solucoes-de-consulta-e-pareceres-juridicos-no-novo-artigo-107-do-ctn/",
-      "tag": "Conjur",
-      "titulo": "Soluções de consulta e pareceres jurídicos no novo artigo 107 do CTN",
-      "fonte": "Conjur",
-      "resumo": "Com a sanção da Lei Complementar nº 236/2026 (LC 236/2026), resultante do PLP nº 124/2022, foi concluída a reforma do Código Tributário Nacional (CTN). Entre os dispositivos incorporados ao Código estão os três parágrafos do artigo 107, que tratam da resolução de dúvidas e da fixação da interpretaçã",
-      "link": "https://conjur.com.br/2026-set-07/solucoes-de-consulta-e-pareceres-juridicos-no-novo-artigo-107-do-ctn/",
-      "data": "07/09/2026",
-      "hora": "11:00",
-      "ts": 1788778813000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-07/atestado-falso-impede-estabilidade-provisoria-e-condena-gestante-por-ma-fe/",
-      "tag": "Conjur",
-      "titulo": "Atestado falso impede estabilidade provisória e condena gestante por má-fé",
-      "fonte": "Conjur",
-      "resumo": "A apresentação de atestado falso ou com conteúdo adicional configura ato de improbidade e sustenta a demissão por justa causa. Em consequência, mesmo que a empregada seja gestante, a estabilidade provisória não a alcança, uma vez que o benefício só se estende para dispensas arbitrárias ou sem justa ",
-      "link": "https://conjur.com.br/2026-set-07/atestado-falso-impede-estabilidade-provisoria-e-condena-gestante-por-ma-fe/",
-      "data": "07/09/2026",
-      "hora": "10:31",
-      "ts": 1788777102000,
       "favorito": false
     },
     {
@@ -179,20 +215,8 @@
       "hora": "11:50",
       "ts": 1788360600000,
       "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-determina-apreensao-de-produtos-da-",
-      "tag": "Anvisa",
-      "titulo": "Anvisa determina apreensão de produtos da marca United Labz",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) determinou nesta terça-feira (1º) a apreensão de todos os produtos da marca United Labz. Com isso,  os produtos não podem ser fabricados, armazenados, distribuídos, vendidos, importados, divulgados nem utilizados .   \n\n Os itens são fabricados por ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-determina-apreensao-de-produtos-da-marca-united-labz",
-      "data": "01/09/2026",
-      "hora": "15:25",
-      "ts": 1788287100000,
-      "favorito": false
     }
   ],
-  "atualizado": "07/09/2026 às 14:44",
-  "total": 16
+  "atualizado": "08/09/2026 às 13:15",
+  "total": 18
 }
