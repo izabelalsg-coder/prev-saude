@@ -1,6 +1,18 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-novas-indicacoes-para-rem%C3",
+      "tag": "Anvisa",
+      "titulo": "Anvisa aprova novas indicações para remédio que trata câncer de mama",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou novas indicações terapêuticas para o medicamento Trodelvy ( sacituzumabe govitecana ), usado no tratamento de pacientes adultos com câncer de mama triplo-negativo (CMTN).    \n\n  Duas novas indicações foram aprovadas:   \n\n \n\t em combinação c",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-novas-indicacoes-para-rem%C3%A9dio-que-trata-cancer-de-mama",
+      "data": "10/09/2026",
+      "hora": "11:20",
+      "ts": 1789050000000,
+      "favorito": false
+    },
+    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/andre-mendonca-manda-soltar-filho-do-c",
       "tag": "INSS",
       "titulo": "André Mendonça manda soltar filho do \"Careca do INSS\"",
@@ -13,39 +25,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-novo-medicamento-para-tratam",
-      "tag": "Anvisa",
-      "titulo": "Anvisa aprova novo medicamento para tratamento de enxaqueca",
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/plano-de-saude-tera-que-cobrir-mamografia-",
+      "tag": "Saúde",
+      "titulo": "Plano de saúde terá que cobrir mamografia digital para todas as idades",
       "fonte": "Agência Brasil / Saúde",
-      "resumo": "Um novo medicamento para o tratamento da enxaqueca foi aprovado nesta terça-feira (8) pela Agência Nacional de Vigilância Sanitária (Anvisa). O Aquipta (atogepanto) é indicado para adultos que têm pelo menos quatro episódios mensais de enxaqueca.     \n\n De acordo com a agência, a substância atua no ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/anvisa-aprova-novo-medicamento-para-tratamento-de-enxaqueca",
-      "data": "08/09/2026",
-      "hora": "14:24",
-      "ts": 1788888240000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/entidades-cientificas-cobram-apuracao-",
-      "tag": "STF",
-      "titulo": "Entidades científicas cobram apuração rigorosa de crise no STF",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A Sociedade Brasileira para o Progresso da Ciência (SBPC) e a Academia Brasileira de Ciências (ABC) divulgaram, nesta quarta-feira (9), uma nota conjunta na qual manifestam preocupação com a crise político-institucional que transcendeu o Supremo Tribunal Federal (STF),  envolvendo instituições como ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/entidades-cientificas-cobram-apuracao-rigorosa-de-crise-no-stf",
-      "data": "09/09/2026",
-      "hora": "14:34",
-      "ts": 1788975240000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-solta-ex-procurador-do-inss-i",
-      "tag": "INSS",
-      "titulo": "Mendonça solta ex-procurador do INSS indiciado por desvios",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), determinou a soltura de Virgílio Antônio Ribeiro de Oliveira Filho, ex-procurador-geral do Instituto Nacional do Seguro Social (INSS) e indiciado pela Polícia Federal (PF) por participação no desvio de contribuições associativas em aposen",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-solta-ex-procurador-do-inss-indiciado-por-desvios",
-      "data": "09/09/2026",
-      "hora": "13:15",
-      "ts": 1788970500000,
+      "resumo": "A partir de 1º de outubro, os planos de saúde serão obrigados a cobrir exame de mamografia digital para todas as pessoas sempre que houver indicação médica, ou seja, não haverá restrição de idade.  Atualmente, a cobertura desse exame é obrigatória apenas para mulheres com idade entre 40 e 69 anos.  ",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/plano-de-saude-tera-que-cobrir-mamografia-digital-para-todas-idades",
+      "data": "10/09/2026",
+      "hora": "15:30",
+      "ts": 1789065000000,
       "favorito": false
     },
     {
@@ -61,27 +49,87 @@
       "favorito": false
     },
     {
-      "id": "Conjur_https://conjur.com.br/2026-set-10/direito-tributario-e-reflexoes-teoricas-sobre-o-papel-do-superior-tribunal-de-j",
-      "tag": "Conjur",
-      "titulo": "O papel do Superior Tribunal de Justiça no direito tributário",
-      "fonte": "Conjur",
-      "resumo": "Gostaria de refletir sobre o papel do Superior Tribunal de Justiça no direito tributário. Por que o tema é importante? Porque ao STJ cabe julgar os recursos que tenham por objeto a contrariedade a tratado ou lei federal ou negativa de vigência. Nesse sentido, se tal corte superior tiver sua competên",
-      "link": "https://conjur.com.br/2026-set-10/direito-tributario-e-reflexoes-teoricas-sobre-o-papel-do-superior-tribunal-de-justica/",
-      "data": "10/09/2026",
-      "hora": "12:21",
-      "ts": 1789042881000,
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como",
+      "tag": "Justiça",
+      "titulo": "Mendonça incluiu Flávio Bolsonaro como investigado no caso Dark Horse",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), determinou a abertura de um inquérito policial para apurar a participação do senador e candidato a presidente Flávio Bolsonaro (PL-RJ) em supostos crimes no financiamento ao filme Dark Horse, cinebiografia de seu pai, o ex-presidente Jair",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse",
+      "data": "11/09/2026",
+      "hora": "09:44",
+      "ts": 1789130640000,
       "favorito": false
     },
     {
-      "id": "Conjur_https://conjur.com.br/2026-set-10/norma-que-institui-drogometro-contraria-ctb-e-ameaca-seguranca-juridica/",
+      "id": "Conjur_https://conjur.com.br/2026-set-11/portaria-fixa-120-minutos-para-saque-mas-retencao-de-valores-lidera-reclamacoes",
       "tag": "Conjur",
-      "titulo": "Norma que institui ‘drogômetro’ no trânsito ameaça segurança jurídica",
+      "titulo": "Portaria fixa 120 minutos para saque, mas retenção de valores lidera reclamações contra bets",
       "fonte": "Conjur",
-      "resumo": "A Resolução 1.031 do Conselho Nacional de Trânsito, que instituiu o “drogômetro”, é incompatível com o Código de Trânsito Brasileiro (CTB) e estabelece dispositivos que colocam em risco a segurança jurídica. É o que dizem especialistas ouvidos pela revista eletrônica Consultor Jurídico. A medida, qu",
-      "link": "https://conjur.com.br/2026-set-10/norma-que-institui-drogometro-contraria-ctb-e-ameaca-seguranca-juridica/",
+      "resumo": "A Portaria Normativa SPA/MF 615, de 16 de abril de 2024, estabeleceu duas obrigações temporais distintas para os operadores de apostas de quota fixa, e a diferença entre elas costuma passar despercebida. A primeira consta do artigo 6º, parágrafo 2º: é vedado ao agente operador restringir a retirada ",
+      "link": "https://conjur.com.br/2026-set-11/portaria-fixa-120-minutos-para-saque-mas-retencao-de-valores-lidera-reclamacoes-contra-bets/",
+      "data": "11/09/2026",
+      "hora": "12:00",
+      "ts": 1789128037000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/a-pedido-de-fachin-andre-mendonca-reti",
+      "tag": "Justiça",
+      "titulo": "A pedido de Fachin, Mendonça retira parte de sigilo do caso Master",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro do  Supremo Tribunal Federal (STF) , André Mendonça, retirou o sigilo de parte das investigações sobre o  Banco Master , do qual é relator. Ele tomou a decisão após pedido de Edson Fachin, presidente da Corte.    \n\n  Com isso, foi suprimido o sigilo de 15 procedimentos sobre o Master e fi",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/a-pedido-de-fachin-andre-mendonca-retira-parte-de-sigilo-do-caso-master",
+      "data": "11/09/2026",
+      "hora": "08:18",
+      "ts": 1789125480000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-set-11/norma-do-cfm-busca-complementar-lei-sobre-ia-e-proteger-ato-medico/",
+      "tag": "Conjur",
+      "titulo": "Norma do CFM busca complementar lei sobre IA e proteger ato médico",
+      "fonte": "Conjur",
+      "resumo": "Poucos campos são tão movidos pela busca incessante de inovação quanto o da saúde. A promessa de diagnósticos mais precisos, tratamentos personalizados e sistemas mais eficientes têm atraído um volume crescente de investimentos e feito convergirem, em torno do cuidado, atores que até recentemente oc",
+      "link": "https://conjur.com.br/2026-set-11/norma-do-cfm-busca-complementar-lei-sobre-ia-e-proteger-ato-medico/",
+      "data": "11/09/2026",
+      "hora": "10:01",
+      "ts": 1789120862000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/em-meio-crise-fachin-volta-cancelar-se",
+      "tag": "STF",
+      "titulo": "Em meio à crise, Fachin volta a cancelar sessão plenária no STF",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Edson Fachin, do Supremo Tribunal Federal (STF), cancelou a sessão plenária desta quinta-feira (10), em meio ao agravamento de uma crise entre ministros da própria Corte.     \n\n Fachin já  havia cancelado a sessão  de quarta-feira (9), horas depois de o ministro Flávio Dino  ter determina",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/em-meio-crise-fachin-volta-cancelar-sessao-plenaria-no-stf",
       "data": "10/09/2026",
-      "hora": "11:54",
-      "ts": 1789041290000,
+      "hora": "14:17",
+      "ts": 1789060620000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/isencao-da-taxa-das-blusinhas-em-com",
+      "tag": "Economia",
+      "titulo": "Isenção da “taxa das blusinhas” em compras até US$ 50 é sancionada",
+      "fonte": "Agência Brasil / Economia",
+      "resumo": "O presidente Luiz Inácio Lula da Silva sancionou, nesta quinta-feira (10), o  projeto de lei de conversão (PLV) 13 de 2026 que zera a tarifa de importação de 20% para compras internacionais de até US$ 50 (cerca de R$ 257) feitas pela internet por remessas postais.    \n\n A nova legislação trata da tr",
+      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-09/isencao-da-taxa-das-blusinhas-em-compras-ate-us-50-e-sancionada",
+      "data": "10/09/2026",
+      "hora": "14:05",
+      "ts": 1789059900000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/dino-cita-risco-de-evasao-e-proibe-dep",
+      "tag": "Justiça",
+      "titulo": "Dino cita risco de evasão e proíbe deputado Mario Frias de deixar país",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Flávio Dino, do Supremo Tribunal Federal (STF), proibiu o deputado Mario Frias (PL-SP) de deixar o país e de se comunicar com outros investigados no inquérito que apura desvios de emendas parlamentares  para financiar a produção do filme  Dark Horse , cinebiografia do ex-presidente Jair B",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/dino-cita-risco-de-evasao-e-proibe-deputado-mario-frias-de-deixar-pais",
+      "data": "10/09/2026",
+      "hora": "13:48",
+      "ts": 1789058880000,
       "favorito": false
     },
     {
@@ -94,30 +142,6 @@
       "data": "10/09/2026",
       "hora": "08:28",
       "ts": 1789039680000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-10/as-instancias-sao-independentes-os-fatos-nao-o-que-sao-fatos/",
-      "tag": "Conjur",
-      "titulo": "As instâncias são independentes; os fatos, não! O que são fatos?",
-      "fonte": "Conjur",
-      "resumo": "Abstract 1. : Sobre a tese mais confortável do direito brasileiro, o que o STF acabou de fazer com ela e o que sobra quando se rompe a cadeia de custódia Um homem foi absolvido, pela Justiça criminal espanhola, da acusação de ter feito um telefonema anônimo avisando que uma bomba explodiria no Gover",
-      "link": "https://conjur.com.br/2026-set-10/as-instancias-sao-independentes-os-fatos-nao-o-que-sao-fatos/",
-      "data": "10/09/2026",
-      "hora": "11:00",
-      "ts": 1789038043000,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-set-10/auxilio-doenca-nao-e-condicao-para-estabilidade-por-acidente-de-trabalho/",
-      "tag": "Conjur",
-      "titulo": "Auxílio-doença não é condição para estabilidade por acidente de trabalho",
-      "fonte": "Conjur",
-      "resumo": "O reconhecimento de um acidente de trabalho é suficiente para assegurar a estabilidade provisória, e o fato de o empregado não ter recebido auxílio-doença acidentário não afasta esse direito. Com esse entendimento, 2ª Turma do Tribunal Superior do Trabalho manteve a decisão que condenou a Concessão ",
-      "link": "https://conjur.com.br/2026-set-10/auxilio-doenca-nao-e-condicao-para-estabilidade-por-acidente-de-trabalho/",
-      "data": "10/09/2026",
-      "hora": "10:52",
-      "ts": 1789037522000,
       "favorito": false
     },
     {
@@ -145,30 +169,6 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-suspende-decisoes-de-mendonca-e",
-      "tag": "Justiça",
-      "titulo": "Fachin suspende decisões de Mendonça e Dino sobre diretor da PF",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), Edson Fachin, atendeu ao pedido da Advocacia-Geral da União (AGU) e suspendeu nesta quarta-feira (9) o afastamento do diretor-geral da Polícia Federal (PF), Andrei Rodrigues, do cargo. O diretor de Inteligência da PF, Leandro Almada, também teve seu af",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/fachin-suspende-decisoes-de-mendonca-e-dino-sobre-diretor-da-pf",
-      "data": "09/09/2026",
-      "hora": "18:05",
-      "ts": 1788987900000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/associacao-de-procuradores-pede-modera",
-      "tag": "STF",
-      "titulo": "Associação de procuradores pede moderação diante de crise no STF",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "A Associação Nacional dos Procuradores da República (ANPR) divulgou nesta quarta-feira (9) uma nota pública pedindo moderação às autoridades envolvidas na crise que atinge o Supremo Tribunal Federal (STF) e chega ao nome do procurador-geral da República, Paulo Gonet.    \n\n “A ANPR conclama todos os ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/associacao-de-procuradores-pede-moderacao-diante-de-crise-no-stf",
-      "data": "09/09/2026",
-      "hora": "16:53",
-      "ts": 1788983580000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-09/autismo-medica-lista-estrategias-que-ajuda",
       "tag": "Saúde",
       "titulo": "Autismo: médica lista estratégias que ajudam no atendimento a crianças",
@@ -178,18 +178,6 @@
       "data": "09/09/2026",
       "hora": "16:34",
       "ts": 1788982440000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/em-meio-crise-fachin-cancela-sessao-pl",
-      "tag": "Justiça",
-      "titulo": "Em meio a crise, Fachin cancela sessão plenária desta quarta-feira",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O presidente do Supremo Tribunal Federal (STF), ministro Edson Fachin, cancelou a sessão plenária ordinária que estava marcada para as 14h desta quarta-feira (9), em meio ao agravamento de uma crise entre ministros da própria Corte.     \n\n O cancelamento ocorre após o ministro  Flávio Dino ter deter",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/em-meio-crise-fachin-cancela-sessao-plenaria-desta-quarta-feira",
-      "data": "09/09/2026",
-      "hora": "11:58",
-      "ts": 1788965880000,
       "favorito": false
     },
     {
@@ -217,6 +205,6 @@
       "favorito": false
     }
   ],
-  "atualizado": "10/09/2026 às 13:18",
-  "total": 18
+  "atualizado": "11/09/2026 às 13:12",
+  "total": 17
 }
