@@ -1,39 +1,27 @@
 {
   "noticias": [
     {
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-aprova-novo-medicamento-para-cancer",
+      "tag": "Anvisa",
+      "titulo": "Anvisa aprova novo medicamento para câncer de pulmão avançado",
+      "fonte": "Agência Brasil / Saúde",
+      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou novo medicamento para o tratamento do câncer de pulmão. O Emrelis (telisotuzumabe vedotina) é indicado para pacientes adultos com câncer de pulmão de células não pequenas (CPCNP) com as seguintes características: não escamoso, localmente av",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-aprova-novo-medicamento-para-cancer-de-pulmao-avancado",
+      "data": "22/10/2026",
+      "hora": "09:48",
+      "ts": 1792673280000,
+      "favorito": false
+    },
+    {
       "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30092026-Podcast-STJ-No-Seu-Dia-discute-cober",
       "tag": "STJ",
       "titulo": "Podcast STJ No Seu Dia discute cobertura de cirurgias de feminização facial pelos planos de saúde",
       "fonte": "STJ",
       "resumo": "Podcast STJ No Seu Dia discute cobertura de cirurgias de feminização facial pelos planos de saúde",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30092026-Podcast-STJ-No-Seu-Dia-discute-cobertura-de-cirurgias-de-feminizacao-facial-pelos-planos-de-saude.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
-      "favorito": false
-    },
-    {
-      "id": "Conjur_https://conjur.com.br/2026-out-21/reducao-de-salario-de-hipersuficiente-exige-condicao-prevista-em-acordo-coletiv",
-      "tag": "Conjur",
-      "titulo": "Redução salarial de hipersuficiente deve seguir condições de contratos coletivos",
-      "fonte": "Conjur",
-      "resumo": "A redução salarial por acordo individual firmado com um empregado hipersuficiente — aquele que tem diploma de nível superior e recebe salário mensal igual ou maior a duas vezes o limite máximo dos benefícios do Regime Geral de Previdência Social (RGPS) — deve seguir as mesmas condições previstas nos",
-      "link": "https://conjur.com.br/2026-out-21/reducao-de-salario-de-hipersuficiente-exige-condicao-prevista-em-acordo-coletivo/",
-      "data": "21/10/2026",
-      "hora": "11:54",
-      "ts": 1792583665000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-proibe-lotes-de-medicamento-para-tr",
-      "tag": "Anvisa",
-      "titulo": "Anvisa proíbe lotes de medicamento para tratar câncer",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância (Anvisa) determinou a  apreensão dos lotes Z005197 e Z012354 do medicamento Keytruda (pembrolizumabe) 100 mg/4 mL , indicado para o tratamento de diversos tipos de câncer.   \n\n A  decisão  foi publicada nesta segunda-feira (19) no  Diário Oficial da União .  \n\n  Notí",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-proibe-lotes-de-medicamento-para-tratar-cancer",
-      "data": "19/10/2026",
-      "hora": "12:18",
-      "ts": 1792423080000,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -43,9 +31,9 @@
       "fonte": "STJ",
       "resumo": "Evento na FGV debate arbitragem e apresenta livro sobre jurisprudência do STJ",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29092026-Evento-na-FGV-debate-arbitragem-e-apresenta-livro-sobre-jurisprudencia-do-STJ.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -55,9 +43,9 @@
       "fonte": "STJ",
       "resumo": "STJ firmará tese repetitiva sobre o termo inicial do prazo prescricional em revisão de contrato com previdência privada fechada",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28092026-STJ-firmara-tese-repetitiva-sobre-o-termo-inicial-do-prazo-prescricional-em-revisao-de-contrato-com-previdencia.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -67,21 +55,9 @@
       "fonte": "STJ",
       "resumo": "Resolução estabelece cobrança proporcional ao valor das causas",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/25092026-STJ-estabelece-novos-criterios-para-cobranca-de-custas-judiciais.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtad",
-      "tag": "STJ",
-      "titulo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
-      "fonte": "STJ",
-      "resumo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtado-com-chave-na-ignicao-perde-cobertura-de-seguro.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353192,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -91,9 +67,9 @@
       "fonte": "STJ",
       "resumo": "Inscrições para audiências sobre prescrição para pessoas com deficiência e precatório previdenciário vão até esta quinta (15)",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-Inscricoes-para-audiencias-sobre-prescricao-para-pessoas-com-deficiencia-e-precatorio-previdenciario-vao-ate-esta.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353192,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718309,
       "favorito": false
     },
     {
@@ -103,9 +79,9 @@
       "fonte": "STJ",
       "resumo": "Colegiado também considerou abusiva cláusula que previa a perda da proteção se o associado abandonasse o local do acidente. Caso envolveu cobertura garantida por associação de proteção veicular, não contrato tradicional de seguro.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-ve-abusividade-em-perda-automatica-de-protecao-ao-veiculo-se-sinistro-nao-for-comunicado-em-ate-30-minutos-.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353192,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718309,
       "favorito": false
     },
     {
@@ -115,9 +91,33 @@
       "fonte": "STJ",
       "resumo": "Abertas inscrições de expositores para audiência pública sobre cessão de precatório previdenciário",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08102026-Abertas-inscricoes-de-expositores-para-audiencia-publica-sobre-cessao-de-precatorio-previdenciario-.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353192,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718309,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-",
+      "tag": "STJ",
+      "titulo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
+      "fonte": "STJ",
+      "resumo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-pedido-de-beneficio-apto-sem-permitir-complementacao-de-prova-.aspx",
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718308,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtad",
+      "tag": "STJ",
+      "titulo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
+      "fonte": "STJ",
+      "resumo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtado-com-chave-na-ignicao-perde-cobertura-de-seguro.aspx",
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718308,
       "favorito": false
     },
     {
@@ -145,27 +145,15 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-rec",
-      "tag": "Economia",
-      "titulo": "Beneficiários com NIS de final 2 recebem Bolsa Família de outubro",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "A Caixa Econômica Federal paga nesta terça-feira (20) a parcela de outubro do Bolsa Família aos beneficiários com Número de Inscrição Social (NIS) de final 2. Neste mês, 19,3 milhões de família serão beneficiadas, com o valor médio do benefício em R$ 782,92.    \n\n Por causa do aumento nos benefícios",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-10/beneficiarios-com-nis-de-final-2-recebem-bolsa-familia-de-outubro",
-      "data": "20/10/2026",
-      "hora": "07:30",
-      "ts": 1792492200000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-determina-apreensao-de-lote-falsifi",
-      "tag": "Anvisa",
-      "titulo": "Anvisa determina apreensão de lote falsificado de toxina botulínica",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância (Anvisa) determinou a apreensão do lote 025155 do medicamento Dysport, um neuromodulador à base de toxina botulínica.  A decisão foi publicada nesta segunda-feira (19) no  Diário Oficial da União .   \n\n Em nota, a Anvisa informou que a própria detentora do registro d",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-10/anvisa-determina-apreensao-de-lote-falsificado-de-toxina-botulinica",
-      "data": "19/10/2026",
-      "hora": "11:59",
-      "ts": 1792421940000,
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/02102026-Podcast-STJ-No-Seu-Dia-aborda-direit",
+      "tag": "STJ",
+      "titulo": "Podcast STJ No Seu Dia aborda direito de retenção por benfeitorias em contratos de locação",
+      "fonte": "STJ",
+      "resumo": "Podcast STJ No Seu Dia aborda direito de retenção por benfeitorias em contratos de locação",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/02102026-Podcast-STJ-No-Seu-Dia-aborda-direito-de-retencao-por-benfeitorias-em-contratos-de-locacao.aspx",
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -175,9 +163,9 @@
       "fonte": "STJ",
       "resumo": "Recurso foi distribuído nesta quarta-feira (30), data que também marca o início das primeiras sessões virtuais para análise do critério da relevância em recursos interpostos antes da vigência da Lei 15.484/2026.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30092026-Primeiro-recurso-especial-autuado-sob-os-novos-criterios-da-relevancia-chega-ao-STJ.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -187,9 +175,9 @@
       "fonte": "STJ",
       "resumo": "STJ marca presença na posse de Rodrigo Pacheco no TCU",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30092026-STJ-marca-presenca-na-posse-de-Rodrigo-Pacheco-no-TCU-.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -199,9 +187,9 @@
       "fonte": "STJ",
       "resumo": "Ribeiro Dantas completa 11 anos no STJ com atuação marcante na área penal",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30092026-Ribeiro-Dantas-completa-11-anos-no-STJ-com-atuacao-marcante-na-area-penal.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -211,9 +199,9 @@
       "fonte": "STJ",
       "resumo": "STJ apresenta à advocacia mudanças para aplicação do filtro da relevância",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29092026-STJ-apresenta-a-advocacia-mudancas-para-aplicacao-do-filtro-da-relevancia.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -223,9 +211,9 @@
       "fonte": "STJ",
       "resumo": "Presidente do STJ e do CJF abre diálogo com AGU e estuda medidas sobre precatórios federais",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29092026-Presidente-do-STJ-e-do-CJF-abre-dialogo-com-AGU-e-estuda-medidas-sobre-precatorios-federais.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -235,9 +223,9 @@
       "fonte": "STJ",
       "resumo": "STJ Notícias destaca decisão sobre convivência com animal de estimação após separação",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29092026-STJ-Noticias-destaca-decisao-sobre-convivencia-com-animal-de-estimacao-apos-separacao.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -247,9 +235,9 @@
       "fonte": "STJ",
       "resumo": "Saiba como acompanhar os julgamentos no novo regime",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29092026-Relevancia-da-questao-federal-saiba-como-acompanhar-as-primeiras-sessoes-virtuais-do-STJ-sob-o-novo-regime.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -259,9 +247,9 @@
       "fonte": "STJ",
       "resumo": "Para a ministra Maria Marluce Caldas, embora o artigo 152 da Lei de Execução Penal use o termo “poderá”, a medida deve ser interpretada como um poder-dever do Estado, tendo em vista sua importância para proteção às vítimas da violência de gênero.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29092026-Violencia-domestica-STJ-reconhece-poder-dever-de-determinar-participacao-em-grupo-reflexivo-como-condicao-do.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -271,9 +259,9 @@
       "fonte": "STJ",
       "resumo": "STJ realiza encontro nacional para debater a relevância da questão federal",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28092026-STJ-realiza-encontro-nacional-para-debater-a-relevancia-da-questao-federal.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -283,9 +271,9 @@
       "fonte": "STJ",
       "resumo": "Repetitivo fixa marco para honorários de sucumbência em ações rescisórias sobre modulação do Tema 69 do STF",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28092026-Repetitivo-fixa-marco-para-honorarios-de-sucumbencia-em-acoes-rescisorias-sobre-modulacao-do-Tema-69-do-STF.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     },
     {
@@ -295,12 +283,24 @@
       "fonte": "STJ",
       "resumo": "Ao tratar de controvérsias sobre o sistema brasileiro de fiscalização ambiental, o STJ já analisou temas como o licenciamento de obras, os impactos da omissão da administração pública na atividade fiscalizatória e o papel dos órgãos de proteção ambiental.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/27092026-A-fiscalizacao-ambiental-e-a-responsabilidade-compartilhada-entre-os-entes-federativos.aspx",
-      "data": "21/10/2026",
-      "hora": "14:19",
-      "ts": 1792592353193,
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/24092026-Assessoria-de-Etica-e-Disciplina-pas",
+      "tag": "STJ",
+      "titulo": "Assessoria de Ética e Disciplina passa a ser vinculada diretamente à Presidência do STJ",
+      "fonte": "STJ",
+      "resumo": "Assessoria de Ética e Disciplina passa a ser vinculada diretamente à Presidência do STJ",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/24092026-Assessoria-de-Etica-e-Disciplina-passa-a-ser-vinculada-diretamente-a-Presidencia-do-STJ.aspx",
+      "data": "22/10/2026",
+      "hora": "14:18",
+      "ts": 1792678718310,
       "favorito": false
     }
   ],
-  "atualizado": "21/10/2026 às 14:19",
+  "atualizado": "22/10/2026 às 14:18",
   "total": 25
 }
