@@ -1,18 +1,6 @@
 {
   "noticias": [
     {
-      "id": "Conjur_https://conjur.com.br/2026-out-30/bpc-impede-recolhimento-de-contribuicao-previdenciaria-em-5/",
-      "tag": "Conjur",
-      "titulo": "Receber BPC impede contribuição previdenciária com alíquota reduzida de 5%",
-      "fonte": "Conjur",
-      "resumo": "O recebimento do Benefício de Prestação Continuada (BPC) configura renda própria do beneficiário, o que impede o enquadramento na condição de segurado facultativo sem renda própria e inviabiliza a validação do recolhimento de contribuições previdenciárias sob a alíquota reduzida de 5%. Essa foi a te",
-      "link": "https://conjur.com.br/2026-out-30/bpc-impede-recolhimento-de-contribuicao-previdenciaria-em-5/",
-      "data": "30/10/2026",
-      "hora": "12:46",
-      "ts": 1793364388000,
-      "favorito": false
-    },
-    {
       "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/fachin-devolve-relatoria-do-caso-do-in",
       "tag": "INSS",
       "titulo": "Fachin devolve relatoria do caso do INSS a Mendonça e mantém Master",
@@ -31,81 +19,9 @@
       "fonte": "STJ",
       "resumo": "Abertas inscrições de expositores para audiência pública sobre cessão de precatório previdenciário",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08102026-Abertas-inscricoes-de-expositores-para-audiencia-publica-sobre-cessao-de-precatorio-previdenciario-.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribu",
-      "tag": "STJ",
-      "titulo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
-      "fonte": "STJ",
-      "resumo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribuicao-de-ministros-da-corte-nas-eleicoes-gerais-de-2026.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172367,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/23102026-STJ-recebe-premio-do-CNJ-por-projeto",
-      "tag": "STJ",
-      "titulo": "STJ recebe prêmio do CNJ por projeto de gestão de pessoas; veja como foi a homenagem",
-      "fonte": "STJ",
-      "resumo": "STJ recebe prêmio do CNJ por projeto de gestão de pessoas; veja como foi a homenagem",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/23102026-STJ-recebe-premio-do-CNJ-por-projeto-de-gestao-de-pessoas--veja-como-foi-a-homenagem.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172367,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-",
-      "tag": "STJ",
-      "titulo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
-      "fonte": "STJ",
-      "resumo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-pedido-de-beneficio-apto-sem-permitir-complementacao-de-prova-.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172367,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtad",
-      "tag": "STJ",
-      "titulo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
-      "fonte": "STJ",
-      "resumo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtado-com-chave-na-ignicao-perde-cobertura-de-seguro.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172367,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-Inscricoes-para-audiencias-sobre-pre",
-      "tag": "STJ",
-      "titulo": "Inscrições para audiências sobre prescrição para pessoas com deficiência e precatório previdenciário vão até esta quinta (15)",
-      "fonte": "STJ",
-      "resumo": "Inscrições para audiências sobre prescrição para pessoas com deficiência e precatório previdenciário vão até esta quinta (15)",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-Inscricoes-para-audiencias-sobre-prescricao-para-pessoas-com-deficiencia-e-precatorio-previdenciario-vao-ate-esta.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172367,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-ve-abusividade-em-perda-automati",
-      "tag": "STJ",
-      "titulo": "STJ vê abusividade em perda automática de proteção ao veículo se sinistro não for comunicado em até 30 minutos",
-      "fonte": "STJ",
-      "resumo": "Colegiado também considerou abusiva cláusula que previa a perda da proteção se o associado abandonasse o local do acidente. Caso envolveu cobertura garantida por associação de proteção veicular, não contrato tradicional de seguro.",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-ve-abusividade-em-perda-automatica-de-protecao-ao-veiculo-se-sinistro-nao-for-comunicado-em-ate-30-minutos-.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172367,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -115,9 +31,105 @@
       "fonte": "STJ",
       "resumo": "Para a Terceira Turma, situação de hipervulnerabilidade da pessoa idosa afasta necessidade de comprovação de que beneficiária excluída do plano tenha sofrido abalos pela falta de custeio de tratamento pela operadora.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-Exclusao-indevida-de-idosa-de-plano-de-saude-e-condicao-suficiente-para-caracterizar-dano-moral--define-Terceira.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172366,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribu",
+      "tag": "STJ",
+      "titulo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
+      "fonte": "STJ",
+      "resumo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribuicao-de-ministros-da-corte-nas-eleicoes-gerais-de-2026.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/23102026-STJ-recebe-premio-do-CNJ-por-projeto",
+      "tag": "STJ",
+      "titulo": "STJ recebe prêmio do CNJ por projeto de gestão de pessoas; veja como foi a homenagem",
+      "fonte": "STJ",
+      "resumo": "STJ recebe prêmio do CNJ por projeto de gestão de pessoas; veja como foi a homenagem",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/23102026-STJ-recebe-premio-do-CNJ-por-projeto-de-gestao-de-pessoas--veja-como-foi-a-homenagem.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-",
+      "tag": "STJ",
+      "titulo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
+      "fonte": "STJ",
+      "resumo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-pedido-de-beneficio-apto-sem-permitir-complementacao-de-prova-.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtad",
+      "tag": "STJ",
+      "titulo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
+      "fonte": "STJ",
+      "resumo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtado-com-chave-na-ignicao-perde-cobertura-de-seguro.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-Inscricoes-para-audiencias-sobre-pre",
+      "tag": "STJ",
+      "titulo": "Inscrições para audiências sobre prescrição para pessoas com deficiência e precatório previdenciário vão até esta quinta (15)",
+      "fonte": "STJ",
+      "resumo": "Inscrições para audiências sobre prescrição para pessoas com deficiência e precatório previdenciário vão até esta quinta (15)",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-Inscricoes-para-audiencias-sobre-prescricao-para-pessoas-com-deficiencia-e-precatorio-previdenciario-vao-ate-esta.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-ve-abusividade-em-perda-automati",
+      "tag": "STJ",
+      "titulo": "STJ vê abusividade em perda automática de proteção ao veículo se sinistro não for comunicado em até 30 minutos",
+      "fonte": "STJ",
+      "resumo": "Colegiado também considerou abusiva cláusula que previa a perda da proteção se o associado abandonasse o local do acidente. Caso envolveu cobertura garantida por associação de proteção veicular, não contrato tradicional de seguro.",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-ve-abusividade-em-perda-automatica-de-protecao-ao-veiculo-se-sinistro-nao-for-comunicado-em-ate-30-minutos-.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702783,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-out-31/advogadas-previdenciaristas-enviam-propostas-de-combate-a-desigualdade-a-oab-e-",
+      "tag": "Conjur",
+      "titulo": "Advogadas previdenciaristas propõem medidas contra desigualdade à OAB e ao INSS",
+      "fonte": "Conjur",
+      "resumo": "Advogadas previdenciaristas encaminharam à OAB, ao Conselho de Recursos da Previdência Social (CRPS) e ao Conselho Nacional de Previdência Social (CNPS), propostas de combate à desigualdade contra mulheres. As recomendações foram elaboradas durante a Primeira Conferência Nacional das Mulheres Advoga",
+      "link": "https://conjur.com.br/2026-out-31/advogadas-previdenciaristas-enviam-propostas-de-combate-a-desigualdade-a-oab-e-ao-inss/",
+      "data": "31/10/2026",
+      "hora": "13:27",
+      "ts": 1793453263000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-out-31/lucro-presumido-e-lc-224-25-simplificacao-tributaria-e-seguranca-juridica-em-jo",
+      "tag": "Conjur",
+      "titulo": "Lucro presumido e LC 224/25: simplificação tributária e segurança jurídica em jogo",
+      "fonte": "Conjur",
+      "resumo": "O lucro presumido é benefício fiscal ou método de apuração? A resposta a essa pergunta vale, para muitas empresas de médio porte, dezenas de milhares de reais por ano. Publicada em 26 de dezembro de 2025, a Lei Complementar nº 224/2025 promoveu uma redução linear de incentivos e benefícios tributári",
+      "link": "https://conjur.com.br/2026-out-31/lucro-presumido-e-lc-224-25-simplificacao-tributaria-e-seguranca-juridica-em-jogo/",
+      "data": "31/10/2026",
+      "hora": "12:22",
+      "ts": 1793449323000,
       "favorito": false
     },
     {
@@ -133,15 +145,63 @@
       "favorito": false
     },
     {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13102026-Idosa-que-teve-marido-assassinado-pe",
+      "tag": "STJ",
+      "titulo": "Idosa que teve marido assassinado pelos irmãos recebe autorização do STJ para excluir sobrenome paterno",
+      "fonte": "STJ",
+      "resumo": "Idosa que teve marido assassinado pelos irmãos recebe autorização do STJ para excluir sobrenome paterno",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13102026-Idosa-que-teve-marido-assassinado-pelos-irmaos-recebe-autorizacao-do-STJ-para-excluir-sobrenome-paterno.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13102026-Arruda-e-Thereza-Alvim-sao-homenagea",
+      "tag": "STJ",
+      "titulo": "Arruda e Thereza Alvim são homenageados e acervo pessoal do casal é incorporado à Biblioteca STJ-Enfam",
+      "fonte": "STJ",
+      "resumo": "Arruda e Thereza Alvim são homenageados e acervo pessoal do casal é incorporado à Biblioteca STJ-Enfam",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/13102026-Arruda-e-Thereza-Alvim-sao-homenageados-e-acervo-pessoal-do-casal-e-incorporado-a-Biblioteca-STJ-Enfam.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11102026-STJ-e-CFJ-lamentam-partida-do-advoga",
+      "tag": "STJ",
+      "titulo": "STJ e CFJ lamentam partida do advogado Nelson Martins",
+      "fonte": "STJ",
+      "resumo": "STJ e CFJ lamentam partida do advogado Nelson Martins",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11102026-STJ-e-CFJ-lamentam-partida-do-advogado-Nelson-Martins.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11102026-Golpes-virtuais--danos-reais-o-STJ-d",
+      "tag": "STJ",
+      "titulo": "Golpes virtuais, danos reais: o STJ diante das fraudes envolvendo instituições financeiras",
+      "fonte": "STJ",
+      "resumo": "Atento às evoluções do sistema financeiro, o STJ tem fixado precedentes como a definição de critérios para responsabilização das instituições financeiras em episódios como o golpe da falsa central de atendimento.",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/11102026-Golpes-virtuais--danos-reais-o-STJ-diante-das-fraudes-envolvendo-instituicoes-financeiras.aspx",
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
+      "favorito": false
+    },
+    {
       "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09102026-Escritorios-Sociais-e-Casas-de-Justi",
       "tag": "STJ",
       "titulo": "CNJ integra Escritórios Sociais e Casas de Justiça e Cidadania, projeto idealizado pelo ministro Carlos Pires Brandão",
       "fonte": "STJ",
       "resumo": "CNJ integra Escritórios Sociais e Casas de Justiça e Cidadania, projeto idealizado pelo ministro Carlos Pires Brandão",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09102026-Escritorios-Sociais-e-Casas-de-Justica-e-Cidadania--projeto-idealizado-pelo-ministro-Carlos-Pires-Brandao.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -151,9 +211,9 @@
       "fonte": "STJ",
       "resumo": "STJ e Consepre firmam acordo para reforçar a segurança de magistrados",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09102026STJ-e-Consepre-firmam-acordo-para-reforcar-a-seguranca-de-magistrados.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -163,9 +223,9 @@
       "fonte": "STJ",
       "resumo": "Presidente do STJ relata início da implantação da relevância da questão federal a presidentes de TJs",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09102026Presidente-do-STJ-relata-inicio-da-implantacao-da-relevancia-da-questao-federal-a-presidentes-de-TJs.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -175,9 +235,9 @@
       "fonte": "STJ",
       "resumo": "Magistrados da Suprema Corte do Peru visitam o STJ",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08102026Magistrados-da-Suprema-Corte-do-Peru-visitam-o-STJ---.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -187,9 +247,9 @@
       "fonte": "STJ",
       "resumo": "Podcast STJ No Seu Dia aborda descumprimento contratual em serviços de saúde e proibição ao enriquecimento sem causa",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/09102026-Podcast-STJ-No-Seu-Dia-aborda-descumprimento-contratual-em-servicos-de-saude-e-proibicao-ao-enriquecimento-sem.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -199,9 +259,9 @@
       "fonte": "STJ",
       "resumo": "Troféu Dom Quixote presta homenagem a ministros do STJ e ao relator geral da Constituição de 1988",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08102026Trofeu-Dom-Quixote-presta-homenagem-a-ministros-do-STJ-e-ao-relator-geral-da-Constituicao-de-1988.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -211,9 +271,9 @@
       "fonte": "STJ",
       "resumo": "STJ sedia 9º Seminário Jurídico de Seguros, que debaterá novo marco legal dos contratos",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08102026STJ-sedia-9o-Seminario-Juridico-de-Seguros--que-debatera-novo-marco-legal-dos-contratos.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -223,9 +283,9 @@
       "fonte": "STJ",
       "resumo": "Para a Terceira Turma, o fato de a segurada ter saído do veículo por curto período e apenas com o objetivo de guardar carro o mais rápido possível não configura situação de agravamento intencional de risco por parte da segurada.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/08102026-Furto-de-carro-com-chave-na-ignicao-enquanto-segurada-abria-o-portao-de-casa-nao-afasta-cobertura-securitaria.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     },
     {
@@ -235,72 +295,12 @@
       "fonte": "STJ",
       "resumo": "STJ sedia XXXII Troféu Dom Quixote & Sancho Pança em homenagem a Bernardo Cabral",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026STJ-sedia-XXXII-Trofeu-Dom-Quixote---Sancho-Panca-em-homenagem-a-Bernardo-Cabral.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026STJ-apresenta-iniciativas-de-inovacao",
-      "tag": "STJ",
-      "titulo": "STJ apresenta iniciativas de inovação na 10ª edição do ExpoJud",
-      "fonte": "STJ",
-      "resumo": "STJ apresenta iniciativas de inovação na 10ª edição do ExpoJud",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026STJ-apresenta-iniciativas-de-inovacao-na-10a-edicao-do-ExpoJud.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026-Cobranca-de-honorarios-por-condomini",
-      "tag": "STJ",
-      "titulo": "Cobrança de honorários por condomínios: STJ define primeira relevância reconhecida em sessão virtual",
-      "fonte": "STJ",
-      "resumo": "Sessões finalizadas nesta quarta (7) definiram outros temas de relevância, mas controvérsia sobre a exigência de honorários contratuais pelos condomínios foi a primeira em que se formou a maioria sob o novo regime.",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026-Cobranca-de-honorarios-por-condominios-STJ-define-primeira-relevancia-reconhecida-em-sessao-virtual.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026-Podcast-STJ-No-Seu-Dia-discute-respo",
-      "tag": "STJ",
-      "titulo": "Podcast STJ No Seu Dia discute responsabilidade dos bancos em casos do golpe da falsa central de atendimento",
-      "fonte": "STJ",
-      "resumo": "Podcast STJ No Seu Dia discute responsabilidade dos bancos em casos do golpe da falsa central de atendimento",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/07102026-Podcast-STJ-No-Seu-Dia-discute-responsabilidade-dos-bancos-em-casos-do-golpe-da-falsa-central-de-atendimento.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06102026Biblioteca-STJ-Enfam-incorpora-acervo",
-      "tag": "STJ",
-      "titulo": "Biblioteca STJ-Enfam incorpora acervo dos professores Arruda e Thereza Alvim e homenageia juristas em seminário",
-      "fonte": "STJ",
-      "resumo": "Biblioteca STJ-Enfam incorpora acervo dos professores Arruda e Thereza Alvim e homenageia juristas em seminário",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06102026Biblioteca-STJ-Enfam-incorpora-acervo-dos-professores-Arruda-e-Thereza-Alvim-e-homenageia-juristas-em-seminario.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
-      "favorito": false
-    },
-    {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06102026-STJ-Noticias-discussao-sobre-trafico",
-      "tag": "STJ",
-      "titulo": "STJ Notícias: discussão sobre tráfico de drogas em presídios e decisão sobre violência doméstica",
-      "fonte": "STJ",
-      "resumo": "STJ Notícias: discussão sobre tráfico de drogas em presídios e decisão sobre violência doméstica",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/06102026-STJ-Noticias-discussao-sobre-trafico-de-drogas-em-presidios-e-decisao-sobre-violencia-domestica-.aspx",
-      "data": "30/10/2026",
-      "hora": "15:29",
-      "ts": 1793374172368,
+      "data": "31/10/2026",
+      "hora": "14:58",
+      "ts": 1793458702784,
       "favorito": false
     }
   ],
-  "atualizado": "30/10/2026 às 15:29",
+  "atualizado": "31/10/2026 às 14:58",
   "total": 25
 }
