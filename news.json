@@ -1,15 +1,27 @@
 {
   "noticias": [
     {
-      "id": "Conjur_https://conjur.com.br/2026-nov-11/condicionar-tratamento-a-transferencia-de-hospital-e-conduta-abusiva/",
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Radio-Decidendi-debate-precedente-so",
+      "tag": "STJ",
+      "titulo": "Rádio Decidendi debate precedente sobre revisão de benefícios por incapacidade concedidos pela Justiça",
+      "fonte": "STJ",
+      "resumo": "Rádio Decidendi debate precedente sobre revisão de benefícios por incapacidade concedidos pela Justiça",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Radio-Decidendi-debate-precedente-sobre-revisao-de-beneficios-por-incapacidade-concedidos-pela-Justica.aspx",
+      "data": "12/11/2026",
+      "hora": "08:10",
+      "ts": 1794471000000,
+      "favorito": false
+    },
+    {
+      "id": "Conjur_https://conjur.com.br/2026-nov-12/pessoa-com-esquizofrenia-em-vulnerabilidade-pode-receber-bpc/",
       "tag": "Conjur",
-      "titulo": "Condicionar tratamento à transferência de hospital é conduta abusiva",
+      "titulo": "Melhora em quadro de esquizofrenia não afasta direito ao BPC",
       "fonte": "Conjur",
-      "resumo": "Uma operadora de plano de saúde que condiciona o tratamento da doença de um paciente à transferência de hospital, mesmo com contraindicação médica, comete falha na prestação do serviço e tem o dever de indenizar. Com esse entendimento, o juiz Leonardo Cardoso e Silva, 5ª Vara Cível do Foro de Leopol",
-      "link": "https://conjur.com.br/2026-nov-11/condicionar-tratamento-a-transferencia-de-hospital-e-conduta-abusiva/",
-      "data": "11/11/2026",
-      "hora": "13:46",
-      "ts": 1794404763000,
+      "resumo": "A melhora no quadro de esquizofrenia, por si só, não impede o paciente de receber o Benefício de Prestação Continuada (BPC). Isso porque, ao avaliar o pedido, o julgador deve levar em conta a realidade material da pessoa, o acesso a recursos econômicos e a perspectiva de autonomia e inserção social ",
+      "link": "https://conjur.com.br/2026-nov-12/pessoa-com-esquizofrenia-em-vulnerabilidade-pode-receber-bpc/",
+      "data": "12/11/2026",
+      "hora": "16:46",
+      "ts": 1794501984000,
       "favorito": false
     },
     {
@@ -19,9 +31,9 @@
       "fonte": "STJ",
       "resumo": "Inscrições para audiências sobre prescrição para pessoas com deficiência e precatório previdenciário vão até esta quinta (15)",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-Inscricoes-para-audiencias-sobre-prescricao-para-pessoas-com-deficiencia-e-precatorio-previdenciario-vao-ate-esta.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -31,9 +43,9 @@
       "fonte": "STJ",
       "resumo": "Colegiado também considerou abusiva cláusula que previa a perda da proteção se o associado abandonasse o local do acidente. Caso envolveu cobertura garantida por associação de proteção veicular, não contrato tradicional de seguro.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-ve-abusividade-em-perda-automatica-de-protecao-ao-veiculo-se-sinistro-nao-for-comunicado-em-ate-30-minutos-.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -43,9 +55,9 @@
       "fonte": "STJ",
       "resumo": "Para a Terceira Turma, situação de hipervulnerabilidade da pessoa idosa afasta necessidade de comprovação de que beneficiária excluída do plano tenha sofrido abalos pela falta de custeio de tratamento pela operadora.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-Exclusao-indevida-de-idosa-de-plano-de-saude-e-condicao-suficiente-para-caracterizar-dano-moral--define-Terceira.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881375,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900488,
       "favorito": false
     },
     {
@@ -55,9 +67,9 @@
       "fonte": "STJ",
       "resumo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribuicao-de-ministros-da-corte-nas-eleicoes-gerais-de-2026.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881375,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900488,
       "favorito": false
     },
     {
@@ -67,9 +79,9 @@
       "fonte": "STJ",
       "resumo": "STJ recebe prêmio do CNJ por projeto de gestão de pessoas; veja como foi a homenagem",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/23102026-STJ-recebe-premio-do-CNJ-por-projeto-de-gestao-de-pessoas--veja-como-foi-a-homenagem.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881375,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900488,
       "favorito": false
     },
     {
@@ -79,9 +91,9 @@
       "fonte": "STJ",
       "resumo": "INSS não pode negar automaticamente pedido de benefício apto sem permitir complementação de prova",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/22102026-INSS-nao-pode-negar-automaticamente-pedido-de-beneficio-apto-sem-permitir-complementacao-de-prova-.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881375,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900488,
       "favorito": false
     },
     {
@@ -91,33 +103,33 @@
       "fonte": "STJ",
       "resumo": "STJ Notícias explica se carro furtado com chave na ignição perde cobertura de seguro",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/20102026-STJ-Noticias-explica-se-carro-furtado-com-chave-na-ignicao-perde-cobertura-de-seguro.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881375,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900488,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-governo-apresenta",
-      "tag": "Economia",
-      "titulo": "Reforma tributária: governo apresentará texto para facilitar adaptação",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O governo federal vai encaminhar ao Congresso Nacional uma proposta para criar uma regra de transição na cobrança da Contribuição sobre Bens e Serviços (CBS), novo tributo federal da reforma tributária .   \n\n A medida permitirá que as empresas façam um cálculo estimado do imposto nos primeiros meses",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/reforma-tributaria-governo-apresentara-texto-para-facilitar-adaptacao",
-      "data": "11/11/2026",
-      "hora": "13:32",
-      "ts": 1794414720000,
+      "id": "Agência Brasil / Política_https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-aprova-reestruturacao-de-c",
+      "tag": "INSS",
+      "titulo": "Congresso aprova reestruturação de carreiras na Receita, Ibama e INSS",
+      "fonte": "Agência Brasil / Política",
+      "resumo": "O Congresso Nacional aprovou, nesta quinta-feira (12), projeto de lei (PL) que reestrutura as carreiras, com previsão de reajustes, de servidores da Receita Federal, do Instituto Nacional do Seguro Social (INSS), Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama), Insti",
+      "link": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-11/congresso-aprova-reestruturacao-de-carreiras-na-receita-ibama-e-inss",
+      "data": "12/11/2026",
+      "hora": "13:18",
+      "ts": 1794500280000,
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/deputados-admitem-rever-isencoes-se-",
-      "tag": "Economia",
-      "titulo": "Deputados admitem rever isenções se IVA superar 26,5%",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "Os deputados que participam da regulamentação da reforma tributária admitem rever benefícios fiscais concedidos a determinados setores caso a alíquota de referência do novo Imposto sobre Valor Agregado (IVA) ultrapasse 26,5%.     \n\n A possibilidade foi discutida nesta terça-feira (10), em reunião co",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/deputados-admitem-rever-isencoes-se-iva-superar-265",
-      "data": "10/11/2026",
-      "hora": "18:20",
-      "ts": 1794345600000,
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Primeira-Secao-discute-se-exposicao-",
+      "tag": "STJ",
+      "titulo": "Primeira Seção discute se exposição à eletricidade ainda garante direito à aposentadoria especial",
+      "fonte": "STJ",
+      "resumo": "Primeira Seção discute se exposição à eletricidade ainda garante direito à aposentadoria especial",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/12112026-Primeira-Secao-discute-se-exposicao-a-eletricidade-ainda-garante-direito-a-aposentadoria-especial.aspx",
+      "data": "12/11/2026",
+      "hora": "07:05",
+      "ts": 1794467100000,
       "favorito": false
     },
     {
@@ -193,27 +205,15 @@
       "favorito": false
     },
     {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19102026-STJ-sedia-XXIII-Cupula-Judicial-Iber",
-      "tag": "STJ",
-      "titulo": "STJ sedia XXIII Cúpula Judicial Ibero-Americana; acompanhe transmissão da abertura",
-      "fonte": "STJ",
-      "resumo": "STJ sedia XXIII Cúpula Judicial Ibero-Americana; acompanhe transmissão da abertura",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/19102026-STJ-sedia-XXIII-Cupula-Judicial-Ibero-Americana--acompanhe-transmissao-da-abertura.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
-      "favorito": false
-    },
-    {
       "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18102026-Quando-a-inteligencia-artificial-vir",
       "tag": "STJ",
       "titulo": "Quando a inteligência artificial vira questão de Justiça: as primeiras decisões do STJ sobre o uso de IA",
       "fonte": "STJ",
       "resumo": "Na mesma velocidade em que transformou a vida digital da sociedade, a IA chegou à Justiça não apenas como tema discutido nos processos, mas como desafio na gestão dos tribunais.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/18102026-Quando-a-inteligencia-artificial-vira-questao-de-Justica-as-primeiras-decisoes-do-STJ-sobre-o-uso-de-IA.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -223,9 +223,9 @@
       "fonte": "STJ",
       "resumo": "Presidente do STJ participa de evento em celebração ao Dia das Crianças nesta terça-feira (20)",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16102026-Presidente-do-STJ-participa-de-evento-em-celebracao-ao-Dia-das-Criancas-nesta-terca-feira--20-.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -235,9 +235,9 @@
       "fonte": "STJ",
       "resumo": "Para o colegiado, o CPC/2015 é claro ao prever que a gratuidade não afasta a responsabilidade do beneficiário pelas despesas processuais e pelos honorários, apenas suspendendo a exigência do pagamento enquanto durar o benefício.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/16102026-Terceira-Turma-aplica-efeito-retroativo-a-revogacao-da-gratuidade-de-justica.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -247,9 +247,9 @@
       "fonte": "STJ",
       "resumo": "9º Seminário Jurídico de Seguros debateu novo marco legal e segurança jurídica no STJ",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-9o-Seminario-Juridico-de-Seguros-debateu-novo-marco-legal-e-seguranca-juridica-no-STJ.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -259,9 +259,9 @@
       "fonte": "STJ",
       "resumo": "STJ rejeita pedido para que jogo entre Vasco e Boca Juniors pela Sul-Americana não fosse realizado no Maracanã",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/15102026-STJ-rejeita-pedido-para-que-jogo-entre-Vasco-e-Boca-Juniors-pela-Libertadores-nao-fosse-realizado-no-Maracana.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -271,9 +271,9 @@
       "fonte": "STJ",
       "resumo": "Em julgamento inédito sob o novo regime da relevância, Segunda Seção estabeleceu que planos de saúde não são obrigados, como regra, a custear remédios à base de canabidiol para uso domiciliar.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-Tribunal-tem-primeiro-reconhecimento-da-relevancia-com-reafirmacao-de-jurisprudencia-e-fixacao-de-tese.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -283,9 +283,9 @@
       "fonte": "STJ",
       "resumo": "STJ e CJF lamentam o falecimento do ministro aposentado Demócrito Ramos Reinaldo",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-e-CJF-lamentam-o-falecimento-do-ministro-aposentado-Democrito-Ramos-Reinaldo.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     },
     {
@@ -295,12 +295,12 @@
       "fonte": "STJ",
       "resumo": "STJ sedia XXIII Cúpula Judicial Ibero-Americana sobre inteligência artificial e Justiça",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/14102026-STJ-sedia-XXIII-Cupula-Judicial-Ibero-Americana-sobre-inteligencia-artificial-e-Justica.aspx",
-      "data": "11/11/2026",
-      "hora": "16:51",
-      "ts": 1794415881376,
+      "data": "12/11/2026",
+      "hora": "17:18",
+      "ts": 1794503900489,
       "favorito": false
     }
   ],
-  "atualizado": "11/11/2026 às 16:51",
+  "atualizado": "12/11/2026 às 17:18",
   "total": 25
 }
