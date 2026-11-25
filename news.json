@@ -1,15 +1,15 @@
 {
   "noticias": [
     {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-aprova-novo-medicamento-para-tratar",
+      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-manda-apreender-medicamentos-falsif",
       "tag": "Anvisa",
-      "titulo": "Anvisa aprova novo medicamento para tratar câncer de mama",
+      "titulo": "Anvisa manda apreender medicamentos falsificados para tratar câncer",
       "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) aprovou o registro do medicamento Hertuzo (pertuzumabe) para o tratamento do câncer de mama. A resolução foi publicada nesta segunda-feira (23) no  Diário Oficial da União  (DOU).    \n\n Em nota, a Anvisa informou que a medicação é indicada para os ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-aprova-novo-medicamento-para-tratar-cancer-de-mama",
-      "data": "23/11/2026",
-      "hora": "12:29",
-      "ts": 1795447740000,
+      "resumo": "A  Agência Nacional de Vigilância Sanitária (Anvisa)  determinou a apreensão de quatro lotes de medicamentos indicados para o tratamento de  câncer . A própria empresa detentora do registro, Janssen-Cilag Farmacêutica, informou que os medicamentos são irregulares.    \n\n A  resolução  foi publicada n",
+      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-manda-apreender-medicamentos-falsificados-para-tratar-cancer",
+      "data": "25/11/2026",
+      "hora": "12:24",
+      "ts": 1795620240000,
       "favorito": false
     },
     {
@@ -25,30 +25,6 @@
       "favorito": false
     },
     {
-      "id": "Agência Brasil / Economia_https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-sa",
-      "tag": "INSS",
-      "titulo": "INSS começa a pagar décimo terceiro salário nesta terça-feira (24)",
-      "fonte": "Agência Brasil / Economia",
-      "resumo": "O Instituto Nacional do Seguro Social (INSS) começa a depositar, nesta terça-feira (24), os benefícios e auxílios referentes a novembro, além da parcela única do décimo terceiro salário para quem passou a receber o abono anual depois de abril deste ano. Os depósitos seguem até o dia 7 de dezembro.  ",
-      "link": "https://agenciabrasil.ebc.com.br/economia/noticia/2026-11/inss-comeca-pagar-decimo-terceiro-salario-nesta-terca-feira-24",
-      "data": "24/11/2026",
-      "hora": "10:54",
-      "ts": 1795528440000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fraudes-no-inss-mendonca-manda-soltar-",
-      "tag": "INSS",
-      "titulo": "Fraudes no INSS: Mendonça manda soltar ex-número 2 da Previdência",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), revogou na noite dessa segunda-feira (24) a  prisão preventiva  de Adroaldo Portal, ex-secretário executivo do Ministério da Previdência Social.  Ele foi preso em dezembro, no âmbito da Operação Sem Desconto, que apura fraudes em aposenta",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/fraudes-no-inss-mendonca-manda-soltar-ex-numero-2-da-previdencia",
-      "data": "24/11/2026",
-      "hora": "09:35",
-      "ts": 1795523700000,
-      "favorito": false
-    },
-    {
       "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/24112026-STJ-realiza--nesta-quarta-feira--25-",
       "tag": "STJ",
       "titulo": "STJ realiza, nesta quarta-feira (25), audiência pública sobre cessão de precatórios previdenciários",
@@ -61,51 +37,63 @@
       "favorito": false
     },
     {
-      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribu",
-      "tag": "STJ",
-      "titulo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
-      "fonte": "STJ",
-      "resumo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
-      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribuicao-de-ministros-da-corte-nas-eleicoes-gerais-de-2026.aspx",
-      "data": "24/11/2026",
-      "hora": "19:54",
-      "ts": 1795550049607,
-      "favorito": false
-    },
-    {
       "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-Exclusao-indevida-de-idosa-de-plano-",
       "tag": "STJ",
       "titulo": "Exclusão indevida de idosa de plano de saúde é condição suficiente para caracterizar dano moral",
       "fonte": "STJ",
       "resumo": "Para a Terceira Turma, situação de hipervulnerabilidade da pessoa idosa afasta necessidade de comprovação de que beneficiária excluída do plano tenha sofrido abalos pela falta de custeio de tratamento pela operadora.",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-Exclusao-indevida-de-idosa-de-plano-de-saude-e-condicao-suficiente-para-caracterizar-dano-moral--define-Terceira.aspx",
-      "data": "24/11/2026",
-      "hora": "19:54",
-      "ts": 1795550049606,
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
       "favorito": false
     },
     {
-      "id": "Conjur_https://conjur.com.br/2026-nov-24/30-anos-de-compensacao-em-mandado-de-seguranca-a-palavra-volta-ao-stj/",
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribu",
       "tag": "STJ",
-      "titulo": "30 anos de compensação em mandado de segurança: a palavra volta ao STJ",
-      "fonte": "Conjur",
-      "resumo": "Os contribuintes que, há quase três décadas, usam o mandado de segurança para obter a declaração do direito de compensar tributos pagos indevidamente receberam do Supremo Tribunal Federal uma notícia de alívio. Em sessão do Plenário Virtual encerrada em 13 de novembro de 2026, o STF, por maioria, re",
-      "link": "https://conjur.com.br/2026-nov-24/30-anos-de-compensacao-em-mandado-de-seguranca-a-palavra-volta-ao-stj/",
-      "data": "24/11/2026",
-      "hora": "18:21",
-      "ts": 1795544508000,
+      "titulo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
+      "fonte": "STJ",
+      "resumo": "Presidente do STJ reconhece contribuição de ministros da corte nas eleições gerais de 2026",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/26102026-Presidente-do-STJ-reconhece-contribuicao-de-ministros-da-corte-nas-eleicoes-gerais-de-2026.aspx",
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
       "favorito": false
     },
     {
-      "id": "Conjur_https://conjur.com.br/2026-nov-24/migracao-para-regime-de-servidor-permite-somar-contribuicoes-na-aposentadoria/",
-      "tag": "Conjur",
-      "titulo": "Migração para regime de servidor permite somar contribuições na aposentadoria",
+      "id": "Conjur_https://conjur.com.br/2026-nov-25/juiz-natural-e-direito-de-peticao-resolucao-stf-no-921-e-o-controle-das-inciden",
+      "tag": "STF",
+      "titulo": "Juiz natural e direito de petição: Resolução STF nº 921 e o controle das incidentais",
       "fonte": "Conjur",
-      "resumo": "O empregado público que se tornou servidor por força de lei pode aproveitar contribuições anteriores à mudança, feitas como autônomo ou em condições similares, no cálculo de sua aposentadoria no Regime Geral de Previdência Social (RGPS). A mudança obrigatória de regime autoriza o uso de recolhimento",
-      "link": "https://conjur.com.br/2026-nov-24/migracao-para-regime-de-servidor-permite-somar-contribuicoes-na-aposentadoria/",
+      "resumo": "Em 2 de outubro de 2026, o presidente do Supremo Tribunal Federal, ministro Edson Fachin, editou a Resolução nº 921. A norma submete a uma triagem prévia da Presidência as petições de terceiros e as que trazem pretensões estranhas ao objeto de processos em curso na corte. Seu propósito declarado é p",
+      "link": "https://conjur.com.br/2026-nov-25/juiz-natural-e-direito-de-peticao-resolucao-stf-no-921-e-o-controle-das-incidentais/",
+      "data": "25/11/2026",
+      "hora": "16:21",
+      "ts": 1795623667000,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/25112026-Acompanhe-a-transmissao-da-audiencia",
+      "tag": "STJ",
+      "titulo": "Acompanhe a transmissão da audiência pública sobre cessão de precatórios previdenciários promovida nesta quarta-feira (25)",
+      "fonte": "STJ",
+      "resumo": "Acompanhe a transmissão da audiência pública sobre cessão de precatórios previdenciários promovida nesta quarta-feira (25)",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/25112026-Acompanhe-a-transmissao-da-audiencia-publica-sobre-cessao-de-precatorios-previdenciarios-promovida-nesta-quarta.aspx",
+      "data": "25/11/2026",
+      "hora": "07:15",
+      "ts": 1795590900000,
+      "favorito": false
+    },
+    {
+      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-nega-diminuir-pena-de-carla-zam",
+      "tag": "Justiça",
+      "titulo": "Moraes nega diminuir pena de Carla Zambelli",
+      "fonte": "Agência Brasil / Justiça",
+      "resumo": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), rejeitou nesta terça-feira (24) pedido para diminuir a pena da ex-deputada federal Carla Zambelli no caso da invasão ao sistema eletrônico do Conselho Nacional de Justiça (CNJ), ocorrida em 2023, para emitir um mandado de prisão fals",
+      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/moraes-nega-diminuir-pena-de-carla-zambelli",
       "data": "24/11/2026",
-      "hora": "17:13",
-      "ts": 1795540423000,
+      "hora": "18:12",
+      "ts": 1795554720000,
       "favorito": false
     },
     {
@@ -118,42 +106,6 @@
       "data": "24/11/2026",
       "hora": "11:28",
       "ts": 1795530480000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-manda-recolher-xampu-anticaspa-para",
-      "tag": "Anvisa",
-      "titulo": "Anvisa manda recolher xampu anticaspa para crianças",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "A Agência Nacional de Vigilância Sanitária (Anvisa) determinou o recolhimento do xampu em barra anticaspa DC Biocosméticos com indicação de uso para o público infantil. A resolução foi publicada nesta segunda-feira (23) no   Diário Oficial da União  .   \n\n  Em nota, a Anvisa informou que o produto, ",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/anvisa-manda-recolher-xampu-anticaspa-para-criancas",
-      "data": "23/11/2026",
-      "hora": "10:36",
-      "ts": 1795440960000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Justiça_https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/cnj-cria-regra-para-corrigir-registros",
-      "tag": "Justiça",
-      "titulo": "CNJ cria regra para corrigir registros por mortes em ações policiais",
-      "fonte": "Agência Brasil / Justiça",
-      "resumo": "Resolução recente do Conselho Nacional de Justiça (CNJ)  que determinou a inclusão da informação de que a morte ocorreu em decorrência de intervenção policial na certidão de óbito é vista como um avanço pelo professor do Departamento de Sociologia da Universidade Estadual do Rio de Janeiro (Uerj) e ",
-      "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-11/cnj-cria-regra-para-corrigir-registros-por-mortes-em-acoes-policiais",
-      "data": "22/11/2026",
-      "hora": "08:36",
-      "ts": 1795347360000,
-      "favorito": false
-    },
-    {
-      "id": "Agência Brasil / Saúde_https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/total-de-pacientes-canabicos-passa-de-1-mi",
-      "tag": "Saúde",
-      "titulo": "Total de pacientes canábicos passa de 1 milhão no Brasil",
-      "fonte": "Agência Brasil / Saúde",
-      "resumo": "De 2025 para 2026, o total de pacientes em tratamento com  cannabis  medicinal saltou de 873 mil para 1,1 milhão, segundo consta na  5ª edição do anuário elaborado pela empresa Kaya Mind .  Em 2023, eram 430 mil, o que demonstra forte expansão do quantitativo em um pequeno intervalo.     \n\n Este ano",
-      "link": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/total-de-pacientes-canabicos-passa-de-1-milhao-no-brasil",
-      "data": "20/11/2026",
-      "hora": "14:00",
-      "ts": 1795194000000,
       "favorito": false
     },
     {
@@ -271,9 +223,9 @@
       "fonte": "STJ",
       "resumo": "Presidente do STJ encerra agenda institucional a Moçambique neste fim de semana",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/30102026-Presidente-do-STJ-encerra-agenda-institucional-a-Mocambique-neste-fim-de-semana.aspx",
-      "data": "24/11/2026",
-      "hora": "19:54",
-      "ts": 1795550049606,
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
       "favorito": false
     },
     {
@@ -283,9 +235,9 @@
       "fonte": "STJ",
       "resumo": "STJ recebe embaixadoras da Suécia para intercâmbio de boas práticas em direitos humanos",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29102026-STJ-recebe-embaixadoras-da-Suecia-para-intercambio-de-boas-praticas-em-direitos-humanos.aspx",
-      "data": "24/11/2026",
-      "hora": "19:54",
-      "ts": 1795550049606,
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
       "favorito": false
     },
     {
@@ -295,12 +247,60 @@
       "fonte": "STJ",
       "resumo": "STJ e Tribunal Supremo de Moçambique discutem cooperação institucional",
       "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29102023-STJ-e-Tribunal-Supremo-de-Mocambique-discutem-cooperacao-institucional.aspx",
-      "data": "24/11/2026",
-      "hora": "19:54",
-      "ts": 1795550049606,
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29102026-STJ-realiza-Encontro-Nacional-do-Pod",
+      "tag": "STJ",
+      "titulo": "STJ realiza Encontro Nacional do Poder Judiciário sobre a Relevância da Questão de Direito Federal",
+      "fonte": "STJ",
+      "resumo": "STJ realiza Encontro Nacional do Poder Judiciário sobre a Relevância da Questão de Direito Federal",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29102026-STJ-realiza-Encontro-Nacional-do-Poder-Judiciario-sobre-a-Relevancia-da-Questao-de-Direito-Federal.aspx",
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29102026-Novo-auxilio-pago-para-atingidos-por",
+      "tag": "STJ",
+      "titulo": "Novo auxílio pago para atingidos por desastre de Brumadinho ficará suspenso até julgamento de recurso da Vale no STJ",
+      "fonte": "STJ",
+      "resumo": "Novo auxílio pago para atingidos por desastre de Brumadinho ficará suspenso até julgamento de recurso da Vale no STJ",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/29102026-Novo-auxilio-pago-para-atingidos-por-desastre-de-Brumadinho-ficara-suspenso-ate-julgamento-de-recurso-da-Vale.aspx",
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-STJ-debate-protecao-a-infancia-com-s",
+      "tag": "STJ",
+      "titulo": "STJ debate proteção à infância com supremos tribunais de países de língua portuguesa",
+      "fonte": "STJ",
+      "resumo": "Presidente da corte, ministro Luis Felipe Salomão, falou sobre as mudanças no regime jurídico brasileiro e as medidas para proteção de crianças e adolescentes no ambiente digital.",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-STJ-debate-protecao-a-infancia-com-supremos-tribunais-de-paises-de-lingua-portuguesa.aspx",
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
+      "favorito": false
+    },
+    {
+      "id": "STJ_https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-REJuriSTJ-recebe-artigos-cientificos",
+      "tag": "STJ",
+      "titulo": "REJuriSTJ recebe artigos científicos até 10 de novembro",
+      "fonte": "STJ",
+      "resumo": "REJuriSTJ recebe artigos científicos até 10 de novembro",
+      "link": "https://www.stj.jus.br/sites/portalp/Paginas/Comunicacao/Noticias/2026/28102026-REJuriSTJ-recebe-artigos-cientificos-ate-10-de-novembro.aspx",
+      "data": "25/11/2026",
+      "hora": "18:57",
+      "ts": 1795633026410,
       "favorito": false
     }
   ],
-  "atualizado": "24/11/2026 às 19:54",
+  "atualizado": "25/11/2026 às 18:57",
   "total": 25
 }
